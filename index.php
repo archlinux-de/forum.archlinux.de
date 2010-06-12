@@ -82,7 +82,17 @@ if (isset($_GET['page'])) {
 	}
 }
 
-header('HTTP/1.1 302 Found');
-header('Location: https://bbs.archlinux.de/'.$request);
+$redirect = 'https://bbs.archlinux.de/'.$request;
+
+header('HTTP/1.1 301 Moved Permanently');
+header('Location: '.$redirect);
 
 ?>
+<html>
+	<head>
+		<title>Moved Permanently</title>
+	</head>
+	<body>
+		<p>Moved permanently to <a href="<?php echo $redirect ?>"><?php echo $redirect ?></a></p>
+	</body>
+</html>
