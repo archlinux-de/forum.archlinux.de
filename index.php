@@ -40,11 +40,11 @@ if (isset($_GET['page'])) {
 				}
 			}
 			break;
-// 		case 'QuotePost':
-// 			if (isset($_GET['post'])) {
-// 				$request = 'post.php?qid='.intval($_GET['post']);
-// 			}
-// 			break;
+		case 'QuotePost':
+			if (isset($_GET['post'])) {
+				$request = 'viewtopic.php?pid='.intval($_GET['post']).'#p'.intval($_GET['post']);
+			}
+			break;
 		case 'Recent':
 			$request = 'search.php?action=show_24h';
 			break;
@@ -78,7 +78,10 @@ if (isset($_GET['page'])) {
 				$request = 'search.php?action=show_user&user_id='.intval($_GET['user']);
 			}
 			break;
-		default: $request = 'index.php';
+		default:
+			header('HTTP/1.1 404 Not Found');
+			echo '<html><head><title>Not Found</title></head><body><p>Page <strong>'.htmlspecialchars($_GET['page']).'</strong> was not found</p></body></html>';
+			exit();
 	}
 }
 
@@ -87,12 +90,5 @@ $redirect = 'https://bbs.archlinux.de/'.$request;
 header('HTTP/1.1 301 Moved Permanently');
 header('Location: '.$redirect);
 
-?>
-<html>
-	<head>
-		<title>Moved Permanently</title>
-	</head>
-	<body>
-		<p>Moved permanently to <a href="<?php echo $redirect ?>"><?php echo $redirect ?></a></p>
-	</body>
-</html>
+echo '<html><head><title>Moved Permanently</title></head><body><p>Moved permanently to <a href="'.htmlspecialchars($redirect).'">'.htmlspecialchars($redirect).'</a></p></body></html>';
+exit();
