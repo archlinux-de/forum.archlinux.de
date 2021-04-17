@@ -75,4 +75,13 @@ flarum *args:
 test:
 	{{PHP-RUN}} composer validate
 
+deploy:
+	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader
+	./flarum migrate
+	./flarum cache:clear
+
+deploy-permissions:
+	sudo setfacl -dR -m u:php-forum:rwX -m u:deployer:rwX storage public/assets
+	sudo setfacl -R -m u:php-forum:rwX -m u:deployer:rwX storage public/assets
+
 # vim: set ft=make :
