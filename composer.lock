@@ -4,8 +4,184 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3162876dda5de69987304ff2feeb258",
+    "content-hash": "c24bce6e4ea6c7434576d326e31291f9",
     "packages": [
+        {
+            "name": "archlinux-de/flarum-import-fluxbb",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/archlinux-de/flarum-import-fluxbb.git",
+                "reference": "77ca1adce098070126897c6fc734173f4bfec87a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-import-fluxbb/zipball/77ca1adce098070126897c6fc734173f4bfec87a",
+                "reference": "77ca1adce098070126897c6fc734173f4bfec87a",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": ">=0.1.0-beta.16 <=0.1.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FluxBB Importer",
+                    "icon": {
+                        "name": "fas fa-file-import",
+                        "backgroundColor": "#08c",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ArchLinux\\ImportFluxBB\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Import FluxBB data to Flarum",
+            "support": {
+                "issues": "https://github.com/archlinux-de/flarum-import-fluxbb/issues",
+                "source": "https://github.com/archlinux-de/flarum-import-fluxbb/tree/1.0.0"
+            },
+            "time": "2021-04-17T06:51:01+00:00"
+        },
+        {
+            "name": "archlinux-de/flarum-redirect-fluxbb",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/archlinux-de/flarum-redirect-fluxbb.git",
+                "reference": "8409e568ce79fc7f4e9c2477d5ac803eca5b85ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-fluxbb/zipball/8409e568ce79fc7f4e9c2477d5ac803eca5b85ef",
+                "reference": "8409e568ce79fc7f4e9c2477d5ac803eca5b85ef",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": ">=0.1.0-beta.16 <=0.1.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FluxBB Redirect",
+                    "icon": {
+                        "name": "fas fa-directions",
+                        "backgroundColor": "#08c",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ArchLinux\\RedirectFluxBB\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Redirect legacy FluxBB URLs to Flarum",
+            "support": {
+                "issues": "https://github.com/archlinux-de/flarum-redirect-fluxbb/issues",
+                "source": "https://github.com/archlinux-de/flarum-redirect-fluxbb/tree/1.0.0"
+            },
+            "time": "2021-04-17T06:59:36+00:00"
+        },
+        {
+            "name": "archlinux-de/flarum-redirect-ll",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/archlinux-de/flarum-redirect-ll.git",
+                "reference": "d63d771ab2bc2f0e290c5e3d20432ce701dd97ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/d63d771ab2bc2f0e290c5e3d20432ce701dd97ef",
+                "reference": "d63d771ab2bc2f0e290c5e3d20432ce701dd97ef",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": ">=0.1.0-beta.16 <=0.1.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "LL Redirect",
+                    "icon": {
+                        "name": "fas fa-directions",
+                        "backgroundColor": "#08c",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ArchLinux\\RedirectLL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Redirect legacy LL URLs to Flarum",
+            "support": {
+                "issues": "https://github.com/archlinux-de/flarum-redirect-ll/issues",
+                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.0.0"
+            },
+            "time": "2021-04-17T06:55:05+00:00"
+        },
+        {
+            "name": "archlinux-de/flarum-theme-archlinux",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/archlinux-de/flarum-theme-archlinux.git",
+                "reference": "aedecc1ade36c040d07f7965f33397e6d24bb0d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-theme-archlinux/zipball/aedecc1ade36c040d07f7965f33397e6d24bb0d7",
+                "reference": "aedecc1ade36c040d07f7965f33397e6d24bb0d7",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": ">=0.1.0-beta.16 <=0.1.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Arch Linux theme",
+                    "icon": {
+                        "name": "fas fa-pencil-alt",
+                        "backgroundColor": "#08c",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ArchLinux\\Theme\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Arch Linux theme for Flarum",
+            "support": {
+                "issues": "https://github.com/archlinux-de/flarum-theme-archlinux/issues",
+                "source": "https://github.com/archlinux-de/flarum-theme-archlinux/tree/1.0.0"
+            },
+            "time": "2021-04-17T07:02:20+00:00"
+        },
         {
             "name": "axy/backtrace",
             "version": "1.0.7",
@@ -1774,69 +1950,6 @@
             "time": "2021-04-06T22:20:14+00:00"
         },
         {
-            "name": "flarum/pusher",
-            "version": "v0.1.0-beta.16",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/flarum/pusher.git",
-                "reference": "ce8c3b789e52ca7c003c68092774be53fd750988"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/flarum/pusher/zipball/ce8c3b789e52ca7c003c68092774be53fd750988",
-                "reference": "ce8c3b789e52ca7c003c68092774be53fd750988",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^0.1.0-beta.16",
-                "pusher/pusher-php-server": "^2.2"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.1.x-dev"
-                },
-                "flarum-extension": {
-                    "title": "Pusher",
-                    "category": "feature",
-                    "icon": {
-                        "image": "icon.png",
-                        "backgroundSize": "46% 63%",
-                        "backgroundPosition": "center",
-                        "backgroundRepeat": "no-repeat",
-                        "backgroundColor": "#40bad8",
-                        "color": "#fff"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Flarum\\Pusher\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "See new discussions and posts in real-time using Pusher.",
-            "homepage": "https://flarum.org",
-            "keywords": [
-                "discussion"
-            ],
-            "support": {
-                "forum": "https://discuss.flarum.org",
-                "issues": "https://github.com/flarum/core/issues",
-                "source": "https://github.com/flarum/pusher"
-            },
-            "funding": [
-                {
-                    "url": "https://flarum.org/donate/",
-                    "type": "website"
-                }
-            ],
-            "time": "2021-03-15T11:17:21+00:00"
-        },
-        {
             "name": "flarum/statistics",
             "version": "v0.1.0-beta.16",
             "source": {
@@ -3438,6 +3551,120 @@
             "time": "2019-11-02T09:15:47+00:00"
         },
         {
+            "name": "kakifrucht/flarum-de",
+            "version": "0.14.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kakifrucht/flarum-de.git",
+                "reference": "ee9ed874cf6202d3202a6b559cc5fb4c7028031f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/ee9ed874cf6202d3202a6b559cc5fb4c7028031f",
+                "reference": "ee9ed874cf6202d3202a6b559cc5fb4c7028031f",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.15"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "German",
+                    "category": "language",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#ffffff",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "de",
+                    "title": "Deutsch"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabian Prieto Wunderlich",
+                    "email": "prieto@wunderlich.pw",
+                    "role": "Translator"
+                }
+            ],
+            "description": "German language pack for Flarum and its bundled extensions.",
+            "homepage": "https://github.com/Kakifrucht/flarum-de",
+            "keywords": [
+                "locale"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/2648",
+                "issues": "https://github.com/Kakifrucht/flarum-de/issues",
+                "source": "https://github.com/Kakifrucht/flarum-de"
+            },
+            "time": "2021-02-27T00:44:52+00:00"
+        },
+        {
+            "name": "kakifrucht/flarum-de-extended",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kakifrucht/flarum-de-extended.git",
+                "reference": "cf871e3c39c9dfba4d0e2dc1a98f3751906a3580"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kakifrucht/flarum-de-extended/zipball/cf871e3c39c9dfba4d0e2dc1a98f3751906a3580",
+                "reference": "cf871e3c39c9dfba4d0e2dc1a98f3751906a3580",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.15"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "German Extended",
+                    "category": "language",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#ffffff",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "de",
+                    "title": "Deutsch"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabian Prieto Wunderlich",
+                    "email": "prieto@wunderlich.pw",
+                    "role": "Translator"
+                }
+            ],
+            "description": "German language pack for third-party Flarum extensions.",
+            "homepage": "https://github.com/Kakifrucht/flarum-de-extended",
+            "keywords": [
+                "locale"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/2648",
+                "issues": "https://github.com/Kakifrucht/flarum-de-extended/issues",
+                "source": "https://github.com/Kakifrucht/flarum-de-extended"
+            },
+            "time": "2021-02-27T00:39:43+00:00"
+        },
+        {
             "name": "laminas/laminas-diactoros",
             "version": "2.5.1",
             "source": {
@@ -4428,6 +4655,76 @@
             "time": "2020-11-30T20:07:15+00:00"
         },
         {
+            "name": "migratetoflarum/old-passwords",
+            "version": "0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/migratetoflarum/old-passwords.git",
+                "reference": "407b7b0870446134640195b2943d4442069b48eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/migratetoflarum/old-passwords/zipball/407b7b0870446134640195b2943d4442069b48eb",
+                "reference": "407b7b0870446134640195b2943d4442069b48eb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "flarum/core": "^0.1.0-beta.16"
+            },
+            "require-dev": {
+                "hautelook/phpass": "^1.1",
+                "phpunit/phpunit": "^9.5"
+            },
+            "suggest": {
+                "hautelook/phpass": "If you need to check against phpass hashes"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Old Passwords",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-key",
+                        "backgroundColor": "#e7672e",
+                        "color": "#fafafa"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/8631"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MigrateToFlarum\\OldPasswords\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "Re-hash passwords from an old platform on the fly",
+            "keywords": [
+                "extension",
+                "flarum",
+                "migration",
+                "passwords"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/8631",
+                "issues": "https://github.com/migratetoflarum/old-passwords/issues",
+                "source": "https://github.com/migratetoflarum/old-passwords"
+            },
+            "time": "2021-03-18T16:12:06+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.26.0",
             "source": {
@@ -5138,54 +5435,6 @@
                 "source": "https://github.com/php-fig/simple-cache/tree/master"
             },
             "time": "2017-10-23T01:57:42+00:00"
-        },
-        {
-            "name": "pusher/pusher-php-server",
-            "version": "2.6.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pusher/pusher-http-php.git",
-                "reference": "2cf2ba85e7ce3250468a1c42ab7c948a7d43839d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pusher/pusher-http-php/zipball/2cf2ba85e7ce3250468a1c42ab7c948a7d43839d",
-                "reference": "2cf2ba85e7ce3250468a1c42ab7c948a7d43839d",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "php": ">=5.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "lib/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Library for interacting with the Pusher REST API",
-            "homepage": "https://github.com/pusher/pusher-php-server",
-            "keywords": [
-                "events",
-                "php-pusher-server",
-                "publish",
-                "pusher",
-                "realtime",
-                "rest",
-                "trigger"
-            ],
-            "support": {
-                "issues": "https://github.com/pusher/pusher-http-php/issues",
-                "source": "https://github.com/pusher/pusher-http-php/tree/master"
-            },
-            "time": "2017-06-06T16:41:17+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -7841,7 +8090,13 @@
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^8.0",
+        "ext-exif": "*",
+        "ext-gd": "*",
+        "ext-imagick": "*",
+        "ext-json": "*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
 }
