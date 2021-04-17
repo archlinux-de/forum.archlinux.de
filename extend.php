@@ -7,8 +7,9 @@
  * LICENSE file that was distributed with this source code.
  */
 
+use App\Console\EnableExtensions;
 use Flarum\Extend;
 
 return [
-    // Register extenders here to customize your forum!
+    (new Extend\Console())->command(EnableExtensions::class),
 ];
