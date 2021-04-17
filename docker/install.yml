@@ -1,0 +1,23 @@
+debug: true
+baseUrl: http://localhost:8380
+databaseConfiguration:
+  driver: mysql
+  host: mariadb
+  port: 3306
+  database: flarum
+  username: root
+  password:
+adminUser:
+  username: admin
+  password: admin
+  email: admin@example.com
+settings:
+  default_locale: de
+  display_name_driver: nickname
+  theme_primary_color: '#08c'
+  theme_secondary_color: '#333'
+  forum_description: 'Deutsches Arch Linux Forum'
+  forum_title: ''
+  show_language_selector: 0
+  welcome_message: ~
+  welcome_title: ~
