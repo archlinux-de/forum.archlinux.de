@@ -3,6 +3,19 @@ root = true
 [*]
 end_of_line = lf
 charset = utf-8
-indent_style = tab
-insert_final_newline = true
 trim_trailing_whitespace = true
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+
+[*.{diff,md}]
+trim_trailing_whitespace = false
+
+[*.{php,json}]
+indent_size = 4
+
+[{Makefile,justfile}]
+indent_style = tab
+
+[*.neon]
+indent_style = tab
