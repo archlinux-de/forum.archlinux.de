@@ -96,16 +96,16 @@
         },
         {
             "name": "archlinux-de/flarum-redirect-ll",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-redirect-ll.git",
-                "reference": "d63d771ab2bc2f0e290c5e3d20432ce701dd97ef"
+                "reference": "0f93c8fb635ec314d8fdfc3160c6adddb028a448"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/d63d771ab2bc2f0e290c5e3d20432ce701dd97ef",
-                "reference": "d63d771ab2bc2f0e290c5e3d20432ce701dd97ef",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/0f93c8fb635ec314d8fdfc3160c6adddb028a448",
+                "reference": "0f93c8fb635ec314d8fdfc3160c6adddb028a448",
                 "shasum": ""
             },
             "require": {
@@ -134,9 +134,9 @@
             "description": "Redirect legacy LL URLs to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-redirect-ll/issues",
-                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.0.0"
+                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.0.1"
             },
-            "time": "2021-04-17T06:55:05+00:00"
+            "time": "2021-04-18T09:35:18+00:00"
         },
         {
             "name": "archlinux-de/flarum-theme-archlinux",
