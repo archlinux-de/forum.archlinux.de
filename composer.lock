@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "archlinux-de/flarum-import-fluxbb",
-            "version": "1.0.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-import-fluxbb.git",
-                "reference": "77ca1adce098070126897c6fc734173f4bfec87a"
+                "reference": "a7c7f9bb7f264abff3919e7da5b37237e102d943"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-import-fluxbb/zipball/77ca1adce098070126897c6fc734173f4bfec87a",
-                "reference": "77ca1adce098070126897c6fc734173f4bfec87a",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-import-fluxbb/zipball/a7c7f9bb7f264abff3919e7da5b37237e102d943",
+                "reference": "a7c7f9bb7f264abff3919e7da5b37237e102d943",
                 "shasum": ""
             },
             "require": {
@@ -46,9 +46,9 @@
             "description": "Import FluxBB data to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-import-fluxbb/issues",
-                "source": "https://github.com/archlinux-de/flarum-import-fluxbb/tree/1.0.0"
+                "source": "https://github.com/archlinux-de/flarum-import-fluxbb/tree/1.1.1"
             },
-            "time": "2021-04-17T06:51:01+00:00"
+            "time": "2021-04-18T08:52:40+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-fluxbb",
@@ -5737,16 +5737,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.8.6",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "e2d5fba85a92a62b477957943de3aecc0cc4d023"
+                "reference": "d764e9e4ac70b9bc398afe15b45b27568aa3ff23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/e2d5fba85a92a62b477957943de3aecc0cc4d023",
-                "reference": "e2d5fba85a92a62b477957943de3aecc0cc4d023",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/d764e9e4ac70b9bc398afe15b45b27568aa3ff23",
+                "reference": "d764e9e4ac70b9bc398afe15b45b27568aa3ff23",
                 "shasum": ""
             },
             "require": {
@@ -5773,7 +5773,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.8.6"
+                "version": "2.9.0"
             },
             "autoload": {
                 "psr-4": {
@@ -5805,9 +5805,9 @@
             ],
             "support": {
                 "issues": "https://github.com/s9e/TextFormatter/issues",
-                "source": "https://github.com/s9e/TextFormatter/tree/2.8.6"
+                "source": "https://github.com/s9e/TextFormatter/tree/2.9.0"
             },
-            "time": "2021-03-29T09:41:39+00:00"
+            "time": "2021-04-17T23:41:09+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
