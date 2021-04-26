@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-anti-spam.git",
-                "reference": "45b3c728e32c128ad84f49293adfc251e8e47eba"
+                "reference": "defd5982ff667df7dde6853f466d303b0ff45793"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/45b3c728e32c128ad84f49293adfc251e8e47eba",
-                "reference": "45b3c728e32c128ad84f49293adfc251e8e47eba",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/defd5982ff667df7dde6853f466d303b0ff45793",
+                "reference": "defd5982ff667df7dde6853f466d303b0ff45793",
                 "shasum": ""
             },
             "require": {
@@ -47,9 +47,9 @@
             "description": "Spam protection for forum.archlinux.de",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-anti-spam/issues",
-                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.0.0"
+                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.0.1"
             },
-            "time": "2021-04-26T16:57:27+00:00"
+            "time": "2021-04-26T17:20:19+00:00"
         },
         {
             "name": "archlinux-de/flarum-import-fluxbb",
