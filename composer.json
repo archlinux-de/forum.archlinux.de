@@ -8,6 +8,7 @@
         "ext-gd": "*",
         "ext-imagick": "*",
         "ext-json": "*",
+        "archlinux-de/flarum-anti-spam": "^1.0",
         "archlinux-de/flarum-import-fluxbb": "^1.0",
         "archlinux-de/flarum-redirect-fluxbb": "^1.0",
         "archlinux-de/flarum-redirect-ll": "^1.0",

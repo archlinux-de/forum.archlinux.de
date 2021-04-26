@@ -4,8 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c24bce6e4ea6c7434576d326e31291f9",
+    "content-hash": "7957e68ab2996df9f9b8eb44bdc9d29b",
     "packages": [
+        {
+            "name": "archlinux-de/flarum-anti-spam",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/archlinux-de/flarum-anti-spam.git",
+                "reference": "45b3c728e32c128ad84f49293adfc251e8e47eba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/45b3c728e32c128ad84f49293adfc251e8e47eba",
+                "reference": "45b3c728e32c128ad84f49293adfc251e8e47eba",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": ">=0.1.0-beta.16 <=0.1.0",
+                "maxmind-db/reader": "^1.10.1"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Anti-Spam",
+                    "icon": {
+                        "name": "fas fa-shield-alt",
+                        "backgroundColor": "#08c",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ArchLinux\\AntiSpam\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Spam protection for forum.archlinux.de",
+            "support": {
+                "issues": "https://github.com/archlinux-de/flarum-anti-spam/issues",
+                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.0.0"
+            },
+            "time": "2021-04-26T16:57:27+00:00"
+        },
         {
             "name": "archlinux-de/flarum-import-fluxbb",
             "version": "1.1.2",
@@ -4426,6 +4471,71 @@
                 "source": "https://github.com/matthiasmullie/path-converter/tree/1.1.3"
             },
             "time": "2019-02-05T23:41:09+00:00"
+        },
+        {
+            "name": "maxmind-db/reader",
+            "version": "v1.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maxmind/MaxMind-DB-Reader-php.git",
+                "reference": "569bd44d97d30a4ec12c7793a33004a76d4caf18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/569bd44d97d30a4ec12c7793a33004a76d4caf18",
+                "reference": "569bd44d97d30a4ec12c7793a33004a76d4caf18",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "conflict": {
+                "ext-maxminddb": "<1.10.1,>=2.0.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "*",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpstan/phpstan": "*",
+                "phpunit/phpcov": ">=6.0.0",
+                "phpunit/phpunit": ">=8.0.0,<10.0.0",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "suggest": {
+                "ext-bcmath": "bcmath or gmp is required for decoding larger integers with the pure PHP decoder",
+                "ext-gmp": "bcmath or gmp is required for decoding larger integers with the pure PHP decoder",
+                "ext-maxminddb": "A C-based database decoder that provides significantly faster lookups"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MaxMind\\Db\\": "src/MaxMind/Db"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gregory J. Oschwald",
+                    "email": "goschwald@maxmind.com",
+                    "homepage": "https://www.maxmind.com/"
+                }
+            ],
+            "description": "MaxMind DB Reader API",
+            "homepage": "https://github.com/maxmind/MaxMind-DB-Reader-php",
+            "keywords": [
+                "database",
+                "geoip",
+                "geoip2",
+                "geolocation",
+                "maxmind"
+            ],
+            "support": {
+                "issues": "https://github.com/maxmind/MaxMind-DB-Reader-php/issues",
+                "source": "https://github.com/maxmind/MaxMind-DB-Reader-php/tree/v1.10.1"
+            },
+            "time": "2021-04-14T17:49:35+00:00"
         },
         {
             "name": "middlewares/base-path",
