@@ -16,14 +16,14 @@ class EnableExtensions extends AbstractCommand
         parent::__construct();
     }
 
-    protected function configure()
+    protected function configure(): void
     {
         $this
             ->setName('app:enable-extensions')
             ->setDescription('Enable all installed extensions');
     }
 
-    protected function fire()
+    protected function fire(): void
     {
         /** @var Extension $extension */
         foreach ($this->extensionManager->getExtensions() as $extension) {

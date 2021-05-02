@@ -74,6 +74,8 @@ flarum *args:
 
 test:
 	{{PHP-RUN}} composer validate
+	{{PHP-RUN}} vendor/bin/phpcs
+	{{PHP-RUN}} php -dmemory_limit=-1 vendor/bin/phpstan analyse
 
 deploy:
 	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader

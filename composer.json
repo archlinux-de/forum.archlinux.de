@@ -43,5 +43,11 @@
         "psr-4": {
             "App\\": "src/"
         }
+    },
+    "require-dev": {
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan": "^0.12.85",
+        "phpstan/phpstan-deprecation-rules": "^0.12.6",
+        "squizlabs/php_codesniffer": "^3.6"
     }
 }

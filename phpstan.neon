@@ -1,0 +1,6 @@
+parameters:
+	level: max
+	paths:
+		- .
+	excludes_analyse:
+		- vendor
