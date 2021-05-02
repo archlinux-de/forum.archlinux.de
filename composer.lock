@@ -8,21 +8,30 @@
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-anti-spam.git",
-                "reference": "defd5982ff667df7dde6853f466d303b0ff45793"
+                "reference": "a0b951b5cccde508fdd8b40644de897c6c0aa8bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/defd5982ff667df7dde6853f466d303b0ff45793",
-                "reference": "defd5982ff667df7dde6853f466d303b0ff45793",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/a0b951b5cccde508fdd8b40644de897c6c0aa8bd",
+                "reference": "a0b951b5cccde508fdd8b40644de897c6c0aa8bd",
                 "shasum": ""
             },
             "require": {
                 "flarum/core": ">=0.1.0-beta.16 <=0.1.0",
-                "maxmind-db/reader": "^1.10.1"
+                "maxmind-db/reader": "^1.10.1",
+                "symfony/http-foundation": "^5.2"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^0.12.85",
+                "phpstan/phpstan-deprecation-rules": "^0.12.6",
+                "phpstan/phpstan-phpunit": "^0.12.18",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6"
             },
             "type": "flarum-extension",
             "extra": {
@@ -47,26 +56,37 @@
             "description": "Spam protection for forum.archlinux.de",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-anti-spam/issues",
-                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.0.1"
+                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.1.0"
             },
-            "time": "2021-04-26T17:20:19+00:00"
+            "time": "2021-05-01T12:24:32+00:00"
         },
         {
             "name": "archlinux-de/flarum-import-fluxbb",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-import-fluxbb.git",
-                "reference": "986cc4a65907ef7e3c0e301f70a0c27f24a50754"
+                "reference": "4925b9dc74ea8649f76537913c4acf82693bfdbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-import-fluxbb/zipball/986cc4a65907ef7e3c0e301f70a0c27f24a50754",
-                "reference": "986cc4a65907ef7e3c0e301f70a0c27f24a50754",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-import-fluxbb/zipball/4925b9dc74ea8649f76537913c4acf82693bfdbe",
+                "reference": "4925b9dc74ea8649f76537913c4acf82693bfdbe",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": ">=0.1.0-beta.16 <=0.1.0"
+                "ext-imagick": "*",
+                "flarum/bbcode": "^0.1.0@beta",
+                "flarum/core": ">=0.1.0-beta.16 <=0.1.0",
+                "flarum/emoji": "^0.1.0@beta",
+                "flarum/lock": "^0.1.0@beta",
+                "flarum/mentions": "^0.1.0@beta",
+                "flarum/nicknames": "^0.1.0-beta",
+                "flarum/sticky": "^0.1.0@beta",
+                "flarum/subscriptions": "^0.1.0@beta",
+                "flarum/suspend": "^0.1.0@beta",
+                "flarum/tags": "^0.1.0@beta",
+                "migratetoflarum/old-passwords": "^0.6.0"
             },
             "type": "flarum-extension",
             "extra": {
@@ -91,26 +111,35 @@
             "description": "Import FluxBB data to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-import-fluxbb/issues",
-                "source": "https://github.com/archlinux-de/flarum-import-fluxbb/tree/1.1.2"
+                "source": "https://github.com/archlinux-de/flarum-import-fluxbb/tree/1.1.3"
             },
-            "time": "2021-04-24T17:26:33+00:00"
+            "time": "2021-05-01T12:45:51+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-fluxbb",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-redirect-fluxbb.git",
-                "reference": "8409e568ce79fc7f4e9c2477d5ac803eca5b85ef"
+                "reference": "53bbc51f130a4d4228c36e1c8fdc6b6a86538d57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-fluxbb/zipball/8409e568ce79fc7f4e9c2477d5ac803eca5b85ef",
-                "reference": "8409e568ce79fc7f4e9c2477d5ac803eca5b85ef",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-fluxbb/zipball/53bbc51f130a4d4228c36e1c8fdc6b6a86538d57",
+                "reference": "53bbc51f130a4d4228c36e1c8fdc6b6a86538d57",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": ">=0.1.0-beta.16 <=0.1.0"
+                "flarum/core": ">=0.1.0-beta.16 <=0.1.0",
+                "flarum/tags": ">=0.1.0-beta.16 <=0.1.0"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^0.12.85",
+                "phpstan/phpstan-deprecation-rules": "^0.12.6",
+                "phpstan/phpstan-phpunit": "^0.12.18",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6"
             },
             "type": "flarum-extension",
             "extra": {
@@ -125,7 +154,8 @@
             },
             "autoload": {
                 "psr-4": {
-                    "ArchLinux\\RedirectFluxBB\\": "src/"
+                    "ArchLinux\\RedirectFluxBB\\": "src/",
+                    "ArchLinux\\RedirectFluxBB\\Test\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -135,26 +165,35 @@
             "description": "Redirect legacy FluxBB URLs to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-redirect-fluxbb/issues",
-                "source": "https://github.com/archlinux-de/flarum-redirect-fluxbb/tree/1.0.0"
+                "source": "https://github.com/archlinux-de/flarum-redirect-fluxbb/tree/1.0.1"
             },
-            "time": "2021-04-17T06:59:36+00:00"
+            "time": "2021-05-02T06:37:05+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-ll",
-            "version": "1.0.1",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-redirect-ll.git",
-                "reference": "0f93c8fb635ec314d8fdfc3160c6adddb028a448"
+                "reference": "62adbec3183acc5bd81fff4c7ec081b1f3280d39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/0f93c8fb635ec314d8fdfc3160c6adddb028a448",
-                "reference": "0f93c8fb635ec314d8fdfc3160c6adddb028a448",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/62adbec3183acc5bd81fff4c7ec081b1f3280d39",
+                "reference": "62adbec3183acc5bd81fff4c7ec081b1f3280d39",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": ">=0.1.0-beta.16 <=0.1.0"
+                "flarum/core": ">=0.1.0-beta.16 <=0.1.0",
+                "flarum/tags": ">=0.1.0-beta.16 <=0.1.0"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^0.12.85",
+                "phpstan/phpstan-deprecation-rules": "^0.12.6",
+                "phpstan/phpstan-phpunit": "^0.12.18",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6"
             },
             "type": "flarum-extension",
             "extra": {
@@ -169,7 +208,8 @@
             },
             "autoload": {
                 "psr-4": {
-                    "ArchLinux\\RedirectLL\\": "src/"
+                    "ArchLinux\\RedirectLL\\": "src/",
+                    "ArchLinux\\RedirectLL\\Test\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -179,31 +219,39 @@
             "description": "Redirect legacy LL URLs to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-redirect-ll/issues",
-                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.0.1"
+                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.0.3"
             },
-            "time": "2021-04-18T09:35:18+00:00"
+            "time": "2021-05-02T06:41:30+00:00"
         },
         {
             "name": "archlinux-de/flarum-theme-archlinux",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-theme-archlinux.git",
-                "reference": "aedecc1ade36c040d07f7965f33397e6d24bb0d7"
+                "reference": "6a4b3aac426620988daaeb038cb2109f1294f41c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-theme-archlinux/zipball/aedecc1ade36c040d07f7965f33397e6d24bb0d7",
-                "reference": "aedecc1ade36c040d07f7965f33397e6d24bb0d7",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-theme-archlinux/zipball/6a4b3aac426620988daaeb038cb2109f1294f41c",
+                "reference": "6a4b3aac426620988daaeb038cb2109f1294f41c",
                 "shasum": ""
             },
             "require": {
                 "flarum/core": ">=0.1.0-beta.16 <=0.1.0"
             },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^0.12.85",
+                "phpstan/phpstan-deprecation-rules": "^0.12.6",
+                "phpstan/phpstan-phpunit": "^0.12.18",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6"
+            },
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
-                    "title": "Arch Linux theme",
+                    "title": "Arch Linux Theme",
                     "icon": {
                         "name": "fas fa-pencil-alt",
                         "backgroundColor": "#08c",
@@ -220,12 +268,12 @@
             "license": [
                 "GPL-3.0-or-later"
             ],
-            "description": "Arch Linux theme for Flarum",
+            "description": "Arch Linux Theme for Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-theme-archlinux/issues",
-                "source": "https://github.com/archlinux-de/flarum-theme-archlinux/tree/1.0.0"
+                "source": "https://github.com/archlinux-de/flarum-theme-archlinux/tree/1.0.1"
             },
-            "time": "2021-04-17T07:02:20+00:00"
+            "time": "2021-05-01T15:34:31+00:00"
         },
         {
             "name": "axy/backtrace",
@@ -4091,16 +4139,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.5.8",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "08fa59b8e4e34ea8a773d55139ae9ac0e0aecbaf"
+                "reference": "19a9673b833cc37770439097b381d86cd125bfe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/08fa59b8e4e34ea8a773d55139ae9ac0e0aecbaf",
-                "reference": "08fa59b8e4e34ea8a773d55139ae9ac0e0aecbaf",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/19a9673b833cc37770439097b381d86cd125bfe8",
+                "reference": "19a9673b833cc37770439097b381d86cd125bfe8",
                 "shasum": ""
             },
             "require": {
@@ -4188,7 +4236,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-28T18:51:39+00:00"
+            "time": "2021-05-01T19:00:49+00:00"
         },
         {
             "name": "league/flysystem",
@@ -5996,16 +6044,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v5.2.4",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "212d54675bf203ff8aef7d8cee8eecfb72f4a263"
+                "reference": "3817662ada105c8c4d1afdb4ec003003efd1d8d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/212d54675bf203ff8aef7d8cee8eecfb72f4a263",
-                "reference": "212d54675bf203ff8aef7d8cee8eecfb72f4a263",
+                "url": "https://api.github.com/repos/symfony/config/zipball/3817662ada105c8c4d1afdb4ec003003efd1d8d8",
+                "reference": "3817662ada105c8c4d1afdb4ec003003efd1d8d8",
                 "shasum": ""
             },
             "require": {
@@ -6054,7 +6102,7 @@
             "description": "Helps you find, load, combine, autofill and validate configuration values of any kind",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/config/tree/v5.2.4"
+                "source": "https://github.com/symfony/config/tree/v5.2.7"
             },
             "funding": [
                 {
@@ -6070,20 +6118,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-23T23:58:19+00:00"
+            "time": "2021-04-07T16:07:52+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "35f039df40a3b335ebf310f244cb242b3a83ac8d"
+                "reference": "90374b8ed059325b49a29b55b3f8bb4062c87629"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/35f039df40a3b335ebf310f244cb242b3a83ac8d",
-                "reference": "35f039df40a3b335ebf310f244cb242b3a83ac8d",
+                "url": "https://api.github.com/repos/symfony/console/zipball/90374b8ed059325b49a29b55b3f8bb4062c87629",
+                "reference": "90374b8ed059325b49a29b55b3f8bb4062c87629",
                 "shasum": ""
             },
             "require": {
@@ -6151,7 +6199,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.2.6"
+                "source": "https://github.com/symfony/console/tree/v5.2.7"
             },
             "funding": [
                 {
@@ -6167,20 +6215,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-28T09:42:18+00:00"
+            "time": "2021-04-19T14:07:32+00:00"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v5.2.4",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "f65f217b3314504a1ec99c2d6ef69016bb13490f"
+                "reference": "59a684f5ac454f066ecbe6daecce6719aed283fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/f65f217b3314504a1ec99c2d6ef69016bb13490f",
-                "reference": "f65f217b3314504a1ec99c2d6ef69016bb13490f",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/59a684f5ac454f066ecbe6daecce6719aed283fb",
+                "reference": "59a684f5ac454f066ecbe6daecce6719aed283fb",
                 "shasum": ""
             },
             "require": {
@@ -6216,7 +6264,7 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/css-selector/tree/v5.2.4"
+                "source": "https://github.com/symfony/css-selector/tree/v5.3.0-BETA1"
             },
             "funding": [
                 {
@@ -6232,7 +6280,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-27T10:01:46+00:00"
+            "time": "2021-04-07T16:07:52+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -6467,16 +6515,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "8c86a82f51658188119e62cff0a050a12d09836f"
+                "reference": "056e92acc21d977c37e6ea8e97374b2a6c8551b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/8c86a82f51658188119e62cff0a050a12d09836f",
-                "reference": "8c86a82f51658188119e62cff0a050a12d09836f",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/056e92acc21d977c37e6ea8e97374b2a6c8551b0",
+                "reference": "056e92acc21d977c37e6ea8e97374b2a6c8551b0",
                 "shasum": ""
             },
             "require": {
@@ -6509,7 +6557,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v5.2.6"
+                "source": "https://github.com/symfony/filesystem/tree/v5.2.7"
             },
             "funding": [
                 {
@@ -6525,7 +6573,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-28T14:30:26+00:00"
+            "time": "2021-04-01T10:42:13+00:00"
         },
         {
             "name": "symfony/finder",
@@ -6590,16 +6638,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.2.4",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "54499baea7f7418bce7b5ec92770fd0799e8e9bf"
+                "reference": "a416487a73bb9c9d120e9ba3a60547f4a3fb7a1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/54499baea7f7418bce7b5ec92770fd0799e8e9bf",
-                "reference": "54499baea7f7418bce7b5ec92770fd0799e8e9bf",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/a416487a73bb9c9d120e9ba3a60547f4a3fb7a1f",
+                "reference": "a416487a73bb9c9d120e9ba3a60547f4a3fb7a1f",
                 "shasum": ""
             },
             "require": {
@@ -6643,7 +6691,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v5.2.4"
+                "source": "https://github.com/symfony/http-foundation/tree/v5.2.7"
             },
             "funding": [
                 {
@@ -6659,20 +6707,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-25T17:16:57+00:00"
+            "time": "2021-05-01T13:46:24+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "1b2092244374cbe48ae733673f2ca0818b37197b"
+                "reference": "7af452bf51c46f18da00feb32e1ad36db9426515"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/1b2092244374cbe48ae733673f2ca0818b37197b",
-                "reference": "1b2092244374cbe48ae733673f2ca0818b37197b",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/7af452bf51c46f18da00feb32e1ad36db9426515",
+                "reference": "7af452bf51c46f18da00feb32e1ad36db9426515",
                 "shasum": ""
             },
             "require": {
@@ -6726,7 +6774,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/v5.2.6"
+                "source": "https://github.com/symfony/mime/tree/v5.2.7"
             },
             "funding": [
                 {
@@ -6742,7 +6790,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-12T13:18:39+00:00"
+            "time": "2021-04-29T20:47:09+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -7475,16 +7523,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v5.2.4",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "313a38f09c77fbcdc1d223e57d368cea76a2fd2f"
+                "reference": "98cb8eeb72e55d4196dd1e36f1f16e7b3a9a088e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/313a38f09c77fbcdc1d223e57d368cea76a2fd2f",
-                "reference": "313a38f09c77fbcdc1d223e57d368cea76a2fd2f",
+                "url": "https://api.github.com/repos/symfony/process/zipball/98cb8eeb72e55d4196dd1e36f1f16e7b3a9a088e",
+                "reference": "98cb8eeb72e55d4196dd1e36f1f16e7b3a9a088e",
                 "shasum": ""
             },
             "require": {
@@ -7517,7 +7565,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v5.2.4"
+                "source": "https://github.com/symfony/process/tree/v5.3.0-BETA1"
             },
             "funding": [
                 {
@@ -7533,7 +7581,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-27T10:15:41+00:00"
+            "time": "2021-04-08T10:27:02+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -7699,16 +7747,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "2cc7f45d96db9adfcf89adf4401d9dfed509f4e1"
+                "reference": "e37ece5242564bceea54d709eafc948377ec9749"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/2cc7f45d96db9adfcf89adf4401d9dfed509f4e1",
-                "reference": "2cc7f45d96db9adfcf89adf4401d9dfed509f4e1",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/e37ece5242564bceea54d709eafc948377ec9749",
+                "reference": "e37ece5242564bceea54d709eafc948377ec9749",
                 "shasum": ""
             },
             "require": {
@@ -7772,7 +7820,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v5.2.6"
+                "source": "https://github.com/symfony/translation/tree/v5.2.7"
             },
             "funding": [
                 {
@@ -7788,7 +7836,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-23T19:33:48+00:00"
+            "time": "2021-04-01T08:15:21+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -7870,16 +7918,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.2.5",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "298a08ddda623485208506fcee08817807a251dd"
+                "reference": "76546cbeddd0a9540b4e4e57eddeec3e9bb444a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/298a08ddda623485208506fcee08817807a251dd",
-                "reference": "298a08ddda623485208506fcee08817807a251dd",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/76546cbeddd0a9540b4e4e57eddeec3e9bb444a5",
+                "reference": "76546cbeddd0a9540b4e4e57eddeec3e9bb444a5",
                 "shasum": ""
             },
             "require": {
@@ -7925,7 +7973,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v5.2.5"
+                "source": "https://github.com/symfony/yaml/tree/v5.2.7"
             },
             "funding": [
                 {
@@ -7941,7 +7989,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-06T07:59:01+00:00"
+            "time": "2021-04-29T20:47:09+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
