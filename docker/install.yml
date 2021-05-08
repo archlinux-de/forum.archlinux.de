@@ -1,5 +1,5 @@
 debug: true
-baseUrl: http://localhost:8380
+baseUrl: ~
 databaseConfiguration:
   driver: mysql
   host: mariadb
@@ -21,3 +21,4 @@ settings:
   show_language_selector: 0
   welcome_message: ~
   welcome_title: ~
+  mail_driver: 'log'
