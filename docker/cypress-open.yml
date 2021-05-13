@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  cypress:
+    image: cypress/included:7.2.0
+    depends_on:
+      - nginx
+    environment:
+      - CYPRESS_baseUrl=${CYPRESS_baseUrl:-http://nginx}
+      - CYPRESS_numTestsKeptInMemory=100
+      - DISPLAY
+    entrypoint: cypress
+    ipc: host
+    userns_mode: host
+    working_dir: /app
+    volumes:
+      - ../storage/logs:/app/storage/logs:ro
+      - ../tests/e2e:/app/tests/e2e:rw
+      - /tmp/.X11-unix:/tmp/.X11-unix:ro
+    tmpfs:
+      - /tmp

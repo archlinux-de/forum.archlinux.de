@@ -72,10 +72,25 @@ composer-outdated: (composer "install") (composer "outdated --direct --strict")
 flarum *args:
 	{{PHP-RUN}} php flarum {{args}}
 
+cypress-run *args:
+	{{COMPOSE}} -f docker/cypress-run.yml run     --rm --no-deps cypress run  --project tests/e2e --browser chrome --headless {{args}}
+
+cypress-open:
+	xhost +local:root
+	{{COMPOSE}} -f docker/cypress-open.yml run -d --rm --no-deps cypress open --project tests/e2e
+
 test:
 	{{PHP-RUN}} composer validate
 	{{PHP-RUN}} vendor/bin/phpcs
 	{{PHP-RUN}} php -dmemory_limit=-1 vendor/bin/phpstan analyse
+
+test-e2e:
+	#!/usr/bin/env bash
+	set -e
+	if [ "${CI-}" = "true" ]; then
+		just init
+	fi
+	just cypress-run
 
 deploy:
 	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader
