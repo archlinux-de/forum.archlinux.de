@@ -88,12 +88,9 @@ test-e2e:
 	#!/usr/bin/env bash
 	set -e
 	if [ "${CI-}" = "true" ]; then
-		git clean -xdf app/dist
 		just init
-		CYPRESS_baseUrl=http://nginx:81 just cypress-run
-	else
-		just cypress-run
 	fi
+	just cypress-run
 
 deploy:
 	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader
