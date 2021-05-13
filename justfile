@@ -90,7 +90,6 @@ test-e2e:
 	if [ "${CI-}" = "true" ]; then
 		git clean -xdf app/dist
 		just init
-		just yarn build
 		CYPRESS_baseUrl=http://nginx:81 just cypress-run
 	else
 		just cypress-run
