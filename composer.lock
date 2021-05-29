@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2deae05c57948a69475a8f1aa3feb799",
+    "content-hash": "0797cf67f7c583f7768306dc4161abca",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -3708,63 +3708,6 @@
                 "source": "https://github.com/Intervention/image/tree/master"
             },
             "time": "2019-11-02T09:15:47+00:00"
-        },
-        {
-            "name": "kakifrucht/flarum-de",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Kakifrucht/flarum-de.git",
-                "reference": "aa2384355008ca79c31af93ba6a10a727ae4b757"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/aa2384355008ca79c31af93ba6a10a727ae4b757",
-                "reference": "aa2384355008ca79c31af93ba6a10a727ae4b757",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^1.0.0"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "flarum-extension": {
-                    "title": "German",
-                    "category": "language",
-                    "icon": {
-                        "image": "icon.svg",
-                        "backgroundColor": "#ffffff",
-                        "backgroundSize": "cover",
-                        "backgroundPosition": "center"
-                    }
-                },
-                "flarum-locale": {
-                    "code": "de",
-                    "title": "Deutsch"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabian Prieto Wunderlich",
-                    "email": "prieto@wunderlich.pw",
-                    "role": "Translator"
-                }
-            ],
-            "description": "German language pack for Flarum and its bundled extensions.",
-            "homepage": "https://github.com/Kakifrucht/flarum-de",
-            "keywords": [
-                "locale"
-            ],
-            "support": {
-                "forum": "https://discuss.flarum.org/d/2648",
-                "issues": "https://github.com/Kakifrucht/flarum-de/issues",
-                "source": "https://github.com/Kakifrucht/flarum-de"
-            },
-            "time": "2021-05-28T22:32:21+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
