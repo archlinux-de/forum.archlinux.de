@@ -11,6 +11,7 @@ services:
     volumes:
       - ../:/app
       - ~/.cache/composer:/tmp/.composer/cache
+      - ~/.config/composer/auth.json:/tmp/.composer/auth.json:ro
       - ../../fluxbb-avatars:/fluxbb-avatars:ro
     tmpfs:
       - /tmp
@@ -25,7 +26,6 @@ services:
     volumes:
       - ../public:/app/public:ro
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
-      - ../.nginx.conf:/etc/nginx/flarum.conf:ro
     userns_mode: host
     tmpfs:
       - /tmp

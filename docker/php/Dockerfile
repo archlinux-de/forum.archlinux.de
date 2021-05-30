@@ -1,6 +1,6 @@
 FROM php:8-fpm-alpine
 
-RUN apk add optipng git
+RUN apk add optipng git mariadb-client
 
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/bin/
 RUN install-php-extensions opcache pdo_mysql gd exif imagick

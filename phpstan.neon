@@ -2,5 +2,8 @@ parameters:
 	level: max
 	paths:
 		- .
-	excludes_analyse:
-		- vendor
+	excludePaths:
+		analyse:
+			- vendor
+		analyseAndScan:
+			- storage
