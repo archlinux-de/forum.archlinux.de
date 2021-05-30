@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b08fc5e289c5cec76667f0b39648e97",
+    "content-hash": "98150628d8dd8e33038ad8bc256d2cca",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -62,16 +62,16 @@
         },
         {
             "name": "archlinux-de/flarum-import-fluxbb",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-import-fluxbb.git",
-                "reference": "ec55009f358dbfafcecf837490a75e690e574927"
+                "reference": "ba06aa78849b19dc487d22ec285e3780ea9567c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-import-fluxbb/zipball/ec55009f358dbfafcecf837490a75e690e574927",
-                "reference": "ec55009f358dbfafcecf837490a75e690e574927",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-import-fluxbb/zipball/ba06aa78849b19dc487d22ec285e3780ea9567c8",
+                "reference": "ba06aa78849b19dc487d22ec285e3780ea9567c8",
                 "shasum": ""
             },
             "require": {
@@ -101,9 +101,9 @@
             "description": "Import FluxBB data to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-import-fluxbb/issues",
-                "source": "https://github.com/archlinux-de/flarum-import-fluxbb/tree/1.1.5"
+                "source": "https://github.com/archlinux-de/flarum-import-fluxbb/tree/1.1.6"
             },
-            "time": "2021-05-29T05:18:36+00:00"
+            "time": "2021-05-30T07:33:48+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-fluxbb",
