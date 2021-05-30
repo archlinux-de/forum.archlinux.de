@@ -28,6 +28,7 @@
         "flarum/subscriptions": "^1.0.0",
         "flarum/suspend": "^1.0.0",
         "flarum/tags": "^1.0.0",
+        "kakifrucht/flarum-de": "^1.0",
         "migratetoflarum/old-passwords": "^1.0.0"
     },
     "config": {
