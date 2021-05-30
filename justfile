@@ -17,6 +17,7 @@ init: start
 	{{PHP-DB-RUN}} php flarum install -f docker/install.yml
 	{{PHP-DB-RUN}} php flarum app:enable-extensions
 	{{PHP-DB-RUN}} php flarum migrate
+	{{PHP-DB-RUN}} php flarum assets:publish
 	{{PHP-DB-RUN}} php flarum cache:clear
 
 start:
@@ -95,6 +96,7 @@ test-e2e:
 deploy:
 	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader
 	./flarum migrate
+	./flarum assets:publish
 	./flarum cache:clear
 
 deploy-permissions:
