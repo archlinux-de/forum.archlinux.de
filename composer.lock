@@ -2342,16 +2342,16 @@
         },
         {
             "name": "flarum/tags",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/tags.git",
-                "reference": "5ae4ef18763b694900c813c2ee7018c141405736"
+                "reference": "453169d8093feb1ad523cfdbdcf47c3b3a391cab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/tags/zipball/5ae4ef18763b694900c813c2ee7018c141405736",
-                "reference": "5ae4ef18763b694900c813c2ee7018c141405736",
+                "url": "https://api.github.com/repos/flarum/tags/zipball/453169d8093feb1ad523cfdbdcf47c3b3a391cab",
+                "reference": "453169d8093feb1ad523cfdbdcf47c3b3a391cab",
                 "shasum": ""
             },
             "require": {
@@ -2401,7 +2401,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-06-02T06:56:52+00:00"
+            "time": "2021-06-07T10:11:11+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
