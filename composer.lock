@@ -3711,16 +3711,16 @@
         },
         {
             "name": "kakifrucht/flarum-de",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kakifrucht/flarum-de.git",
-                "reference": "f0949bcb3756395bd00cf855d40966b68bf81e4e"
+                "reference": "a725d12d69180153b01ea9333fcbceac6871ed30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/f0949bcb3756395bd00cf855d40966b68bf81e4e",
-                "reference": "f0949bcb3756395bd00cf855d40966b68bf81e4e",
+                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/a725d12d69180153b01ea9333fcbceac6871ed30",
+                "reference": "a725d12d69180153b01ea9333fcbceac6871ed30",
                 "shasum": ""
             },
             "require": {
@@ -3764,7 +3764,7 @@
                 "issues": "https://github.com/Kakifrucht/flarum-de/issues",
                 "source": "https://github.com/Kakifrucht/flarum-de"
             },
-            "time": "2021-05-29T17:45:26+00:00"
+            "time": "2021-06-07T17:20:31+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
