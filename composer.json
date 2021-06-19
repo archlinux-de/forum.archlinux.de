@@ -16,23 +16,23 @@
         "archlinux-de/flarum-redirect-fluxbb": "^1.0.2",
         "archlinux-de/flarum-redirect-ll": "^1.0.4",
         "archlinux-de/flarum-theme-archlinux": "^1.0.2",
-        "flarum-lang/german": "^1.1",
+        "flarum-lang/german": "^1.1.0",
         "flarum/approval": "^1.0.0",
         "flarum/bbcode": "^1.0.0",
-        "flarum/core": "^1.0.0",
+        "flarum/core": "^1.0.2",
         "flarum/emoji": "^1.0.0",
         "flarum/flags": "^1.0.0",
         "flarum/lang-english": "^1.0.0",
         "flarum/likes": "^1.0.0",
         "flarum/lock": "^1.0.0",
-        "flarum/markdown": "^1.0.0",
+        "flarum/markdown": "^1.0.1",
         "flarum/mentions": "^1.0.0",
         "flarum/nicknames": "^1.0.0",
         "flarum/statistics": "^1.0.0",
         "flarum/sticky": "^1.0.0",
         "flarum/subscriptions": "^1.0.0",
         "flarum/suspend": "^1.0.0",
-        "flarum/tags": "^1.0.0",
+        "flarum/tags": "^1.0.3",
         "migratetoflarum/old-passwords": "^1.0.0"
     },
     "config": {
@@ -45,8 +45,9 @@
         }
     },
     "require-dev": {
+        "malukenho/mcbumpface": "^1.1.5",
         "phpstan/extension-installer": "^1.1.0",
-        "phpstan/phpstan": "^0.12.88",
+        "phpstan/phpstan": "^0.12.90",
         "phpstan/phpstan-deprecation-rules": "^0.12.6",
         "squizlabs/php_codesniffer": "^3.6.0"
     },
@@ -61,5 +62,10 @@
         "symfony/polyfill-php72": "*",
         "symfony/polyfill-php73": "*",
         "symfony/polyfill-php80": "*"
+    },
+    "extra": {
+        "mc-bumpface": {
+            "stripVersionPrefixes": true
+        }
     }
 }

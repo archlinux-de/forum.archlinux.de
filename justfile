@@ -93,6 +93,10 @@ test-e2e:
 	fi
 	just cypress-run
 
+update:
+	{{PHP-RUN}} composer --no-interaction update
+	{{PHP-RUN}} composer --no-interaction update --lock --no-scripts
+
 deploy:
 	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader
 	./flarum app:enable-extensions
