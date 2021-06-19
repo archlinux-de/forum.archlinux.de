@@ -95,6 +95,7 @@ test-e2e:
 
 deploy:
 	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader
+	./flarum app:enable-extensions
 	./flarum migrate
 	./flarum assets:publish
 	./flarum cache:clear
