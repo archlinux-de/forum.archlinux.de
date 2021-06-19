@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2eea5531491eb0467fa88de48dce0d19",
+    "content-hash": "ea9faa254cfcf7c171c34c45dbf10249",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2459,6 +2459,76 @@
                 }
             ],
             "time": "2021-06-10T22:25:24+00:00"
+        },
+        {
+            "name": "fof/spamblock",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/spamblock.git",
+                "reference": "6f16db581c7063d371301fc1798d9ab69e5804ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/spamblock/zipball/6f16db581c7063d371301fc1798d9ab69e5804ae",
+                "reference": "6f16db581c7063d371301fc1798d9ab69e5804ae",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.0.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Spamblock",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-pastafarianism",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff",
+                        "optional-dependencies": [
+                            "flarum/suspend",
+                            "flarum/flags"
+                        ]
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/17772"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Spamblock\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Sevilla Martin",
+                    "email": "david.s@redevs.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Mark user as spammer, suspending them & hiding their posts and discussions",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "flarum"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/17772",
+                "issues": "https://github.com/FriendsOfFlarum/spamblock/issues",
+                "source": "https://github.com/FriendsOfFlarum/spamblock"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "time": "2021-05-26T18:44:37+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
