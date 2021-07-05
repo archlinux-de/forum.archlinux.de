@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d9b4b5dfc133b60da5bfc8a47835a32",
+    "content-hash": "f9d5f876386ec6f622071eaffa603e6a",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -4837,34 +4837,34 @@
         },
         {
             "name": "middlewares/utils",
-            "version": "v3.2.0",
+            "version": "v3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/middlewares/utils.git",
-                "reference": "a9ef1e5365020ead0ae343b95602bd877a9bf852"
+                "reference": "670b135ce0dbd040eadb025a9388f9bd617cc010"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/middlewares/utils/zipball/a9ef1e5365020ead0ae343b95602bd877a9bf852",
-                "reference": "a9ef1e5365020ead0ae343b95602bd877a9bf852",
+                "url": "https://api.github.com/repos/middlewares/utils/zipball/670b135ce0dbd040eadb025a9388f9bd617cc010",
+                "reference": "670b135ce0dbd040eadb025a9388f9bd617cc010",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0",
-                "psr/container": "^1.0",
+                "psr/container": "^1.0 || ^2.0",
                 "psr/http-factory": "^1.0",
                 "psr/http-message": "^1.0",
                 "psr/http-server-middleware": "^1.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^v2.16",
-                "guzzlehttp/psr7": "dev-master",
+                "guzzlehttp/psr7": "^2.0",
                 "laminas/laminas-diactoros": "^2.4",
                 "nyholm/psr7": "^1.0",
                 "oscarotero/php-cs-fixer-config": "^1.0",
                 "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^8|^9",
-                "slim/psr7": "~0.3",
+                "slim/psr7": "^1.4",
                 "squizlabs/php_codesniffer": "^3.5",
                 "sunrise/http-message": "^1.0",
                 "sunrise/http-server-request": "^1.0",
@@ -4893,9 +4893,9 @@
             ],
             "support": {
                 "issues": "https://github.com/middlewares/utils/issues",
-                "source": "https://github.com/middlewares/utils/tree/v3.2.0"
+                "source": "https://github.com/middlewares/utils/tree/v3.3.0"
             },
-            "time": "2020-11-30T20:07:15+00:00"
+            "time": "2021-07-04T17:56:23+00:00"
         },
         {
             "name": "migratetoflarum/old-passwords",
@@ -7840,16 +7840,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.90",
+            "version": "0.12.91",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "f0e4b56630fc3d4eb5be86606d07212ac212ede4"
+                "reference": "8226701cd228a0d63c2df995de7ab6070c69ac6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/f0e4b56630fc3d4eb5be86606d07212ac212ede4",
-                "reference": "f0e4b56630fc3d4eb5be86606d07212ac212ede4",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/8226701cd228a0d63c2df995de7ab6070c69ac6a",
+                "reference": "8226701cd228a0d63c2df995de7ab6070c69ac6a",
                 "shasum": ""
             },
             "require": {
@@ -7880,7 +7880,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/0.12.90"
+                "source": "https://github.com/phpstan/phpstan/tree/0.12.91"
             },
             "funding": [
                 {
@@ -7900,7 +7900,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-18T07:15:38+00:00"
+            "time": "2021-07-04T15:31:48+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
