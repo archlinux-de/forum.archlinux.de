@@ -110,6 +110,7 @@ deploy:
 	./flarum migrate
 	./flarum assets:publish
 	./flarum cache:clear
+	systemctl restart php-fpm@forum.service
 
 deploy-permissions:
 	sudo setfacl -dR -m u:php-forum:rwX -m u:deployer:rwX storage public/assets
