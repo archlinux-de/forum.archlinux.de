@@ -104,6 +104,18 @@ update:
 	{{PHP-RUN}} composer --no-interaction update --lock --no-scripts
 	just _update-cypress-image
 
+import-from-production:
+	sudo mv config.php config.php.bak
+	sudo mysqladmin -uroot -hmariadb drop forum --force
+	sudo -u deployer ./flarum install -f install.yml
+	sudo mv config.php.bak config.php
+	sudo -u deployer ./flarum app:enable-extensions
+	sudo -u deployer ./flarum migrate
+	sudo -u deployer ./flarum assets:publish
+	sudo -u deployer ./flarum app:import-from-fluxbb -vvv fluxbb /srv/http/vhosts/bbs.archlinux.de/img/avatars
+	sudo -u deployer ./flarum cache:clear
+	systemctl restart php-fpm@forum.service
+
 deploy:
 	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader
 	./flarum app:enable-extensions
