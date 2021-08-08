@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7995f60af8477af0bc74a14bdf8ee462",
+    "content-hash": "66aba617d8ec096c34bc4685348bc26c",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2537,6 +2537,88 @@
                 }
             ],
             "time": "2021-06-10T22:25:24+00:00"
+        },
+        {
+            "name": "fof/sitemap",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/sitemap.git",
+                "reference": "e25ec9fe22370b994140670b3c36c414964b50e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/sitemap/zipball/e25ec9fe22370b994140670b3c36c414964b50e0",
+                "reference": "e25ec9fe22370b994140670b3c36c414964b50e0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-zlib": "*",
+                "flarum/core": "^1.0.0"
+            },
+            "replace": {
+                "flagrow/sitemap": "*"
+            },
+            "suggest": {
+                "flarum/tags": "List tags in the sitemap",
+                "fof/pages": "List pages in the sitemap"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Sitemap",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-sitemap",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/14941"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Sitemap\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                },
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "http://luceos.com"
+                }
+            ],
+            "description": "Generate a sitemap",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "Sitemap",
+                "extension",
+                "flagrow",
+                "flarum"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/14941",
+                "issues": "https://github.com/FriendsOfFlarum/sitemap/issues",
+                "source": "https://github.com/FriendsOfFlarum/sitemap"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "time": "2021-05-27T14:39:55+00:00"
         },
         {
             "name": "fof/spamblock",

@@ -33,6 +33,7 @@
         "flarum/subscriptions": "^1.0.0",
         "flarum/suspend": "^1.0.0",
         "flarum/tags": "^1.0.3",
+        "fof/sitemap": "^1.0.0",
         "fof/spamblock": "^1.0.0",
         "migratetoflarum/old-passwords": "^1.0.0"
     },
