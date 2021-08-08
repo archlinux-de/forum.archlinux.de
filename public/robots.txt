@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
 Sitemap: https://forum.archlinux.de/sitemaps/sitemap-discussions-0.xml.gz
 Sitemap: https://forum.archlinux.de/sitemaps/sitemap-home.xml.gz
 Sitemap: https://forum.archlinux.de/sitemaps/sitemap-tags-0.xml.gz
