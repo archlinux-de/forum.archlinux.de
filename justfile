@@ -108,6 +108,7 @@ import-from-production:
 	sudo mv config.php config.php.bak
 	sudo mysqladmin -uroot drop forum --force
 	sudo mysqladmin -uroot create forum
+	git clean -xf storage
 	sudo -u deployer ./flarum install -f install.yml
 	sudo mv config.php.bak config.php
 	sudo -u deployer ./flarum app:enable-extensions
