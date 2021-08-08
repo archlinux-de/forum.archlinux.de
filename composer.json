@@ -12,7 +12,6 @@
         "ext-json": "*",
         "ext-mbstring": "*",
         "archlinux-de/flarum-anti-spam": "^1.1.1",
-        "archlinux-de/flarum-import-fluxbb": "^1.1.6",
         "archlinux-de/flarum-redirect-fluxbb": "^1.0.2",
         "archlinux-de/flarum-redirect-ll": "^1.0.4",
         "archlinux-de/flarum-theme-archlinux": "^1.0.2",

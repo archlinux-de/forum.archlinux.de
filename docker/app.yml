@@ -12,7 +12,6 @@ services:
       - ../:/app
       - ~/.cache/composer:/tmp/.composer/cache
       - ~/.config/composer/auth.json:/tmp/.composer/auth.json:ro
-      - ../../fluxbb-avatars:/fluxbb-avatars:ro
     tmpfs:
       - /tmp
     depends_on:

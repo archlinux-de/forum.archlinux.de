@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66aba617d8ec096c34bc4685348bc26c",
+    "content-hash": "a9d9f87eeb5443536037c0ab93708f20",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -59,51 +59,6 @@
                 "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.1.1"
             },
             "time": "2021-05-28T19:25:53+00:00"
-        },
-        {
-            "name": "archlinux-de/flarum-import-fluxbb",
-            "version": "1.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/archlinux-de/flarum-import-fluxbb.git",
-                "reference": "ba06aa78849b19dc487d22ec285e3780ea9567c8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-import-fluxbb/zipball/ba06aa78849b19dc487d22ec285e3780ea9567c8",
-                "reference": "ba06aa78849b19dc487d22ec285e3780ea9567c8",
-                "shasum": ""
-            },
-            "require": {
-                "ext-imagick": "*",
-                "flarum/core": "^1.0.0"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "flarum-extension": {
-                    "title": "FluxBB Importer",
-                    "icon": {
-                        "name": "fas fa-file-import",
-                        "backgroundColor": "#08c",
-                        "color": "#fff"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "ArchLinux\\ImportFluxBB\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-or-later"
-            ],
-            "description": "Import FluxBB data to Flarum",
-            "support": {
-                "issues": "https://github.com/archlinux-de/flarum-import-fluxbb/issues",
-                "source": "https://github.com/archlinux-de/flarum-import-fluxbb/tree/1.1.6"
-            },
-            "time": "2021-05-30T07:33:48+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-fluxbb",

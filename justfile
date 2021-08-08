@@ -38,11 +38,6 @@ import-db-dump file name='flarum': start
 	{{MARIADB-RUN}} mysqladmin -uroot -hmariadb create {{name}}
 	zcat {{file}} | {{MARIADB-RUN}} mysql -uroot -hmariadb {{name}}
 
-import-from-fluxbb-db-dump file:
-	just import-db-dump {{file}} fluxbb
-	{{PHP-DB-RUN}} php flarum app:import-from-fluxbb -vvv
-	{{PHP-DB-RUN}} php flarum cache:clear
-
 clean:
 	{{COMPOSE}} down -v
 	git clean -fdqx -e .idea
@@ -103,20 +98,6 @@ update:
 	{{PHP-RUN}} composer --no-interaction update
 	{{PHP-RUN}} composer --no-interaction update --lock --no-scripts
 	just _update-cypress-image
-
-import-from-production:
-	sudo mv config.php config.php.bak
-	sudo mysqladmin -uroot drop forum --force
-	sudo mysqladmin -uroot create forum
-	git clean -xf storage
-	sudo -u deployer ./flarum install -f install.yml
-	sudo mv config.php.bak config.php
-	sudo -u deployer ./flarum app:enable-extensions
-	sudo -u deployer ./flarum migrate
-	sudo -u deployer ./flarum assets:publish
-	sudo -u deployer ./flarum app:import-from-fluxbb -vvv fluxbb /srv/http/vhosts/bbs.archlinux.de/img/avatars
-	sudo -u deployer ./flarum cache:clear
-	systemctl restart php-fpm@forum.service
 
 deploy:
 	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader
