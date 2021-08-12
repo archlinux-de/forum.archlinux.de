@@ -5,3 +5,4 @@
 !/storage/*/.gitkeep
 /public/*/*
 !/public/*/.gitkeep
+/public/sitemap.xml

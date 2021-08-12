@@ -108,7 +108,7 @@ deploy:
 	systemctl restart php-fpm@forum.service
 
 deploy-permissions:
-	sudo setfacl -dR -m u:php-forum:rwX -m u:deployer:rwX storage public/assets public/sitemaps
-	sudo setfacl -R -m u:php-forum:rwX -m u:deployer:rwX storage public/assets public/sitemaps
+	sudo setfacl -dR -m u:php-forum:rwX -m u:deployer:rwX storage public/assets public/sitemaps public/sitemap.xml
+	sudo setfacl -R -m u:php-forum:rwX -m u:deployer:rwX storage public/assets public/sitemaps public/sitemap.xml
 
 # vim: set ft=make :
