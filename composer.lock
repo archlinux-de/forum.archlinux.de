@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b56b1e24a157283e21c46bfaaab2ecab",
+    "content-hash": "44307f72708a333e32be58b5e2747606",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -170,16 +170,16 @@
         },
         {
             "name": "archlinux-de/flarum-theme-archlinux",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-theme-archlinux.git",
-                "reference": "8aa21d85564a32be467d85d7e01de2c852c2b96c"
+                "reference": "3843eddb567e7d2aac09f495a1ea2e5732676aa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-theme-archlinux/zipball/8aa21d85564a32be467d85d7e01de2c852c2b96c",
-                "reference": "8aa21d85564a32be467d85d7e01de2c852c2b96c",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-theme-archlinux/zipball/3843eddb567e7d2aac09f495a1ea2e5732676aa6",
+                "reference": "3843eddb567e7d2aac09f495a1ea2e5732676aa6",
                 "shasum": ""
             },
             "require": {
@@ -216,9 +216,9 @@
             "description": "Arch Linux Theme for Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-theme-archlinux/issues",
-                "source": "https://github.com/archlinux-de/flarum-theme-archlinux/tree/1.0.2"
+                "source": "https://github.com/archlinux-de/flarum-theme-archlinux/tree/1.0.3"
             },
-            "time": "2021-05-28T19:26:29+00:00"
+            "time": "2021-08-14T16:35:02+00:00"
         },
         {
             "name": "axy/backtrace",
@@ -4352,21 +4352,21 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "0d57f20aa03129ee7ef5f690e634884315d4238c"
+                "reference": "2df87709f44b0dd733df86aef0830dce9b1f0f13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/0d57f20aa03129ee7ef5f690e634884315d4238c",
-                "reference": "0d57f20aa03129ee7ef5f690e634884315d4238c",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/2df87709f44b0dd733df86aef0830dce9b1f0f13",
+                "reference": "2df87709f44b0dd733df86aef0830dce9b1f0f13",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "league/config": "^1.1",
+                "league/config": "^1.1.1",
                 "php": "^7.4 || ^8.0",
                 "psr/event-dispatcher": "^1.0",
                 "symfony/polyfill-php80": "^1.15"
@@ -4459,24 +4459,24 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-31T19:15:22+00:00"
+            "time": "2021-08-14T14:06:04+00:00"
         },
         {
             "name": "league/config",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/config.git",
-                "reference": "20d42d88f12a76ff862e17af4f14a5a4bbfd0925"
+                "reference": "a9d39eeeb6cc49d10a6e6c36f22c4c1f4a767f3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/config/zipball/20d42d88f12a76ff862e17af4f14a5a4bbfd0925",
-                "reference": "20d42d88f12a76ff862e17af4f14a5a4bbfd0925",
+                "url": "https://api.github.com/repos/thephpleague/config/zipball/a9d39eeeb6cc49d10a6e6c36f22c4c1f4a767f3e",
+                "reference": "a9d39eeeb6cc49d10a6e6c36f22c4c1f4a767f3e",
                 "shasum": ""
             },
             "require": {
-                "dflydev/dot-access-data": "^3.0",
+                "dflydev/dot-access-data": "^3.0.1",
                 "nette/schema": "^1.2",
                 "php": "^7.4 || ^8.0"
             },
@@ -4541,7 +4541,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-19T15:52:37+00:00"
+            "time": "2021-08-14T12:15:32+00:00"
         },
         {
             "name": "league/flysystem",
