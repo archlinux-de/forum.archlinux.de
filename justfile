@@ -110,7 +110,8 @@ deploy:
 deploy-permissions:
 	sudo setfacl -dR -m u:php-forum:rwX -m u:deployer:rwX storage public/assets public/sitemaps
 	sudo setfacl -R -m u:php-forum:rwX -m u:deployer:rwX storage public/assets public/sitemaps
-	sudo setfacl -d -m u:php-forum:rwX -m u:deployer:rwX public public/sitemap.xml
-	sudo setfacl -m u:php-forum:rwX -m u:deployer:rwX public public/sitemap.xml
+	sudo setfacl -d -m u:php-forum:rwX -m u:deployer:rwX public
+	sudo setfacl -m u:php-forum:rwX -m u:deployer:rwX public
+	sudo setfacl -m u:php-forum:rw -m u:deployer:rw public/sitemap.xml
 
 # vim: set ft=make :
