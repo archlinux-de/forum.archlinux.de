@@ -34,6 +34,7 @@
         "flarum/tags": "^1.0.3",
         "fof/sitemap": "^1.0.0",
         "fof/spamblock": "^1.0.0",
+        "matteocontrini/flarum-imgur-upload": "^3.9.1",
         "migratetoflarum/old-passwords": "^1.0.0"
     },
     "config": {
