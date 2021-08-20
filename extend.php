@@ -8,8 +8,10 @@
  */
 
 use App\Console\EnableExtensions;
+use App\ServiceProvider\SyslogServiceProvider;
 use Flarum\Extend;
 
 return [
     (new Extend\Console())->command(EnableExtensions::class),
+    (new Extend\ServiceProvider())->register(SyslogServiceProvider::class),
 ];
