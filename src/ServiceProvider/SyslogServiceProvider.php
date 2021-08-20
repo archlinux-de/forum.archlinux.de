@@ -16,7 +16,13 @@ class SyslogServiceProvider extends AbstractServiceProvider
             $handler = new SyslogHandler(ident: 'flarum', level: Logger::INFO);
             $handler->setFormatter(new LineFormatter(allowInlineLineBreaks: true, ignoreEmptyContextAndExtra: true));
 
-            return $logger->setHandlers([$handler]);
+            if ($app['flarum.config']->inDebugMode()) {
+                $logger->pushHandler($handler);
+            } else {
+                $logger->setHandlers([$handler]);
+            }
+
+            return $logger;
         });
     }
 }
