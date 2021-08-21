@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1483e172ebbefb8580d9f1b6bde2482",
+    "content-hash": "c36f5c5f647adf2327f190ab2375a965",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -59,6 +59,59 @@
                 "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.1.1"
             },
             "time": "2021-05-28T19:25:53+00:00"
+        },
+        {
+            "name": "archlinux-de/flarum-discussion-feed",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/archlinux-de/flarum-discussion-feed.git",
+                "reference": "59e69380749329123f67ea3c2fcbebfe38f88736"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-discussion-feed/zipball/59e69380749329123f67ea3c2fcbebfe38f88736",
+                "reference": "59e69380749329123f67ea3c2fcbebfe38f88736",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.0.0"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^0.12.85",
+                "phpstan/phpstan-deprecation-rules": "^0.12.6",
+                "phpstan/phpstan-phpunit": "^0.12.18",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Discussion Feed",
+                    "icon": {
+                        "name": "fas fa-rss",
+                        "backgroundColor": "#ee802f",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ArchLinux\\DiscussionFeed\\": "src/",
+                    "ArchLinux\\DiscussionFeed\\Test\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Simple and efficient Atom feed for Flarum",
+            "support": {
+                "issues": "https://github.com/archlinux-de/flarum-discussion-feed/issues",
+                "source": "https://github.com/archlinux-de/flarum-discussion-feed/tree/0.1.0"
+            },
+            "time": "2021-08-21T12:45:32+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-fluxbb",
