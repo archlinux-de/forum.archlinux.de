@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7092a515376e3bb156ba82a63ddecf52",
+    "content-hash": "b1fac2d9d26d5285851c6c25bf8a4dc6",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -62,16 +62,16 @@
         },
         {
             "name": "archlinux-de/flarum-discussion-feed",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-discussion-feed.git",
-                "reference": "59e69380749329123f67ea3c2fcbebfe38f88736"
+                "reference": "67cd59c4e2b7f5201d5256fe7032f0fc52b02a42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-discussion-feed/zipball/59e69380749329123f67ea3c2fcbebfe38f88736",
-                "reference": "59e69380749329123f67ea3c2fcbebfe38f88736",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-discussion-feed/zipball/67cd59c4e2b7f5201d5256fe7032f0fc52b02a42",
+                "reference": "67cd59c4e2b7f5201d5256fe7032f0fc52b02a42",
                 "shasum": ""
             },
             "require": {
@@ -109,9 +109,9 @@
             "description": "Simple and efficient Atom feed for Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-discussion-feed/issues",
-                "source": "https://github.com/archlinux-de/flarum-discussion-feed/tree/0.1.0"
+                "source": "https://github.com/archlinux-de/flarum-discussion-feed/tree/0.2.0"
             },
-            "time": "2021-08-21T12:45:32+00:00"
+            "time": "2021-08-21T17:01:01+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-fluxbb",
@@ -8270,16 +8270,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.95",
+            "version": "0.12.96",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "4ffddfe86e85dcc494a47e5f3dcfd1a2dccdce58"
+                "reference": "a98bdc51318f20fcae8c953d266f81a70254917f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/4ffddfe86e85dcc494a47e5f3dcfd1a2dccdce58",
-                "reference": "4ffddfe86e85dcc494a47e5f3dcfd1a2dccdce58",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/a98bdc51318f20fcae8c953d266f81a70254917f",
+                "reference": "a98bdc51318f20fcae8c953d266f81a70254917f",
                 "shasum": ""
             },
             "require": {
@@ -8310,7 +8310,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/0.12.95"
+                "source": "https://github.com/phpstan/phpstan/tree/0.12.96"
             },
             "funding": [
                 {
@@ -8330,7 +8330,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-20T12:53:41+00:00"
+            "time": "2021-08-21T11:55:13+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
