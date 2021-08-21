@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c36f5c5f647adf2327f190ab2375a965",
+    "content-hash": "7092a515376e3bb156ba82a63ddecf52",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1532,66 +1532,6 @@
                 "source": "https://github.com/flarum-lang/german"
             },
             "time": "2021-07-10T00:49:41+00:00"
-        },
-        {
-            "name": "flarum/approval",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/flarum/approval.git",
-                "reference": "6c918054c45274e98946861f77b4264a4d2fb669"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/flarum/approval/zipball/6c918054c45274e98946861f77b4264a4d2fb669",
-                "reference": "6c918054c45274e98946861f77b4264a4d2fb669",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^1.0",
-                "flarum/flags": "^1.0"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                },
-                "flarum-extension": {
-                    "title": "Approval",
-                    "category": "feature",
-                    "icon": {
-                        "name": "fas fa-check",
-                        "backgroundColor": "#ABDC88",
-                        "color": "#3F8A32"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Flarum\\Approval\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Make discussions and posts require moderator approval.",
-            "homepage": "https://flarum.org",
-            "keywords": [
-                "moderation"
-            ],
-            "support": {
-                "forum": "https://discuss.flarum.org",
-                "issues": "https://github.com/flarum/core/issues",
-                "source": "https://github.com/flarum/approval"
-            },
-            "funding": [
-                {
-                    "url": "https://flarum.org/donate/",
-                    "type": "website"
-                }
-            ],
-            "time": "2021-05-25T20:44:28+00:00"
         },
         {
             "name": "flarum/bbcode",

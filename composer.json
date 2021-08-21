@@ -17,7 +17,6 @@
         "archlinux-de/flarum-redirect-ll": "^1.0.5",
         "archlinux-de/flarum-theme-archlinux": "^1.0.3",
         "flarum-lang/german": "^1.1.4",
-        "flarum/approval": "^1.0.0",
         "flarum/bbcode": "^1.0.0",
         "flarum/core": "^1.0.4",
         "flarum/emoji": "^1.0.0",
