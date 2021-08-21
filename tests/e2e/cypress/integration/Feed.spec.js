@@ -1,5 +1,5 @@
-describe('Post', () => {
-  it('posts message', () => {
+describe('Feed', () => {
+  it('is accessible', () => {
     const userName = 'tester' + Math.random().toString().replace('.', '')
     const postTitle = 'Hello World!'
     const postMessage = 'What`s up?'
