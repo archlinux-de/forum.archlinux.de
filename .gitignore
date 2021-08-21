@@ -6,3 +6,4 @@
 /public/*/*
 !/public/*/.gitkeep
 /public/sitemap.xml
+/public/feed.xml
