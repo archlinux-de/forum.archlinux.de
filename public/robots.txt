@@ -3,4 +3,7 @@ Allow: /
 Sitemap: https://forum.archlinux.de/sitemap.xml
 
 User-agent: SemrushBot
+User-agent: AhrefsBot
+User-agent: dotbot
+User-agent: MJ12bot
 Disallow: /
