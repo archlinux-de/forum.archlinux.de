@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "879c906162c7a7b235e48913aaa98b75",
+    "content-hash": "f1483e172ebbefb8580d9f1b6bde2482",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -62,16 +62,16 @@
         },
         {
             "name": "archlinux-de/flarum-redirect-fluxbb",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-redirect-fluxbb.git",
-                "reference": "df68cd0b19fff5374c6b3480befa92cb36dc3eb7"
+                "reference": "98a880373674e7cbf935ce46bf811c73aa656df8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-fluxbb/zipball/df68cd0b19fff5374c6b3480befa92cb36dc3eb7",
-                "reference": "df68cd0b19fff5374c6b3480befa92cb36dc3eb7",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-fluxbb/zipball/98a880373674e7cbf935ce46bf811c73aa656df8",
+                "reference": "98a880373674e7cbf935ce46bf811c73aa656df8",
                 "shasum": ""
             },
             "require": {
@@ -110,22 +110,22 @@
             "description": "Redirect legacy FluxBB URLs to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-redirect-fluxbb/issues",
-                "source": "https://github.com/archlinux-de/flarum-redirect-fluxbb/tree/1.1.0"
+                "source": "https://github.com/archlinux-de/flarum-redirect-fluxbb/tree/1.1.1"
             },
-            "time": "2021-08-14T11:15:34+00:00"
+            "time": "2021-08-21T07:14:09+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-ll",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-redirect-ll.git",
-                "reference": "e3623058d709987e482509a70c0dd1f55ca80f40"
+                "reference": "8a255e9da25e1b913c09bfc3116db4ca61a38080"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/e3623058d709987e482509a70c0dd1f55ca80f40",
-                "reference": "e3623058d709987e482509a70c0dd1f55ca80f40",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/8a255e9da25e1b913c09bfc3116db4ca61a38080",
+                "reference": "8a255e9da25e1b913c09bfc3116db4ca61a38080",
                 "shasum": ""
             },
             "require": {
@@ -164,9 +164,9 @@
             "description": "Redirect legacy LL URLs to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-redirect-ll/issues",
-                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.0.4"
+                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.0.5"
             },
-            "time": "2021-05-29T05:20:15+00:00"
+            "time": "2021-08-21T07:40:44+00:00"
         },
         {
             "name": "archlinux-de/flarum-theme-archlinux",
