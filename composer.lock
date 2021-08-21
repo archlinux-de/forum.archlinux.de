@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1fac2d9d26d5285851c6c25bf8a4dc6",
+    "content-hash": "62099d4f4531d8d5c6e7858fb3c9429e",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -115,16 +115,16 @@
         },
         {
             "name": "archlinux-de/flarum-redirect-fluxbb",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-redirect-fluxbb.git",
-                "reference": "98a880373674e7cbf935ce46bf811c73aa656df8"
+                "reference": "326f81c27a22e3018ce94e7a2023697275defc60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-fluxbb/zipball/98a880373674e7cbf935ce46bf811c73aa656df8",
-                "reference": "98a880373674e7cbf935ce46bf811c73aa656df8",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-fluxbb/zipball/326f81c27a22e3018ce94e7a2023697275defc60",
+                "reference": "326f81c27a22e3018ce94e7a2023697275defc60",
                 "shasum": ""
             },
             "require": {
@@ -163,9 +163,9 @@
             "description": "Redirect legacy FluxBB URLs to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-redirect-fluxbb/issues",
-                "source": "https://github.com/archlinux-de/flarum-redirect-fluxbb/tree/1.1.1"
+                "source": "https://github.com/archlinux-de/flarum-redirect-fluxbb/tree/1.2.0"
             },
-            "time": "2021-08-21T07:14:09+00:00"
+            "time": "2021-08-21T18:33:32+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-ll",
