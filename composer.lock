@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72cf1c8659aefbb7150e64b13a39dad3",
+    "content-hash": "1372575ef248b6ddd3c6acd1240cf808",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -62,20 +62,21 @@
         },
         {
             "name": "archlinux-de/flarum-discussion-feed",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-discussion-feed.git",
-                "reference": "67cd59c4e2b7f5201d5256fe7032f0fc52b02a42"
+                "reference": "d609baa61656d78b1bb55cfc61fdf9c95e9548b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-discussion-feed/zipball/67cd59c4e2b7f5201d5256fe7032f0fc52b02a42",
-                "reference": "67cd59c4e2b7f5201d5256fe7032f0fc52b02a42",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-discussion-feed/zipball/d609baa61656d78b1bb55cfc61fdf9c95e9548b9",
+                "reference": "d609baa61656d78b1bb55cfc61fdf9c95e9548b9",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.0.0"
+                "flarum/core": "^1.0.0",
+                "php": "^8.0"
             },
             "require-dev": {
                 "phpstan/extension-installer": "^1.1",
@@ -109,9 +110,9 @@
             "description": "Simple and efficient Atom feed for Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-discussion-feed/issues",
-                "source": "https://github.com/archlinux-de/flarum-discussion-feed/tree/0.2.0"
+                "source": "https://github.com/archlinux-de/flarum-discussion-feed/tree/0.3.0"
             },
-            "time": "2021-08-21T17:01:01+00:00"
+            "time": "2021-08-24T17:13:55+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-fluxbb",
