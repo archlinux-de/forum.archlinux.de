@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c57b349ef3cca69f2b688e2cba5b878e",
+    "content-hash": "72cf1c8659aefbb7150e64b13a39dad3",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -169,16 +169,16 @@
         },
         {
             "name": "archlinux-de/flarum-redirect-ll",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-redirect-ll.git",
-                "reference": "32ea66fa8f9c86524f38dc6d1cea1a041cd4f4ce"
+                "reference": "fc2423675dd515a9339912866d52cabfe5d5f617"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/32ea66fa8f9c86524f38dc6d1cea1a041cd4f4ce",
-                "reference": "32ea66fa8f9c86524f38dc6d1cea1a041cd4f4ce",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/fc2423675dd515a9339912866d52cabfe5d5f617",
+                "reference": "fc2423675dd515a9339912866d52cabfe5d5f617",
                 "shasum": ""
             },
             "require": {
@@ -217,9 +217,9 @@
             "description": "Redirect legacy LL URLs to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-redirect-ll/issues",
-                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.1.0"
+                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.1.1"
             },
-            "time": "2021-08-21T23:37:40+00:00"
+            "time": "2021-08-23T16:27:36+00:00"
         },
         {
             "name": "archlinux-de/flarum-theme-archlinux",
