@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b4c8dc8dea8ef64634fbef5c27c7e86",
+    "content-hash": "e1b32b1833e4d5816f1de0fb5382884d",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -62,16 +62,16 @@
         },
         {
             "name": "archlinux-de/flarum-discussion-feed",
-            "version": "0.4.0",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-discussion-feed.git",
-                "reference": "e02c96d752e8d295d154cd97d0be7dacf4733ab8"
+                "reference": "f914e8a6ba9ac9025de414f069705e04b15a81b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-discussion-feed/zipball/e02c96d752e8d295d154cd97d0be7dacf4733ab8",
-                "reference": "e02c96d752e8d295d154cd97d0be7dacf4733ab8",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-discussion-feed/zipball/f914e8a6ba9ac9025de414f069705e04b15a81b0",
+                "reference": "f914e8a6ba9ac9025de414f069705e04b15a81b0",
                 "shasum": ""
             },
             "require": {
@@ -110,9 +110,9 @@
             "description": "Simple and efficient Atom feed for Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-discussion-feed/issues",
-                "source": "https://github.com/archlinux-de/flarum-discussion-feed/tree/0.4.0"
+                "source": "https://github.com/archlinux-de/flarum-discussion-feed/tree/1.0.0"
             },
-            "time": "2021-08-26T19:30:05+00:00"
+            "time": "2021-08-28T07:58:36+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-fluxbb",
