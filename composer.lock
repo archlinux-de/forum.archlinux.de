@@ -4,26 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1b32b1833e4d5816f1de0fb5382884d",
+    "content-hash": "f559664dca9d8ca8bc517341192ecdfb",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-anti-spam.git",
-                "reference": "7bf8d0c0be806b6f934e186e037a28ec2235a6cf"
+                "reference": "c0ee4876cc53080222950bb3e27f6a9e2fd5afc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/7bf8d0c0be806b6f934e186e037a28ec2235a6cf",
-                "reference": "7bf8d0c0be806b6f934e186e037a28ec2235a6cf",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/c0ee4876cc53080222950bb3e27f6a9e2fd5afc1",
+                "reference": "c0ee4876cc53080222950bb3e27f6a9e2fd5afc1",
                 "shasum": ""
             },
             "require": {
                 "flarum/core": "^1.0.0",
                 "maxmind-db/reader": "^1.10.1",
-                "symfony/http-foundation": "^5.2"
+                "php": "^8.0",
+                "symfony/http-foundation": "^5.1.4"
             },
             "require-dev": {
                 "phpstan/extension-installer": "^1.1",
@@ -46,7 +47,8 @@
             },
             "autoload": {
                 "psr-4": {
-                    "ArchLinux\\AntiSpam\\": "src/"
+                    "ArchLinux\\AntiSpam\\": "src/",
+                    "ArchLinux\\AntiSpam\\Test\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -56,9 +58,9 @@
             "description": "Spam protection for forum.archlinux.de",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-anti-spam/issues",
-                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.1.1"
+                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.1.2"
             },
-            "time": "2021-05-28T19:25:53+00:00"
+            "time": "2021-08-29T09:12:01+00:00"
         },
         {
             "name": "archlinux-de/flarum-discussion-feed",
@@ -116,21 +118,22 @@
         },
         {
             "name": "archlinux-de/flarum-redirect-fluxbb",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-redirect-fluxbb.git",
-                "reference": "bd3e7ee61988bdc0741b0e7fa46a0f2fe1790502"
+                "reference": "75ebdacf1ca5db2ea2ad2e9b208b3effe6cdf602"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-fluxbb/zipball/bd3e7ee61988bdc0741b0e7fa46a0f2fe1790502",
-                "reference": "bd3e7ee61988bdc0741b0e7fa46a0f2fe1790502",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-fluxbb/zipball/75ebdacf1ca5db2ea2ad2e9b208b3effe6cdf602",
+                "reference": "75ebdacf1ca5db2ea2ad2e9b208b3effe6cdf602",
                 "shasum": ""
             },
             "require": {
                 "flarum/core": "^1.0.0",
-                "flarum/tags": "^1.0.0"
+                "flarum/tags": "^1.0.0",
+                "php": "^8.0"
             },
             "require-dev": {
                 "phpstan/extension-installer": "^1.1",
@@ -164,27 +167,28 @@
             "description": "Redirect legacy FluxBB URLs to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-redirect-fluxbb/issues",
-                "source": "https://github.com/archlinux-de/flarum-redirect-fluxbb/tree/1.3.0"
+                "source": "https://github.com/archlinux-de/flarum-redirect-fluxbb/tree/1.4.0"
             },
-            "time": "2021-08-21T21:41:23+00:00"
+            "time": "2021-08-29T08:46:11+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-ll",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-redirect-ll.git",
-                "reference": "fc2423675dd515a9339912866d52cabfe5d5f617"
+                "reference": "9afbefc44d4b7b889dd349e76d8d6dc432c18c51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/fc2423675dd515a9339912866d52cabfe5d5f617",
-                "reference": "fc2423675dd515a9339912866d52cabfe5d5f617",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/9afbefc44d4b7b889dd349e76d8d6dc432c18c51",
+                "reference": "9afbefc44d4b7b889dd349e76d8d6dc432c18c51",
                 "shasum": ""
             },
             "require": {
                 "flarum/core": "^1.0.0",
-                "flarum/tags": "^1.0.0"
+                "flarum/tags": "^1.0.0",
+                "php": "^8.0"
             },
             "require-dev": {
                 "phpstan/extension-installer": "^1.1",
@@ -218,26 +222,27 @@
             "description": "Redirect legacy LL URLs to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-redirect-ll/issues",
-                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.1.1"
+                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.2.0"
             },
-            "time": "2021-08-23T16:27:36+00:00"
+            "time": "2021-08-29T08:53:47+00:00"
         },
         {
             "name": "archlinux-de/flarum-theme-archlinux",
-            "version": "1.0.3",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-theme-archlinux.git",
-                "reference": "3843eddb567e7d2aac09f495a1ea2e5732676aa6"
+                "reference": "cef71272ca3273991a833c91c9d862a26e0745c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-theme-archlinux/zipball/3843eddb567e7d2aac09f495a1ea2e5732676aa6",
-                "reference": "3843eddb567e7d2aac09f495a1ea2e5732676aa6",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-theme-archlinux/zipball/cef71272ca3273991a833c91c9d862a26e0745c3",
+                "reference": "cef71272ca3273991a833c91c9d862a26e0745c3",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.0.0"
+                "flarum/core": "^1.0.0",
+                "php": "^8.0"
             },
             "require-dev": {
                 "phpstan/extension-installer": "^1.1",
@@ -260,7 +265,8 @@
             },
             "autoload": {
                 "psr-4": {
-                    "ArchLinux\\Theme\\": "src/"
+                    "ArchLinux\\Theme\\": "src/",
+                    "ArchLinux\\Theme\\Test\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -270,9 +276,9 @@
             "description": "Arch Linux Theme for Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-theme-archlinux/issues",
-                "source": "https://github.com/archlinux-de/flarum-theme-archlinux/tree/1.0.3"
+                "source": "https://github.com/archlinux-de/flarum-theme-archlinux/tree/1.1.0"
             },
-            "time": "2021-08-14T16:35:02+00:00"
+            "time": "2021-08-29T10:38:38+00:00"
         },
         {
             "name": "axy/backtrace",
