@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f1ce0cec152323b465aa89d3e1ac54d",
+    "content-hash": "d17c89db63c10a48126a36f03dc1dc4f",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -173,16 +173,16 @@
         },
         {
             "name": "archlinux-de/flarum-redirect-ll",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-redirect-ll.git",
-                "reference": "9afbefc44d4b7b889dd349e76d8d6dc432c18c51"
+                "reference": "f081e3c17dc25b98e1bf7ea7d60c117d258ae0db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/9afbefc44d4b7b889dd349e76d8d6dc432c18c51",
-                "reference": "9afbefc44d4b7b889dd349e76d8d6dc432c18c51",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-redirect-ll/zipball/f081e3c17dc25b98e1bf7ea7d60c117d258ae0db",
+                "reference": "f081e3c17dc25b98e1bf7ea7d60c117d258ae0db",
                 "shasum": ""
             },
             "require": {
@@ -222,9 +222,9 @@
             "description": "Redirect legacy LL URLs to Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-redirect-ll/issues",
-                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.2.0"
+                "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.2.1"
             },
-            "time": "2021-08-29T08:53:47+00:00"
+            "time": "2021-09-02T11:24:26+00:00"
         },
         {
             "name": "archlinux-de/flarum-theme-archlinux",
@@ -4074,24 +4074,23 @@
         },
         {
             "name": "laminas/laminas-escaper",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-escaper.git",
-                "reference": "2d6dce99668b413610e9544183fa10392437f542"
+                "reference": "891ad70986729e20ed2e86355fcf93c9dc238a5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/2d6dce99668b413610e9544183fa10392437f542",
-                "reference": "2d6dce99668b413610e9544183fa10392437f542",
+                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/891ad70986729e20ed2e86355fcf93c9dc238a5f",
+                "reference": "891ad70986729e20ed2e86355fcf93c9dc238a5f",
                 "shasum": ""
             },
             "require": {
-                "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": "^7.3 || ~8.0.0"
+                "php": "^7.3 || ~8.0.0 || ~8.1.0"
             },
-            "replace": {
-                "zendframework/zend-escaper": "^2.6.1"
+            "conflict": {
+                "zendframework/zend-escaper": "*"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~2.3.0",
@@ -4133,7 +4132,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-06-26T14:26:08+00:00"
+            "time": "2021-09-02T17:10:53+00:00"
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
@@ -8277,16 +8276,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.97",
+            "version": "0.12.98",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "a8867e63a00e606589faf8d3613164f20722c4ee"
+                "reference": "3bb7cc246c057405dd5e290c3ecc62ab51d57e00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/a8867e63a00e606589faf8d3613164f20722c4ee",
-                "reference": "a8867e63a00e606589faf8d3613164f20722c4ee",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/3bb7cc246c057405dd5e290c3ecc62ab51d57e00",
+                "reference": "3bb7cc246c057405dd5e290c3ecc62ab51d57e00",
                 "shasum": ""
             },
             "require": {
@@ -8317,7 +8316,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/0.12.97"
+                "source": "https://github.com/phpstan/phpstan/tree/0.12.98"
             },
             "funding": [
                 {
@@ -8337,7 +8336,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-01T10:51:52+00:00"
+            "time": "2021-09-02T12:33:01+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
