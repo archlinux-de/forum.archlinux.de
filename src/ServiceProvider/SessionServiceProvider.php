@@ -11,6 +11,6 @@ class SessionServiceProvider extends AbstractServiceProvider
     {
         /** @var Repository $config */
         $config = $this->container->get('config');
-        $config->set('session.lifetime');
+        $config->set('session.lifetime', 24 * 60);
     }
 }
