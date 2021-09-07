@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d17c89db63c10a48126a36f03dc1dc4f",
+    "content-hash": "69b0eb8c7fbfe957271943a0241a7ce7",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2499,16 +2499,16 @@
         },
         {
             "name": "fof/sitemap",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/sitemap.git",
-                "reference": "e25ec9fe22370b994140670b3c36c414964b50e0"
+                "reference": "6f2262efa72ea07cf7af1a6dbf60fcbf43763506"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/sitemap/zipball/e25ec9fe22370b994140670b3c36c414964b50e0",
-                "reference": "e25ec9fe22370b994140670b3c36c414964b50e0",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/sitemap/zipball/6f2262efa72ea07cf7af1a6dbf60fcbf43763506",
+                "reference": "6f2262efa72ea07cf7af1a6dbf60fcbf43763506",
                 "shasum": ""
             },
             "require": {
@@ -2577,7 +2577,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-05-27T14:39:55+00:00"
+            "time": "2021-09-06T08:31:49+00:00"
         },
         {
             "name": "fof/spamblock",
@@ -5332,16 +5332,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.52.0",
+            "version": "2.53.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "369c0e2737c56a0f39c946dd261855255a6fccbe"
+                "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/369c0e2737c56a0f39c946dd261855255a6fccbe",
-                "reference": "369c0e2737c56a0f39c946dd261855255a6fccbe",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f4655858a784988f880c1b8c7feabbf02dfdf045",
+                "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045",
                 "shasum": ""
             },
             "require": {
@@ -5353,7 +5353,7 @@
             },
             "require-dev": {
                 "doctrine/orm": "^2.7",
-                "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
+                "friendsofphp/php-cs-fixer": "^3.0",
                 "kylekatarnls/multi-tester": "^2.0",
                 "phpmd/phpmd": "^2.9",
                 "phpstan/extension-installer": "^1.0",
@@ -5422,7 +5422,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-14T19:10:52+00:00"
+            "time": "2021-09-06T09:29:23+00:00"
         },
         {
             "name": "nette/schema",
