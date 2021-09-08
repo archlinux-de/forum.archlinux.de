@@ -45,7 +45,7 @@ clean:
 	git clean -fdqx -e .idea
 
 rebuild: clean
-	{{COMPOSE}} build --pull --parallel
+	{{COMPOSE}} build --pull
 	just install
 	just init
 	just stop
