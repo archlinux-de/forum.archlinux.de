@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "69b0eb8c7fbfe957271943a0241a7ce7",
+    "content-hash": "eeca61ffecbdd6ac479f882dcbd14020",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-anti-spam.git",
-                "reference": "c0ee4876cc53080222950bb3e27f6a9e2fd5afc1"
+                "reference": "90e9f4902f5c3c3b397f24077ec800d2f856e68f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/c0ee4876cc53080222950bb3e27f6a9e2fd5afc1",
-                "reference": "c0ee4876cc53080222950bb3e27f6a9e2fd5afc1",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/90e9f4902f5c3c3b397f24077ec800d2f856e68f",
+                "reference": "90e9f4902f5c3c3b397f24077ec800d2f856e68f",
                 "shasum": ""
             },
             "require": {
@@ -58,9 +58,9 @@
             "description": "Spam protection for forum.archlinux.de",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-anti-spam/issues",
-                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.1.2"
+                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.1.3"
             },
-            "time": "2021-08-29T09:12:01+00:00"
+            "time": "2021-09-08T05:24:33+00:00"
         },
         {
             "name": "archlinux-de/flarum-discussion-feed",
