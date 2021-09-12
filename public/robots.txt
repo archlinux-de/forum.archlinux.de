@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: https://forum.archlinux.de/sitemap.xml
 
 User-agent: SemrushBot
 User-agent: AhrefsBot
