@@ -32,7 +32,7 @@
         "flarum/subscriptions": "^1.0.0",
         "flarum/suspend": "^1.0.0",
         "flarum/tags": "^1.0.3",
-        "fof/spamblock": "^1.0.0",
+        "fof/spamblock": "^1.0.1",
         "fof/split": "^1.0.0",
         "matteocontrini/flarum-imgur-upload": "^3.9.1",
         "migratetoflarum/old-passwords": "^1.0.0"

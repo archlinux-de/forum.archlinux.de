@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "00e0ae750ffb4f52fe71bbab7dd2ba8b",
+    "content-hash": "1ea5695b8237c46b481cb5cce4bb877d",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2500,16 +2500,16 @@
         },
         {
             "name": "fof/spamblock",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/spamblock.git",
-                "reference": "6f16db581c7063d371301fc1798d9ab69e5804ae"
+                "reference": "fc9759de5c5b6505a3db18bee9e20d6604eac007"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/spamblock/zipball/6f16db581c7063d371301fc1798d9ab69e5804ae",
-                "reference": "6f16db581c7063d371301fc1798d9ab69e5804ae",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/spamblock/zipball/fc9759de5c5b6505a3db18bee9e20d6604eac007",
+                "reference": "fc9759de5c5b6505a3db18bee9e20d6604eac007",
                 "shasum": ""
             },
             "require": {
@@ -2523,12 +2523,12 @@
                     "icon": {
                         "name": "fas fa-pastafarianism",
                         "backgroundColor": "#e74c3c",
-                        "color": "#fff",
-                        "optional-dependencies": [
-                            "flarum/suspend",
-                            "flarum/flags"
-                        ]
-                    }
+                        "color": "#fff"
+                    },
+                    "optional-dependencies": [
+                        "flarum/suspend",
+                        "flarum/flags"
+                    ]
                 },
                 "flagrow": {
                     "discuss": "https://discuss.flarum.org/d/17772"
@@ -2566,7 +2566,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-05-26T18:44:37+00:00"
+            "time": "2021-09-23T15:07:13+00:00"
         },
         {
             "name": "fof/split",
