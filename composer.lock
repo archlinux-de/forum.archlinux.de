@@ -809,16 +809,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "2.13.3",
+            "version": "2.13.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "0d7adf4cadfee6f70850e5b163e6cdd706417838"
+                "reference": "2411a55a2a628e6d8dd598388ab13474802c7b6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/0d7adf4cadfee6f70850e5b163e6cdd706417838",
-                "reference": "0d7adf4cadfee6f70850e5b163e6cdd706417838",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/2411a55a2a628e6d8dd598388ab13474802c7b6e",
+                "reference": "2411a55a2a628e6d8dd598388ab13474802c7b6e",
                 "shasum": ""
             },
             "require": {
@@ -831,8 +831,8 @@
             "require-dev": {
                 "doctrine/coding-standard": "9.0.0",
                 "jetbrains/phpstorm-stubs": "2021.1",
-                "phpstan/phpstan": "0.12.96",
-                "phpunit/phpunit": "^7.5.20|^8.5|9.5.5",
+                "phpstan/phpstan": "0.12.99",
+                "phpunit/phpunit": "^7.5.20|^8.5|9.5.10",
                 "psalm/plugin-phpunit": "0.16.1",
                 "squizlabs/php_codesniffer": "3.6.0",
                 "symfony/cache": "^4.4",
@@ -898,7 +898,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/2.13.3"
+                "source": "https://github.com/doctrine/dbal/tree/2.13.4"
             },
             "funding": [
                 {
@@ -914,7 +914,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-12T19:11:48+00:00"
+            "time": "2021-10-02T15:59:26+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -6457,16 +6457,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.10.0",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "00df71d0a803c041efa320ce2f2c0e56c1a6fca9"
+                "reference": "b9d9d7ac480301f0cf718345daf591ddf475d9f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/00df71d0a803c041efa320ce2f2c0e56c1a6fca9",
-                "reference": "00df71d0a803c041efa320ce2f2c0e56c1a6fca9",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/b9d9d7ac480301f0cf718345daf591ddf475d9f1",
+                "reference": "b9d9d7ac480301f0cf718345daf591ddf475d9f1",
                 "shasum": ""
             },
             "require": {
@@ -6493,7 +6493,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.10.0"
+                "version": "2.11.0"
             },
             "autoload": {
                 "psr-4": {
@@ -6525,9 +6525,9 @@
             ],
             "support": {
                 "issues": "https://github.com/s9e/TextFormatter/issues",
-                "source": "https://github.com/s9e/TextFormatter/tree/2.10.0"
+                "source": "https://github.com/s9e/TextFormatter/tree/2.11.0"
             },
-            "time": "2021-08-11T15:45:12+00:00"
+            "time": "2021-10-02T19:08:06+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
