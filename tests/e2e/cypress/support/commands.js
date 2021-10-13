@@ -11,6 +11,7 @@ Cypress.Commands.add('register', (username, password, email) => {
 
   cy.exec('grep -Eo "/confirm/[^/]+" /app/storage/logs/flarum-*.log | tail -1').then(confirm => {
     cy.visit(confirm.stdout)
+    cy.get('button[type=submit]').click()
     cy.visit('/')
   })
 })
