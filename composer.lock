@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc264e8ef21f161f9e248e56f963650b",
+    "content-hash": "f58ea02d0515e60012c295e8ff3be88f",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2075,16 +2075,16 @@
         },
         {
             "name": "flarum/mentions",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/mentions.git",
-                "reference": "f0a38595376f24e46adc45dd3c03c8deccec5f78"
+                "reference": "adbe468028a23666aa706b234e121cc7079fc349"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/mentions/zipball/f0a38595376f24e46adc45dd3c03c8deccec5f78",
-                "reference": "f0a38595376f24e46adc45dd3c03c8deccec5f78",
+                "url": "https://api.github.com/repos/flarum/mentions/zipball/adbe468028a23666aa706b234e121cc7079fc349",
+                "reference": "adbe468028a23666aa706b234e121cc7079fc349",
                 "shasum": ""
             },
             "require": {
@@ -2134,7 +2134,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-10-13T07:05:43+00:00"
+            "time": "2021-10-18T19:27:11+00:00"
         },
         {
             "name": "flarum/nicknames",
@@ -4959,16 +4959,16 @@
         },
         {
             "name": "maxmind-db/reader",
-            "version": "v1.10.1",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maxmind/MaxMind-DB-Reader-php.git",
-                "reference": "569bd44d97d30a4ec12c7793a33004a76d4caf18"
+                "reference": "b1f3c0699525336d09cc5161a2861268d9f2ae5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/569bd44d97d30a4ec12c7793a33004a76d4caf18",
-                "reference": "569bd44d97d30a4ec12c7793a33004a76d4caf18",
+                "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/b1f3c0699525336d09cc5161a2861268d9f2ae5b",
+                "reference": "b1f3c0699525336d09cc5161a2861268d9f2ae5b",
                 "shasum": ""
             },
             "require": {
@@ -4978,7 +4978,7 @@
                 "ext-maxminddb": "<1.10.1,>=2.0.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "*",
+                "friendsofphp/php-cs-fixer": "3.*",
                 "php-coveralls/php-coveralls": "^2.1",
                 "phpstan/phpstan": "*",
                 "phpunit/phpcov": ">=6.0.0",
@@ -5018,9 +5018,9 @@
             ],
             "support": {
                 "issues": "https://github.com/maxmind/MaxMind-DB-Reader-php/issues",
-                "source": "https://github.com/maxmind/MaxMind-DB-Reader-php/tree/v1.10.1"
+                "source": "https://github.com/maxmind/MaxMind-DB-Reader-php/tree/v1.11.0"
             },
-            "time": "2021-04-14T17:49:35+00:00"
+            "time": "2021-10-18T15:23:10+00:00"
         },
         {
             "name": "middlewares/base-path",
@@ -6562,16 +6562,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v6.2.7",
+            "version": "v6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "15f7faf8508e04471f666633addacf54c0ab5933"
+                "reference": "8a5d5072dca8f48460fce2f4131fcc495eec654c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/15f7faf8508e04471f666633addacf54c0ab5933",
-                "reference": "15f7faf8508e04471f666633addacf54c0ab5933",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/8a5d5072dca8f48460fce2f4131fcc495eec654c",
+                "reference": "8a5d5072dca8f48460fce2f4131fcc495eec654c",
                 "shasum": ""
             },
             "require": {
@@ -6583,7 +6583,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "symfony/phpunit-bridge": "^4.4|^5.0"
+                "symfony/phpunit-bridge": "^4.4|^5.4"
             },
             "suggest": {
                 "ext-intl": "Needed to support internationalized email addresses"
@@ -6621,7 +6621,7 @@
             ],
             "support": {
                 "issues": "https://github.com/swiftmailer/swiftmailer/issues",
-                "source": "https://github.com/swiftmailer/swiftmailer/tree/v6.2.7"
+                "source": "https://github.com/swiftmailer/swiftmailer/tree/v6.3.0"
             },
             "funding": [
                 {
@@ -6633,7 +6633,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-09T12:30:35+00:00"
+            "time": "2021-10-18T15:26:12+00:00"
         },
         {
             "name": "symfony/config",
