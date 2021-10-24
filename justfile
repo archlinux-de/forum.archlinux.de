@@ -41,7 +41,7 @@ import-db-dump file name='flarum': start
 	zcat {{file}} | {{MARIADB-RUN}} mysql -uroot -hmariadb {{name}}
 
 clean:
-	{{COMPOSE}} down -v
+	{{COMPOSE}} rm -vsf
 	git clean -fdqx -e .idea
 
 rebuild: clean
