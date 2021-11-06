@@ -3,6 +3,7 @@
 namespace App\ServiceProvider;
 
 use Flarum\Foundation\AbstractServiceProvider;
+use Flarum\Foundation\Config;
 use Illuminate\Container\Container;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
@@ -14,7 +15,11 @@ class ErrorLogProvider extends AbstractServiceProvider
         $this->container->extend('log', function (Logger $logger, Container $app): Logger {
             $handler = new StreamHandler('php://stderr');
 
-            if ($app['flarum.config']->inDebugMode()) {
+            if (
+                $app['flarum.config'] &&
+                $app['flarum.config'] instanceof Config &&
+                $app['flarum.config']->inDebugMode()
+            ) {
                 $logger->pushHandler($handler);
             } else {
                 $logger->setHandlers([$handler]);
