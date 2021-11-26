@@ -32,8 +32,8 @@
         "flarum/subscriptions": "^1.1.0",
         "flarum/suspend": "^1.1.0",
         "flarum/tags": "^1.1.0",
-        "fof/spamblock": "^1.0.1",
-        "fof/split": "^1.0.0",
+        "fof/spamblock": "^1.0.2",
+        "fof/split": "^1.0.1",
         "matteocontrini/flarum-imgur-upload": "^3.9.1",
         "migratetoflarum/old-passwords": "^1.0.0"
     },

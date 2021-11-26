@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2cdda405a20add7ef604c977e24dd7b3",
+    "content-hash": "bf81417118f01f22b891bc175f4d8fba",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2492,16 +2492,16 @@
         },
         {
             "name": "fof/spamblock",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/spamblock.git",
-                "reference": "fc9759de5c5b6505a3db18bee9e20d6604eac007"
+                "reference": "93f1b9aa4418cec2dbf8c4dd2d1232f83a6e67b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/spamblock/zipball/fc9759de5c5b6505a3db18bee9e20d6604eac007",
-                "reference": "fc9759de5c5b6505a3db18bee9e20d6604eac007",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/spamblock/zipball/93f1b9aa4418cec2dbf8c4dd2d1232f83a6e67b9",
+                "reference": "93f1b9aa4418cec2dbf8c4dd2d1232f83a6e67b9",
                 "shasum": ""
             },
             "require": {
@@ -2558,20 +2558,20 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-09-23T15:07:13+00:00"
+            "time": "2021-11-26T00:39:41+00:00"
         },
         {
             "name": "fof/split",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/split.git",
-                "reference": "d405a2139c1a677550d8eafbbfdec5a644faa774"
+                "reference": "60c911b928517ff2501b62c8fb32099ce6a0aa83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/split/zipball/d405a2139c1a677550d8eafbbfdec5a644faa774",
-                "reference": "d405a2139c1a677550d8eafbbfdec5a644faa774",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/split/zipball/60c911b928517ff2501b62c8fb32099ce6a0aa83",
+                "reference": "60c911b928517ff2501b62c8fb32099ce6a0aa83",
                 "shasum": ""
             },
             "require": {
@@ -2590,9 +2590,6 @@
                 },
                 "flagrow": {
                     "discuss": "https://discuss.flarum.org/d/1903"
-                },
-                "branch-alias": {
-                    "dev-master": "0.1.x-dev"
                 }
             },
             "autoload": {
@@ -2628,7 +2625,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-05-26T17:37:52+00:00"
+            "time": "2021-11-26T00:01:51+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
@@ -4620,16 +4617,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.1.6",
+            "version": "1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "627be7fcde84c71aa0f15097fcf48fd5f2be5287"
+                "reference": "3ca8f158ee21efa4bbd4f74bea5730c9b9261e2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/627be7fcde84c71aa0f15097fcf48fd5f2be5287",
-                "reference": "627be7fcde84c71aa0f15097fcf48fd5f2be5287",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/3ca8f158ee21efa4bbd4f74bea5730c9b9261e2d",
+                "reference": "3ca8f158ee21efa4bbd4f74bea5730c9b9261e2d",
                 "shasum": ""
             },
             "require": {
@@ -4702,7 +4699,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/1.1.6"
+                "source": "https://github.com/thephpleague/flysystem/tree/1.1.7"
             },
             "funding": [
                 {
@@ -4710,7 +4707,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2021-11-21T11:04:36+00:00"
+            "time": "2021-11-25T19:40:58+00:00"
         },
         {
             "name": "league/mime-type-detection",
