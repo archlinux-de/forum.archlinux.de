@@ -102,7 +102,7 @@ update:
 	just _update-cypress-image
 
 deploy:
-	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader
+	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader --classmap-authoritative
 	./flarum app:enable-extensions
 	./flarum migrate
 	./flarum assets:publish

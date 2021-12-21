@@ -38,3 +38,4 @@ services:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
     tmpfs:
       - /tmp
+      - /var/lib/mysql
