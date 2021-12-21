@@ -1,9 +1,9 @@
 FROM php:8.0-fpm-alpine
 
-RUN apk add optipng git
+RUN apk add git
 
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/bin/
-RUN install-php-extensions opcache pdo_mysql gd exif imagick intl
+RUN install-php-extensions opcache pdo_mysql gd exif intl
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 
