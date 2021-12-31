@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "581dd3d477bed622c8de7b926e7ef65c",
+    "content-hash": "786048abefeb83ba8f2435ec45280568",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2014,20 +2014,20 @@
         },
         {
             "name": "flarum/markdown",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/markdown.git",
-                "reference": "6d1949a131f343daa0e27136c4cdc9e9b3466106"
+                "reference": "9b9b4984ab1ba5940e5bd5a71871c5ba617a3c27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/markdown/zipball/6d1949a131f343daa0e27136c4cdc9e9b3466106",
-                "reference": "6d1949a131f343daa0e27136c4cdc9e9b3466106",
+                "url": "https://api.github.com/repos/flarum/markdown/zipball/9b9b4984ab1ba5940e5bd5a71871c5ba617a3c27",
+                "reference": "9b9b4984ab1ba5940e5bd5a71871c5ba617a3c27",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.0"
+                "flarum/core": "^1.1"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2067,7 +2067,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-10-12T01:12:06+00:00"
+            "time": "2021-12-30T21:30:38+00:00"
         },
         {
             "name": "flarum/mentions",

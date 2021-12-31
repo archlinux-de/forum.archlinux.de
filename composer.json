@@ -24,7 +24,7 @@
         "flarum/lang-english": "^1.1.0",
         "flarum/likes": "^1.1.0",
         "flarum/lock": "^1.1.0",
-        "flarum/markdown": "^1.1.0",
+        "flarum/markdown": "^1.1.1",
         "flarum/mentions": "^1.1.3",
         "flarum/nicknames": "^1.1.0",
         "flarum/statistics": "^1.1.0",
