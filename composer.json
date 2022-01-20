@@ -18,7 +18,7 @@
         "archlinux-de/flarum-theme-archlinux": "^1.1.0",
         "flarum-lang/german": "^1.1.4",
         "flarum/bbcode": "^1.1.0",
-        "flarum/core": "^1.1.1",
+        "flarum/core": "~1.1.1",
         "flarum/emoji": "^1.1.1",
         "flarum/flags": "^1.1.0",
         "flarum/lang-english": "^1.1.0",

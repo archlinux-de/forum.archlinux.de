@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "99bff9ad91d096aa2cf9b65b88fd4b8f",
+    "content-hash": "1166ad56278043d1ae51066b23871070",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
