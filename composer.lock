@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1166ad56278043d1ae51066b23871070",
+    "content-hash": "94587984f9c0ec1c493b577548ab20f3",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1535,20 +1535,20 @@
         },
         {
             "name": "flarum/bbcode",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/bbcode.git",
-                "reference": "bb88f2bd573880e2ed7bcf7fbcd138a49f698de7"
+                "reference": "f449cce14fecd66912da24061569b407171900af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/bbcode/zipball/bb88f2bd573880e2ed7bcf7fbcd138a49f698de7",
-                "reference": "bb88f2bd573880e2ed7bcf7fbcd138a49f698de7",
+                "url": "https://api.github.com/repos/flarum/bbcode/zipball/f449cce14fecd66912da24061569b407171900af",
+                "reference": "f449cce14fecd66912da24061569b407171900af",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1562,6 +1562,23 @@
                         "name": "fas fa-bold",
                         "backgroundColor": "#238C59",
                         "color": "#fff"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": false,
+                        "forum": false,
+                        "js": false,
+                        "jsCommon": false,
+                        "css": false,
+                        "gitConf": true,
+                        "githubActions": false,
+                        "prettier": false,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": false,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -1585,20 +1602,20 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-10-13T07:04:06+00:00"
+            "time": "2022-01-20T10:57:27+00:00"
         },
         {
             "name": "flarum/core",
-            "version": "v1.1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "eb3a60338f5390154438cbf5a2d3d3fa855a3349"
+                "reference": "7a22527b72fb0ff4b3a90947fd15c659878f2732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/eb3a60338f5390154438cbf5a2d3d3fa855a3349",
-                "reference": "eb3a60338f5390154438cbf5a2d3d3fa855a3349",
+                "url": "https://api.github.com/repos/flarum/core/zipball/7a22527b72fb0ff4b3a90947fd15c659878f2732",
+                "reference": "7a22527b72fb0ff4b3a90947fd15c659878f2732",
                 "shasum": ""
             },
             "require": {
@@ -1652,12 +1669,34 @@
                 "wikimedia/less.php": "^3.0"
             },
             "require-dev": {
-                "flarum/testing": "1.0@dev"
+                "flarum/testing": "^1.0.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.x-dev"
+                },
+                "flarum-cli": {
+                    "excludeScaffolding": [
+                        "LICENSE.md",
+                        "js/tsconfig.json",
+                        "js/webpack.config.js"
+                    ],
+                    "modules": {
+                        "backendTesting": true,
+                        "js": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": true,
+                        "bundlewatch": true,
+                        "editorConfig": true,
+                        "styleci": true,
+                        "admin": true,
+                        "forum": true,
+                        "jsCommon": true,
+                        "css": true
+                    }
                 }
             },
             "autoload": {
@@ -1706,24 +1745,24 @@
                     "type": "other"
                 }
             ],
-            "time": "2021-10-22T09:28:37+00:00"
+            "time": "2022-01-20T12:56:05+00:00"
         },
         {
             "name": "flarum/emoji",
-            "version": "v1.1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/emoji.git",
-                "reference": "8dc75db46a2d0a288a737187dedc48faca9704f8"
+                "reference": "d54bf88deec4b9306382026037d20f900678479f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/emoji/zipball/8dc75db46a2d0a288a737187dedc48faca9704f8",
-                "reference": "8dc75db46a2d0a288a737187dedc48faca9704f8",
+                "url": "https://api.github.com/repos/flarum/emoji/zipball/d54bf88deec4b9306382026037d20f900678479f",
+                "reference": "d54bf88deec4b9306382026037d20f900678479f",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1736,6 +1775,23 @@
                     "icon": {
                         "image": "icon.svg",
                         "backgroundColor": "#FECC4D"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": false,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": false,
+                        "css": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": false,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -1759,29 +1815,29 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-11-16T18:54:54+00:00"
+            "time": "2022-01-20T11:34:19+00:00"
         },
         {
             "name": "flarum/flags",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flags.git",
-                "reference": "0f8ae15bcacc3a9784701afe493ae111167542bb"
+                "reference": "948ded930bba8583d861bfb9837e48eb5b217ad5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flags/zipball/0f8ae15bcacc3a9784701afe493ae111167542bb",
-                "reference": "0f8ae15bcacc3a9784701afe493ae111167542bb",
+                "url": "https://api.github.com/repos/flarum/flags/zipball/948ded930bba8583d861bfb9837e48eb5b217ad5",
+                "reference": "948ded930bba8583d861bfb9837e48eb5b217ad5",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
             },
             "require-dev": {
                 "flarum/core": "*@dev",
                 "flarum/tags": "*@dev",
-                "flarum/testing": "*@dev"
+                "flarum/testing": "^1.0.0"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1795,6 +1851,23 @@
                         "name": "fas fa-flag",
                         "backgroundColor": "#D659B5",
                         "color": "#fff"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": true,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": false,
+                        "css": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": true,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -1823,24 +1896,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-10-13T10:57:12+00:00"
+            "time": "2022-01-20T11:13:37+00:00"
         },
         {
             "name": "flarum/lang-english",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/lang-english.git",
-                "reference": "c3e93e87f2a321ef3c58cd8ddfdefc907a33eed6"
+                "reference": "5156366e56a464d77be39ee49dde6b2f74bdff96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/lang-english/zipball/c3e93e87f2a321ef3c58cd8ddfdefc907a33eed6",
-                "reference": "c3e93e87f2a321ef3c58cd8ddfdefc907a33eed6",
+                "url": "https://api.github.com/repos/flarum/lang-english/zipball/5156366e56a464d77be39ee49dde6b2f74bdff96",
+                "reference": "5156366e56a464d77be39ee49dde6b2f74bdff96",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1865,6 +1938,23 @@
                 "flarum-locale": {
                     "code": "en",
                     "title": "English"
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": false,
+                        "forum": false,
+                        "js": false,
+                        "jsCommon": false,
+                        "css": false,
+                        "gitConf": true,
+                        "githubActions": false,
+                        "prettier": false,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": false,
+                        "editorConfig": true,
+                        "styleci": true
+                    }
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1876,7 +1966,7 @@
                 "locale"
             ],
             "support": {
-                "source": "https://github.com/flarum/lang-english/tree/v1.1.0"
+                "source": "https://github.com/flarum/lang-english/tree/v1.2.0"
             },
             "funding": [
                 {
@@ -1888,24 +1978,24 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2021-10-13T07:02:39+00:00"
+            "time": "2022-01-20T11:52:08+00:00"
         },
         {
             "name": "flarum/likes",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/likes.git",
-                "reference": "0c37a39eac512923fa48d3c7f108750116a0eda7"
+                "reference": "75d974b13bcc667f5718b99b617a38ca20c564f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/likes/zipball/0c37a39eac512923fa48d3c7f108750116a0eda7",
-                "reference": "0c37a39eac512923fa48d3c7f108750116a0eda7",
+                "url": "https://api.github.com/repos/flarum/likes/zipball/75d974b13bcc667f5718b99b617a38ca20c564f7",
+                "reference": "75d974b13bcc667f5718b99b617a38ca20c564f7",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1919,6 +2009,23 @@
                         "name": "far fa-thumbs-up",
                         "backgroundColor": "#3A649D",
                         "color": "#fff"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": true,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": false,
+                        "css": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": false,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -1947,24 +2054,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-10-13T10:55:25+00:00"
+            "time": "2022-01-20T11:35:35+00:00"
         },
         {
             "name": "flarum/lock",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/lock.git",
-                "reference": "21457d748e4bfdd88fe960dbf7058329d75fefd9"
+                "reference": "8e641445c515c52ba51bf485446cd8130e2f97e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/lock/zipball/21457d748e4bfdd88fe960dbf7058329d75fefd9",
-                "reference": "21457d748e4bfdd88fe960dbf7058329d75fefd9",
+                "url": "https://api.github.com/repos/flarum/lock/zipball/8e641445c515c52ba51bf485446cd8130e2f97e9",
+                "reference": "8e641445c515c52ba51bf485446cd8130e2f97e9",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1978,6 +2085,23 @@
                         "name": "fas fa-lock",
                         "backgroundColor": "#ddd",
                         "color": "#666"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": true,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": false,
+                        "css": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": false,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -2006,24 +2130,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-10-13T10:59:00+00:00"
+            "time": "2022-01-20T11:41:14+00:00"
         },
         {
             "name": "flarum/markdown",
-            "version": "v1.1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/markdown.git",
-                "reference": "9b9b4984ab1ba5940e5bd5a71871c5ba617a3c27"
+                "reference": "dff27f1920df2ce6dfa5faed6262fbd1651916b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/markdown/zipball/9b9b4984ab1ba5940e5bd5a71871c5ba617a3c27",
-                "reference": "9b9b4984ab1ba5940e5bd5a71871c5ba617a3c27",
+                "url": "https://api.github.com/repos/flarum/markdown/zipball/dff27f1920df2ce6dfa5faed6262fbd1651916b8",
+                "reference": "dff27f1920df2ce6dfa5faed6262fbd1651916b8",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2040,6 +2164,23 @@
                         "backgroundRepeat": "no-repeat",
                         "backgroundPosition": "center",
                         "color": "#fff"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": false,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": false,
+                        "css": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": false,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -2063,28 +2204,28 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-12-30T21:30:38+00:00"
+            "time": "2022-01-20T11:43:25+00:00"
         },
         {
             "name": "flarum/mentions",
-            "version": "v1.1.3",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/mentions.git",
-                "reference": "85b4f3abdbf8e1cfcece6b51a54071616ba06d69"
+                "reference": "004c9b0c2e9b3159cae1a922cdf087d98625bf3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/mentions/zipball/85b4f3abdbf8e1cfcece6b51a54071616ba06d69",
-                "reference": "85b4f3abdbf8e1cfcece6b51a54071616ba06d69",
+                "url": "https://api.github.com/repos/flarum/mentions/zipball/004c9b0c2e9b3159cae1a922cdf087d98625bf3e",
+                "reference": "004c9b0c2e9b3159cae1a922cdf087d98625bf3e",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
             },
             "require-dev": {
                 "flarum/core": "*@dev",
-                "flarum/testing": "*@dev"
+                "flarum/testing": "^1.0.0"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2098,6 +2239,23 @@
                         "name": "fas fa-at",
                         "backgroundColor": "#539EC1",
                         "color": "#fff"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": true,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": false,
+                        "css": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": true,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -2126,24 +2284,28 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-11-28T15:57:41+00:00"
+            "time": "2022-01-20T11:45:05+00:00"
         },
         {
             "name": "flarum/nicknames",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/nicknames.git",
-                "reference": "ed6c98777bfb1216830b0d24a9e9097b89feeda6"
+                "reference": "41187ef7cdb0be3ddbe9d5e76f3bc444790a8790"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/nicknames/zipball/ed6c98777bfb1216830b0d24a9e9097b89feeda6",
-                "reference": "ed6c98777bfb1216830b0d24a9e9097b89feeda6",
+                "url": "https://api.github.com/repos/flarum/nicknames/zipball/41187ef7cdb0be3ddbe9d5e76f3bc444790a8790",
+                "reference": "41187ef7cdb0be3ddbe9d5e76f3bc444790a8790",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
+            },
+            "require-dev": {
+                "flarum/core": "1.x-dev",
+                "flarum/testing": "^1.0.0"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2157,6 +2319,23 @@
                         "name": "fas fa-user-tag",
                         "backgroundColor": "#8E4529",
                         "color": "#ffffff"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": true,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": false,
+                        "css": false,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": true,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -2185,24 +2364,27 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-10-13T07:03:27+00:00"
+            "time": "2022-01-20T11:10:11+00:00"
         },
         {
             "name": "flarum/statistics",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/statistics.git",
-                "reference": "4db36742047c785eb9386098884cc07a925baf34"
+                "reference": "affa7d3eb51da23370be109c502b0ee586363b65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/statistics/zipball/4db36742047c785eb9386098884cc07a925baf34",
-                "reference": "4db36742047c785eb9386098884cc07a925baf34",
+                "url": "https://api.github.com/repos/flarum/statistics/zipball/affa7d3eb51da23370be109c502b0ee586363b65",
+                "reference": "affa7d3eb51da23370be109c502b0ee586363b65",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
+            },
+            "require-dev": {
+                "flarum/testing": "^1.0.0"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2216,6 +2398,23 @@
                         "name": "fas fa-chart-bar",
                         "backgroundColor": "#6932d1",
                         "color": "#fff"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": true,
+                        "forum": false,
+                        "js": true,
+                        "jsCommon": false,
+                        "css": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": true,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -2244,24 +2443,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-10-13T10:53:15+00:00"
+            "time": "2022-01-20T11:48:09+00:00"
         },
         {
             "name": "flarum/sticky",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/sticky.git",
-                "reference": "0b2944d75bbb1ca02037bf6dd133b2140dbc5a10"
+                "reference": "69a5a43ea8e5c0a758920a8ae4a5a3de287f09b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/sticky/zipball/0b2944d75bbb1ca02037bf6dd133b2140dbc5a10",
-                "reference": "0b2944d75bbb1ca02037bf6dd133b2140dbc5a10",
+                "url": "https://api.github.com/repos/flarum/sticky/zipball/69a5a43ea8e5c0a758920a8ae4a5a3de287f09b9",
+                "reference": "69a5a43ea8e5c0a758920a8ae4a5a3de287f09b9",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2275,6 +2474,23 @@
                         "name": "fas fa-thumbtack",
                         "backgroundColor": "#D13E32",
                         "color": "#fff"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": true,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": false,
+                        "css": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": false,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -2303,24 +2519,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-10-13T07:05:34+00:00"
+            "time": "2022-01-20T11:49:18+00:00"
         },
         {
             "name": "flarum/subscriptions",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/subscriptions.git",
-                "reference": "51b0a12b5599f7fc82f83461484f1430f0ab91d2"
+                "reference": "7a9573b4cacfd33c2e574174ffe56464c41e118d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/subscriptions/zipball/51b0a12b5599f7fc82f83461484f1430f0ab91d2",
-                "reference": "51b0a12b5599f7fc82f83461484f1430f0ab91d2",
+                "url": "https://api.github.com/repos/flarum/subscriptions/zipball/7a9573b4cacfd33c2e574174ffe56464c41e118d",
+                "reference": "7a9573b4cacfd33c2e574174ffe56464c41e118d",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2334,6 +2550,23 @@
                         "name": "fas fa-star",
                         "backgroundColor": "#ffea7b",
                         "color": "#de8e00"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": false,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": false,
+                        "css": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": false,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -2362,24 +2595,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-10-13T07:05:29+00:00"
+            "time": "2022-01-20T11:03:29+00:00"
         },
         {
             "name": "flarum/suspend",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/suspend.git",
-                "reference": "627f81d048fae8ade11ee2fe7b40e522c3b87529"
+                "reference": "25c6134fe26d8b99f928cd482f8bb1dfe681a5eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/suspend/zipball/627f81d048fae8ade11ee2fe7b40e522c3b87529",
-                "reference": "627f81d048fae8ade11ee2fe7b40e522c3b87529",
+                "url": "https://api.github.com/repos/flarum/suspend/zipball/25c6134fe26d8b99f928cd482f8bb1dfe681a5eb",
+                "reference": "25c6134fe26d8b99f928cd482f8bb1dfe681a5eb",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2393,6 +2626,23 @@
                         "name": "fas fa-ban",
                         "backgroundColor": "#ddd",
                         "color": "#666"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": true,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": false,
+                        "css": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": false,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -2421,28 +2671,28 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-10-13T07:05:24+00:00"
+            "time": "2022-01-20T11:17:01+00:00"
         },
         {
             "name": "flarum/tags",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/tags.git",
-                "reference": "d6dac5789134e92fee18a0c998446c62880c2378"
+                "reference": "683ce7abb36fa1f89e747cecfb7e0756cff970bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/tags/zipball/d6dac5789134e92fee18a0c998446c62880c2378",
-                "reference": "d6dac5789134e92fee18a0c998446c62880c2378",
+                "url": "https://api.github.com/repos/flarum/tags/zipball/683ce7abb36fa1f89e747cecfb7e0756cff970bc",
+                "reference": "683ce7abb36fa1f89e747cecfb7e0756cff970bc",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.1"
+                "flarum/core": "^1.2"
             },
             "require-dev": {
                 "flarum/core": "*@dev",
-                "flarum/testing": "*@dev"
+                "flarum/testing": "^1.0.0"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2456,6 +2706,23 @@
                         "name": "fas fa-tags",
                         "backgroundColor": "#F28326",
                         "color": "#fff"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": true,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": true,
+                        "css": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": false,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": true,
+                        "editorConfig": true,
+                        "styleci": true
                     }
                 }
             },
@@ -2484,7 +2751,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-10-13T09:02:29+00:00"
+            "time": "2022-01-20T11:01:02+00:00"
         },
         {
             "name": "fof/spamblock",
