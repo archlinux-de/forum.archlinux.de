@@ -17,7 +17,7 @@ class ContentSecurityPolicy implements MiddlewareInterface
         $policies = [
             'default-src' => ["'self'"],
             'img-src' => ["'self'", "data:"],
-            'script-src' => ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
+            'script-src' => ["'self'", "'unsafe-inline'"],
             'style-src' => ["'self'", "'unsafe-inline'"],
             'connect-src' => ["'self'"],
             'form-action' => ["'self'"],
@@ -27,10 +27,6 @@ class ContentSecurityPolicy implements MiddlewareInterface
 
         if (!RequestUtil::getActor($request)->isGuest()) {
             $policies['img-src'][] = 'i.imgur.com';
-            $policies['script-src'][] = "'unsafe-eval'";
-            $policies['script-src'][] = 'cdn.jsdelivr.net/gh/s9e/';
-            $policies['script-src'][] = 'cdn.jsdelivr.net/gh/highlightjs/';
-            $policies['style-src'][] = 'cdn.jsdelivr.net/gh/highlightjs/';
             $policies['connect-src'][] = 'api.imgur.com';
         }
 

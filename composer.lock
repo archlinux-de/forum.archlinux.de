@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b93a7497d677ff0c4e54cf47051f2f11",
+    "content-hash": "175bd5baea094c76dccca9f669c2200c",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1746,76 +1746,6 @@
                 }
             ],
             "time": "2022-01-20T12:56:05+00:00"
-        },
-        {
-            "name": "flarum/emoji",
-            "version": "v1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/flarum/emoji.git",
-                "reference": "d54bf88deec4b9306382026037d20f900678479f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/flarum/emoji/zipball/d54bf88deec4b9306382026037d20f900678479f",
-                "reference": "d54bf88deec4b9306382026037d20f900678479f",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^1.2"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                },
-                "flarum-extension": {
-                    "title": "Emoji",
-                    "category": "feature",
-                    "icon": {
-                        "image": "icon.svg",
-                        "backgroundColor": "#FECC4D"
-                    }
-                },
-                "flarum-cli": {
-                    "modules": {
-                        "admin": false,
-                        "forum": true,
-                        "js": true,
-                        "jsCommon": false,
-                        "css": true,
-                        "gitConf": true,
-                        "githubActions": true,
-                        "prettier": true,
-                        "typescript": false,
-                        "bundlewatch": false,
-                        "backendTesting": false,
-                        "editorConfig": true,
-                        "styleci": true
-                    }
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Convert text and unicode emoji into Twemoji.",
-            "homepage": "https://flarum.org",
-            "keywords": [
-                "formatting"
-            ],
-            "support": {
-                "forum": "https://discuss.flarum.org",
-                "issues": "https://github.com/flarum/core/issues",
-                "source": "https://github.com/flarum/emoji"
-            },
-            "funding": [
-                {
-                    "url": "https://flarum.org/donate/",
-                    "type": "website"
-                }
-            ],
-            "time": "2022-01-20T11:34:19+00:00"
         },
         {
             "name": "flarum/flags",
@@ -8718,5 +8648,5 @@
         "ext-mbstring": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }

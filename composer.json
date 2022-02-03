@@ -19,7 +19,6 @@
         "flarum-lang/german": "^1.1.4",
         "flarum/bbcode": "^1.2.0",
         "flarum/core": "^1.2.0",
-        "flarum/emoji": "^1.2.0",
         "flarum/flags": "^1.2.0",
         "flarum/lang-english": "^1.2.0",
         "flarum/likes": "^1.2.0",
