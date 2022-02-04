@@ -37,6 +37,9 @@
             color: #808080;
             cursor: pointer;
         }
+        img {
+            max-width: 100%;
+        }
           `
 
       return style
