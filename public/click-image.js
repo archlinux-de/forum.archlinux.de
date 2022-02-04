@@ -8,7 +8,8 @@
     connectedCallback() {
       this.shadowRoot.appendChild(this._createStyle());
       const placeHolder = this._createPlaceholder()
-      placeHolder.addEventListener('click', () => {
+      placeHolder.addEventListener('click', (event) => {
+        event.preventDefault()
         placeHolder.replaceWith(this._createImg())
       })
       this.shadowRoot.appendChild(placeHolder);
