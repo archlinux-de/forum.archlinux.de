@@ -8,11 +8,13 @@
  */
 
 use App\Console\EnableExtensions;
+use App\Frontend\ClickImage;
 use App\Middleware\ContentSecurityPolicy;
 use App\ServiceProvider\ErrorLogProvider;
 use App\ServiceProvider\SessionServiceProvider;
 use Flarum\Extend;
 use s9e\TextFormatter\Configurator;
+use s9e\TextFormatter\Configurator\Items\Tag;
 
 return [
     (new Extend\Console())->command(EnableExtensions::class),
@@ -35,7 +37,7 @@ return [
 
             // Disable highlight.js
             // https://github.com/s9e/TextFormatter/blob/master/src/Plugins/BBCodes/Configurator/repository.xml#L50-L73
-            /** @var s9e\TextFormatter\Configurator\Items\Tag $codeTag */
+            /** @var Tag $codeTag */
             $codeTag = $config->tags['CODE'];
             $codeTag->setTemplate(
                 '<pre><code>'
@@ -44,5 +46,12 @@ return [
                 . '</xsl:if>'
                 . '<xsl:apply-templates /></code></pre>'
             );
-        })
+
+            // Override img tag
+            // https://github.com/s9e/TextFormatter/blob/master/src/Plugins/BBCodes/Configurator/repository.xml#L216-L221
+            /** @var Tag $imgTag */
+            $imgTag = $config->tags['IMG'];
+            $imgTag->setTemplate(ClickImage::IMG_TEMPLATE);
+        }),
+    (new Extend\Frontend('forum'))->content(ClickImage::class)
 ];

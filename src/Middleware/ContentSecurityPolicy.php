@@ -16,7 +16,7 @@ class ContentSecurityPolicy implements MiddlewareInterface
 
         $policies = [
             'default-src' => ["'self'"],
-            'img-src' => ["'self'", "data:"],
+            'img-src' => ["'self'", "data:", '*'],
             'script-src' => ["'self'", "'unsafe-inline'"],
             'style-src' => ["'self'", "'unsafe-inline'"],
             'connect-src' => ["'self'"],
