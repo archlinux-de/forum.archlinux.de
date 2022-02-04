@@ -107,6 +107,7 @@ deploy:
 	./flarum assets:publish
 	./flarum cache:clear
 	systemctl restart php-fpm@forum.service
+	./flarum cache:clear
 
 deploy-permissions:
 	sudo setfacl -dR -m u:php-forum:rwX -m u:deployer:rwX storage public/assets
