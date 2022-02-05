@@ -9,24 +9,34 @@
       this.shadowRoot.appendChild(this._createStyle());
       const placeHolder = this._createPlaceholder()
       placeHolder.addEventListener('click', (event) => {
+        placeHolder.classList.add('loading')
         event.preventDefault()
         const img = this._createImg()
         img.onerror = () => {
-          placeHolder.innerHTML = '<strong class="error">Bild konnte nicht geladen werden!</strong>'
+          placeHolder.classList.remove('loading')
+          placeHolder.classList.add('error')
         }
         img.onload = () => {
-          placeHolder.style.width = `${img.width}px`
-          placeHolder.style.height = `${img.height}px`
+          placeHolder.style.width = `min(${img.width}px, 100%)`
+          placeHolder.style.height = 'auto'
+          placeHolder.style.aspectRatio = `${img.width} / ${img.height}`
           setTimeout(() => placeHolder.replaceWith(img), 200)
         }
-      })
+      }, {once: true})
       this.shadowRoot.appendChild(placeHolder);
     }
 
     _createPlaceholder() {
       const hostname = new URL(this.getAttribute('src')).hostname
       const div = document.createElement('div')
-      div.innerHTML = `<span>Bild von <strong>${hostname}</strong> laden</span>`
+      div.innerHTML = `
+        <span class="placeholder-message">Bild von <strong>${hostname}</strong> laden</span>
+        <span class="error-message">
+          Bild konnte nicht von
+          <a href="${this.getAttribute('src')}" target="_blank" rel="nofollow">${hostname}</a>
+          geladen werden!
+        </span>
+      `
       return div
     }
 
@@ -34,25 +44,56 @@
       const style = document.createElement('style')
       style.innerHTML = `
         div {
-            height:150px;
-            width:100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: sans-serif;
-            font-size: 14px;
-            background-color: #ededed;
-            color: #808080;
-            cursor: pointer;
-            transition: width .2s ease-in-out, height .2s ease-in-out;
+          padding: 8px;
+          box-sizing: border-box;
+          border: 1px solid #fff;
+          height: 150px;
+          width: 100%;
+          max-width: 100%;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #ededed;
+          cursor: pointer;
+          transition: width .2s ease-in-out, height .2s ease-in-out;
         }
         img {
-            max-width: 100%;
+          vertical-align: middle;
+          max-width: 100%;
+        }
+        span {
+          font-family: sans-serif;
+          font-size: 14px;
+          color: #808080;
+        }
+        a {
+          color: unset;
+        }
+        .error-message {
+          display: none;
+        }
+        .error .placeholder-message {
+          display: none;
+        }
+        .error .error-message {
+          display: inline-block;
+        }
+        .loading {
+          cursor: wait;
+        }
+        .loading span {
+          display: none;
+        }
+        .loading::before {
+          content: ' '
         }
         .error {
+          cursor: unset;
+        }
+        .error span {
           color: #B72A2A;
         }
-          `
+      `
 
       return style
     }
