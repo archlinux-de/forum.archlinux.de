@@ -10,7 +10,15 @@
       const placeHolder = this._createPlaceholder()
       placeHolder.addEventListener('click', (event) => {
         event.preventDefault()
-        placeHolder.replaceWith(this._createImg())
+        const img = this._createImg()
+        img.onerror = () => {
+          placeHolder.innerHTML = '<strong class="error">Bild konnte nicht geladen werden!</strong>'
+        }
+        img.onload = () => {
+          placeHolder.style.width = `${img.width}px`
+          placeHolder.style.height = `${img.height}px`
+          setTimeout(() => placeHolder.replaceWith(img), 200)
+        }
       })
       this.shadowRoot.appendChild(placeHolder);
     }
@@ -36,9 +44,13 @@
             background-color: #ededed;
             color: #808080;
             cursor: pointer;
+            transition: width .2s ease-in-out, height .2s ease-in-out;
         }
         img {
             max-width: 100%;
+        }
+        .error {
+          color: #B72A2A;
         }
           `
 

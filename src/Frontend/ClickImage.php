@@ -13,6 +13,6 @@ class ClickImage
 
     public function __invoke(Document $document): void
     {
-        $document->foot[] = '<script async src="/click-image.js?v=0.1"></script>';
+        $document->foot[] = '<script async src="/click-image.js?v=0.2"></script>';
     }
 }
