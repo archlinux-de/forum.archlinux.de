@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b02a9e27ca097f395bf7e9edb78e924",
+    "content-hash": "9411aeba38d5f5292e5a4c49588b0581",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -61,6 +61,63 @@
                 "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.1.3"
             },
             "time": "2021-09-08T05:24:33+00:00"
+        },
+        {
+            "name": "archlinux-de/flarum-click-image",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/archlinux-de/flarum-click-image.git",
+                "reference": "bd2170d21cc2fc42320684903a9ccdd0ddc2b9e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-click-image/zipball/bd2170d21cc2fc42320684903a9ccdd0ddc2b9e3",
+                "reference": "bd2170d21cc2fc42320684903a9ccdd0ddc2b9e3",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.0.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Click-Image",
+                    "icon": {
+                        "name": "fas fa-image",
+                        "backgroundColor": "#08c",
+                        "color": "#fff"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": false,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": false,
+                        "css": true,
+                        "locale": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": false,
+                        "editorConfig": true,
+                        "styleci": true
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Load images on click",
+            "support": {
+                "issues": "https://github.com/archlinux-de/flarum-click-image/issues",
+                "source": "https://github.com/archlinux-de/flarum-click-image/tree/1.0.0"
+            },
+            "time": "2022-02-12T17:38:02+00:00"
         },
         {
             "name": "archlinux-de/flarum-discussion-feed",
@@ -8648,5 +8705,5 @@
         "ext-mbstring": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }

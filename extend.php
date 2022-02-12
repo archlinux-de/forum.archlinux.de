@@ -8,7 +8,6 @@
  */
 
 use App\Console\EnableExtensions;
-use App\Frontend\ClickImage;
 use App\Middleware\ContentSecurityPolicy;
 use App\ServiceProvider\ErrorLogProvider;
 use App\ServiceProvider\SessionServiceProvider;
@@ -46,12 +45,5 @@ return [
                 . '</xsl:if>'
                 . '<xsl:apply-templates /></code></pre>'
             );
-
-            // Override img tag
-            // https://github.com/s9e/TextFormatter/blob/master/src/Plugins/BBCodes/Configurator/repository.xml#L216-L221
-            /** @var Tag $imgTag */
-            $imgTag = $config->tags['IMG'];
-            $imgTag->setTemplate(ClickImage::IMG_TEMPLATE);
         }),
-    (new Extend\Frontend('forum'))->content(ClickImage::class)
 ];
