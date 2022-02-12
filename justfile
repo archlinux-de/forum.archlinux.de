@@ -108,7 +108,6 @@ deploy:
 	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader --classmap-authoritative
 	./flarum app:enable-extensions
 	./flarum migrate
-	./flarum app:fix-bbcode
 	./flarum assets:publish
 	./flarum cache:clear
 	systemctl restart php-fpm@forum.service
