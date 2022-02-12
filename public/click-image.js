@@ -7,27 +7,34 @@
 
     connectedCallback() {
       this.shadowRoot.appendChild(this._createStyle());
-      const placeHolder = this._createPlaceholder()
-      placeHolder.addEventListener('click', (event) => {
-        placeHolder.classList.add('loading')
-        event.preventDefault()
-        const img = this._createImg()
-        img.onerror = () => {
-          placeHolder.classList.remove('loading')
-          placeHolder.classList.add('error')
-        }
-        img.onload = () => {
-          placeHolder.style.width = `min(${img.width}px, 100%)`
-          placeHolder.style.height = 'auto'
-          placeHolder.style.aspectRatio = `${img.width} / ${img.height}`
-          setTimeout(() => placeHolder.replaceWith(img), 200)
-        }
-      }, {once: true})
-      this.shadowRoot.appendChild(placeHolder);
+      try {
+        const hostname = new URL(this.getAttribute('src')).hostname
+        const placeHolder = this._createPlaceholder(hostname)
+
+        placeHolder.addEventListener('click', (event) => {
+          placeHolder.classList.add('loading')
+          event.preventDefault()
+          const img = this._createImg()
+          img.onerror = () => {
+            placeHolder.classList.remove('loading')
+            placeHolder.classList.add('error')
+          }
+          img.onload = () => {
+            placeHolder.style.width = `min(${img.width}px, 100%)`
+            placeHolder.style.height = 'auto'
+            placeHolder.style.aspectRatio = `${img.width} / ${img.height}`
+            setTimeout(() => placeHolder.replaceWith(img), 200)
+          }
+        }, {once: true})
+        this.shadowRoot.appendChild(placeHolder);
+      } catch (e) {
+        const placeHolder = this._createPlaceholder(this.getAttribute('src'))
+        placeHolder.classList.add('error')
+        this.shadowRoot.appendChild(placeHolder);
+      }
     }
 
-    _createPlaceholder() {
-      const hostname = new URL(this.getAttribute('src')).hostname
+    _createPlaceholder(hostname) {
       const div = document.createElement('div')
       div.innerHTML = `
         <span class="placeholder-message">Bild von <strong>${hostname}</strong> laden</span>
