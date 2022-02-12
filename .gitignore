@@ -6,3 +6,5 @@
 /public/*/*
 !/public/*/.gitkeep
 /public/feed.xml
+/.phpcs-cache
+/phpcs.xml
