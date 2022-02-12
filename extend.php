@@ -8,6 +8,7 @@
  */
 
 use App\Console\EnableExtensions;
+use App\Console\FixBBCode;
 use App\Frontend\ClickImage;
 use App\Middleware\ContentSecurityPolicy;
 use App\ServiceProvider\ErrorLogProvider;
@@ -53,5 +54,6 @@ return [
             $imgTag = $config->tags['IMG'];
             $imgTag->setTemplate(ClickImage::IMG_TEMPLATE);
         }),
-    (new Extend\Frontend('forum'))->content(ClickImage::class)
+    (new Extend\Frontend('forum'))->content(ClickImage::class),
+    (new Extend\Console())->command(FixBBCode::class),
 ];
