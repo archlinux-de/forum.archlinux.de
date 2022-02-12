@@ -110,7 +110,7 @@ deploy:
 	./flarum migrate
 	./flarum assets:publish
 	./flarum cache:clear
-	systemctl restart php-fpm@forum.service
+	sudo systemctl restart php-fpm@forum.service
 	./flarum cache:clear
 
 deploy-permissions:
