@@ -40,6 +40,10 @@ import-db-dump file name='flarum': start
 	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb create {{name}}
 	zcat {{file}} | {{MARIADB-RUN}} mariadb -uroot -hmariadb {{name}}
 
+# Load abatars created with "tar cvzf forum-avatars.tar.gz /srv/http/vhosts/forum.archlinux.de/public/assets/avatars/*.*"
+import-avatars file:
+	tar -x --strip-components 6 -f {{file}} -C public/assets/
+
 clean:
 	{{COMPOSE}} rm -vsf
 	git clean -fdqx -e .idea
