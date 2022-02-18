@@ -17,7 +17,7 @@
         "archlinux-de/flarum-redirect-fluxbb": "^1.4.0",
         "archlinux-de/flarum-redirect-ll": "^1.2.1",
         "archlinux-de/flarum-theme-archlinux": "^1.1.0",
-        "flarum-lang/german": "^1.1.4",
+        "flarum-lang/german": "^1.2.0",
         "flarum/bbcode": "^1.2.0",
         "flarum/core": "^1.2.0",
         "flarum/flags": "^1.2.0",

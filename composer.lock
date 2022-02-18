@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9411aeba38d5f5292e5a4c49588b0581",
+    "content-hash": "10a0f84f7bed75b47eaebab00a479d05",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1535,16 +1535,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.1.4",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "627c0904ac0489c1a8f95f5e39a9379ea0953434"
+                "reference": "39109a00e8e99c86ca88d115e3a47e7e546d48d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/627c0904ac0489c1a8f95f5e39a9379ea0953434",
-                "reference": "627c0904ac0489c1a8f95f5e39a9379ea0953434",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/39109a00e8e99c86ca88d115e3a47e7e546d48d5",
+                "reference": "39109a00e8e99c86ca88d115e3a47e7e546d48d5",
                 "shasum": ""
             },
             "require": {
@@ -1588,7 +1588,7 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2021-07-10T00:49:41+00:00"
+            "time": "2022-02-17T23:52:04+00:00"
         },
         {
             "name": "flarum/bbcode",
@@ -5644,16 +5644,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.56.0",
+            "version": "2.57.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "626ec8cbb724cd3c3400c3ed8f730545b744e3f4"
+                "reference": "4a54375c21eea4811dbd1149fe6b246517554e78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/626ec8cbb724cd3c3400c3ed8f730545b744e3f4",
-                "reference": "626ec8cbb724cd3c3400c3ed8f730545b744e3f4",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4a54375c21eea4811dbd1149fe6b246517554e78",
+                "reference": "4a54375c21eea4811dbd1149fe6b246517554e78",
                 "shasum": ""
             },
             "require": {
@@ -5736,7 +5736,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-21T17:08:38+00:00"
+            "time": "2022-02-13T18:13:33+00:00"
         },
         {
             "name": "nette/schema",
