@@ -5,7 +5,7 @@ RUN apk add --no-cache git
 COPY --from=mlocati/php-extension-installer:1.5 /usr/bin/install-php-extensions /usr/bin/
 RUN install-php-extensions opcache pdo_mysql gd exif intl
 
-COPY --from=composer /usr/bin/composer:2.3 /usr/bin/composer
+COPY --from=composer:2.3 /usr/bin/composer /usr/bin/composer
 
 RUN echo -e "error_reporting = E_ALL & ~E_DEPRECATED" > $PHP_INI_DIR/conf.d/error_reporting.ini
 
