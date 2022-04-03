@@ -40,7 +40,7 @@ import-db-dump file name='flarum': start
 	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb create {{name}}
 	zcat {{file}} | {{MARIADB-RUN}} mariadb -uroot -hmariadb {{name}}
 
-# Load abatars created with "tar cvzf forum-avatars.tar.gz /srv/http/vhosts/forum.archlinux.de/public/assets/avatars/*.*"
+# Load avatars created with "tar cvzf forum-avatars.tar.gz /srv/http/vhosts/forum.archlinux.de/public/assets/avatars/*.*"
 import-avatars file:
 	tar -x --strip-components 6 -f {{file}} -C public/assets/
 
@@ -110,7 +110,7 @@ deploy:
 	./flarum migrate
 	./flarum assets:publish
 	./flarum cache:clear
-	sudo systemctl restart php-fpm@forum.service
+	systemctl restart php-fpm@forum.service
 	./flarum cache:clear
 
 deploy-permissions:
