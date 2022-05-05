@@ -17,7 +17,7 @@
         "archlinux-de/flarum-redirect-fluxbb": "^1.4.0",
         "archlinux-de/flarum-redirect-ll": "^1.2.1",
         "archlinux-de/flarum-theme-archlinux": "^1.1.0",
-        "flarum-lang/german": "^1.2.2",
+        "flarum-lang/german": "^1.2.3",
         "flarum/bbcode": "^1.2.0",
         "flarum/core": "^1.2.1",
         "flarum/flags": "^1.2.0",
@@ -53,7 +53,7 @@
     "require-dev": {
         "malukenho/mcbumpface": "^1.1.5",
         "phpstan/extension-installer": "^1.1.0",
-        "phpstan/phpstan": "^1.6.4",
+        "phpstan/phpstan": "^1.6.7",
         "phpstan/phpstan-deprecation-rules": "^1.0.0",
         "squizlabs/php_codesniffer": "^3.6.2"
     },

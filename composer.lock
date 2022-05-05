@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f06b5d0053df66c3d946bcccd465f02",
+    "content-hash": "951b6e86fe1f25352ba60537dff0d365",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1535,16 +1535,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "173a9feac45ca90860bc122f1af10f7c471e4606"
+                "reference": "db46eca66624f4115c2180377a43bcce5267933d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/173a9feac45ca90860bc122f1af10f7c471e4606",
-                "reference": "173a9feac45ca90860bc122f1af10f7c471e4606",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/db46eca66624f4115c2180377a43bcce5267933d",
+                "reference": "db46eca66624f4115c2180377a43bcce5267933d",
                 "shasum": ""
             },
             "require": {
@@ -1588,7 +1588,7 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2022-03-13T20:11:32+00:00"
+            "time": "2022-05-04T15:42:17+00:00"
         },
         {
             "name": "flarum/bbcode",
@@ -4240,16 +4240,16 @@
         },
         {
             "name": "laminas/laminas-diactoros",
-            "version": "2.9.2",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-diactoros.git",
-                "reference": "07475df6b4bf6277ae8b9cbbc94d0ac6fee5e726"
+                "reference": "a3f03b3c158a3a7014c6ba553b0cb83bf7da19c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/07475df6b4bf6277ae8b9cbbc94d0ac6fee5e726",
-                "reference": "07475df6b4bf6277ae8b9cbbc94d0ac6fee5e726",
+                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/a3f03b3c158a3a7014c6ba553b0cb83bf7da19c4",
+                "reference": "a3f03b3c158a3a7014c6ba553b0cb83bf7da19c4",
                 "shasum": ""
             },
             "require": {
@@ -4335,7 +4335,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-04-06T17:37:15+00:00"
+            "time": "2022-05-04T15:16:15+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -8512,16 +8512,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.6.4",
+            "version": "1.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e4cd0c2dd97809fcfdcd1f367ccf0be86c235168"
+                "reference": "d41c39cb2e487663bce9bbd97c660e244b73abad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e4cd0c2dd97809fcfdcd1f367ccf0be86c235168",
-                "reference": "e4cd0c2dd97809fcfdcd1f367ccf0be86c235168",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d41c39cb2e487663bce9bbd97c660e244b73abad",
+                "reference": "d41c39cb2e487663bce9bbd97c660e244b73abad",
                 "shasum": ""
             },
             "require": {
@@ -8547,7 +8547,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.6.4"
+                "source": "https://github.com/phpstan/phpstan/tree/1.6.7"
             },
             "funding": [
                 {
@@ -8567,7 +8567,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-02T16:02:21+00:00"
+            "time": "2022-05-04T22:55:41+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
