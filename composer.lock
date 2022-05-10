@@ -5360,22 +5360,22 @@
         },
         {
             "name": "middlewares/request-handler",
-            "version": "v2.0.1",
+            "version": "v2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/middlewares/request-handler.git",
-                "reference": "e5563184b4c9eab81ecb58c6ef530516559e8488"
+                "reference": "f07840434347520c11959caa54ab3476e16ceee2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/middlewares/request-handler/zipball/e5563184b4c9eab81ecb58c6ef530516559e8488",
-                "reference": "e5563184b4c9eab81ecb58c6ef530516559e8488",
+                "url": "https://api.github.com/repos/middlewares/request-handler/zipball/f07840434347520c11959caa54ab3476e16ceee2",
+                "reference": "f07840434347520c11959caa54ab3476e16ceee2",
                 "shasum": ""
             },
             "require": {
                 "middlewares/utils": "^3.0",
                 "php": "^7.2 || ^8.0",
-                "psr/container": "^1.0",
+                "psr/container": "^1.0||^2.0",
                 "psr/http-server-middleware": "^1.0"
             },
             "require-dev": {
@@ -5385,9 +5385,6 @@
                 "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^8|^9",
                 "squizlabs/php_codesniffer": "^3.0"
-            },
-            "suggest": {
-                "psr/container": "Can be used to resolve handlers automatically"
             },
             "type": "library",
             "autoload": {
@@ -5414,9 +5411,9 @@
             ],
             "support": {
                 "issues": "https://github.com/middlewares/request-handler/issues",
-                "source": "https://github.com/middlewares/request-handler/tree/v2.0.1"
+                "source": "https://github.com/middlewares/request-handler/tree/v2.0.2"
             },
-            "time": "2020-12-04T00:14:39+00:00"
+            "time": "2022-05-09T13:49:03+00:00"
         },
         {
             "name": "middlewares/utils",
