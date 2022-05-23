@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dbde71c40d4ce02b2157f332e95f29f4",
+    "content-hash": "9cfd32301a6b6ac1721160193e990967",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2130,16 +2130,16 @@
         },
         {
             "name": "flarum/nicknames",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/nicknames.git",
-                "reference": "5d427fd306b5903e3be4fbf4db848c4674968776"
+                "reference": "07403454e3d1c83cb95779938bd3617a0fdb2963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/nicknames/zipball/5d427fd306b5903e3be4fbf4db848c4674968776",
-                "reference": "5d427fd306b5903e3be4fbf4db848c4674968776",
+                "url": "https://api.github.com/repos/flarum/nicknames/zipball/07403454e3d1c83cb95779938bd3617a0fdb2963",
+                "reference": "07403454e3d1c83cb95779938bd3617a0fdb2963",
                 "shasum": ""
             },
             "require": {
@@ -2206,7 +2206,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-05-10T14:28:35+00:00"
+            "time": "2022-05-20T13:04:14+00:00"
         },
         {
             "name": "flarum/statistics",
