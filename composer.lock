@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93a3a151d719f323416cca9120677a9c",
+    "content-hash": "0304f9060e73326bd178f3bdd35f1222",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2896,7 +2896,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -2949,7 +2949,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -3009,7 +3009,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -3063,7 +3063,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -3111,7 +3111,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -3171,7 +3171,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -3222,7 +3222,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -3270,7 +3270,7 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
@@ -3338,7 +3338,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -3393,7 +3393,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -3455,7 +3455,7 @@
         },
         {
             "name": "illuminate/hashing",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/hashing.git",
@@ -3503,7 +3503,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -3549,7 +3549,7 @@
         },
         {
             "name": "illuminate/mail",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/mail.git",
@@ -3610,7 +3610,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -3658,7 +3658,7 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
@@ -3724,7 +3724,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -3780,7 +3780,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -3848,7 +3848,7 @@
         },
         {
             "name": "illuminate/translation",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/translation.git",
@@ -3900,16 +3900,16 @@
         },
         {
             "name": "illuminate/validation",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/validation.git",
-                "reference": "4e69c4e5552b6c2cddc260f0b4f96c0aa1518287"
+                "reference": "bb104f15545a55664755f58a278c7013f835918a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/validation/zipball/4e69c4e5552b6c2cddc260f0b4f96c0aa1518287",
-                "reference": "4e69c4e5552b6c2cddc260f0b4f96c0aa1518287",
+                "url": "https://api.github.com/repos/illuminate/validation/zipball/bb104f15545a55664755f58a278c7013f835918a",
+                "reference": "bb104f15545a55664755f58a278c7013f835918a",
                 "shasum": ""
             },
             "require": {
@@ -3956,11 +3956,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-05-12T15:00:22+00:00"
+            "time": "2022-05-30T13:21:10+00:00"
         },
         {
             "name": "illuminate/view",
-            "version": "v8.83.14",
+            "version": "v8.83.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -8537,16 +8537,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.7.6",
+            "version": "1.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "1af9271ea529f995e57a1f493bebba6b830a97d0"
+                "reference": "cadad14ac63d8a432e01ae89ac5d0ff6fc3b16ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/1af9271ea529f995e57a1f493bebba6b830a97d0",
-                "reference": "1af9271ea529f995e57a1f493bebba6b830a97d0",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/cadad14ac63d8a432e01ae89ac5d0ff6fc3b16ab",
+                "reference": "cadad14ac63d8a432e01ae89ac5d0ff6fc3b16ab",
                 "shasum": ""
             },
             "require": {
@@ -8572,7 +8572,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.7.6"
+                "source": "https://github.com/phpstan/phpstan/tree/1.7.7"
             },
             "funding": [
                 {
@@ -8592,7 +8592,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-30T21:29:45+00:00"
+            "time": "2022-05-31T13:58:21+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
