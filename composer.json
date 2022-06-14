@@ -53,9 +53,9 @@
     "require-dev": {
         "malukenho/mcbumpface": "^1.1.5",
         "phpstan/extension-installer": "^1.1.0",
-        "phpstan/phpstan": "^1.7.12",
+        "phpstan/phpstan": "^1.7.13",
         "phpstan/phpstan-deprecation-rules": "^1.0.0",
-        "squizlabs/php_codesniffer": "^3.6.2"
+        "squizlabs/php_codesniffer": "^3.7.0"
     },
     "replace": {
         "symfony/polyfill-ctype": "*",
