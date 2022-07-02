@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "892ed2c890f7c499ed55d314ad4018f8",
+    "content-hash": "a0f41678c8d8818785fe5c0a9b163e34",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2673,20 +2673,20 @@
         },
         {
             "name": "fof/split",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/split.git",
-                "reference": "60c911b928517ff2501b62c8fb32099ce6a0aa83"
+                "reference": "efc5a3b9ca47643d64cd7dfb6033a01adbef2340"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/split/zipball/60c911b928517ff2501b62c8fb32099ce6a0aa83",
-                "reference": "60c911b928517ff2501b62c8fb32099ce6a0aa83",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/split/zipball/efc5a3b9ca47643d64cd7dfb6033a01adbef2340",
+                "reference": "efc5a3b9ca47643d64cd7dfb6033a01adbef2340",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.0.0"
+                "flarum/core": "^1.2.0"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2736,7 +2736,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2021-11-26T00:01:51+00:00"
+            "time": "2022-07-01T11:09:44+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
