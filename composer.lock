@@ -2909,7 +2909,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -2962,7 +2962,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -3022,7 +3022,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -3076,7 +3076,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -3124,7 +3124,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -3184,7 +3184,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -3235,7 +3235,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -3283,7 +3283,7 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
@@ -3351,7 +3351,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -3406,7 +3406,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -3468,7 +3468,7 @@
         },
         {
             "name": "illuminate/hashing",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/hashing.git",
@@ -3516,7 +3516,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -3562,7 +3562,7 @@
         },
         {
             "name": "illuminate/mail",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/mail.git",
@@ -3623,7 +3623,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -3671,7 +3671,7 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
@@ -3737,7 +3737,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -3793,7 +3793,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -3861,7 +3861,7 @@
         },
         {
             "name": "illuminate/translation",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/translation.git",
@@ -3913,7 +3913,7 @@
         },
         {
             "name": "illuminate/validation",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/validation.git",
@@ -3973,7 +3973,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v8.83.20",
+            "version": "v8.83.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -4343,22 +4343,22 @@
         },
         {
             "name": "laminas/laminas-stratigility",
-            "version": "3.5.0",
+            "version": "3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-stratigility.git",
-                "reference": "f59f3ad27a28f8f1affb6f83bdf9aebbcc418657"
+                "reference": "29461a735eb81a5f86a67852c0bedaa02be24fb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-stratigility/zipball/f59f3ad27a28f8f1affb6f83bdf9aebbcc418657",
-                "reference": "f59f3ad27a28f8f1affb6f83bdf9aebbcc418657",
+                "url": "https://api.github.com/repos/laminas/laminas-stratigility/zipball/29461a735eb81a5f86a67852c0bedaa02be24fb9",
+                "reference": "29461a735eb81a5f86a67852c0bedaa02be24fb9",
                 "shasum": ""
             },
             "require": {
                 "fig/http-message-util": "^1.1",
-                "laminas/laminas-escaper": "^2.3",
-                "php": "^7.3 || ~8.0.0 || ~8.1.0",
+                "laminas/laminas-escaper": "^2.10.0",
+                "php": "^7.4 || ~8.0.0 || ~8.1.0",
                 "psr/http-message": "^1.0",
                 "psr/http-server-middleware": "^1.0"
             },
@@ -4368,11 +4368,10 @@
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~2.3.0",
-                "laminas/laminas-diactoros": "^1.7.1",
-                "malukenho/docheader": "^0.1.6",
-                "phpunit/phpunit": "^9.3",
-                "psalm/plugin-phpunit": "^0.16.0",
-                "vimeo/psalm": "^4.7"
+                "laminas/laminas-diactoros": "^2.13.0",
+                "phpunit/phpunit": "^9.5.21",
+                "psalm/plugin-phpunit": "^0.17.0",
+                "vimeo/psalm": "^4.24.0"
             },
             "suggest": {
                 "psr/http-message-implementation": "Please install a psr/http-message-implementation to consume Stratigility; e.g., laminas/laminas-diactoros"
@@ -4420,7 +4419,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-09-14T04:15:39+00:00"
+            "time": "2022-07-21T23:14:27+00:00"
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
