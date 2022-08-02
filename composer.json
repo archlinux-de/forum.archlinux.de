@@ -27,7 +27,7 @@
         "flarum/markdown": "^1.4.0",
         "flarum/mentions": "^1.4.0",
         "flarum/nicknames": "^1.4.0",
-        "flarum/statistics": "^1.4.0",
+        "flarum/statistics": "^1.4.1",
         "flarum/sticky": "^1.4.0",
         "flarum/subscriptions": "^1.4.0",
         "flarum/suspend": "^1.4.0",
