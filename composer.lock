@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "974a6c43eb8b5c785de147402a20da95",
+    "content-hash": "3eb30365384b25ac2f25da69acc5a0ff",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1515,16 +1515,16 @@
         },
         {
             "name": "flarum/core",
-            "version": "v1.4.0",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flarum-core.git",
-                "reference": "6bf5b1a8b75f79408839fed8f3bf2d92943e7f7e"
+                "reference": "895165e3ea0cbc4ece42fc839fd55417f0c4582a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/6bf5b1a8b75f79408839fed8f3bf2d92943e7f7e",
-                "reference": "6bf5b1a8b75f79408839fed8f3bf2d92943e7f7e",
+                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/895165e3ea0cbc4ece42fc839fd55417f0c4582a",
+                "reference": "895165e3ea0cbc4ece42fc839fd55417f0c4582a",
                 "shasum": ""
             },
             "require": {
@@ -1654,7 +1654,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-08-04T08:59:48+00:00"
         },
         {
             "name": "flarum/flags",
