@@ -8,3 +8,5 @@
 /public/feed.xml
 /.phpcs-cache
 /phpcs.xml
+tests/e2e/cypress/downloads/*
+!tests/e2e/cypress/downloads/.gitkeep

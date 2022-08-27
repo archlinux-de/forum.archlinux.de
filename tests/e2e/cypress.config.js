@@ -1,6 +1,7 @@
 module.exports = {
   fixturesFolder: false,
   screenshotOnRunFailure: false,
+  trashAssetsBeforeRuns: false,
   video: false,
   numTestsKeptInMemory: 0,
   e2e: {
