@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d369aa37805889d07af850343bebc242",
+    "content-hash": "340dc20b613ae8eaf10a803c707077f3",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1383,16 +1383,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "9db7102aced269aadbfa64f859702996e06a7dbc"
+                "reference": "6509423e99ca94d8925499fb2698c096f3bdfd6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/9db7102aced269aadbfa64f859702996e06a7dbc",
-                "reference": "9db7102aced269aadbfa64f859702996e06a7dbc",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/6509423e99ca94d8925499fb2698c096f3bdfd6d",
+                "reference": "6509423e99ca94d8925499fb2698c096f3bdfd6d",
                 "shasum": ""
             },
             "require": {
@@ -1436,7 +1436,7 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2022-08-13T21:10:26+00:00"
+            "time": "2022-08-30T06:29:04+00:00"
         },
         {
             "name": "flarum/bbcode",
@@ -4108,16 +4108,16 @@
         },
         {
             "name": "laminas/laminas-diactoros",
-            "version": "2.16.0",
+            "version": "2.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-diactoros.git",
-                "reference": "49f3f7a3b30ff5a0e62e9b5d16584451f59de65c"
+                "reference": "5b32597aa46b83c8b85bb1cf9a6ed4fe7dd980c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/49f3f7a3b30ff5a0e62e9b5d16584451f59de65c",
-                "reference": "49f3f7a3b30ff5a0e62e9b5d16584451f59de65c",
+                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/5b32597aa46b83c8b85bb1cf9a6ed4fe7dd980c5",
+                "reference": "5b32597aa46b83c8b85bb1cf9a6ed4fe7dd980c5",
                 "shasum": ""
             },
             "require": {
@@ -4201,7 +4201,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-08-28T21:10:44+00:00"
+            "time": "2022-08-30T17:01:46+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -4480,25 +4480,26 @@
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "09f0e9fb61829f628205b7c94906c28740ff9540"
+                "reference": "d78fd36ba031a1a695ea5a406f29996948d7011b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/09f0e9fb61829f628205b7c94906c28740ff9540",
-                "reference": "09f0e9fb61829f628205b7c94906c28740ff9540",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/d78fd36ba031a1a695ea5a406f29996948d7011b",
+                "reference": "d78fd36ba031a1a695ea5a406f29996948d7011b",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.3|^8.0"
             },
             "require-dev": {
-                "pestphp/pest": "^1.18",
-                "phpstan/phpstan": "^0.12.98",
-                "symfony/var-dumper": "^5.3"
+                "nesbot/carbon": "^2.61",
+                "pestphp/pest": "^1.21.3",
+                "phpstan/phpstan": "^1.8.2",
+                "symfony/var-dumper": "^5.4.11"
             },
             "type": "library",
             "extra": {
@@ -4535,7 +4536,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2022-05-16T17:09:47+00:00"
+            "time": "2022-08-26T15:25:27+00:00"
         },
         {
             "name": "league/commonmark",
