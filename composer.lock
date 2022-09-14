@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56ef302b0d96dce5f855a6f504a56922",
+    "content-hash": "bce5d758b5f301ee69e02ab9c50670eb",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1383,16 +1383,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "6509423e99ca94d8925499fb2698c096f3bdfd6d"
+                "reference": "f75c5d34d8854942ba29c2da01a15fc130f133ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/6509423e99ca94d8925499fb2698c096f3bdfd6d",
-                "reference": "6509423e99ca94d8925499fb2698c096f3bdfd6d",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/f75c5d34d8854942ba29c2da01a15fc130f133ae",
+                "reference": "f75c5d34d8854942ba29c2da01a15fc130f133ae",
                 "shasum": ""
             },
             "require": {
@@ -1436,24 +1436,24 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2022-08-30T06:29:04+00:00"
+            "time": "2022-09-13T22:25:54+00:00"
         },
         {
             "name": "flarum/bbcode",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/bbcode.git",
-                "reference": "a84304259e3d60c30c2a2d3bb26a184a69d99084"
+                "reference": "0b0fc0dd9b9417437012826c5d0e8b080a4cca12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/bbcode/zipball/a84304259e3d60c30c2a2d3bb26a184a69d99084",
-                "reference": "a84304259e3d60c30c2a2d3bb26a184a69d99084",
+                "url": "https://api.github.com/repos/flarum/bbcode/zipball/0b0fc0dd9b9417437012826c5d0e8b080a4cca12",
+                "reference": "0b0fc0dd9b9417437012826c5d0e8b080a4cca12",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1507,20 +1507,20 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/core",
-            "version": "v1.4.1",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flarum-core.git",
-                "reference": "895165e3ea0cbc4ece42fc839fd55417f0c4582a"
+                "reference": "8fdf54d4b70e05446b35c3bc601d33366d4d5a90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/895165e3ea0cbc4ece42fc839fd55417f0c4582a",
-                "reference": "895165e3ea0cbc4ece42fc839fd55417f0c4582a",
+                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/8fdf54d4b70e05446b35c3bc601d33366d4d5a90",
+                "reference": "8fdf54d4b70e05446b35c3bc601d33366d4d5a90",
                 "shasum": ""
             },
             "require": {
@@ -1529,6 +1529,7 @@
                 "doctrine/dbal": "^2.7",
                 "dragonmantank/cron-expression": "^3.1.0",
                 "franzl/whoops-middleware": "^2.0.0",
+                "guzzlehttp/guzzle": "^6.0|^7.4",
                 "illuminate/bus": "^8.0",
                 "illuminate/cache": "^8.0",
                 "illuminate/config": "^8.0",
@@ -1650,24 +1651,24 @@
                     "type": "other"
                 }
             ],
-            "time": "2022-08-04T08:59:48+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/flags",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flags.git",
-                "reference": "6069368f6ba32d70f454970f44f773a10458c0b6"
+                "reference": "a8e1b0d0eca0e6b32ab3cd154acf4d4cc5ff5793"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flags/zipball/6069368f6ba32d70f454970f44f773a10458c0b6",
-                "reference": "6069368f6ba32d70f454970f44f773a10458c0b6",
+                "url": "https://api.github.com/repos/flarum/flags/zipball/a8e1b0d0eca0e6b32ab3cd154acf4d4cc5ff5793",
+                "reference": "a8e1b0d0eca0e6b32ab3cd154acf4d4cc5ff5793",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "require-dev": {
                 "flarum/core": "*@dev",
@@ -1731,24 +1732,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/lang-english",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/lang-english.git",
-                "reference": "d19ac8b24516bccc046187203b09afbf9098fac9"
+                "reference": "9cb44c661d1947c374116e5b37d749c6e104223d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/lang-english/zipball/d19ac8b24516bccc046187203b09afbf9098fac9",
-                "reference": "d19ac8b24516bccc046187203b09afbf9098fac9",
+                "url": "https://api.github.com/repos/flarum/lang-english/zipball/9cb44c661d1947c374116e5b37d749c6e104223d",
+                "reference": "9cb44c661d1947c374116e5b37d749c6e104223d",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1801,7 +1802,7 @@
                 "locale"
             ],
             "support": {
-                "source": "https://github.com/flarum/lang-english/tree/v1.4.0"
+                "source": "https://github.com/flarum/lang-english/tree/v1.5.0"
             },
             "funding": [
                 {
@@ -1813,24 +1814,24 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/likes",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/likes.git",
-                "reference": "7a56a66a6778c3defab0e562ab74345f00cb6fb7"
+                "reference": "86bf0fd1347f39839109915054ee3ce320856cfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/likes/zipball/7a56a66a6778c3defab0e562ab74345f00cb6fb7",
-                "reference": "7a56a66a6778c3defab0e562ab74345f00cb6fb7",
+                "url": "https://api.github.com/repos/flarum/likes/zipball/86bf0fd1347f39839109915054ee3ce320856cfe",
+                "reference": "86bf0fd1347f39839109915054ee3ce320856cfe",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "require-dev": {
                 "flarum/testing": "^1.0.0"
@@ -1892,24 +1893,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/lock",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/lock.git",
-                "reference": "bac7937c0a0d62279b9d1431d4c369f75b767881"
+                "reference": "5afab9e963b749035dfd7c38332457d0f8c950c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/lock/zipball/bac7937c0a0d62279b9d1431d4c369f75b767881",
-                "reference": "bac7937c0a0d62279b9d1431d4c369f75b767881",
+                "url": "https://api.github.com/repos/flarum/lock/zipball/5afab9e963b749035dfd7c38332457d0f8c950c7",
+                "reference": "5afab9e963b749035dfd7c38332457d0f8c950c7",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1968,24 +1969,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/markdown",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/markdown.git",
-                "reference": "55b56cd2d0ca5b2abb012eb630bd2b8ba4f6c2d0"
+                "reference": "150b6bdd6f03942b942ed056380a9a677591c309"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/markdown/zipball/55b56cd2d0ca5b2abb012eb630bd2b8ba4f6c2d0",
-                "reference": "55b56cd2d0ca5b2abb012eb630bd2b8ba4f6c2d0",
+                "url": "https://api.github.com/repos/flarum/markdown/zipball/150b6bdd6f03942b942ed056380a9a677591c309",
+                "reference": "150b6bdd6f03942b942ed056380a9a677591c309",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2042,24 +2043,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/mentions",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/mentions.git",
-                "reference": "c1e3d58883bae8f0c20f94ea724664cfc8d52dab"
+                "reference": "2b657e24bd0e2a1f27ec92c30675ba17de6f0068"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/mentions/zipball/c1e3d58883bae8f0c20f94ea724664cfc8d52dab",
-                "reference": "c1e3d58883bae8f0c20f94ea724664cfc8d52dab",
+                "url": "https://api.github.com/repos/flarum/mentions/zipball/2b657e24bd0e2a1f27ec92c30675ba17de6f0068",
+                "reference": "2b657e24bd0e2a1f27ec92c30675ba17de6f0068",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "require-dev": {
                 "flarum/core": "*@dev",
@@ -2122,24 +2123,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/nicknames",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/nicknames.git",
-                "reference": "9b8030de1940ae6ade1d4bbb54f63307ebd9ca8b"
+                "reference": "81cfbea4c4a0f76d2e737a1011b8b179b705fc4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/nicknames/zipball/9b8030de1940ae6ade1d4bbb54f63307ebd9ca8b",
-                "reference": "9b8030de1940ae6ade1d4bbb54f63307ebd9ca8b",
+                "url": "https://api.github.com/repos/flarum/nicknames/zipball/81cfbea4c4a0f76d2e737a1011b8b179b705fc4f",
+                "reference": "81cfbea4c4a0f76d2e737a1011b8b179b705fc4f",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "require-dev": {
                 "flarum/core": "1.x-dev",
@@ -2202,24 +2203,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/statistics",
-            "version": "v1.4.1",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/statistics.git",
-                "reference": "84768d4d1382e3482af085cb39979c2c54cbc440"
+                "reference": "13468c664d25ac20354b83a245d1e09c0895f1d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/statistics/zipball/84768d4d1382e3482af085cb39979c2c54cbc440",
-                "reference": "84768d4d1382e3482af085cb39979c2c54cbc440",
+                "url": "https://api.github.com/repos/flarum/statistics/zipball/13468c664d25ac20354b83a245d1e09c0895f1d5",
+                "reference": "13468c664d25ac20354b83a245d1e09c0895f1d5",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "require-dev": {
                 "flarum/testing": "^1.0.0"
@@ -2284,24 +2285,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-08-01T10:59:57+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/sticky",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/sticky.git",
-                "reference": "8be67a1405a554c86d167b3472889929eb78573e"
+                "reference": "10eba6ab2e1e500e4b8449efba78cc7af6d561d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/sticky/zipball/8be67a1405a554c86d167b3472889929eb78573e",
-                "reference": "8be67a1405a554c86d167b3472889929eb78573e",
+                "url": "https://api.github.com/repos/flarum/sticky/zipball/10eba6ab2e1e500e4b8449efba78cc7af6d561d5",
+                "reference": "10eba6ab2e1e500e4b8449efba78cc7af6d561d5",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "require-dev": {
                 "flarum/tags": "*@dev",
@@ -2364,24 +2365,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/subscriptions",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/subscriptions.git",
-                "reference": "c4b12a85aab1cbc71cfdac58251c1761e86db6c9"
+                "reference": "996de8e7d7dad7062fb96339d79a0a22a678e914"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/subscriptions/zipball/c4b12a85aab1cbc71cfdac58251c1761e86db6c9",
-                "reference": "c4b12a85aab1cbc71cfdac58251c1761e86db6c9",
+                "url": "https://api.github.com/repos/flarum/subscriptions/zipball/996de8e7d7dad7062fb96339d79a0a22a678e914",
+                "reference": "996de8e7d7dad7062fb96339d79a0a22a678e914",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "require-dev": {
                 "flarum/testing": "^1.0.0"
@@ -2443,24 +2444,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/suspend",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/suspend.git",
-                "reference": "eb176d2c58c5c325c3433637d356f61eb6ca7f21"
+                "reference": "d40c1e828cb4d90e9899bd9c41772c33ba666c82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/suspend/zipball/eb176d2c58c5c325c3433637d356f61eb6ca7f21",
-                "reference": "eb176d2c58c5c325c3433637d356f61eb6ca7f21",
+                "url": "https://api.github.com/repos/flarum/suspend/zipball/d40c1e828cb4d90e9899bd9c41772c33ba666c82",
+                "reference": "d40c1e828cb4d90e9899bd9c41772c33ba666c82",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "require-dev": {
                 "flarum/testing": "^1.0.0"
@@ -2522,24 +2523,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "flarum/tags",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/tags.git",
-                "reference": "5a102fc714828a2e227969599bf5aa5f522581cf"
+                "reference": "ddb5f2fd849a0ccae127583d620adbc969182215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/tags/zipball/5a102fc714828a2e227969599bf5aa5f522581cf",
-                "reference": "5a102fc714828a2e227969599bf5aa5f522581cf",
+                "url": "https://api.github.com/repos/flarum/tags/zipball/ddb5f2fd849a0ccae127583d620adbc969182215",
+                "reference": "ddb5f2fd849a0ccae127583d620adbc969182215",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.4"
+                "flarum/core": "^1.5"
             },
             "require-dev": {
                 "flarum/core": "*@dev",
@@ -2602,7 +2603,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-07-12T21:30:03+00:00"
+            "time": "2022-09-13T08:55:30+00:00"
         },
         {
             "name": "fof/spamblock",
@@ -2784,6 +2785,218 @@
                 "source": "https://github.com/franzliedke/whoops-middleware/tree/2.0.0"
             },
             "time": "2021-01-03T01:30:07+00:00"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "7.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "b50a2a1251152e43f6a37f0fa053e730a67d25ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b50a2a1251152e43f6a37f0fa053e730a67d25ba",
+                "reference": "b50a2a1251152e43f6a37f0fa053e730a67d25ba",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/promises": "^1.5",
+                "guzzlehttp/psr7": "^1.9 || ^2.4",
+                "php": "^7.2.5 || ^8.0",
+                "psr/http-client": "^1.0",
+                "symfony/deprecation-contracts": "^2.2 || ^3.0"
+            },
+            "provide": {
+                "psr/http-client-implementation": "1.0"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.8.1",
+                "ext-curl": "*",
+                "php-http/client-integration-tests": "^3.0",
+                "phpunit/phpunit": "^8.5.29 || ^9.5.23",
+                "psr/log": "^1.1 || ^2.0 || ^3.0"
+            },
+            "suggest": {
+                "ext-curl": "Required for CURL handler support",
+                "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "bamarni-bin": {
+                    "bin-links": true,
+                    "forward-command": false
+                },
+                "branch-alias": {
+                    "dev-master": "7.5-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Jeremy Lindblom",
+                    "email": "jeremeamia@gmail.com",
+                    "homepage": "https://github.com/jeremeamia"
+                },
+                {
+                    "name": "George Mponos",
+                    "email": "gmponos@gmail.com",
+                    "homepage": "https://github.com/gmponos"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://github.com/sagikazarmark"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "psr-18",
+                "psr-7",
+                "rest",
+                "web service"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/guzzle/issues",
+                "source": "https://github.com/guzzle/guzzle/tree/7.5.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/guzzle",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-08-28T15:39:27+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "1.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "b94b2807d85443f9719887892882d0329d1e2598"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/b94b2807d85443f9719887892882d0329d1e2598",
+                "reference": "b94b2807d85443f9719887892882d0329d1e2598",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^4.4 || ^5.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/promises/issues",
+                "source": "https://github.com/guzzle/promises/tree/1.5.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/promises",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-08-28T14:55:35+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -5957,6 +6170,58 @@
                 "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
             },
             "time": "2019-01-08T18:20:26+00:00"
+        },
+        {
+            "name": "psr/http-client",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-client.git",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP clients",
+            "homepage": "https://github.com/php-fig/http-client",
+            "keywords": [
+                "http",
+                "http-client",
+                "psr",
+                "psr-18"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-client/tree/master"
+            },
+            "time": "2020-06-29T06:28:15+00:00"
         },
         {
             "name": "psr/http-factory",
