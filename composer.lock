@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a08752c12f66fbe317135ee770e24ad",
+    "content-hash": "018ad72a7434fec43eee24109a0a6b0d",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2207,16 +2207,16 @@
         },
         {
             "name": "flarum/statistics",
-            "version": "v1.5.0",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/statistics.git",
-                "reference": "13468c664d25ac20354b83a245d1e09c0895f1d5"
+                "reference": "66b66b637ae1fd2af42cdf0dca1444ae4fbdc63f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/statistics/zipball/13468c664d25ac20354b83a245d1e09c0895f1d5",
-                "reference": "13468c664d25ac20354b83a245d1e09c0895f1d5",
+                "url": "https://api.github.com/repos/flarum/statistics/zipball/66b66b637ae1fd2af42cdf0dca1444ae4fbdc63f",
+                "reference": "66b66b637ae1fd2af42cdf0dca1444ae4fbdc63f",
                 "shasum": ""
             },
             "require": {
@@ -2285,7 +2285,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-09-13T08:55:30+00:00"
+            "time": "2022-10-11T17:22:47+00:00"
         },
         {
             "name": "flarum/sticky",
