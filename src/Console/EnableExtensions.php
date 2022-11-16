@@ -8,11 +8,8 @@ use Flarum\Extension\ExtensionManager;
 
 class EnableExtensions extends AbstractCommand
 {
-    private ExtensionManager $extensionManager;
-
-    public function __construct(ExtensionManager $extensionManager)
+    public function __construct(private readonly ExtensionManager $extensionManager)
     {
-        $this->extensionManager = $extensionManager;
         parent::__construct();
     }
 
@@ -25,11 +22,32 @@ class EnableExtensions extends AbstractCommand
 
     protected function fire(): void
     {
-        /** @var Extension $extension */
+        foreach ($this->getResolvedExtensions() as $validExtension) {
+            assert($validExtension instanceof Extension);
+            $this->output->writeln('Enabling extension ' . $validExtension->name);
+            $this->extensionManager->enable($validExtension->getId());
+        }
+    }
+
+    private function getResolvedExtensions(): iterable
+    {
+        $resolvedExtensions = $this->extensionManager->resolveExtensionOrder([...$this->getDisabledExtensions()]);
+        assert(!empty($resolvedExtensions['valid']));
+        assert(empty($resolvedExtensions['missingDependencies']));
+        assert(empty($resolvedExtensions['circularDependencies']));
+
+        foreach ($resolvedExtensions['valid'] as $validExtension) {
+            assert($validExtension instanceof Extension);
+            yield $validExtension;
+        }
+    }
+
+    private function getDisabledExtensions(): iterable
+    {
         foreach ($this->extensionManager->getExtensions() as $extension) {
+            assert($extension instanceof Extension);
             if (!$this->extensionManager->isEnabled($extension->getId())) {
-                $this->output->writeln('Enabling extension ' . $extension->name);
-                $this->extensionManager->enable($extension->getId());
+                yield $extension;
             }
         }
     }
