@@ -6861,16 +6861,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.12.1",
+            "version": "2.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "7f07e259b626d8c8910eb15ff4ed6d78af951de1"
+                "reference": "fa2af8572410744cae391f29e7d821d4fd296df9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/7f07e259b626d8c8910eb15ff4ed6d78af951de1",
-                "reference": "7f07e259b626d8c8910eb15ff4ed6d78af951de1",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/fa2af8572410744cae391f29e7d821d4fd296df9",
+                "reference": "fa2af8572410744cae391f29e7d821d4fd296df9",
                 "shasum": ""
             },
             "require": {
@@ -6897,7 +6897,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.12.1"
+                "version": "2.12.2"
             },
             "autoload": {
                 "psr-4": {
@@ -6929,9 +6929,9 @@
             ],
             "support": {
                 "issues": "https://github.com/s9e/TextFormatter/issues",
-                "source": "https://github.com/s9e/TextFormatter/tree/2.12.1"
+                "source": "https://github.com/s9e/TextFormatter/tree/2.12.2"
             },
-            "time": "2022-10-23T19:22:51+00:00"
+            "time": "2022-11-30T00:36:32+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
