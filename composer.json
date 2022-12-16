@@ -43,6 +43,9 @@
         "allow-plugins": {
             "phpstan/extension-installer": true,
             "malukenho/mcbumpface": true
+        },
+        "platform": {
+            "php": "8.1.14"
         }
     },
     "autoload": {
