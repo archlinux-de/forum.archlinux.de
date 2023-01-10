@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe99649bd363078fb3668567f4f5bda0",
+    "content-hash": "1416e91f056a8b227a004052e5b9c27e",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1512,16 +1512,16 @@
         },
         {
             "name": "flarum/core",
-            "version": "v1.6.2",
+            "version": "v1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flarum-core.git",
-                "reference": "d359cd7a905eb341ffb7ea4e8c5595ee46084b67"
+                "reference": "9ae3d20f82da3df3e7ebbb145a7c47c006b36966"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/d359cd7a905eb341ffb7ea4e8c5595ee46084b67",
-                "reference": "d359cd7a905eb341ffb7ea4e8c5595ee46084b67",
+                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/9ae3d20f82da3df3e7ebbb145a7c47c006b36966",
+                "reference": "9ae3d20f82da3df3e7ebbb145a7c47c006b36966",
                 "shasum": ""
             },
             "require": {
@@ -1652,7 +1652,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2022-11-18T21:35:12+00:00"
+            "time": "2023-01-10T12:17:54+00:00"
         },
         {
             "name": "flarum/flags",
@@ -2048,20 +2048,20 @@
         },
         {
             "name": "flarum/mentions",
-            "version": "v1.6.1",
+            "version": "v1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/mentions.git",
-                "reference": "42563a93674d46412c294d091690f3ea3f251406"
+                "reference": "c40e89628022f25c34459f2d2995f13e53721754"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/mentions/zipball/42563a93674d46412c294d091690f3ea3f251406",
-                "reference": "42563a93674d46412c294d091690f3ea3f251406",
+                "url": "https://api.github.com/repos/flarum/mentions/zipball/c40e89628022f25c34459f2d2995f13e53721754",
+                "reference": "c40e89628022f25c34459f2d2995f13e53721754",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.6"
+                "flarum/core": "^1.6.3"
             },
             "require-dev": {
                 "flarum/core": "*@dev",
@@ -2124,7 +2124,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-11-16T10:30:13+00:00"
+            "time": "2023-01-10T11:44:00+00:00"
         },
         {
             "name": "flarum/nicknames",
