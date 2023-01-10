@@ -29,7 +29,7 @@
         "flarum/nicknames": "^1.6.1",
         "flarum/statistics": "^1.6.1",
         "flarum/sticky": "^1.6.1",
-        "flarum/subscriptions": "^1.6.1",
+        "flarum/subscriptions": "^1.6.3",
         "flarum/suspend": "^1.6.1",
         "flarum/tags": "^1.6.1",
         "fof/spamblock": "^1.1.0",

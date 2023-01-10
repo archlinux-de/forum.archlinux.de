@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1416e91f056a8b227a004052e5b9c27e",
+    "content-hash": "aa3345472391cad80e5f3311f81b5bf0",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2370,20 +2370,20 @@
         },
         {
             "name": "flarum/subscriptions",
-            "version": "v1.6.1",
+            "version": "v1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/subscriptions.git",
-                "reference": "40e44f1ceaade19111b3acb8bb69edf0c906b571"
+                "reference": "88c561a8a055d1e8c6c01045cddbb57b03111fd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/subscriptions/zipball/40e44f1ceaade19111b3acb8bb69edf0c906b571",
-                "reference": "40e44f1ceaade19111b3acb8bb69edf0c906b571",
+                "url": "https://api.github.com/repos/flarum/subscriptions/zipball/88c561a8a055d1e8c6c01045cddbb57b03111fd5",
+                "reference": "88c561a8a055d1e8c6c01045cddbb57b03111fd5",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.6"
+                "flarum/core": "^1.6.3"
             },
             "require-dev": {
                 "flarum/approval": "@dev",
@@ -2449,7 +2449,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2022-11-16T10:30:13+00:00"
+            "time": "2023-01-10T14:06:03+00:00"
         },
         {
             "name": "flarum/suspend",
