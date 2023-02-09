@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9962db0183529cfa17553f6734d98dea",
+    "content-hash": "4ada1e1a6e5ab6ccc64b590998762259",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -8674,24 +8674,24 @@
         },
         {
             "name": "wikimedia/less.php",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/less.php.git",
-                "reference": "47c4714c68c9006c87676d76c172a18e1d180f60"
+                "reference": "0d5b30ba792bdbf8991a646fc9c30561b38a5559"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/less.php/zipball/47c4714c68c9006c87676d76c172a18e1d180f60",
-                "reference": "47c4714c68c9006c87676d76c172a18e1d180f60",
+                "url": "https://api.github.com/repos/wikimedia/less.php/zipball/0d5b30ba792bdbf8991a646fc9c30561b38a5559",
+                "reference": "0d5b30ba792bdbf8991a646fc9c30561b38a5559",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.9"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "39.0.0",
-                "mediawiki/mediawiki-phan-config": "0.11.1 || 0.12.0",
+                "mediawiki/mediawiki-codesniffer": "40.0.1",
+                "mediawiki/mediawiki-phan-config": "0.12.0",
                 "mediawiki/minus-x": "1.1.1",
                 "php-parallel-lint/php-console-highlighter": "1.0.0",
                 "php-parallel-lint/php-parallel-lint": "1.3.2",
@@ -8715,6 +8715,10 @@
             ],
             "authors": [
                 {
+                    "name": "Timo Tijhof",
+                    "homepage": "https://timotijhof.net"
+                },
+                {
                     "name": "Josh Schmidt",
                     "homepage": "https://github.com/oyejorge"
                 },
@@ -8728,6 +8732,7 @@
                 }
             ],
             "description": "PHP port of the LESS processor",
+            "homepage": "https://gerrit.wikimedia.org/g/mediawiki/libs/less.php",
             "keywords": [
                 "css",
                 "less",
@@ -8738,9 +8743,9 @@
             ],
             "support": {
                 "issues": "https://github.com/wikimedia/less.php/issues",
-                "source": "https://github.com/wikimedia/less.php/tree/v3.2.0"
+                "source": "https://github.com/wikimedia/less.php/tree/v3.2.1"
             },
-            "time": "2023-01-09T18:45:54+00:00"
+            "time": "2023-02-03T06:43:41+00:00"
         }
     ],
     "packages-dev": [
@@ -8843,16 +8848,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.9.16",
+            "version": "1.9.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "922e2689bb180575d0f57de0443c431a5a698e8f"
+                "reference": "204e459e7822f2c586463029f5ecec31bb45a1f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/922e2689bb180575d0f57de0443c431a5a698e8f",
-                "reference": "922e2689bb180575d0f57de0443c431a5a698e8f",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/204e459e7822f2c586463029f5ecec31bb45a1f2",
+                "reference": "204e459e7822f2c586463029f5ecec31bb45a1f2",
                 "shasum": ""
             },
             "require": {
@@ -8882,7 +8887,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.9.16"
+                "source": "https://github.com/phpstan/phpstan/tree/1.9.17"
             },
             "funding": [
                 {
@@ -8898,7 +8903,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-07T10:42:21+00:00"
+            "time": "2023-02-08T12:25:00+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
