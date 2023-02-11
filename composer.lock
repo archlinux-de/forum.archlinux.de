@@ -6874,16 +6874,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.13.0",
+            "version": "2.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "eb608586bef442a91a009bff6f0a685a0be9f1a3"
+                "reference": "bbd9e34e9c30d5daeb780f115fe69cd81dd9c352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/eb608586bef442a91a009bff6f0a685a0be9f1a3",
-                "reference": "eb608586bef442a91a009bff6f0a685a0be9f1a3",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/bbd9e34e9c30d5daeb780f115fe69cd81dd9c352",
+                "reference": "bbd9e34e9c30d5daeb780f115fe69cd81dd9c352",
                 "shasum": ""
             },
             "require": {
@@ -6897,7 +6897,7 @@
             "require-dev": {
                 "code-lts/doctum": "*",
                 "matthiasmullie/minify": "*",
-                "phpunit/phpunit": "*"
+                "phpunit/phpunit": "^9.5"
             },
             "suggest": {
                 "ext-curl": "Improves the performance of the MediaEmbed plugin and some JavaScript minifiers",
@@ -6910,7 +6910,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.13.0"
+                "version": "2.13.1"
             },
             "autoload": {
                 "psr-4": {
@@ -6942,9 +6942,9 @@
             ],
             "support": {
                 "issues": "https://github.com/s9e/TextFormatter/issues",
-                "source": "https://github.com/s9e/TextFormatter/tree/2.13.0"
+                "source": "https://github.com/s9e/TextFormatter/tree/2.13.1"
             },
-            "time": "2023-01-30T23:39:49+00:00"
+            "time": "2023-02-11T00:18:05+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
