@@ -19,7 +19,7 @@
         "archlinux-de/flarum-theme-archlinux": "^1.1.0",
         "flarum-lang/german": "^1.4.7",
         "flarum/bbcode": "^1.7.0",
-        "flarum/core": "^1.7.0",
+        "flarum/core": "^1.7.1",
         "flarum/flags": "^1.7.0",
         "flarum/lang-english": "^1.7.0",
         "flarum/likes": "^1.7.0",
