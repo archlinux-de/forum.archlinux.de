@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d6a49be64742c251325f9f023453a4f",
+    "content-hash": "95874ea6278c1202b7ced6d0e647cc28",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1512,16 +1512,16 @@
         },
         {
             "name": "flarum/core",
-            "version": "v1.7.1",
+            "version": "v1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flarum-core.git",
-                "reference": "06ddc96df7c3d88b48392063d3a6a751b4418783"
+                "reference": "6360d3633af505595772685cc22f7cf6be3809eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/06ddc96df7c3d88b48392063d3a6a751b4418783",
-                "reference": "06ddc96df7c3d88b48392063d3a6a751b4418783",
+                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/6360d3633af505595772685cc22f7cf6be3809eb",
+                "reference": "6360d3633af505595772685cc22f7cf6be3809eb",
                 "shasum": ""
             },
             "require": {
@@ -1653,7 +1653,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2023-03-12T12:28:04+00:00"
+            "time": "2023-03-24T09:31:43+00:00"
         },
         {
             "name": "flarum/flags",
@@ -4835,16 +4835,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.3.9",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5"
+                "reference": "d44a24690f16b8c1808bf13b1bd54ae4c63ea048"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c1e114f74e518daca2729ea8c4bf1167038fa4b5",
-                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/d44a24690f16b8c1808bf13b1bd54ae4c63ea048",
+                "reference": "d44a24690f16b8c1808bf13b1bd54ae4c63ea048",
                 "shasum": ""
             },
             "require": {
@@ -4880,7 +4880,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.4-dev"
+                    "dev-main": "2.5-dev"
                 }
             },
             "autoload": {
@@ -4937,7 +4937,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-15T14:07:24+00:00"
+            "time": "2023-03-24T15:16:10+00:00"
         },
         {
             "name": "league/config",
@@ -8980,16 +8980,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.7",
+            "version": "1.10.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "b10ceb526d9607903c5b2673f1fc8775dbe48975"
+                "reference": "0166aef76e066f0dd2adc2799bdadfa1635711e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b10ceb526d9607903c5b2673f1fc8775dbe48975",
-                "reference": "b10ceb526d9607903c5b2673f1fc8775dbe48975",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0166aef76e066f0dd2adc2799bdadfa1635711e9",
+                "reference": "0166aef76e066f0dd2adc2799bdadfa1635711e9",
                 "shasum": ""
             },
             "require": {
@@ -9038,7 +9038,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-16T15:24:20+00:00"
+            "time": "2023-03-24T10:28:16+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
