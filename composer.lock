@@ -7259,16 +7259,16 @@
         },
         {
             "name": "sycho/json-api",
-            "version": "v0.5.1",
+            "version": "v0.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SychO9/json-api-php.git",
-                "reference": "ac8eaaeeabcc564bbad62a26bd2b9953ed7efddd"
+                "reference": "5ef867317a6b39b307af0fc98c5b9c5828607301"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SychO9/json-api-php/zipball/ac8eaaeeabcc564bbad62a26bd2b9953ed7efddd",
-                "reference": "ac8eaaeeabcc564bbad62a26bd2b9953ed7efddd",
+                "url": "https://api.github.com/repos/SychO9/json-api-php/zipball/5ef867317a6b39b307af0fc98c5b9c5828607301",
+                "reference": "5ef867317a6b39b307af0fc98c5b9c5828607301",
                 "shasum": ""
             },
             "require": {
@@ -7281,7 +7281,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "0.5-dev"
                 }
             },
             "autoload": {
@@ -7307,9 +7307,9 @@
                 "standard"
             ],
             "support": {
-                "source": "https://github.com/SychO9/json-api-php/tree/v0.5.1"
+                "source": "https://github.com/SychO9/json-api-php/tree/v0.5.2"
             },
-            "time": "2022-07-04T18:40:21+00:00"
+            "time": "2023-04-16T10:46:37+00:00"
         },
         {
             "name": "sycho/sourcemap",
