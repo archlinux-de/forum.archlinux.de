@@ -7,6 +7,7 @@
  * LICENSE file that was distributed with this source code.
  */
 
+use App\Console\BackupImages;
 use App\Console\EnableExtensions;
 use App\Middleware\ContentSecurityPolicy;
 use App\ServiceProvider\ErrorLogProvider;
@@ -17,6 +18,7 @@ use s9e\TextFormatter\Configurator\Items\Tag;
 
 return [
     (new Extend\Console())->command(EnableExtensions::class),
+    (new Extend\Console())->command(BackupImages::class),
     (new Extend\ServiceProvider())->register(ErrorLogProvider::class),
     (new Extend\ServiceProvider())->register(SessionServiceProvider::class),
     (new Extend\Middleware('forum'))->add(ContentSecurityPolicy::class),
