@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6cb3b28b701fea15653f34c6647c143",
+    "content-hash": "86c37036525614a2c3f281ecf86818d3",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -64,16 +64,16 @@
         },
         {
             "name": "archlinux-de/flarum-click-image",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-click-image.git",
-                "reference": "bd2170d21cc2fc42320684903a9ccdd0ddc2b9e3"
+                "reference": "7e355cc9fd95f2655d1051dfe72c976fe45d348b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-click-image/zipball/bd2170d21cc2fc42320684903a9ccdd0ddc2b9e3",
-                "reference": "bd2170d21cc2fc42320684903a9ccdd0ddc2b9e3",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-click-image/zipball/7e355cc9fd95f2655d1051dfe72c976fe45d348b",
+                "reference": "7e355cc9fd95f2655d1051dfe72c976fe45d348b",
                 "shasum": ""
             },
             "require": {
@@ -115,9 +115,9 @@
             "description": "Load images on click",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-click-image/issues",
-                "source": "https://github.com/archlinux-de/flarum-click-image/tree/1.0.0"
+                "source": "https://github.com/archlinux-de/flarum-click-image/tree/1.1.0"
             },
-            "time": "2022-02-12T17:38:02+00:00"
+            "time": "2023-05-19T17:11:56+00:00"
         },
         {
             "name": "archlinux-de/flarum-discussion-feed",
