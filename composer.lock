@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86c37036525614a2c3f281ecf86818d3",
+    "content-hash": "e9122fb4d6ed9a2815c26ca3615d2212",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1383,16 +1383,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.4.8",
+            "version": "1.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "ce09e1b6da3beff40cd546b3a6554d5748549056"
+                "reference": "dae35b2fd00fb6688304b9d07b15db64621ce1b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/ce09e1b6da3beff40cd546b3a6554d5748549056",
-                "reference": "ce09e1b6da3beff40cd546b3a6554d5748549056",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/dae35b2fd00fb6688304b9d07b15db64621ce1b7",
+                "reference": "dae35b2fd00fb6688304b9d07b15db64621ce1b7",
                 "shasum": ""
             },
             "require": {
@@ -1436,24 +1436,24 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2023-03-13T17:26:49+00:00"
+            "time": "2023-05-20T23:44:01+00:00"
         },
         {
             "name": "flarum/bbcode",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/bbcode.git",
-                "reference": "ef30ef658845dd5bfbd3aa236f72305ca6b2bfc4"
+                "reference": "9d5fa06b18bf78c9d2f6e82d3904fff6e3fcb8a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/bbcode/zipball/ef30ef658845dd5bfbd3aa236f72305ca6b2bfc4",
-                "reference": "ef30ef658845dd5bfbd3aa236f72305ca6b2bfc4",
+                "url": "https://api.github.com/repos/flarum/bbcode/zipball/9d5fa06b18bf78c9d2f6e82d3904fff6e3fcb8a9",
+                "reference": "9d5fa06b18bf78c9d2f6e82d3904fff6e3fcb8a9",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1487,6 +1487,11 @@
                     }
                 }
             },
+            "autoload": {
+                "psr-4": {
+                    "Flarum\\BBCode\\": "src"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1507,20 +1512,20 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-03-09T18:00:32+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "flarum/core",
-            "version": "v1.7.2",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flarum-core.git",
-                "reference": "6360d3633af505595772685cc22f7cf6be3809eb"
+                "reference": "73a7c7389cfa0256275a5301c7de5cc87f89a2fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/6360d3633af505595772685cc22f7cf6be3809eb",
-                "reference": "6360d3633af505595772685cc22f7cf6be3809eb",
+                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/73a7c7389cfa0256275a5301c7de5cc87f89a2fe",
+                "reference": "73a7c7389cfa0256275a5301c7de5cc87f89a2fe",
                 "shasum": ""
             },
             "require": {
@@ -1564,6 +1569,7 @@
                 "psr/http-server-handler": "^1.0",
                 "psr/http-server-middleware": "^1.0",
                 "s9e/text-formatter": "^2.3.6",
+                "staudenmeir/eloquent-eager-limit": "^1.0",
                 "sycho/json-api": "^0.5.0",
                 "sycho/sourcemap": "^2.0.0",
                 "symfony/config": "^5.2.2",
@@ -1652,24 +1658,24 @@
                     "type": "other"
                 }
             ],
-            "time": "2023-03-24T09:31:43+00:00"
+            "time": "2023-05-20T16:46:42+00:00"
         },
         {
             "name": "flarum/flags",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flags.git",
-                "reference": "cdecb902759f7afb36bbd2d299d3e9ef56a77c11"
+                "reference": "941cc37719b6437eca09f03715a27793abe1fb48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flags/zipball/cdecb902759f7afb36bbd2d299d3e9ef56a77c11",
-                "reference": "cdecb902759f7afb36bbd2d299d3e9ef56a77c11",
+                "url": "https://api.github.com/repos/flarum/flags/zipball/941cc37719b6437eca09f03715a27793abe1fb48",
+                "reference": "941cc37719b6437eca09f03715a27793abe1fb48",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "require-dev": {
                 "flarum/core": "*@dev",
@@ -1733,24 +1739,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-03-09T18:00:32+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "flarum/lang-english",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/lang-english.git",
-                "reference": "11dd45051d2734980c603dcbe17b79beb904f378"
+                "reference": "7b1c2feb49f0b6707746907ca426dd309860b60f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/lang-english/zipball/11dd45051d2734980c603dcbe17b79beb904f378",
-                "reference": "11dd45051d2734980c603dcbe17b79beb904f378",
+                "url": "https://api.github.com/repos/flarum/lang-english/zipball/7b1c2feb49f0b6707746907ca426dd309860b60f",
+                "reference": "7b1c2feb49f0b6707746907ca426dd309860b60f",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1803,7 +1809,7 @@
                 "locale"
             ],
             "support": {
-                "source": "https://github.com/flarum/lang-english/tree/v1.7.0"
+                "source": "https://github.com/flarum/lang-english/tree/v1.8.0"
             },
             "funding": [
                 {
@@ -1815,24 +1821,24 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-03-09T18:00:32+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "flarum/likes",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/likes.git",
-                "reference": "185acf0a9eeb047cd1c457984d4b10bf11ab5c79"
+                "reference": "55dfbb535a18149cd0cca66703fd19da07cb3a36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/likes/zipball/185acf0a9eeb047cd1c457984d4b10bf11ab5c79",
-                "reference": "185acf0a9eeb047cd1c457984d4b10bf11ab5c79",
+                "url": "https://api.github.com/repos/flarum/likes/zipball/55dfbb535a18149cd0cca66703fd19da07cb3a36",
+                "reference": "55dfbb535a18149cd0cca66703fd19da07cb3a36",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "require-dev": {
                 "flarum/testing": "^1.0.0"
@@ -1894,24 +1900,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-03-09T18:00:32+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "flarum/lock",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/lock.git",
-                "reference": "02962ce3a905ca9eefe73d2a6e929a2895a52b2e"
+                "reference": "3d48574c0ebdd3ef28d65fe4882d7af00797bce1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/lock/zipball/02962ce3a905ca9eefe73d2a6e929a2895a52b2e",
-                "reference": "02962ce3a905ca9eefe73d2a6e929a2895a52b2e",
+                "url": "https://api.github.com/repos/flarum/lock/zipball/3d48574c0ebdd3ef28d65fe4882d7af00797bce1",
+                "reference": "3d48574c0ebdd3ef28d65fe4882d7af00797bce1",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1970,24 +1976,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-03-09T18:00:32+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "flarum/markdown",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/markdown.git",
-                "reference": "65ed3c734a602f2aa4b216e6a481e61959bb9199"
+                "reference": "2e3724c9c7b322b8af41fbddb73b0332cfbd16fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/markdown/zipball/65ed3c734a602f2aa4b216e6a481e61959bb9199",
-                "reference": "65ed3c734a602f2aa4b216e6a481e61959bb9199",
+                "url": "https://api.github.com/repos/flarum/markdown/zipball/2e3724c9c7b322b8af41fbddb73b0332cfbd16fc",
+                "reference": "2e3724c9c7b322b8af41fbddb73b0332cfbd16fc",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2044,27 +2050,28 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-03-09T18:00:32+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "flarum/mentions",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/mentions.git",
-                "reference": "d6e8d639e578f62566f715cf268085594df1d0ea"
+                "reference": "192886f5a73318e191c3dc3207e5746258f0e3ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/mentions/zipball/d6e8d639e578f62566f715cf268085594df1d0ea",
-                "reference": "d6e8d639e578f62566f715cf268085594df1d0ea",
+                "url": "https://api.github.com/repos/flarum/mentions/zipball/192886f5a73318e191c3dc3207e5746258f0e3ae",
+                "reference": "192886f5a73318e191c3dc3207e5746258f0e3ae",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "require-dev": {
                 "flarum/core": "*@dev",
+                "flarum/tags": "*@dev",
                 "flarum/testing": "^1.0.0"
             },
             "type": "flarum-extension",
@@ -2075,6 +2082,9 @@
                 "flarum-extension": {
                     "title": "Mentions",
                     "category": "feature",
+                    "optional-dependencies": [
+                        "flarum/tags"
+                    ],
                     "icon": {
                         "name": "fas fa-at",
                         "backgroundColor": "#539EC1",
@@ -2124,24 +2134,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-03-09T18:00:32+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "flarum/nicknames",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/nicknames.git",
-                "reference": "0de95bf60f045c8fba13a6007d75fee6551e7fba"
+                "reference": "0821e5c982dd16d26c5260879b866eb416e8bb86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/nicknames/zipball/0de95bf60f045c8fba13a6007d75fee6551e7fba",
-                "reference": "0de95bf60f045c8fba13a6007d75fee6551e7fba",
+                "url": "https://api.github.com/repos/flarum/nicknames/zipball/0821e5c982dd16d26c5260879b866eb416e8bb86",
+                "reference": "0821e5c982dd16d26c5260879b866eb416e8bb86",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "require-dev": {
                 "flarum/core": "1.x-dev",
@@ -2204,24 +2214,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-03-09T18:00:32+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "flarum/statistics",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/statistics.git",
-                "reference": "b67d19d307e71583d077f819c720f683babf9dc2"
+                "reference": "51279d0d0d95672017db8cf7a355b0510f1a955d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/statistics/zipball/b67d19d307e71583d077f819c720f683babf9dc2",
-                "reference": "b67d19d307e71583d077f819c720f683babf9dc2",
+                "url": "https://api.github.com/repos/flarum/statistics/zipball/51279d0d0d95672017db8cf7a355b0510f1a955d",
+                "reference": "51279d0d0d95672017db8cf7a355b0510f1a955d",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "require-dev": {
                 "flarum/testing": "^1.0.0"
@@ -2286,24 +2296,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-03-09T18:00:32+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "flarum/sticky",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/sticky.git",
-                "reference": "e7fe1f639c833d7c19d0199d890ff8eed06cfada"
+                "reference": "675900b9f1bc5004432880062d6ce3116c12c4c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/sticky/zipball/e7fe1f639c833d7c19d0199d890ff8eed06cfada",
-                "reference": "e7fe1f639c833d7c19d0199d890ff8eed06cfada",
+                "url": "https://api.github.com/repos/flarum/sticky/zipball/675900b9f1bc5004432880062d6ce3116c12c4c2",
+                "reference": "675900b9f1bc5004432880062d6ce3116c12c4c2",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "require-dev": {
                 "flarum/tags": "*@dev",
@@ -2366,24 +2376,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-03-09T18:00:32+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "flarum/subscriptions",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/subscriptions.git",
-                "reference": "f85fc00c4d87ae753436828151b9d1116eddd003"
+                "reference": "532b7e61a387481055a0c9d5d07f78cd3d4e9bd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/subscriptions/zipball/f85fc00c4d87ae753436828151b9d1116eddd003",
-                "reference": "f85fc00c4d87ae753436828151b9d1116eddd003",
+                "url": "https://api.github.com/repos/flarum/subscriptions/zipball/532b7e61a387481055a0c9d5d07f78cd3d4e9bd7",
+                "reference": "532b7e61a387481055a0c9d5d07f78cd3d4e9bd7",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "require-dev": {
                 "flarum/approval": "@dev",
@@ -2449,24 +2459,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-03-09T18:00:32+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "flarum/suspend",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/suspend.git",
-                "reference": "212be762a993018c8f64c9f9326183db9c1a20b4"
+                "reference": "409010635ce7d274cbe6eee661f75ed9b67b2cb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/suspend/zipball/212be762a993018c8f64c9f9326183db9c1a20b4",
-                "reference": "212be762a993018c8f64c9f9326183db9c1a20b4",
+                "url": "https://api.github.com/repos/flarum/suspend/zipball/409010635ce7d274cbe6eee661f75ed9b67b2cb0",
+                "reference": "409010635ce7d274cbe6eee661f75ed9b67b2cb0",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "require-dev": {
                 "flarum/testing": "^1.0.0"
@@ -2528,24 +2538,24 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-03-09T18:00:32+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "flarum/tags",
-            "version": "v1.7.1",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/tags.git",
-                "reference": "f8944346d2fb976f3a4eb9fd681700ba7d5e88ec"
+                "reference": "45cfb339e1ebd9f0204070f7f271c00282d20694"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/tags/zipball/f8944346d2fb976f3a4eb9fd681700ba7d5e88ec",
-                "reference": "f8944346d2fb976f3a4eb9fd681700ba7d5e88ec",
+                "url": "https://api.github.com/repos/flarum/tags/zipball/45cfb339e1ebd9f0204070f7f271c00282d20694",
+                "reference": "45cfb339e1ebd9f0204070f7f271c00282d20694",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.7"
+                "flarum/core": "^1.8"
             },
             "require-dev": {
                 "flarum/core": "*@dev",
@@ -2608,7 +2618,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-03-11T08:14:06+00:00"
+            "time": "2023-05-20T15:08:42+00:00"
         },
         {
             "name": "fof/spamblock",
@@ -7062,6 +7072,56 @@
                 "source": "https://github.com/s9e/TextFormatter/tree/2.13.1"
             },
             "time": "2023-02-11T00:18:05+00:00"
+        },
+        {
+            "name": "staudenmeir/eloquent-eager-limit",
+            "version": "v1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/staudenmeir/eloquent-eager-limit.git",
+                "reference": "439135c4b3361a313c2e7102d68bf807518d1bf9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/staudenmeir/eloquent-eager-limit/zipball/439135c4b3361a313c2e7102d68bf807518d1bf9",
+                "reference": "439135c4b3361a313c2e7102d68bf807518d1bf9",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Staudenmeir\\EloquentEagerLimit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonas Staudenmeir",
+                    "email": "mail@jonas-staudenmeir.de"
+                }
+            ],
+            "description": "Laravel Eloquent eager loading with limit",
+            "support": {
+                "issues": "https://github.com/staudenmeir/eloquent-eager-limit/issues",
+                "source": "https://github.com/staudenmeir/eloquent-eager-limit/tree/v1.6.1"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/JonasStaudenmeir",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-11-22T18:13:55+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
