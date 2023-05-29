@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15821c2f4b8d54e27b177453d563d7ab",
+    "content-hash": "bb8db9511987e15b900b9bf2ea378e71",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -64,16 +64,16 @@
         },
         {
             "name": "archlinux-de/flarum-click-image",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-click-image.git",
-                "reference": "7e355cc9fd95f2655d1051dfe72c976fe45d348b"
+                "reference": "b4eaeae845e3a819bc95ec52a66e1b74862c8417"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-click-image/zipball/7e355cc9fd95f2655d1051dfe72c976fe45d348b",
-                "reference": "7e355cc9fd95f2655d1051dfe72c976fe45d348b",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-click-image/zipball/b4eaeae845e3a819bc95ec52a66e1b74862c8417",
+                "reference": "b4eaeae845e3a819bc95ec52a66e1b74862c8417",
                 "shasum": ""
             },
             "require": {
@@ -115,9 +115,9 @@
             "description": "Load images on click",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-click-image/issues",
-                "source": "https://github.com/archlinux-de/flarum-click-image/tree/1.1.0"
+                "source": "https://github.com/archlinux-de/flarum-click-image/tree/1.1.1"
             },
-            "time": "2023-05-19T17:11:56+00:00"
+            "time": "2023-05-28T09:47:41+00:00"
         },
         {
             "name": "archlinux-de/flarum-discussion-feed",
@@ -5855,16 +5855,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.66.0",
+            "version": "2.67.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "496712849902241f04902033b0441b269effe001"
+                "reference": "c1001b3bc75039b07f38a79db5237c4c529e04c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/496712849902241f04902033b0441b269effe001",
-                "reference": "496712849902241f04902033b0441b269effe001",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/c1001b3bc75039b07f38a79db5237c4c529e04c8",
+                "reference": "c1001b3bc75039b07f38a79db5237c4c529e04c8",
                 "shasum": ""
             },
             "require": {
@@ -5953,7 +5953,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-29T18:53:47+00:00"
+            "time": "2023-05-25T22:09:47+00:00"
         },
         {
             "name": "nette/schema",
