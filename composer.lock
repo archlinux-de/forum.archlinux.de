@@ -5234,16 +5234,16 @@
         },
         {
             "name": "matthiasmullie/minify",
-            "version": "1.3.70",
+            "version": "1.3.71",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/minify.git",
-                "reference": "2807d9f9bece6877577ad44acb5c801bb3ae536b"
+                "reference": "ae42a47d7fecc1fbb7277b2f2d84c37a33edc3b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/2807d9f9bece6877577ad44acb5c801bb3ae536b",
-                "reference": "2807d9f9bece6877577ad44acb5c801bb3ae536b",
+                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/ae42a47d7fecc1fbb7277b2f2d84c37a33edc3b1",
+                "reference": "ae42a47d7fecc1fbb7277b2f2d84c37a33edc3b1",
                 "shasum": ""
             },
             "require": {
@@ -5293,7 +5293,7 @@
             ],
             "support": {
                 "issues": "https://github.com/matthiasmullie/minify/issues",
-                "source": "https://github.com/matthiasmullie/minify/tree/1.3.70"
+                "source": "https://github.com/matthiasmullie/minify/tree/1.3.71"
             },
             "funding": [
                 {
@@ -5301,7 +5301,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-09T12:56:44+00:00"
+            "time": "2023-04-25T20:33:03+00:00"
         },
         {
             "name": "matthiasmullie/path-converter",
@@ -7005,23 +7005,23 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.13.1",
+            "version": "2.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "bbd9e34e9c30d5daeb780f115fe69cd81dd9c352"
+                "reference": "48a2f3a3fb18af8d78330204732a3369441c4060"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/bbd9e34e9c30d5daeb780f115fe69cd81dd9c352",
-                "reference": "bbd9e34e9c30d5daeb780f115fe69cd81dd9c352",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/48a2f3a3fb18af8d78330204732a3369441c4060",
+                "reference": "48a2f3a3fb18af8d78330204732a3369441c4060",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-filter": "*",
                 "lib-pcre": ">=8.13",
-                "php": ">=7.4",
+                "php": "^8.0",
                 "s9e/regexp-builder": "^1.4",
                 "s9e/sweetdom": "^2.0"
             },
@@ -7041,7 +7041,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.13.1"
+                "version": "2.14.0"
             },
             "autoload": {
                 "psr-4": {
@@ -7073,9 +7073,9 @@
             ],
             "support": {
                 "issues": "https://github.com/s9e/TextFormatter/issues",
-                "source": "https://github.com/s9e/TextFormatter/tree/2.13.1"
+                "source": "https://github.com/s9e/TextFormatter/tree/2.14.0"
             },
-            "time": "2023-02-11T00:18:05+00:00"
+            "time": "2023-06-08T07:19:50+00:00"
         },
         {
             "name": "staudenmeir/eloquent-eager-limit",
