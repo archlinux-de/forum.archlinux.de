@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb69b5396082ba503f1611ac2d0164a4",
+    "content-hash": "37b03b44644faad86383c24a43f9abdf",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1387,19 +1387,20 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.4.10",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "a5777ebc7f71e1eaf0919b3408f79d2e954089d2"
+                "reference": "521175150900ac463d936a822002f9a5e380c876"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/a5777ebc7f71e1eaf0919b3408f79d2e954089d2",
-                "reference": "a5777ebc7f71e1eaf0919b3408f79d2e954089d2",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/521175150900ac463d936a822002f9a5e380c876",
+                "reference": "521175150900ac463d936a822002f9a5e380c876",
                 "shasum": ""
             },
             "require": {
+                "flarum-lang/utils": "^1.0",
                 "flarum/core": "^1.0"
             },
             "type": "flarum-extension",
@@ -1440,7 +1441,54 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2023-06-06T18:25:33+00:00"
+            "time": "2023-06-12T21:04:07+00:00"
+        },
+        {
+            "name": "flarum-lang/utils",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flarum-lang/utils.git",
+                "reference": "a8e30da0f9a116ae9eba1cb60fefd504cd444592"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flarum-lang/utils/zipball/a8e30da0f9a116ae9eba1cb60fefd504cd444592",
+                "reference": "a8e30da0f9a116ae9eba1cb60fefd504cd444592",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.0",
+                "php": "^7.3 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FlarumLang\\Utils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Korulczyk",
+                    "email": "robert@korulczyk.pl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Utilities for Flarum Language Packs.",
+            "homepage": "https://github.com/flarum-lang/utils",
+            "keywords": [
+                "flarum",
+                "locale-utils"
+            ],
+            "support": {
+                "issues": "https://github.com/flarum-lang/utils/issues",
+                "source": "https://github.com/flarum-lang/utils"
+            },
+            "time": "2023-06-12T20:23:15+00:00"
         },
         {
             "name": "flarum/bbcode",
