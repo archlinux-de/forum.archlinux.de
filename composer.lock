@@ -1445,16 +1445,16 @@
         },
         {
             "name": "flarum-lang/utils",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/utils.git",
-                "reference": "a8e30da0f9a116ae9eba1cb60fefd504cd444592"
+                "reference": "09d3465017fe04ac65c2c855ebb16bc8553cce5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/utils/zipball/a8e30da0f9a116ae9eba1cb60fefd504cd444592",
-                "reference": "a8e30da0f9a116ae9eba1cb60fefd504cd444592",
+                "url": "https://api.github.com/repos/flarum-lang/utils/zipball/09d3465017fe04ac65c2c855ebb16bc8553cce5b",
+                "reference": "09d3465017fe04ac65c2c855ebb16bc8553cce5b",
                 "shasum": ""
             },
             "require": {
@@ -1488,7 +1488,7 @@
                 "issues": "https://github.com/flarum-lang/utils/issues",
                 "source": "https://github.com/flarum-lang/utils"
             },
-            "time": "2023-06-12T20:23:15+00:00"
+            "time": "2023-06-13T18:30:42+00:00"
         },
         {
             "name": "flarum/bbcode",
