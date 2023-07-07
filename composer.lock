@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "184ffb67b28528216a4dcb550f37b2ba",
+    "content-hash": "d3d6f31c25608a8323e8b163183a2151",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2106,16 +2106,16 @@
         },
         {
             "name": "flarum/mentions",
-            "version": "v1.8.1",
+            "version": "v1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/mentions.git",
-                "reference": "c46b86882caed247e31a5c4574582759fa6314ab"
+                "reference": "8789becf13a5813d7e819d382568ab0880f5f9c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/mentions/zipball/c46b86882caed247e31a5c4574582759fa6314ab",
-                "reference": "c46b86882caed247e31a5c4574582759fa6314ab",
+                "url": "https://api.github.com/repos/flarum/mentions/zipball/8789becf13a5813d7e819d382568ab0880f5f9c7",
+                "reference": "8789becf13a5813d7e819d382568ab0880f5f9c7",
                 "shasum": ""
             },
             "require": {
@@ -2186,7 +2186,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-07-04T10:00:45+00:00"
+            "time": "2023-07-06T10:56:10+00:00"
         },
         {
             "name": "flarum/nicknames",
@@ -9080,16 +9080,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.24",
+            "version": "1.10.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "360ecc90569e9a60c2954ee209ec04fa0d958e14"
+                "reference": "578f4e70d117f9a90699324c555922800ac38d8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/360ecc90569e9a60c2954ee209ec04fa0d958e14",
-                "reference": "360ecc90569e9a60c2954ee209ec04fa0d958e14",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/578f4e70d117f9a90699324c555922800ac38d8c",
+                "reference": "578f4e70d117f9a90699324c555922800ac38d8c",
                 "shasum": ""
             },
             "require": {
@@ -9138,7 +9138,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-05T12:32:13+00:00"
+            "time": "2023-07-06T12:11:37+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
