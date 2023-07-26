@@ -4683,27 +4683,27 @@
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
-            "version": "2.6.1",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-httphandlerrunner.git",
-                "reference": "a894a341ec2b0995919265db4f463fb1d5128134"
+                "reference": "ab1fe48f1c367953d7e8f5cfbaf902672551d524"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/a894a341ec2b0995919265db4f463fb1d5128134",
-                "reference": "a894a341ec2b0995919265db4f463fb1d5128134",
+                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/ab1fe48f1c367953d7e8f5cfbaf902672551d524",
+                "reference": "ab1fe48f1c367953d7e8f5cfbaf902672551d524",
                 "shasum": ""
             },
             "require": {
                 "php": "~8.1.0 || ~8.2.0",
                 "psr/http-message": "^1.0 || ^2.0",
-                "psr/http-message-implementation": "^1.0",
+                "psr/http-message-implementation": "^1.0 || ^2.0",
                 "psr/http-server-handler": "^1.0"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~2.5.0",
-                "laminas/laminas-diactoros": "^2.25.2",
+                "laminas/laminas-diactoros": "^3.0.0",
                 "phpunit/phpunit": "^10.1.2",
                 "psalm/plugin-phpunit": "^0.18.4",
                 "vimeo/psalm": "^5.11"
@@ -4746,7 +4746,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2023-05-05T16:09:27+00:00"
+            "time": "2023-07-25T20:20:46+00:00"
         },
         {
             "name": "laminas/laminas-stratigility",
@@ -4829,16 +4829,16 @@
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "f23fe9d4e95255dacee1bf3525e0810d1a1b0f37"
+                "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/f23fe9d4e95255dacee1bf3525e0810d1a1b0f37",
-                "reference": "f23fe9d4e95255dacee1bf3525e0810d1a1b0f37",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/e5a3057a5591e1cfe8183034b0203921abe2c902",
+                "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902",
                 "shasum": ""
             },
             "require": {
@@ -4885,7 +4885,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2023-01-30T18:31:20+00:00"
+            "time": "2023-07-14T13:56:28+00:00"
         },
         {
             "name": "league/commonmark",
