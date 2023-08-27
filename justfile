@@ -2,8 +2,9 @@ set dotenv-load := true
 
 export UID := `id -u`
 export GID := `id -g`
+export COMPOSE_PROFILES := if env_var_or_default("CI", "0") == "true" { "test" } else { "dev" }
 
-COMPOSE := 'docker compose -f docker/app.yml ' + `[ "${CI-}" != "true" ] && echo '-f docker/dev.yml' || echo ''` + ' -p ' + env_var('PROJECT_NAME')
+COMPOSE := 'docker compose -f docker/app.yml -p ' + env_var('PROJECT_NAME')
 COMPOSE-RUN := COMPOSE + ' run --rm'
 PHP-DB-RUN := COMPOSE-RUN + ' php'
 PHP-RUN := COMPOSE-RUN + ' --no-deps php'
@@ -49,7 +50,7 @@ clean:
 	git clean -fdqx -e .idea
 
 rebuild: clean
-	{{COMPOSE}} build --pull
+	{{COMPOSE}} -f docker/cypress-run.yml -f docker/cypress-open.yml build --pull
 	just install
 	just init
 
@@ -70,15 +71,21 @@ composer *args:
 
 composer-outdated: (composer "install") (composer "outdated --direct --strict")
 
+phpstan *args:
+	{{PHP-RUN}} php -dmemory_limit=-1 vendor/bin/phpstan {{args}}
+
 flarum *args:
 	{{PHP-RUN}} php flarum {{args}}
 
-cypress-run *args:
-	{{COMPOSE}} -f docker/cypress-run.yml run     --rm --no-deps cypress run  --project tests/e2e --browser chrome --headless {{args}}
+cypress *args:
+	{{COMPOSE}} -f docker/cypress-run.yml run --rm --no-deps --entrypoint cypress cypress-run {{args}}
 
-cypress-open:
-	xhost +local:root
-	{{COMPOSE}} -f docker/cypress-open.yml run -d --rm --no-deps cypress open --project tests/e2e
+cypress-run *args:
+	{{COMPOSE}} -f docker/cypress-run.yml run --rm --no-deps cypress-run --headless --browser chrome --project tests/e2e {{args}}
+
+cypress-open *args:
+	Xephyr :${PORT} -screen 1920x1080 -resizeable -name Cypress -title "Cypress - {{ env_var('PROJECT_NAME') }}" -terminate -no-host-grab -extension MIT-SHM -extension XTEST -nolisten tcp &
+	DISPLAY=:${PORT} DISPLAY_SOCKET=/tmp/.X11-unix/X${PORT%%:*} {{COMPOSE}} -f docker/cypress-open.yml run --rm --no-deps cypress-open --project tests/e2e --e2e {{args}}
 
 test:
 	{{PHP-RUN}} composer validate
@@ -90,8 +97,10 @@ test-e2e:
 	set -e
 	if [ "${CI-}" = "true" ]; then
 		just init
+		CYPRESS_baseUrl=http://nginx:8080 just cypress-run
+	else
+		just cypress-run
 	fi
-	just cypress-run
 
 update:
 	{{PHP-RUN}} composer --no-interaction update

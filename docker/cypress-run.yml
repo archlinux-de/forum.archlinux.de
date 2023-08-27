@@ -1,17 +1,21 @@
 version: "3.8"
 
 services:
-  cypress:
-    image: cypress/included
+  cypress-run:
+    build:
+      context: cypress
+      target: cypress-run
     depends_on:
       - nginx
     environment:
-      - CYPRESS_baseUrl=${CYPRESS_baseUrl:-http://nginx}
-    ipc: host
-    userns_mode: host
+      - CYPRESS_baseUrl=${CYPRESS_baseUrl:-http://nginx:8080}
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges
     working_dir: /app
     volumes:
       - ../storage/logs:/app/storage/logs:ro
-      - ../tests/e2e:/app/tests/e2e:rw
+      - ../tests/e2e:/app/tests/e2e:ro
     tmpfs:
       - /tmp
