@@ -93,16 +93,9 @@ test-e2e:
 	fi
 	just cypress-run
 
-_update-cypress-image:
-	#!/usr/bin/env bash
-	set -e
-	CYPRESS_VERSION=$(curl -sSf 'https://hub.docker.com/v2/repositories/cypress/included/tags/?page_size=1' | jq -r '."results"[]["name"]')
-	sed -E "s#(cypress/included:).+#\1${CYPRESS_VERSION}#g" -i docker/cypress-*.yml
-
 update:
 	{{PHP-RUN}} composer --no-interaction update
 	{{PHP-RUN}} composer --no-interaction update --lock --no-scripts
-	just _update-cypress-image
 
 deploy:
 	composer --no-interaction install --prefer-dist --no-dev --optimize-autoloader --classmap-authoritative
