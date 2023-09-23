@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44b5e8d58cae6e8cec58ae00a8eed386",
+    "content-hash": "d45309ff71e72ece25e395489ec492f8",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1568,16 +1568,16 @@
         },
         {
             "name": "flarum/core",
-            "version": "v1.8.1",
+            "version": "v1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flarum-core.git",
-                "reference": "ce3bbf02f0f4dbb9cc56752c1c49a6c42b63f1fc"
+                "reference": "44b6ad069091f036a3eaaac2e5b2b5fe39373f12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/ce3bbf02f0f4dbb9cc56752c1c49a6c42b63f1fc",
-                "reference": "ce3bbf02f0f4dbb9cc56752c1c49a6c42b63f1fc",
+                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/44b6ad069091f036a3eaaac2e5b2b5fe39373f12",
+                "reference": "44b6ad069091f036a3eaaac2e5b2b5fe39373f12",
                 "shasum": ""
             },
             "require": {
@@ -1710,7 +1710,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2023-05-23T18:24:51+00:00"
+            "time": "2023-09-22T18:51:39+00:00"
         },
         {
             "name": "flarum/flags",
@@ -2515,16 +2515,16 @@
         },
         {
             "name": "flarum/suspend",
-            "version": "v1.8.0",
+            "version": "v1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/suspend.git",
-                "reference": "409010635ce7d274cbe6eee661f75ed9b67b2cb0"
+                "reference": "0060b7b7737e7b8c8052124d93b511563d2af749"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/suspend/zipball/409010635ce7d274cbe6eee661f75ed9b67b2cb0",
-                "reference": "409010635ce7d274cbe6eee661f75ed9b67b2cb0",
+                "url": "https://api.github.com/repos/flarum/suspend/zipball/0060b7b7737e7b8c8052124d93b511563d2af749",
+                "reference": "0060b7b7737e7b8c8052124d93b511563d2af749",
                 "shasum": ""
             },
             "require": {
@@ -2590,7 +2590,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-05-20T15:08:42+00:00"
+            "time": "2023-09-22T18:38:33+00:00"
         },
         {
             "name": "flarum/tags",
