@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f5c88db03a3126a72a0e43061f87030",
+    "content-hash": "5a48917a43c81f27e18877eafb6fb4e8",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1387,16 +1387,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.8.1",
+            "version": "1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "373fb2432025bbc2faccee7fa829c6c821a63aca"
+                "reference": "d34847a7d4c9cdde0e064b001b1a79abcf07d0f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/373fb2432025bbc2faccee7fa829c6c821a63aca",
-                "reference": "373fb2432025bbc2faccee7fa829c6c821a63aca",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/d34847a7d4c9cdde0e064b001b1a79abcf07d0f7",
+                "reference": "d34847a7d4c9cdde0e064b001b1a79abcf07d0f7",
                 "shasum": ""
             },
             "require": {
@@ -1441,7 +1441,7 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2023-09-21T17:44:45+00:00"
+            "time": "2023-10-08T21:42:29+00:00"
         },
         {
             "name": "flarum-lang/utils",
@@ -7060,16 +7060,16 @@
         },
         {
             "name": "s9e/sweetdom",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/SweetDOM.git",
-                "reference": "dd5d814f93621b1489bfbac8e0331122b928a18a"
+                "reference": "482d42537a1e0ab98924a9d932b724a175302fe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/SweetDOM/zipball/dd5d814f93621b1489bfbac8e0331122b928a18a",
-                "reference": "dd5d814f93621b1489bfbac8e0331122b928a18a",
+                "url": "https://api.github.com/repos/s9e/SweetDOM/zipball/482d42537a1e0ab98924a9d932b724a175302fe8",
+                "reference": "482d42537a1e0ab98924a9d932b724a175302fe8",
                 "shasum": ""
             },
             "require": {
@@ -7098,9 +7098,9 @@
             ],
             "support": {
                 "issues": "https://github.com/s9e/SweetDOM/issues",
-                "source": "https://github.com/s9e/SweetDOM/tree/2.1.1"
+                "source": "https://github.com/s9e/SweetDOM/tree/2.1.2"
             },
-            "time": "2023-06-05T19:10:26+00:00"
+            "time": "2023-10-07T13:06:42+00:00"
         },
         {
             "name": "s9e/text-formatter",
