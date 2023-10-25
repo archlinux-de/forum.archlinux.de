@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "52802397884f8ae60777fba195267145",
+    "content-hash": "cff5570ef78b3c5cabafdaf49807a47b",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1387,16 +1387,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.8.2",
+            "version": "1.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "d34847a7d4c9cdde0e064b001b1a79abcf07d0f7"
+                "reference": "e27d4bf6abdd9e2e4e64a796aa28f6baa5d7befa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/d34847a7d4c9cdde0e064b001b1a79abcf07d0f7",
-                "reference": "d34847a7d4c9cdde0e064b001b1a79abcf07d0f7",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/e27d4bf6abdd9e2e4e64a796aa28f6baa5d7befa",
+                "reference": "e27d4bf6abdd9e2e4e64a796aa28f6baa5d7befa",
                 "shasum": ""
             },
             "require": {
@@ -1441,7 +1441,7 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2023-10-08T21:42:29+00:00"
+            "time": "2023-10-24T21:05:44+00:00"
         },
         {
             "name": "flarum-lang/utils",
@@ -4829,16 +4829,16 @@
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v1.3.1",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902"
+                "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/e5a3057a5591e1cfe8183034b0203921abe2c902",
-                "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
+                "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
                 "shasum": ""
             },
             "require": {
@@ -4885,7 +4885,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2023-07-14T13:56:28+00:00"
+            "time": "2023-10-17T13:38:16+00:00"
         },
         {
             "name": "league/commonmark",
