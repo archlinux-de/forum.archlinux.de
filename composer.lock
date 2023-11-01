@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3be0e165fd8e40230700381be51ad204",
+    "content-hash": "17fb9d5cdb5862edd004a4772efb0789",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2671,6 +2671,144 @@
                 }
             ],
             "time": "2023-05-20T15:08:42+00:00"
+        },
+        {
+            "name": "fof/extend",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/extend.git",
+                "reference": "ac8a28d34873d1043d8fd360becca30cb4174344"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/extend/zipball/ac8a28d34873d1043d8fd360becca30cb4174344",
+                "reference": "ac8a28d34873d1043d8fd360becca30cb4174344",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.0.0"
+            },
+            "require-dev": {
+                "league/oauth2-client": "^2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Extend\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Sevilla Martin",
+                    "email": "me+fof@datitisev.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Configurable PHP components for your Flarum extension",
+            "support": {
+                "issues": "https://github.com/FriendsOfFlarum/extend/issues",
+                "source": "https://github.com/FriendsOfFlarum/extend/tree/1.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2023-09-07T23:09:17+00:00"
+        },
+        {
+            "name": "fof/nightmode",
+            "version": "1.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/nightmode.git",
+                "reference": "4bdd136c63c0f40009910e200ec153efbc54d16d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/nightmode/zipball/4bdd136c63c0f40009910e200ec153efbc54d16d",
+                "reference": "4bdd136c63c0f40009910e200ec153efbc54d16d",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.5.0",
+                "fof/extend": "^1.0.0"
+            },
+            "replace": {
+                "reflar/nightmode": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Night Mode",
+                    "category": "feature",
+                    "icon": {
+                        "name": "far fa-moon",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/21492"
+                },
+                "optional-dependencies": [
+                    "fof/default-user-preferences"
+                ]
+            },
+            "autoload": {
+                "files": [
+                    "src/Overrides/Forum/ValidateCustomLess.php",
+                    "src/Overrides/Frontend/Assets.php",
+                    "src/Overrides/Frontend/RecompileFrontendAssets.php"
+                ],
+                "psr-4": {
+                    "FoF\\NightMode\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lopez",
+                    "email": "Lopez.T.Christian@gmail.com"
+                },
+                {
+                    "name": "David Sevilla Martin",
+                    "homepage": "https://discuss.flarum.org/u/datitisev",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add a Night Mode option for your users to use on your Flarum forum",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "extension",
+                "flarum",
+                "friendsoflarum",
+                "mode",
+                "night",
+                "nightmode",
+                "option"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/21492",
+                "issues": "https://github.com/FriendsOfFlarum/nightmode/issues",
+                "source": "https://github.com/FriendsOfFlarum/nightmode"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "time": "2023-08-28T18:26:09+00:00"
         },
         {
             "name": "fof/spamblock",
