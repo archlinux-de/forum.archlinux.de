@@ -2674,22 +2674,23 @@
         },
         {
             "name": "fof/extend",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/extend.git",
-                "reference": "ac8a28d34873d1043d8fd360becca30cb4174344"
+                "reference": "9544cfed35cbaf3761e25f3c792e2fba2036246e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/extend/zipball/ac8a28d34873d1043d8fd360becca30cb4174344",
-                "reference": "ac8a28d34873d1043d8fd360becca30cb4174344",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/extend/zipball/9544cfed35cbaf3761e25f3c792e2fba2036246e",
+                "reference": "9544cfed35cbaf3761e25f3c792e2fba2036246e",
                 "shasum": ""
             },
             "require": {
                 "flarum/core": "^1.0.0"
             },
             "require-dev": {
+                "flarum/phpstan": "*",
                 "league/oauth2-client": "^2.7"
             },
             "type": "library",
@@ -2712,7 +2713,7 @@
             "description": "Configurable PHP components for your Flarum extension",
             "support": {
                 "issues": "https://github.com/FriendsOfFlarum/extend/issues",
-                "source": "https://github.com/FriendsOfFlarum/extend/tree/1.2.1"
+                "source": "https://github.com/FriendsOfFlarum/extend/tree/1.2.2"
             },
             "funding": [
                 {
@@ -2720,7 +2721,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-09-07T23:09:17+00:00"
+            "time": "2023-11-08T12:39:48+00:00"
         },
         {
             "name": "fof/nightmode",
@@ -7070,16 +7071,16 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.7.4",
+            "version": "4.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "60a4c63ab724854332900504274f6150ff26d286"
+                "reference": "5f0df49ae5ad6efb7afa69e6bfab4e5b1e080d8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/60a4c63ab724854332900504274f6150ff26d286",
-                "reference": "60a4c63ab724854332900504274f6150ff26d286",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/5f0df49ae5ad6efb7afa69e6bfab4e5b1e080d8e",
+                "reference": "5f0df49ae5ad6efb7afa69e6bfab4e5b1e080d8e",
                 "shasum": ""
             },
             "require": {
@@ -7146,7 +7147,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.7.4"
+                "source": "https://github.com/ramsey/uuid/tree/4.7.5"
             },
             "funding": [
                 {
@@ -7158,7 +7159,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-15T23:01:58+00:00"
+            "time": "2023-11-08T05:53:05+00:00"
         },
         {
             "name": "s9e/regexp-builder",
