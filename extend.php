@@ -46,4 +46,5 @@ return [
                 . '<xsl:apply-templates /></code></pre>'
             );
         }),
+    (new \FoF\Sitemap\Extend\ForceCached()),
 ];
