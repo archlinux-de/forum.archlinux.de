@@ -75,7 +75,7 @@ phpstan *args:
 	{{PHP-RUN}} php -dmemory_limit=-1 vendor/bin/phpstan {{args}}
 
 flarum *args:
-	{{PHP-RUN}} php -dmemory_limit=2G flarum {{args}}
+	{{PHP-RUN}} php -dmemory_limit=4G flarum {{args}}
 
 cypress *args:
 	{{COMPOSE}} -f docker/cypress-run.yml run --rm --no-deps --entrypoint cypress cypress-run {{args}}
