@@ -14,3 +14,4 @@ ADD https://github.com/maxmind/MaxMind-DB/raw/main/test-data/GeoIP2-Country-Test
 RUN chmod 644 /usr/share/GeoIP/GeoLite2-Country.mmdb
 
 RUN echo -e "error_reporting = E_ALL & ~E_DEPRECATED" > $PHP_INI_DIR/conf.d/error_reporting.ini
+RUN echo -e "memory_limit = 256M" > $PHP_INI_DIR/conf.d/memory_limit.ini
