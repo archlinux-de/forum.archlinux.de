@@ -4,35 +4,35 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a3449c63f9429dec7f440e48095f504",
+    "content-hash": "6c3c315cc4375d7a5fe86082a257301e",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-anti-spam.git",
-                "reference": "28353568beb05e96b34fb96432877bcd474c5b49"
+                "reference": "dc1354fd22a11085c4ca2f20aec9e9db4aaf9a1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/28353568beb05e96b34fb96432877bcd474c5b49",
-                "reference": "28353568beb05e96b34fb96432877bcd474c5b49",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/dc1354fd22a11085c4ca2f20aec9e9db4aaf9a1e",
+                "reference": "dc1354fd22a11085c4ca2f20aec9e9db4aaf9a1e",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.0.0",
-                "maxmind-db/reader": "^1.10.1",
-                "php": "^8.0",
-                "symfony/http-foundation": "^5.1.4"
+                "flarum/core": "^1.7",
+                "maxmind-db/reader": "^1.10",
+                "php": "^8.1",
+                "symfony/http-foundation": "^5.4"
             },
             "require-dev": {
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "^1.0.2",
-                "phpstan/phpstan-deprecation-rules": "^1.0.0",
-                "phpstan/phpstan-phpunit": "^1.0.0",
-                "phpunit/phpunit": "^9.5.10",
-                "squizlabs/php_codesniffer": "^3.6"
+                "phpstan/extension-installer": "^1.3",
+                "phpstan/phpstan": "^1.10",
+                "phpstan/phpstan-deprecation-rules": "^1.1",
+                "phpstan/phpstan-phpunit": "^1.3",
+                "phpunit/phpunit": "^10.5",
+                "squizlabs/php_codesniffer": "^3.8"
             },
             "type": "flarum-extension",
             "extra": {
@@ -58,9 +58,9 @@
             "description": "Spam protection for forum.archlinux.de",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-anti-spam/issues",
-                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.2.0"
+                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.3.0"
             },
-            "time": "2022-08-28T09:21:17+00:00"
+            "time": "2024-01-06T09:51:57+00:00"
         },
         {
             "name": "archlinux-de/flarum-click-image",
