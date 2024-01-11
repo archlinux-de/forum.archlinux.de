@@ -25,7 +25,7 @@
         "flarum/likes": "^1.8.0",
         "flarum/lock": "^1.8.0",
         "flarum/markdown": "^1.8.0",
-        "flarum/mentions": "^1.8.2",
+        "flarum/mentions": "^1.8.3",
         "flarum/nicknames": "^1.8.0",
         "flarum/statistics": "^1.8.0",
         "flarum/sticky": "^1.8.0",
