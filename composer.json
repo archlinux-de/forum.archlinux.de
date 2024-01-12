@@ -6,6 +6,7 @@
         "php": "^8.5",
         "ext-ctype": "*",
         "ext-exif": "*",
+        "ext-fileinfo": "*",
         "ext-gd": "*",
         "ext-iconv": "*",
         "ext-intl": "*",
@@ -36,7 +37,7 @@
         "fof/nightmode": "^1.6.0",
         "fof/sitemap": "^2.5.0",
         "fof/split": "^1.1.1",
-        "matteocontrini/flarum-imgur-upload": "^3.9.1"
+        "fof/upload": "^1.8.10"
     },
     "config": {
         "preferred-install": "dist",
