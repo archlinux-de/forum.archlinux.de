@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "43d754d5002e33a803cacc51292696fa",
+    "content-hash": "770c43903e134a51489f818320dda6a1",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1339,6 +1339,51 @@
                 }
             ],
             "time": "2020-12-29T14:50:06+00:00"
+        },
+        {
+            "name": "enshrined/svg-sanitize",
+            "version": "0.22.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darylldoyle/svg-sanitizer.git",
+                "reference": "0afa95ea74be155a7bcd6c6fb60c276c39984500"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/0afa95ea74be155a7bcd6c6fb60c276c39984500",
+                "reference": "0afa95ea74be155a7bcd6c6fb60c276c39984500",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5 || ^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "enshrined\\svgSanitize\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daryll Doyle",
+                    "email": "daryll@enshrined.co.uk"
+                }
+            ],
+            "description": "An SVG sanitizer for PHP",
+            "support": {
+                "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.22.0"
+            },
+            "time": "2025-08-12T10:13:48+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -3125,6 +3170,105 @@
                 }
             ],
             "time": "2023-11-12T10:15:32+00:00"
+        },
+        {
+            "name": "fof/upload",
+            "version": "1.8.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/upload.git",
+                "reference": "acb7469a16942927d780f12c2816d26999562f1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/upload/zipball/acb7469a16942927d780f12c2816d26999562f1a",
+                "reference": "acb7469a16942927d780f12c2816d26999562f1a",
+                "shasum": ""
+            },
+            "require": {
+                "enshrined/svg-sanitize": "^0",
+                "ext-json": "*",
+                "flarum/core": "^1.8.3",
+                "guzzlehttp/guzzle": "^6.0 || ^7.0",
+                "php": "^8.1",
+                "ramsey/uuid": "^3.5.2 || ^4",
+                "softcreatr/php-mime-detector": "^4.0"
+            },
+            "replace": {
+                "flagrow/upload": "*"
+            },
+            "require-dev": {
+                "flarum/gdpr": "dev-main",
+                "flarum/phpstan": "*",
+                "flarum/testing": "^1.0.0",
+                "league/flysystem-aws-s3-v3": "^1.0",
+                "overtrue/flysystem-qiniu": "1.0.4"
+            },
+            "suggest": {
+                "league/flysystem-aws-s3-v3": "Uploads to AWS S3 using API version 3.",
+                "overtrue/flysystem-qiniu": "Uploads to QiNiu using API."
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/4154"
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "typescript": true,
+                        "githubActions": true,
+                        "backendTesting": true
+                    }
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "fas fa-file-upload",
+                        "color": "#fff",
+                        "backgroundColor": "#e74c3c"
+                    },
+                    "title": "FoF Upload",
+                    "category": "feature"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Upload\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "https://luceos.com/"
+                }
+            ],
+            "description": "The file upload extension for the Flarum forum with insane intelligence.",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "document",
+                "file",
+                "flarum",
+                "image",
+                "upload",
+                "uploader",
+                "video"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/4154",
+                "issues": "https://github.com/FriendsOfFlarum/upload/issues",
+                "source": "https://github.com/FriendsOfFlarum/upload"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "time": "2025-08-08T08:20:11+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
@@ -7388,6 +7532,69 @@
             "time": "2023-11-11T15:27:53+00:00"
         },
         {
+            "name": "softcreatr/php-mime-detector",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SoftCreatR/php-mime-detector.git",
+                "reference": "ae204590de58cc4655c8fbf9a2dfbcbb21dae4fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SoftCreatR/php-mime-detector/zipball/ae204590de58cc4655c8fbf9a2dfbcbb21dae4fe",
+                "reference": "ae204590de58cc4655c8fbf9a2dfbcbb21dae4fe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=10.0",
+                "roave/security-advisories": "dev-latest",
+                "squizlabs/php_codesniffer": "^3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SoftCreatR\\MimeDetector\\": "src/SoftCreatR/MimeDetector"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Sascha Greuel",
+                    "email": "hello@1-2.dev"
+                },
+                {
+                    "name": "Sebastian Zimmer",
+                    "email": "morik@softcreatr.de"
+                }
+            ],
+            "description": "Mime Detector Decoder",
+            "homepage": "https://1-2.dev",
+            "keywords": [
+                "Magic Number",
+                "file type",
+                "mime",
+                "mime type"
+            ],
+            "support": {
+                "email": "hello@1-2.dev",
+                "issues": "https://github.com/SoftCreatR/php-mime-detector/issues",
+                "source": "https://github.com/SoftCreatR/php-mime-detector"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/softcreatr",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-09-01T17:19:47+00:00"
+        },
+        {
             "name": "staudenmeir/eloquent-eager-limit",
             "version": "v1.6.1",
             "source": {
@@ -9557,6 +9764,7 @@
         "php": "^8.4",
         "ext-ctype": "*",
         "ext-exif": "*",
+        "ext-fileinfo": "*",
         "ext-gd": "*",
         "ext-iconv": "*",
         "ext-intl": "*",

@@ -48,5 +48,7 @@ return [
                 . '<xsl:apply-templates /></code></pre>'
             );
         }),
-    (new \FoF\Sitemap\Extend\Sitemap())->forceCached(),
+    (new FoF\Sitemap\Extend\Sitemap())->forceCached(),
+    (new FoF\Upload\Extend\Adapters())
+        ->force('local'),
 ];
