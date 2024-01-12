@@ -2,7 +2,6 @@
 
 namespace App\Middleware;
 
-use Flarum\Http\RequestUtil;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
@@ -24,11 +23,6 @@ class ContentSecurityPolicy implements MiddlewareInterface
             'object-src' => ["'none'"],
             'frame-ancestors' => ["'none'"]
         ];
-
-        if (!RequestUtil::getActor($request)->isGuest()) {
-            $policies['img-src'][] = 'i.imgur.com';
-            $policies['connect-src'][] = 'api.imgur.com';
-        }
 
         return $response->withAddedHeader(
             'Content-Security-Policy',
