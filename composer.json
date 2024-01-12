@@ -37,8 +37,7 @@
         "fof/nightmode": "^1.6.0",
         "fof/sitemap": "^2.3.3",
         "fof/split": "^1.1.1",
-        "fof/upload": "^1.8.5",
-        "matteocontrini/flarum-imgur-upload": "^3.9.1"
+        "fof/upload": "^1.8.5"
     },
     "config": {
         "preferred-install": "dist",

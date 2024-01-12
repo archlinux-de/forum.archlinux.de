@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "770c43903e134a51489f818320dda6a1",
+    "content-hash": "1b9333f010dc1c3e565e201ae7c8ff08",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -5669,61 +5669,6 @@
                 }
             ],
             "time": "2024-09-21T08:32:55+00:00"
-        },
-        {
-            "name": "matteocontrini/flarum-imgur-upload",
-            "version": "v3.9.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/matteocontrini/flarum-imgur-upload.git",
-                "reference": "a478a84e7409c904cd2b7e0fd0f2107c68aad548"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/matteocontrini/flarum-imgur-upload/zipball/a478a84e7409c904cd2b7e0fd0f2107c68aad548",
-                "reference": "a478a84e7409c904cd2b7e0fd0f2107c68aad548",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^1.0.0"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "flarum-extension": {
-                    "icon": {
-                        "name": "fas fa-circle",
-                        "color": "#85BF25",
-                        "backgroundColor": "#272727"
-                    },
-                    "title": "Imgur Upload",
-                    "category": "feature",
-                    "optional-dependencies": [
-                        "flarum/markdown"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "ImgurUpload\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Matteo Contrini",
-                    "email": "matteo@contrini.it"
-                }
-            ],
-            "description": "Simple image upload from the Flarum editor",
-            "support": {
-                "forum": "https://discuss.flarum.org/d/18491",
-                "issues": "https://github.com/matteocontrini/flarum-imgur-upload/issues",
-                "source": "https://github.com/matteocontrini/flarum-imgur-upload"
-            },
-            "time": "2021-07-10T20:07:10+00:00"
         },
         {
             "name": "matthiasmullie/minify",
