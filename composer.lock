@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ad7fea8447c987a0afec6effe7f4cda",
+    "content-hash": "f7cc738ff7bc961c56b34ef1f5fef894",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1460,16 +1460,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "601dd272144d866b1982a4cfcd1d8cfdcc906ce9"
+                "reference": "9d7c84ab99f2950774b45a4fa36678d508a7d2db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/601dd272144d866b1982a4cfcd1d8cfdcc906ce9",
-                "reference": "601dd272144d866b1982a4cfcd1d8cfdcc906ce9",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/9d7c84ab99f2950774b45a4fa36678d508a7d2db",
+                "reference": "9d7c84ab99f2950774b45a4fa36678d508a7d2db",
                 "shasum": ""
             },
             "require": {
@@ -1514,7 +1514,7 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2024-02-29T17:51:24+00:00"
+            "time": "2024-04-05T18:46:43+00:00"
         },
         {
             "name": "flarum-lang/utils",
@@ -5732,7 +5732,7 @@
             "version": "v1.11.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:maxmind/MaxMind-DB-Reader-php.git",
+                "url": "https://github.com/maxmind/MaxMind-DB-Reader-php.git",
                 "reference": "1e66f73ffcf25e17c7a910a1317e9720a95497c7"
             },
             "dist": {
@@ -5786,6 +5786,10 @@
                 "geolocation",
                 "maxmind"
             ],
+            "support": {
+                "issues": "https://github.com/maxmind/MaxMind-DB-Reader-php/issues",
+                "source": "https://github.com/maxmind/MaxMind-DB-Reader-php/tree/v1.11.1"
+            },
             "time": "2023-12-02T00:09:23+00:00"
         },
         {
