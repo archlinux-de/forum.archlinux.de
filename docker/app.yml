@@ -14,7 +14,7 @@ services:
       - no-new-privileges
     volumes:
       - ../:/app
-      - ~/.cache/composer:/tmp/.composer/cache
+      - ../.cache/composer:/tmp/.composer/cache
     tmpfs:
       - /tmp
     depends_on:
