@@ -15,8 +15,8 @@ default:
 
 init: start
 	rm -f config.php
-	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb drop flarum --force || true
-	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb create flarum
+	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb --skip-ssl drop flarum --force || true
+	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb --skip-ssl create flarum
 	{{PHP-DB-RUN}} php flarum install -f docker/install.yml
 	{{PHP-DB-RUN}} php flarum app:enable-extensions
 	{{PHP-DB-RUN}} php flarum migrate
@@ -25,21 +25,21 @@ init: start
 
 start:
 	{{COMPOSE}} up -d
-	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb --wait=10 ping
+	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb --skip-ssl --wait=10 ping
 	@echo URL: http://localhost:${PORT}
 
 start-db:
 	{{COMPOSE}} up -d mariadb
-	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb --wait=10 ping
+	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb --skip-ssl --wait=10 ping
 
 stop:
 	{{COMPOSE}} stop
 
 # Load a (gzipped) database backup for local testing
 import-db-dump file name='flarum': start
-	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb drop -f {{name}} || true
-	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb create {{name}}
-	zcat {{file}} | {{MARIADB-RUN}} mariadb -uroot -hmariadb {{name}}
+	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb --skip-ssl drop -f {{name}} || true
+	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb --skip-ssl create {{name}}
+	zcat {{file}} | {{MARIADB-RUN}} mariadb -uroot -hmariadb --skip-ssl {{name}}
 
 # Load avatars created with "tar cvzf forum-avatars.tar.gz /srv/http/vhosts/forum.archlinux.de/public/assets/avatars/*.*"
 import-avatars file:
