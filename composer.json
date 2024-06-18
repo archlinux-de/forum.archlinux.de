@@ -55,7 +55,7 @@
     "require-dev": {
         "malukenho/mcbumpface": "^1.2.0",
         "phpstan/extension-installer": "^1.4.1",
-        "phpstan/phpstan": "^1.11.4",
+        "phpstan/phpstan": "^1.11.5",
         "phpstan/phpstan-deprecation-rules": "^1.2.0",
         "squizlabs/php_codesniffer": "^3.10.1"
     },
