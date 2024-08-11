@@ -31,7 +31,7 @@
         "flarum/sticky": "^1.8.0",
         "flarum/subscriptions": "^1.8.0",
         "flarum/suspend": "^1.8.1",
-        "flarum/tags": "^1.8.0",
+        "flarum/tags": "^1.8.1",
         "fof/nightmode": "^1.5.3",
         "fof/sitemap": "^2.2.1",
         "fof/spamblock": "^1.1.2",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6cfd4ae4367018214e9b71f82405b1d3",
+    "content-hash": "d9fd76d1e2d58f290b44e20023135dc5",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2672,16 +2672,16 @@
         },
         {
             "name": "flarum/tags",
-            "version": "v1.8.0",
+            "version": "v1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/tags.git",
-                "reference": "45cfb339e1ebd9f0204070f7f271c00282d20694"
+                "reference": "148c0cfab96ff814f17b62849ddca62ee9bc69e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/tags/zipball/45cfb339e1ebd9f0204070f7f271c00282d20694",
-                "reference": "45cfb339e1ebd9f0204070f7f271c00282d20694",
+                "url": "https://api.github.com/repos/flarum/tags/zipball/148c0cfab96ff814f17b62849ddca62ee9bc69e9",
+                "reference": "148c0cfab96ff814f17b62849ddca62ee9bc69e9",
                 "shasum": ""
             },
             "require": {
@@ -2748,7 +2748,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-05-20T15:08:42+00:00"
+            "time": "2024-08-10T17:29:26+00:00"
         },
         {
             "name": "fof/extend",
