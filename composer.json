@@ -30,7 +30,7 @@
         "flarum/statistics": "^1.8.1",
         "flarum/sticky": "^1.8.1",
         "flarum/subscriptions": "^1.8.1",
-        "flarum/suspend": "^1.8.2",
+        "flarum/suspend": "^1.8.3",
         "flarum/tags": "^1.8.2",
         "fof/nightmode": "^1.5.3",
         "fof/sitemap": "^2.2.1",
