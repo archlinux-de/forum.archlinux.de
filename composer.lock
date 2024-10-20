@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f45b383d2b56fbccefd1ea49e3a7d1a8",
+    "content-hash": "15dcb278c1796ad60a934e3222339eea",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2755,76 +2755,29 @@
             "time": "2024-10-02T07:10:53+00:00"
         },
         {
-            "name": "fof/extend",
-            "version": "1.3.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FriendsOfFlarum/extend.git",
-                "reference": "ba55c9b765911cb689592d0de787e3351625e3f0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/extend/zipball/ba55c9b765911cb689592d0de787e3351625e3f0",
-                "reference": "ba55c9b765911cb689592d0de787e3351625e3f0",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^1.0.0"
-            },
-            "require-dev": {
-                "flarum/phpstan": "*",
-                "league/oauth2-client": "^2.7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "FoF\\Extend\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Sevilla Martin",
-                    "email": "me+fof@datitisev.me",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Configurable PHP components for your Flarum extension",
-            "support": {
-                "issues": "https://github.com/FriendsOfFlarum/extend/issues",
-                "source": "https://github.com/FriendsOfFlarum/extend/tree/1.3.3"
-            },
-            "funding": [
-                {
-                    "url": "https://opencollective.com/fof",
-                    "type": "open_collective"
-                }
-            ],
-            "time": "2023-11-30T08:13:16+00:00"
-        },
-        {
             "name": "fof/nightmode",
-            "version": "1.5.3",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/nightmode.git",
-                "reference": "4bdd136c63c0f40009910e200ec153efbc54d16d"
+                "reference": "b65b1b4d092502a9e3801eb8d717ddd1f0f39d7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/nightmode/zipball/4bdd136c63c0f40009910e200ec153efbc54d16d",
-                "reference": "4bdd136c63c0f40009910e200ec153efbc54d16d",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/nightmode/zipball/b65b1b4d092502a9e3801eb8d717ddd1f0f39d7a",
+                "reference": "b65b1b4d092502a9e3801eb8d717ddd1f0f39d7a",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.5.0",
-                "fof/extend": "^1.0.0"
+                "flarum/core": "^1.7.0",
+                "php": "^7.4 || ^8.0"
             },
             "replace": {
                 "reflar/nightmode": "*"
+            },
+            "require-dev": {
+                "flarum/phpstan": "*",
+                "fof/default-user-preferences": "*"
             },
             "type": "flarum-extension",
             "extra": {
@@ -2842,7 +2795,12 @@
                 },
                 "optional-dependencies": [
                     "fof/default-user-preferences"
-                ]
+                ],
+                "flarum-cli": {
+                    "modules": {
+                        "githubActions": true
+                    }
+                }
             },
             "autoload": {
                 "files": [
@@ -2891,7 +2849,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-08-28T18:26:09+00:00"
+            "time": "2024-10-19T10:06:15+00:00"
         },
         {
             "name": "fof/sitemap",
