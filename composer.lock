@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "69ab7cb39c3528a24ca1c7b1e4e1917b",
+    "content-hash": "9882cbcef0252d59ae9934e79cf7a47d",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -9437,16 +9437,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.8",
+            "version": "1.12.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "f6a60a4d66142b8156c9da923f1972657bc4748c"
+                "reference": "ceb937fb39a92deabc02d20709cf14b2c452502c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/f6a60a4d66142b8156c9da923f1972657bc4748c",
-                "reference": "f6a60a4d66142b8156c9da923f1972657bc4748c",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ceb937fb39a92deabc02d20709cf14b2c452502c",
+                "reference": "ceb937fb39a92deabc02d20709cf14b2c452502c",
                 "shasum": ""
             },
             "require": {
@@ -9491,7 +9491,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-06T19:06:49+00:00"
+            "time": "2024-11-10T17:10:04+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
