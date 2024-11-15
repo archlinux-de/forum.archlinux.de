@@ -1,11 +1,12 @@
 parameters:
 	level: max
-	checkMissingIterableValueType: false
+	treatPhpDocTypesAsCertain: false
 	paths:
 		- .
 	excludePaths:
 		analyse:
 			- vendor
+			- public/index.php
 		analyseAndScan:
 			- storage
 			- tests/e2e/cypress

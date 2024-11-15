@@ -29,6 +29,9 @@ class EnableExtensions extends AbstractCommand
         }
     }
 
+    /**
+     * @return iterable<Extension>
+     */
     private function getResolvedExtensions(): iterable
     {
         $resolvedExtensions = $this->extensionManager->resolveExtensionOrder([...$this->getDisabledExtensions()]);
@@ -42,6 +45,9 @@ class EnableExtensions extends AbstractCommand
         }
     }
 
+    /**
+     * @return iterable<Extension>
+     */
     private function getDisabledExtensions(): iterable
     {
         foreach ($this->extensionManager->getExtensions() as $extension) {

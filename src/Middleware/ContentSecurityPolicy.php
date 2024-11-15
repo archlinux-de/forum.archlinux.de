@@ -36,6 +36,9 @@ class ContentSecurityPolicy implements MiddlewareInterface
         );
     }
 
+    /**
+     * @param array<string, string[]> $policies
+     */
     private function createHeaderValue(array $policies): string
     {
         $policies = array_map(fn(array $values): string => implode(' ', $values), $policies);
