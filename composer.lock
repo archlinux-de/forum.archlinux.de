@@ -2787,38 +2787,38 @@
             },
             "type": "flarum-extension",
             "extra": {
+                "flarum-cli": {
+                    "modules": {
+                        "js": true,
+                        "css": true,
+                        "admin": true,
+                        "forum": true,
+                        "locale": true,
+                        "gitConf": true,
+                        "styleci": true,
+                        "jsCommon": false,
+                        "prettier": true,
+                        "typescript": true,
+                        "bundlewatch": false,
+                        "editorConfig": true,
+                        "githubActions": true,
+                        "backendTesting": true
+                    }
+                },
                 "flarum-extension": {
-                    "title": "FoF Anti Spam",
-                    "category": "feature",
                     "icon": {
                         "name": "fas fa-shield-alt",
-                        "backgroundColor": "#e74c3c",
-                        "color": "#fff"
+                        "color": "#fff",
+                        "backgroundColor": "#e74c3c"
                     },
+                    "title": "FoF Anti Spam",
+                    "category": "feature",
                     "optional-dependencies": [
                         "flarum/suspend",
                         "flarum/flags",
                         "flarum/approval",
                         "flarum/tags"
                     ]
-                },
-                "flarum-cli": {
-                    "modules": {
-                        "admin": true,
-                        "forum": true,
-                        "js": true,
-                        "jsCommon": false,
-                        "css": true,
-                        "locale": true,
-                        "gitConf": true,
-                        "githubActions": true,
-                        "prettier": true,
-                        "typescript": true,
-                        "bundlewatch": false,
-                        "backendTesting": true,
-                        "editorConfig": true,
-                        "styleci": true
-                    }
                 }
             },
             "autoload": {
