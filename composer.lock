@@ -1487,19 +1487,19 @@
             },
             "type": "flarum-extension",
             "extra": {
-                "flarum-extension": {
-                    "title": "German",
-                    "category": "language",
-                    "icon": {
-                        "image": "icon.svg",
-                        "backgroundColor": "#ffffff",
-                        "backgroundSize": "cover",
-                        "backgroundPosition": "center"
-                    }
-                },
                 "flarum-locale": {
                     "code": "de",
                     "title": "Deutsch"
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundSize": "cover",
+                        "backgroundColor": "#ffffff",
+                        "backgroundPosition": "center"
+                    },
+                    "title": "German",
+                    "category": "language"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
