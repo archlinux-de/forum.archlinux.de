@@ -2982,19 +2982,6 @@
             },
             "type": "flarum-extension",
             "extra": {
-                "flarum-extension": {
-                    "title": "FoF Sitemap",
-                    "category": "feature",
-                    "icon": {
-                        "name": "fas fa-sitemap",
-                        "backgroundColor": "#e74c3c",
-                        "color": "#fff"
-                    },
-                    "optional-dependencies": [
-                        "flarum/tags",
-                        "fof/pages"
-                    ]
-                },
                 "flagrow": {
                     "discuss": "https://discuss.flarum.org/d/14941"
                 },
@@ -3002,6 +2989,19 @@
                     "modules": {
                         "githubActions": true
                     }
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "fas fa-sitemap",
+                        "color": "#fff",
+                        "backgroundColor": "#e74c3c"
+                    },
+                    "title": "FoF Sitemap",
+                    "category": "feature",
+                    "optional-dependencies": [
+                        "flarum/tags",
+                        "fof/pages"
+                    ]
                 }
             },
             "autoload": {
@@ -3068,15 +3068,6 @@
             },
             "type": "flarum-extension",
             "extra": {
-                "flarum-extension": {
-                    "title": "FoF Split",
-                    "category": "feature",
-                    "icon": {
-                        "name": "fas fa-code-branch",
-                        "backgroundColor": "#e74c3c",
-                        "color": "#fff"
-                    }
-                },
                 "flagrow": {
                     "discuss": "https://discuss.flarum.org/d/1903"
                 },
@@ -3084,6 +3075,15 @@
                     "modules": {
                         "githubActions": true
                     }
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "fas fa-code-branch",
+                        "color": "#fff",
+                        "backgroundColor": "#e74c3c"
+                    },
+                    "title": "FoF Split",
+                    "category": "feature"
                 }
             },
             "autoload": {
