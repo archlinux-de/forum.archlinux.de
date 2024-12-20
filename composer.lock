@@ -2880,26 +2880,26 @@
             },
             "type": "flarum-extension",
             "extra": {
-                "flarum-extension": {
-                    "title": "FoF Night Mode",
-                    "category": "feature",
-                    "icon": {
-                        "name": "far fa-moon",
-                        "backgroundColor": "#e74c3c",
-                        "color": "#fff"
-                    }
-                },
                 "flagrow": {
                     "discuss": "https://discuss.flarum.org/d/21492"
                 },
-                "optional-dependencies": [
-                    "fof/default-user-preferences"
-                ],
                 "flarum-cli": {
                     "modules": {
                         "githubActions": true
                     }
-                }
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "far fa-moon",
+                        "color": "#fff",
+                        "backgroundColor": "#e74c3c"
+                    },
+                    "title": "FoF Night Mode",
+                    "category": "feature"
+                },
+                "optional-dependencies": [
+                    "fof/default-user-preferences"
+                ]
             },
             "autoload": {
                 "files": [
@@ -6250,10 +6250,6 @@
             ],
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev",
-                    "dev-2.x": "2.x-dev"
-                },
                 "laravel": {
                     "providers": [
                         "Carbon\\Laravel\\ServiceProvider"
@@ -6263,6 +6259,10 @@
                     "includes": [
                         "extension.neon"
                     ]
+                },
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev",
+                    "dev-master": "3.x-dev"
                 }
             },
             "autoload": {
