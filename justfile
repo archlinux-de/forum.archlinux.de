@@ -121,5 +121,3 @@ deploy-permissions:
 	sudo setfacl -d -m u:php-forum:rwX -m u:deployer:rwX public
 	sudo setfacl -m u:php-forum:rwX -m u:deployer:rwX public
 	sudo setfacl -m u:php-forum:rw -m u:deployer:rw public/feed.xml
-
-# vim: set ft=make :

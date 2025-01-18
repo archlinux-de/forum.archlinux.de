@@ -3,7 +3,7 @@
     "description": "The German Arch Linux forum",
     "license": "GPL-3.0-or-later",
     "require": {
-        "php": "^8.3",
+        "php": "^8.4",
         "ext-ctype": "*",
         "ext-exif": "*",
         "ext-gd": "*",
