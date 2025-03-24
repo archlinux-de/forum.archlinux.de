@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fdd0c8d2bd69f389ece202fb0d16cd23",
+    "content-hash": "14f57dad13e9ac87ece55f17aa39ee5f",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -5765,30 +5765,30 @@
         },
         {
             "name": "middlewares/base-path",
-            "version": "v2.1.0",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/middlewares/base-path.git",
-                "reference": "9540b7b3aea29f22be269ad4c182455e70e38b4a"
+                "reference": "243ad6a6435cc74e221d81867d1110853ebf6321"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/middlewares/base-path/zipball/9540b7b3aea29f22be269ad4c182455e70e38b4a",
-                "reference": "9540b7b3aea29f22be269ad4c182455e70e38b4a",
+                "url": "https://api.github.com/repos/middlewares/base-path/zipball/243ad6a6435cc74e221d81867d1110853ebf6321",
+                "reference": "243ad6a6435cc74e221d81867d1110853ebf6321",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0",
-                "psr/http-server-middleware": "^1.0"
+                "psr/http-server-middleware": "^1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.0",
-                "laminas/laminas-diactoros": "^2.3",
-                "middlewares/utils": "^3.0",
-                "oscarotero/php-cs-fixer-config": "^1.0",
-                "phpstan/phpstan": "^0.12",
-                "phpunit/phpunit": "^8|^9",
-                "squizlabs/php_codesniffer": "^3.0"
+                "friendsofphp/php-cs-fixer": "^3",
+                "laminas/laminas-diactoros": "^2 || ^3",
+                "middlewares/utils": "^2 || ^3 || ^4",
+                "oscarotero/php-cs-fixer-config": "^2",
+                "phpstan/phpstan": "^1 || ^2",
+                "phpunit/phpunit": "^8 || ^9",
+                "squizlabs/php_codesniffer": "^3"
             },
             "type": "library",
             "autoload": {
@@ -5811,9 +5811,9 @@
             ],
             "support": {
                 "issues": "https://github.com/middlewares/base-path/issues",
-                "source": "https://github.com/middlewares/base-path/tree/v2.1.0"
+                "source": "https://github.com/middlewares/base-path/tree/v2.2.0"
             },
-            "time": "2021-04-08T19:21:21+00:00"
+            "time": "2025-03-23T10:15:15+00:00"
         },
         {
             "name": "middlewares/base-path-router",
@@ -5870,31 +5870,31 @@
         },
         {
             "name": "middlewares/request-handler",
-            "version": "v2.0.3",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/middlewares/request-handler.git",
-                "reference": "0b561c959fd9277cb648e3b75a0cbff56c37b3b5"
+                "reference": "732bc798d9ae11c2703b870ccd098030fb609c3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/middlewares/request-handler/zipball/0b561c959fd9277cb648e3b75a0cbff56c37b3b5",
-                "reference": "0b561c959fd9277cb648e3b75a0cbff56c37b3b5",
+                "url": "https://api.github.com/repos/middlewares/request-handler/zipball/732bc798d9ae11c2703b870ccd098030fb609c3b",
+                "reference": "732bc798d9ae11c2703b870ccd098030fb609c3b",
                 "shasum": ""
             },
             "require": {
-                "middlewares/utils": "^3.0 || ^4.0",
+                "middlewares/utils": "^2 || ^3 || ^4",
                 "php": "^7.2 || ^8.0",
                 "psr/container": "^1.0||^2.0",
-                "psr/http-server-middleware": "^1.0"
+                "psr/http-server-middleware": "^1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.0",
-                "laminas/laminas-diactoros": "^2.3 || ^3.0",
-                "oscarotero/php-cs-fixer-config": "^1.0",
-                "phpstan/phpstan": "^0.12",
-                "phpunit/phpunit": "^8|^9",
-                "squizlabs/php_codesniffer": "^3.0"
+                "friendsofphp/php-cs-fixer": "^3",
+                "laminas/laminas-diactoros": "^2 || ^3",
+                "oscarotero/php-cs-fixer-config": "^2",
+                "phpstan/phpstan": "^1 || ^2",
+                "phpunit/phpunit": "^8 || ^9",
+                "squizlabs/php_codesniffer": "^3"
             },
             "type": "library",
             "autoload": {
@@ -5921,9 +5921,9 @@
             ],
             "support": {
                 "issues": "https://github.com/middlewares/request-handler/issues",
-                "source": "https://github.com/middlewares/request-handler/tree/v2.0.3"
+                "source": "https://github.com/middlewares/request-handler/tree/v2.1.0"
             },
-            "time": "2025-03-06T00:32:41+00:00"
+            "time": "2025-03-23T18:04:48+00:00"
         },
         {
             "name": "middlewares/utils",
@@ -9429,16 +9429,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.8",
+            "version": "2.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "f9adff3b87c03b12cc7e46a30a524648e497758f"
+                "reference": "051a3b6b9b80df4ba3a7f801a8b53ad7d8f1c15f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/f9adff3b87c03b12cc7e46a30a524648e497758f",
-                "reference": "f9adff3b87c03b12cc7e46a30a524648e497758f",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/051a3b6b9b80df4ba3a7f801a8b53ad7d8f1c15f",
+                "reference": "051a3b6b9b80df4ba3a7f801a8b53ad7d8f1c15f",
                 "shasum": ""
             },
             "require": {
@@ -9483,7 +9483,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-09T09:30:48+00:00"
+            "time": "2025-03-23T14:57:55+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
