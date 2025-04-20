@@ -36,8 +36,7 @@
         "fof/nightmode": "^1.6.0",
         "fof/sitemap": "^2.2.1",
         "fof/split": "^1.1.1",
-        "matteocontrini/flarum-imgur-upload": "^3.9.1",
-        "migratetoflarum/old-passwords": "^1.0.0"
+        "matteocontrini/flarum-imgur-upload": "^3.9.1"
     },
     "config": {
         "preferred-install": "dist",
