@@ -2,14 +2,36 @@
 
 namespace App\Console;
 
+use Exception;
 use Flarum\Console\AbstractCommand;
 use Flarum\Post\CommentPost;
 use Flarum\Post\Post;
 use Flarum\Post\PostRepository;
 use GuzzleHttp\Client;
+use Psr\Http\Message\ResponseInterface;
+use RuntimeException;
 
 class BackupImages extends AbstractCommand
 {
+    /**
+     * Hosts that respond with 200 instead of 404 or no longer exist
+     * @var string[]
+     */
+    private $brokenHosts = [
+        'tinypic.com',
+        'imagevenue.com',
+        'picfront.org',
+        'imageshack.us',
+        'imageshack.com',
+        'imageshack.se',
+        'ompldr.org',
+        'omploader.org',
+        'imagebanana.com',
+        'postimg.org',
+        'forum.archlinux.de',
+        'paste.archlinux.de'
+    ];
+
     public function __construct(private readonly PostRepository $postRepository)
     {
         parent::__construct();
@@ -45,22 +67,6 @@ class BackupImages extends AbstractCommand
             ]
         ]);
 
-        // Hosts that respond with 200 instead of 404 or no longer exist
-        $brokenHosts = [
-            'tinypic.com',
-            'imagevenue.com',
-            'picfront.org',
-            'imageshack.us',
-            'imageshack.com',
-            'imageshack.se',
-            'ompldr.org',
-            'omploader.org',
-            'imagebanana.com',
-            'postimg.org',
-            'forum.archlinux.de',
-            'paste.archlinux.de'
-        ];
-
         /** @var Post $post */
         foreach ($posts->get() as $post) {
             if (!$post instanceof CommentPost) {
@@ -83,13 +89,6 @@ class BackupImages extends AbstractCommand
                     $host = parse_url($url, PHP_URL_HOST);
                     assert(is_string($host));
 
-                    foreach ($brokenHosts as $brokenHost) {
-                        if (str_ends_with($host, $brokenHost)) {
-                            $this->error($url . ' skip broken host');
-                            continue 2;
-                        }
-                    }
-
                     $path = parse_url($url, PHP_URL_PATH);
                     assert(is_string($path));
                     $pathInfo = pathinfo($path);
@@ -104,7 +103,7 @@ class BackupImages extends AbstractCommand
                         continue;
                     }
 
-                    $response = $httpClient->get($url);
+                    $response = $this->fetchImage($httpClient, $url, $this->isBrokenHost($host));
                     $imageString = $response->getBody()->getContents();
 
                     $fi = finfo_open();
@@ -113,7 +112,7 @@ class BackupImages extends AbstractCommand
                     assert(is_string($type));
                     finfo_close($fi);
                     if (!str_starts_with($type, 'image/')) {
-                        throw new \RuntimeException(sprintf('Invalid type %s', $type));
+                        throw new RuntimeException(sprintf('Invalid type %s', $type));
                     }
 
                     if (!is_dir($filepath)) {
@@ -127,11 +126,50 @@ class BackupImages extends AbstractCommand
                     }
 
                     $this->info($url . ' downloaded');
-                } catch (\RuntimeException $e) {
+                } catch (RuntimeException $e) {
                     file_put_contents($failedLog, $url . "\n", FILE_APPEND);
-                    $this->error($url . ' failed to download');
+                    $this->error($url . ' failed to download: ' . $e->getMessage());
                 }
             }
         }
+    }
+
+    private function fetchImage(Client $httpClient, string $url, bool $forceArchive = false): ResponseInterface
+    {
+        if (!$forceArchive) {
+            try {
+                return $httpClient->get($url);
+            } catch (Exception) {
+            }
+        }
+
+        $waybackApi = 'http://archive.org/wayback/available?url=' . urlencode($url);
+        try {
+            $response = $httpClient->get($waybackApi);
+            $json = json_decode($response->getBody()->getContents(), true);
+
+            assert(is_array($json));
+            assert(is_array($json['archived_snapshots']));
+            assert(is_array($json['archived_snapshots']['closest']));
+            assert(is_string($json['archived_snapshots']['closest']['url']));
+            if (!empty($json['archived_snapshots']['closest']['url'])) {
+                $archivedUrl = $json['archived_snapshots']['closest']['url'];
+                return $httpClient->get($archivedUrl);
+            }
+        } catch (Exception $e) {
+            throw new RuntimeException('Failed to retrieve image from archive.org.', 0, $e);
+        }
+
+        throw new RuntimeException('No archived snapshot available for URL: ' . $url);
+    }
+
+    private function isBrokenHost(string $host): bool
+    {
+        foreach ($this->brokenHosts as $brokenHost) {
+            if (str_ends_with($host, $brokenHost)) {
+                return true;
+            }
+        }
+        return false;
     }
 }
