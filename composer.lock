@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6615f4ccfc30c52a6d05aed788a9cdf5",
+    "content-hash": "b998fcb8d41031e347011dcb4fd5f3ee",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2954,16 +2954,16 @@
         },
         {
             "name": "fof/sitemap",
-            "version": "2.3.0",
+            "version": "2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/sitemap.git",
-                "reference": "cf9bc8bb8bca6d34eb3b59f2e3fe3878654708e0"
+                "reference": "f0bce684fd673704c1d22caa36c010de5265d67d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/sitemap/zipball/cf9bc8bb8bca6d34eb3b59f2e3fe3878654708e0",
-                "reference": "cf9bc8bb8bca6d34eb3b59f2e3fe3878654708e0",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/sitemap/zipball/f0bce684fd673704c1d22caa36c010de5265d67d",
+                "reference": "f0bce684fd673704c1d22caa36c010de5265d67d",
                 "shasum": ""
             },
             "require": {
@@ -2977,6 +2977,7 @@
             "require-dev": {
                 "flarum/phpstan": "*",
                 "flarum/tags": "*",
+                "flarum/testing": "^1.0.0",
                 "fof/pages": "*"
             },
             "suggest": {
@@ -2990,7 +2991,8 @@
                 },
                 "flarum-cli": {
                     "modules": {
-                        "githubActions": true
+                        "githubActions": true,
+                        "backendTesting": true
                     }
                 },
                 "flarum-extension": {
@@ -3047,7 +3049,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2025-08-29T13:21:47+00:00"
+            "time": "2025-09-01T15:14:22+00:00"
         },
         {
             "name": "fof/split",
