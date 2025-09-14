@@ -27,9 +27,8 @@ class BackupImages extends AbstractCommand
         'ompldr.org',
         'omploader.org',
         'imagebanana.com',
-        'postimg.org',
-        'forum.archlinux.de',
-        'paste.archlinux.de'
+        'forum.archlinux.de', // @TODO: look for backups
+        'paste.archlinux.de' // @TODO: look for backups
     ];
 
     public function __construct(private readonly PostRepository $postRepository)
@@ -60,7 +59,7 @@ class BackupImages extends AbstractCommand
 
         $posts = $this->postRepository->query();
         $httpClient = new Client([
-            'timeout' => 10,
+            'timeout' => 15,
             'headers' => [
                 'Accept' => 'image/*',
                 'User-Agent' => 'Mozilla/5.0'
@@ -80,6 +79,10 @@ class BackupImages extends AbstractCommand
             }
 
             foreach ($matches[1] as $url) {
+                if (str_contains($url, 'postimg.org')) {
+                    $url = str_replace('postimg.org', 'postimg.cc', $url);
+                }
+
                 if (in_array($url, $failedUrls)) {
                     $this->error($url . ' skip previously failed url');
                     continue;
@@ -143,13 +146,16 @@ class BackupImages extends AbstractCommand
             }
         }
 
-        $waybackApi = 'http://archive.org/wayback/available?url=' . urlencode($url);
+        $waybackApi = 'https://archive.org/wayback/available?url=' . urlencode($url);
         try {
             $response = $httpClient->get($waybackApi);
             $json = json_decode($response->getBody()->getContents(), true);
 
             assert(is_array($json));
             assert(is_array($json['archived_snapshots']));
+            if (empty($json['archived_snapshots'])) {
+                throw new RuntimeException('No archived snapshot available for URL: ' . $url);
+            }
             assert(is_array($json['archived_snapshots']['closest']));
             assert(is_string($json['archived_snapshots']['closest']['url']));
             if (!empty($json['archived_snapshots']['closest']['url'])) {
@@ -165,11 +171,6 @@ class BackupImages extends AbstractCommand
 
     private function isBrokenHost(string $host): bool
     {
-        foreach ($this->brokenHosts as $brokenHost) {
-            if (str_ends_with($host, $brokenHost)) {
-                return true;
-            }
-        }
-        return false;
+        return array_any($this->brokenHosts, fn($brokenHost) => str_ends_with($host, $brokenHost));
     }
 }
