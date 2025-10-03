@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "92a0590516edcb18872b3b938769ee27",
+    "content-hash": "5ce40f756ae160099c8c82681ec0e110",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2954,16 +2954,16 @@
         },
         {
             "name": "fof/sitemap",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/sitemap.git",
-                "reference": "ab140120873acabf9ad69cb64d7313648d15f174"
+                "reference": "202519bef2c52823f857c4c2f3fb2c4ce3856275"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/sitemap/zipball/ab140120873acabf9ad69cb64d7313648d15f174",
-                "reference": "ab140120873acabf9ad69cb64d7313648d15f174",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/sitemap/zipball/202519bef2c52823f857c4c2f3fb2c4ce3856275",
+                "reference": "202519bef2c52823f857c4c2f3fb2c4ce3856275",
                 "shasum": ""
             },
             "require": {
@@ -3050,7 +3050,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2025-09-23T09:09:51+00:00"
+            "time": "2025-10-02T08:51:52+00:00"
         },
         {
             "name": "fof/split",
@@ -9360,16 +9360,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.29",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpstan/phpstan-phar-composer-source.git",
-                "reference": "git"
-            },
+            "version": "2.1.30",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d618573eed4a1b6b75e37b2e0b65ac65c885d88e",
-                "reference": "d618573eed4a1b6b75e37b2e0b65ac65c885d88e",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/a4a7f159927983dd4f7c8020ed227d80b7f39d7d",
+                "reference": "a4a7f159927983dd4f7c8020ed227d80b7f39d7d",
                 "shasum": ""
             },
             "require": {
@@ -9414,7 +9409,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-25T06:58:18+00:00"
+            "time": "2025-10-02T16:07:52+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
