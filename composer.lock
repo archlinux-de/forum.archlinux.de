@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "33f3e2d0b29415bd0c07b385fb268422",
+    "content-hash": "3b469acc09566fe7e40153b6c157166b",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1469,16 +1469,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.25.5",
+            "version": "1.25.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "d8a913056c6a3944dbf6651cc1404ba372189fbe"
+                "reference": "36543491bbeb3a5d385d381a850b3fcf5d497de6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/d8a913056c6a3944dbf6651cc1404ba372189fbe",
-                "reference": "d8a913056c6a3944dbf6651cc1404ba372189fbe",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/36543491bbeb3a5d385d381a850b3fcf5d497de6",
+                "reference": "36543491bbeb3a5d385d381a850b3fcf5d497de6",
                 "shasum": ""
             },
             "require": {
@@ -1523,7 +1523,7 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2026-01-09T21:10:23+00:00"
+            "time": "2026-01-15T01:18:23+00:00"
         },
         {
             "name": "flarum-lang/utils",
@@ -2955,16 +2955,16 @@
         },
         {
             "name": "fof/sitemap",
-            "version": "2.4.3",
+            "version": "2.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/sitemap.git",
-                "reference": "b3ee4eb33e36731b821369bf3628d853479f6415"
+                "reference": "4227e9de71233b59bd14c3ffc4d9a853e2152222"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/sitemap/zipball/b3ee4eb33e36731b821369bf3628d853479f6415",
-                "reference": "b3ee4eb33e36731b821369bf3628d853479f6415",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/sitemap/zipball/4227e9de71233b59bd14c3ffc4d9a853e2152222",
+                "reference": "4227e9de71233b59bd14c3ffc4d9a853e2152222",
                 "shasum": ""
             },
             "require": {
@@ -3051,7 +3051,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-01-07T13:28:41+00:00"
+            "time": "2026-01-14T05:44:58+00:00"
         },
         {
             "name": "fof/split",
