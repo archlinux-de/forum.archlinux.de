@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a098a52183b8cbf996b0c3dc49d2de1",
+    "content-hash": "17014e0afe7106eb01c0f9028084efef",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2955,16 +2955,16 @@
         },
         {
             "name": "fof/sitemap",
-            "version": "2.4.4",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/sitemap.git",
-                "reference": "4227e9de71233b59bd14c3ffc4d9a853e2152222"
+                "reference": "7680351a090f1c86fa05c302285686db794769f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/sitemap/zipball/4227e9de71233b59bd14c3ffc4d9a853e2152222",
-                "reference": "4227e9de71233b59bd14c3ffc4d9a853e2152222",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/sitemap/zipball/7680351a090f1c86fa05c302285686db794769f0",
+                "reference": "7680351a090f1c86fa05c302285686db794769f0",
                 "shasum": ""
             },
             "require": {
@@ -3051,7 +3051,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-01-14T05:44:58+00:00"
+            "time": "2026-01-22T07:50:53+00:00"
         },
         {
             "name": "fof/split",
