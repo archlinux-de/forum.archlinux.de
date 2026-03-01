@@ -20,13 +20,15 @@ class EnableExtensions extends AbstractCommand
             ->setDescription('Enable all installed extensions');
     }
 
-    protected function fire(): void
+    protected function fire(): int
     {
         foreach ($this->getResolvedExtensions() as $validExtension) {
             assert($validExtension instanceof Extension);
             $this->output->writeln('Enabling extension ' . $validExtension->name);
             $this->extensionManager->enable($validExtension->getId());
         }
+
+        return 0;
     }
 
     /**
