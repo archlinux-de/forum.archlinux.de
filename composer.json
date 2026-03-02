@@ -5,8 +5,10 @@
     "require": {
         "php": "^8.5",
         "ext-ctype": "*",
+        "ext-dom": "*",
         "ext-exif": "*",
         "ext-fileinfo": "*",
+        "ext-libxml": "*",
         "ext-gd": "*",
         "ext-iconv": "*",
         "ext-intl": "*",

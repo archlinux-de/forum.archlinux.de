@@ -276,6 +276,25 @@ cypress-open *args:
 	Xephyr :${PORT} -screen 1920x1080 -resizeable -name Cypress -title "Cypress - {{ env_var('PROJECT_NAME') }}" -terminate -no-host-grab -extension MIT-SHM -extension XTEST -nolisten tcp &
 	DISPLAY=:${PORT} DISPLAY_SOCKET=/tmp/.X11-unix/X${PORT%%:*} {{COMPOSE}} -f docker/cypress-open.yml run --rm --no-deps cypress-open --project tests/e2e --e2e {{args}}
 
+# Validate post content (parallel) and database metadata
+validate-posts workers=num_cpus():
+	#!/usr/bin/env bash
+	set -e
+	{{PHP-DB-RUN}} php flarum app:validate-posts --metadata-only
+	pids=()
+	for i in $(seq 0 $(({{workers}} - 1))); do
+		{{PHP-DB-RUN}} php flarum app:validate-posts --shard="$i/{{workers}}" &
+		pids+=($!)
+	done
+	failed=0
+	for pid in "${pids[@]}"; do
+		wait "$pid" || failed=$((failed + 1))
+	done
+	if [ "$failed" -gt 0 ]; then
+		echo "$failed worker(s) failed"
+		exit 1
+	fi
+
 test:
 	{{PHP-RUN}} composer validate
 	{{PHP-RUN}} vendor/bin/phpcs
