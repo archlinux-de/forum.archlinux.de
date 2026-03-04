@@ -12,5 +12,3 @@ tests/e2e/cypress/downloads/*
 !tests/e2e/cypress/downloads/.gitkeep
 /.cache/composer/*
 !/.cache/composer/.gitkeep
-/*.tar.gz
-/*.sql.gz
