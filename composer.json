@@ -28,7 +28,6 @@
         "flarum/markdown": "^1.8.1",
         "flarum/mentions": "^1.8.5",
         "flarum/nicknames": "^1.8.2",
-        "flarum/statistics": "^1.8.1",
         "flarum/sticky": "^1.8.2",
         "flarum/subscriptions": "^1.8.1",
         "flarum/suspend": "^1.8.5",

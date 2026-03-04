@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a85e4684b1a65d9c99e2cb4e0e277e0",
+    "content-hash": "8f3239d0a03e94afc4366a4467fa263d",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2394,88 +2394,6 @@
                 }
             ],
             "time": "2024-10-26T22:15:50+00:00"
-        },
-        {
-            "name": "flarum/statistics",
-            "version": "v1.8.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/flarum/statistics.git",
-                "reference": "e907100ad530babb12c67f4959ae14e22f77b3fc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/flarum/statistics/zipball/e907100ad530babb12c67f4959ae14e22f77b3fc",
-                "reference": "e907100ad530babb12c67f4959ae14e22f77b3fc",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^1.8"
-            },
-            "require-dev": {
-                "flarum/testing": "^1.0.0"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "flarum-cli": {
-                    "modules": {
-                        "js": true,
-                        "css": true,
-                        "admin": true,
-                        "forum": false,
-                        "gitConf": true,
-                        "styleci": true,
-                        "jsCommon": false,
-                        "prettier": true,
-                        "typescript": true,
-                        "bundlewatch": false,
-                        "editorConfig": true,
-                        "githubActions": true,
-                        "backendTesting": true
-                    },
-                    "excludeScaffolding": [
-                        "js/src/admin/index.ts"
-                    ]
-                },
-                "branch-alias": {
-                    "dev-main": "1.x-dev"
-                },
-                "flarum-extension": {
-                    "icon": {
-                        "name": "fas fa-chart-bar",
-                        "color": "#fff",
-                        "backgroundColor": "#6932d1"
-                    },
-                    "title": "Statistics",
-                    "category": "feature"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Flarum\\Statistics\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Add a basic statistics widget on the Dashboard.",
-            "homepage": "https://flarum.org",
-            "keywords": [
-                "administration"
-            ],
-            "support": {
-                "forum": "https://discuss.flarum.org",
-                "issues": "https://github.com/flarum/framework/issues",
-                "source": "https://github.com/flarum/statistics"
-            },
-            "funding": [
-                {
-                    "url": "https://flarum.org/donate/",
-                    "type": "website"
-                }
-            ],
-            "time": "2024-10-02T07:10:53+00:00"
         },
         {
             "name": "flarum/sticky",
