@@ -10,7 +10,6 @@
 use App\Console\BackupImages;
 use App\Console\EnableExtensions;
 use App\Console\ImportImages;
-use App\Console\ValidatePosts;
 use App\Middleware\ContentSecurityPolicy;
 use App\ServiceProvider\ErrorLogProvider;
 use App\ServiceProvider\SessionServiceProvider;
@@ -22,7 +21,6 @@ return [
     (new Extend\Console())->command(EnableExtensions::class),
     (new Extend\Console())->command(BackupImages::class),
     (new Extend\Console())->command(ImportImages::class),
-    (new Extend\Console())->command(ValidatePosts::class),
     (new Extend\ServiceProvider())->register(ErrorLogProvider::class),
     (new Extend\ServiceProvider())->register(SessionServiceProvider::class),
     (new Extend\Middleware('forum'))->add(ContentSecurityPolicy::class),
