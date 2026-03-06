@@ -36,7 +36,7 @@
         "fof/nightmode": "^1.6.0",
         "fof/sitemap": "^2.5.0",
         "fof/split": "^1.1.1",
-        "fof/upload": "^1.8.10"
+        "fof/upload": "^1.8.11"
     },
     "config": {
         "preferred-install": "dist",
