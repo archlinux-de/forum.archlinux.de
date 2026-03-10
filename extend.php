@@ -8,15 +8,20 @@
  */
 
 use App\Console\EnableExtensions;
+use App\Console\PurgeAnonymizedUsers;
 use App\Middleware\ContentSecurityPolicy;
 use App\ServiceProvider\ErrorLogProvider;
 use App\ServiceProvider\SessionServiceProvider;
 use Flarum\Extend;
+use Flarum\Gdpr\Console\DailySchedule;
 use s9e\TextFormatter\Configurator;
 use s9e\TextFormatter\Configurator\Items\Tag;
 
 return [
-    (new Extend\Console())->command(EnableExtensions::class),
+    (new Extend\Console())
+        ->command(EnableExtensions::class)
+        ->command(PurgeAnonymizedUsers::class)
+        ->schedule(PurgeAnonymizedUsers::class, DailySchedule::class),
     (new Extend\ServiceProvider())->register(ErrorLogProvider::class),
     (new Extend\ServiceProvider())->register(SessionServiceProvider::class),
     (new Extend\Middleware('forum'))->add(ContentSecurityPolicy::class),

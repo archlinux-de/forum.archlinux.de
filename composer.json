@@ -22,6 +22,7 @@
         "flarum/bbcode": "^1.8.0",
         "flarum/core": "^1.8.14",
         "flarum/flags": "^1.8.2",
+        "flarum/gdpr": "^1.8.2",
         "flarum/lang-english": "^1.8.0",
         "flarum/likes": "^1.8.1",
         "flarum/lock": "^1.8.2",
