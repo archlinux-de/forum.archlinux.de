@@ -12,6 +12,7 @@ use App\Console\PurgeAnonymizedUsers;
 use App\Console\PurgeInactiveUsers;
 use App\Console\PurgeOrphanedAvatars;
 use App\Console\PruneHiddenContent;
+use App\Console\PurgeSuspendedUsers;
 use App\Middleware\ContentSecurityPolicy;
 use App\ServiceProvider\ErrorLogProvider;
 use App\ServiceProvider\SessionServiceProvider;
@@ -36,6 +37,9 @@ return [
     (new Extend\Console())
         ->command(PruneHiddenContent::class)
         ->schedule(PruneHiddenContent::class, fn (Event $event) => $event->daily()),
+    (new Extend\Console())
+        ->command(PurgeSuspendedUsers::class)
+        ->schedule(PurgeSuspendedUsers::class, fn (Event $event) => $event->daily()),
     (new Extend\ServiceProvider())->register(ErrorLogProvider::class),
     (new Extend\ServiceProvider())->register(SessionServiceProvider::class),
     (new Extend\Middleware('forum'))->add(ContentSecurityPolicy::class),
