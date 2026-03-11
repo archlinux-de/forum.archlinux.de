@@ -29,7 +29,5 @@ class PurgeOrphanedAvatars extends Command
         foreach ($orphaned as $file) {
             $disk->delete($file);
         }
-
-        $this->info('Deleted ' . count($orphaned) . ' orphaned avatars.');
     }
 }
