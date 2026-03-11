@@ -14,6 +14,7 @@ use App\Console\PurgeOrphanedAvatars;
 use App\Console\PruneHiddenContent;
 use App\Console\PurgeSuspendedUsers;
 use App\Middleware\ContentSecurityPolicy;
+use App\Middleware\NoCacheHeader;
 use App\ServiceProvider\ErrorLogProvider;
 use App\ServiceProvider\SessionServiceProvider;
 use Flarum\Extend;
@@ -43,6 +44,7 @@ return [
     (new Extend\ServiceProvider())->register(ErrorLogProvider::class),
     (new Extend\ServiceProvider())->register(SessionServiceProvider::class),
     (new Extend\Middleware('forum'))->add(ContentSecurityPolicy::class),
+    (new Extend\Middleware('forum'))->add(NoCacheHeader::class),
     (new Extend\Formatter())
         ->configure(function (Configurator $config) {
             // Emoticons used to be provided by flarum/emoji
