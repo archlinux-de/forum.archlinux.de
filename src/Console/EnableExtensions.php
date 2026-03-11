@@ -35,7 +35,7 @@ class EnableExtensions extends AbstractCommand
     private function getResolvedExtensions(): iterable
     {
         $resolvedExtensions = $this->extensionManager->resolveExtensionOrder([...$this->getDisabledExtensions()]);
-        assert(!empty($resolvedExtensions['valid']));
+        assert(is_array($resolvedExtensions['valid']));
         assert(empty($resolvedExtensions['missingDependencies']));
         assert(empty($resolvedExtensions['circularDependencies']));
 
