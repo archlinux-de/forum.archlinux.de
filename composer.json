@@ -35,7 +35,7 @@
         "flarum/tags": "^1.8.6",
         "fof/anti-spam": "^1.1.4",
         "fof/nightmode": "^1.6.0",
-        "fof/sitemap": "^2.5.0",
+        "fof/sitemap": "^2.6.0",
         "fof/split": "^1.1.1",
         "fof/upload": "^1.8.11"
     },
@@ -55,7 +55,7 @@
     "require-dev": {
         "malukenho/mcbumpface": "^1.2.0",
         "phpstan/extension-installer": "^1.4.3",
-        "phpstan/phpstan": "^2.1.45",
+        "phpstan/phpstan": "^2.1.46",
         "phpstan/phpstan-deprecation-rules": "^2.0.4",
         "squizlabs/php_codesniffer": "^4.0.1"
     },
