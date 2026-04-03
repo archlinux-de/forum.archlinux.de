@@ -15,6 +15,7 @@ use App\Console\PruneHiddenContent;
 use App\Console\PurgeSuspendedUsers;
 use App\Middleware\ContentSecurityPolicy;
 use App\Middleware\NoCacheHeader;
+use App\ServiceProvider\ApcuCacheProvider;
 use App\ServiceProvider\ErrorLogProvider;
 use App\ServiceProvider\SessionServiceProvider;
 use Flarum\Extend;
@@ -41,6 +42,7 @@ return [
     (new Extend\Console())
         ->command(PurgeSuspendedUsers::class)
         ->schedule(PurgeSuspendedUsers::class, fn (Event $event) => $event->daily()),
+    (new Extend\ServiceProvider())->register(ApcuCacheProvider::class),
     (new Extend\ServiceProvider())->register(ErrorLogProvider::class),
     (new Extend\ServiceProvider())->register(SessionServiceProvider::class),
     (new Extend\Middleware('forum'))->add(ContentSecurityPolicy::class),
