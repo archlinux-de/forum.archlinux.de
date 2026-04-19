@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac82aef398a4dafc723dff1f2eb6fcd4",
+    "content-hash": "348cec9b4e8b5198e3f621c577878773",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1514,16 +1514,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.25.12",
+            "version": "1.25.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "02ef046460630da4a46875f82d2e912c515bf1bf"
+                "reference": "2b3a5c9f7aebe950401abb18c200330d2cd6bd70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/02ef046460630da4a46875f82d2e912c515bf1bf",
-                "reference": "02ef046460630da4a46875f82d2e912c515bf1bf",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/2b3a5c9f7aebe950401abb18c200330d2cd6bd70",
+                "reference": "2b3a5c9f7aebe950401abb18c200330d2cd6bd70",
                 "shasum": ""
             },
             "require": {
@@ -1571,7 +1571,7 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2026-04-14T19:02:22+00:00"
+            "time": "2026-04-18T20:22:07+00:00"
         },
         {
             "name": "flarum-lang/utils",
@@ -1698,16 +1698,16 @@
         },
         {
             "name": "flarum/core",
-            "version": "v1.8.15",
+            "version": "v1.8.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flarum-core.git",
-                "reference": "9d188a285c72fc0c594ad8707dc9221ccacb3ec1"
+                "reference": "3d4f832cff55eebe29b20339615839b04cb07234"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/9d188a285c72fc0c594ad8707dc9221ccacb3ec1",
-                "reference": "9d188a285c72fc0c594ad8707dc9221ccacb3ec1",
+                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/3d4f832cff55eebe29b20339615839b04cb07234",
+                "reference": "3d4f832cff55eebe29b20339615839b04cb07234",
                 "shasum": ""
             },
             "require": {
@@ -1840,7 +1840,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-04-10T08:05:55+00:00"
+            "time": "2026-04-18T20:56:44+00:00"
         },
         {
             "name": "flarum/flags",
@@ -2747,16 +2747,16 @@
         },
         {
             "name": "flarum/tags",
-            "version": "v1.8.7",
+            "version": "v1.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/tags.git",
-                "reference": "c8b1efbf3c3c3f346b77dce4caeab6ba1a253cbb"
+                "reference": "7f411e7f4248502cd5b700bebd40b20830e2b8ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/tags/zipball/c8b1efbf3c3c3f346b77dce4caeab6ba1a253cbb",
-                "reference": "c8b1efbf3c3c3f346b77dce4caeab6ba1a253cbb",
+                "url": "https://api.github.com/repos/flarum/tags/zipball/7f411e7f4248502cd5b700bebd40b20830e2b8ce",
+                "reference": "7f411e7f4248502cd5b700bebd40b20830e2b8ce",
                 "shasum": ""
             },
             "require": {
@@ -2824,7 +2824,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-04-09T22:24:30+00:00"
+            "time": "2026-04-11T18:16:20+00:00"
         },
         {
             "name": "fof/anti-spam",
