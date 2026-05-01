@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f6307214543963ca45c4fe27b7950eb",
+    "content-hash": "58d1c7bdde2905bafb908287257bf17b",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -3201,16 +3201,16 @@
         },
         {
             "name": "fof/upload",
-            "version": "1.8.11",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/upload.git",
-                "reference": "4098d2abee8a1451886de19c05b035fb7c8ec49c"
+                "reference": "499e8d8f22f0b78d45b878f7b65a567309cd560e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/upload/zipball/4098d2abee8a1451886de19c05b035fb7c8ec49c",
-                "reference": "4098d2abee8a1451886de19c05b035fb7c8ec49c",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/upload/zipball/499e8d8f22f0b78d45b878f7b65a567309cd560e",
+                "reference": "499e8d8f22f0b78d45b878f7b65a567309cd560e",
                 "shasum": ""
             },
             "require": {
@@ -3296,7 +3296,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-03-05T07:28:01+00:00"
+            "time": "2026-04-30T14:00:38+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
