@@ -18,6 +18,7 @@ init: start
 	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb --skip-ssl drop flarum --force || true
 	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb --skip-ssl create flarum
 	{{PHP-DB-RUN}} php flarum install -f docker/install.yml
+	{{PHP-DB-RUN}} php -r '$c = include "config.php"; $c["flarum_announcements.disabled"] = true; file_put_contents("config.php", "<?php return " . var_export($c, true) . ";");'
 	{{PHP-DB-RUN}} php flarum app:enable-extensions
 	{{PHP-DB-RUN}} php flarum migrate
 	{{PHP-DB-RUN}} php flarum assets:publish
