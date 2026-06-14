@@ -12,7 +12,7 @@
         "ext-intl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "archlinux-de/flarum-anti-spam": "^1.4.3",
+        "archlinux-de/flarum-anti-spam": "^1.5.0",
         "archlinux-de/flarum-click-image": "^1.1.2",
         "archlinux-de/flarum-discussion-feed": "^1.0.2",
         "archlinux-de/flarum-redirect-fluxbb": "^1.5.0",

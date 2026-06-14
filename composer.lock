@@ -4,38 +4,38 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9738b68508b4b636e2f9d07f8dd3f56d",
+    "content-hash": "197fd85e8442e027b95755f58ab10c0d",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
-            "version": "1.4.3",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-anti-spam.git",
-                "reference": "791b6618d18965a18a99305b9cd8ab0c5db918fc"
+                "reference": "284cb7c12dbbfd96e3c68acff26fbdaddadd8111"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/791b6618d18965a18a99305b9cd8ab0c5db918fc",
-                "reference": "791b6618d18965a18a99305b9cd8ab0c5db918fc",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-anti-spam/zipball/284cb7c12dbbfd96e3c68acff26fbdaddadd8111",
+                "reference": "284cb7c12dbbfd96e3c68acff26fbdaddadd8111",
                 "shasum": ""
             },
             "require": {
                 "flarum/core": "^1.7",
                 "maxmind-db/reader": "^1.11.1",
-                "php": "^8.1",
-                "symfony/http-foundation": "^5.4|^6.4",
-                "symfony/string": "^5.4|^6.4"
+                "php": "^8.2",
+                "symfony/http-foundation": "^5.4|^6.4|^7.4",
+                "symfony/string": "^5.4|^6.4|^7.4"
             },
             "require-dev": {
                 "phpstan/extension-installer": "^1.4",
                 "phpstan/phpstan": "^2.0",
                 "phpstan/phpstan-deprecation-rules": "^2.0",
                 "phpstan/phpstan-phpunit": "^2.0",
-                "phpunit/phpunit": "^10.5",
-                "squizlabs/php_codesniffer": "^3.9",
-                "symfony/filesystem": "^5.4|^6.4",
-                "symfony/http-client": "^5.4.44|^6.4.12"
+                "phpunit/phpunit": "^11.5",
+                "squizlabs/php_codesniffer": "^4.0",
+                "symfony/filesystem": "^5.4|^6.4|^7.4",
+                "symfony/http-client": "^5.4.44|^6.4.12|^7.4"
             },
             "type": "flarum-extension",
             "extra": {
@@ -61,9 +61,9 @@
             "description": "Spam protection for forum.archlinux.de",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-anti-spam/issues",
-                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.4.3"
+                "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.5.0"
             },
-            "time": "2024-12-01T07:53:13+00:00"
+            "time": "2026-06-14T10:16:19+00:00"
         },
         {
             "name": "archlinux-de/flarum-click-image",
