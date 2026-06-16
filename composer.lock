@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "197fd85e8442e027b95755f58ab10c0d",
+    "content-hash": "ab22ac1413a9448329180e125c9a7656",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -3000,6 +3000,87 @@
                 }
             ],
             "time": "2025-11-10T22:03:00+00:00"
+        },
+        {
+            "name": "fof/merge-discussions",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/merge-discussions.git",
+                "reference": "8086e0828a243bb53df45eb111685f81188bb3f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/merge-discussions/zipball/8086e0828a243bb53df45eb111685f81188bb3f2",
+                "reference": "8086e0828a243bb53df45eb111685f81188bb3f2",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.8.0"
+            },
+            "require-dev": {
+                "flarum/phpstan": "*",
+                "flarum/testing": "^1.0.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/19460"
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "githubActions": true,
+                        "backendTesting": true
+                    }
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "fas fa-code-branch fa-flip-vertical",
+                        "color": "#fff",
+                        "backgroundColor": "#e74c3c"
+                    },
+                    "title": "FoF Merge Discussions",
+                    "category": "feature"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\MergeDiscussions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "me+fof@datitisev.me",
+                    "role": "Developer"
+                },
+                {
+                    "name": "IanM",
+                    "email": "ian@flarum.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Merge two or more discussions into one",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "flarum"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/19460",
+                "issues": "https://github.com/FriendsOfFlarum/merge-discussions/issues",
+                "source": "https://github.com/FriendsOfFlarum/merge-discussions"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "time": "2025-05-20T10:17:31+00:00"
         },
         {
             "name": "fof/nightmode",
