@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab22ac1413a9448329180e125c9a7656",
+    "content-hash": "9843308a47631c4fc94f83c90230b341",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1698,16 +1698,16 @@
         },
         {
             "name": "flarum/core",
-            "version": "v1.8.16",
+            "version": "v1.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flarum-core.git",
-                "reference": "3d4f832cff55eebe29b20339615839b04cb07234"
+                "reference": "bbf6d4c114778d231ed8b2c391fa5179a68a19f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/3d4f832cff55eebe29b20339615839b04cb07234",
-                "reference": "3d4f832cff55eebe29b20339615839b04cb07234",
+                "url": "https://api.github.com/repos/flarum/flarum-core/zipball/bbf6d4c114778d231ed8b2c391fa5179a68a19f2",
+                "reference": "bbf6d4c114778d231ed8b2c391fa5179a68a19f2",
                 "shasum": ""
             },
             "require": {
@@ -1840,7 +1840,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-04-18T20:56:44+00:00"
+            "time": "2026-06-15T10:56:21+00:00"
         },
         {
             "name": "flarum/flags",
@@ -3499,22 +3499,22 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.11.1",
+            "version": "7.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "5af96f374e0ab4ebd747b8310888c99d3adb0a8c"
+                "reference": "eaa81598031cf57a9e36258c8546defffc994cba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/5af96f374e0ab4ebd747b8310888c99d3adb0a8c",
-                "reference": "5af96f374e0ab4ebd747b8310888c99d3adb0a8c",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/eaa81598031cf57a9e36258c8546defffc994cba",
+                "reference": "eaa81598031cf57a9e36258c8546defffc994cba",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "guzzlehttp/promises": "^2.5",
-                "guzzlehttp/psr7": "^2.11",
+                "guzzlehttp/psr7": "^2.12",
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
                 "symfony/deprecation-contracts": "^2.5 || ^3.0",
@@ -3607,7 +3607,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.11.1"
+                "source": "https://github.com/guzzle/guzzle/tree/7.12.0"
             },
             "funding": [
                 {
@@ -3623,7 +3623,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-07T22:54:06+00:00"
+            "time": "2026-06-16T22:11:48+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -3711,16 +3711,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.11.0",
+            "version": "2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "bbb5e61349fa5cb822b3e87842b951088b76b81f"
+                "reference": "9b38012e7b54f594707e6db52c684dc0a74b3a43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/bbb5e61349fa5cb822b3e87842b951088b76b81f",
-                "reference": "bbb5e61349fa5cb822b3e87842b951088b76b81f",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9b38012e7b54f594707e6db52c684dc0a74b3a43",
+                "reference": "9b38012e7b54f594707e6db52c684dc0a74b3a43",
                 "shasum": ""
             },
             "require": {
@@ -3810,7 +3810,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.11.0"
+                "source": "https://github.com/guzzle/psr7/tree/2.12.0"
             },
             "funding": [
                 {
@@ -3826,7 +3826,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-02T12:30:48+00:00"
+            "time": "2026-06-16T21:50:11+00:00"
         },
         {
             "name": "illuminate/bus",
