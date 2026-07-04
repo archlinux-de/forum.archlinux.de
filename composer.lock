@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd4cae8e697ca85ddee24510ad3b8f73",
+    "content-hash": "b224e0f3164ca9d587ffc7c1fcfb6a3f",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1513,16 +1513,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.25.21",
+            "version": "1.25.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "ee3ad6b3dc1e962f5382a165406fca28b51d85a1"
+                "reference": "94416b9dfe3cd9da7a13f01adebb22a142c00d64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/ee3ad6b3dc1e962f5382a165406fca28b51d85a1",
-                "reference": "ee3ad6b3dc1e962f5382a165406fca28b51d85a1",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/94416b9dfe3cd9da7a13f01adebb22a142c00d64",
+                "reference": "94416b9dfe3cd9da7a13f01adebb22a142c00d64",
                 "shasum": ""
             },
             "require": {
@@ -1570,7 +1570,7 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2026-06-29T10:47:51+00:00"
+            "time": "2026-07-03T06:25:18+00:00"
         },
         {
             "name": "flarum-lang/utils",
@@ -9754,11 +9754,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.2.3",
+            "version": "2.2.4",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/4048833dd47b377287818841877fb3087289509c",
-                "reference": "4048833dd47b377287818841877fb3087289509c",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/f0fe3fb03bb53ce68cc2416785b260e62226ec27",
+                "reference": "f0fe3fb03bb53ce68cc2416785b260e62226ec27",
                 "shasum": ""
             },
             "require": {
@@ -9814,7 +9814,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-06-30T21:15:26+00:00"
+            "time": "2026-07-03T07:00:23+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
