@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60a18f70b015e786237d557952816f0b",
+    "content-hash": "7bb64032e88cbf3fee6db235109641a3",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1513,16 +1513,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.25.22",
+            "version": "1.25.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "94416b9dfe3cd9da7a13f01adebb22a142c00d64"
+                "reference": "3d76f8c15d89ef9b332f86543d9283769b6761d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/94416b9dfe3cd9da7a13f01adebb22a142c00d64",
-                "reference": "94416b9dfe3cd9da7a13f01adebb22a142c00d64",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/3d76f8c15d89ef9b332f86543d9283769b6761d6",
+                "reference": "3d76f8c15d89ef9b332f86543d9283769b6761d6",
                 "shasum": ""
             },
             "require": {
@@ -1570,7 +1570,7 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2026-07-03T06:25:18+00:00"
+            "time": "2026-07-13T18:09:15+00:00"
         },
         {
             "name": "flarum-lang/utils",
@@ -2827,16 +2827,16 @@
         },
         {
             "name": "fof/anti-spam",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/anti-spam.git",
-                "reference": "bdde035f45c704dd3dbf9f2ee6abf6e37da09dad"
+                "reference": "dd907168465dbda6e28b8d62e0dd189de5bf763e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/anti-spam/zipball/bdde035f45c704dd3dbf9f2ee6abf6e37da09dad",
-                "reference": "bdde035f45c704dd3dbf9f2ee6abf6e37da09dad",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/anti-spam/zipball/dd907168465dbda6e28b8d62e0dd189de5bf763e",
+                "reference": "dd907168465dbda6e28b8d62e0dd189de5bf763e",
                 "shasum": ""
             },
             "require": {
@@ -2848,6 +2848,7 @@
             },
             "require-dev": {
                 "flarum/approval": "*",
+                "flarum/audit": "*",
                 "flarum/flags": "^1.8",
                 "flarum/phpstan": "^1.8",
                 "flarum/suspend": "^1.8",
@@ -2888,7 +2889,8 @@
                         "flarum/suspend",
                         "flarum/flags",
                         "flarum/approval",
-                        "flarum/tags"
+                        "flarum/tags",
+                        "flarum/audit"
                     ]
                 }
             },
@@ -2924,7 +2926,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2025-10-17T20:40:01+00:00"
+            "time": "2026-07-13T13:48:31+00:00"
         },
         {
             "name": "fof/formatting",
