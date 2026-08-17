@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b700b43632cb1edcc5125c45724ac256",
+    "content-hash": "884992def4004db32bf38d541cc7f9ca",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1513,16 +1513,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.25.26",
+            "version": "1.25.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "cff1cfd311073b789aaa2cfb7ced860bf99f7427"
+                "reference": "74a5b4375942d164729d5735ec7e74d310e96766"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/cff1cfd311073b789aaa2cfb7ced860bf99f7427",
-                "reference": "cff1cfd311073b789aaa2cfb7ced860bf99f7427",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/74a5b4375942d164729d5735ec7e74d310e96766",
+                "reference": "74a5b4375942d164729d5735ec7e74d310e96766",
                 "shasum": ""
             },
             "require": {
@@ -1570,7 +1570,7 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2026-08-12T08:30:19+00:00"
+            "time": "2026-08-16T11:52:14+00:00"
         },
         {
             "name": "flarum-lang/utils",
