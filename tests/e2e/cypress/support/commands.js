@@ -9,8 +9,8 @@ Cypress.Commands.add('register', (username, password, email) => {
 
   cy.get('.item-session .username').should('contain', username)
 
-  cy.exec('grep -Eho "/confirm/[^/]+" /app/storage/logs/flarum-*.log | tail -1').then(confirm => {
-    cy.visit(confirm.stdout)
+  cy.task('latestConfirmationLink').then(confirm => {
+    cy.visit(confirm)
     cy.get('button[type=submit]').click()
     cy.visit('/')
   })
