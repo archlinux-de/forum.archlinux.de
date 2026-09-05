@@ -1,6 +1,6 @@
 describe('Start page', () => {
-  it('shows title', () => {
+  it('shows Arch Linux branding', () => {
     cy.visit('/')
-    cy.contains('h1', 'Arch Linux')
+    cy.get('nav img[alt="Arch Linux"]').should('be.visible')
   })
 })

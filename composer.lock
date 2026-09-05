@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "161134f72d3ed0cb2f3dc560c1f4cd63",
+    "content-hash": "6acae578bc819503337298b0a2816e49",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -289,32 +289,50 @@
         },
         {
             "name": "archlinux-de/flarum-theme-archlinux",
-            "version": "1.2.1",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/archlinux-de/flarum-theme-archlinux.git",
-                "reference": "3e23023caef11e758548a63913a909f4a5bac7e2"
+                "reference": "08c1f2f1d2ab68308896a80b0134995499d2f75b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/archlinux-de/flarum-theme-archlinux/zipball/3e23023caef11e758548a63913a909f4a5bac7e2",
-                "reference": "3e23023caef11e758548a63913a909f4a5bac7e2",
+                "url": "https://api.github.com/repos/archlinux-de/flarum-theme-archlinux/zipball/08c1f2f1d2ab68308896a80b0134995499d2f75b",
+                "reference": "08c1f2f1d2ab68308896a80b0134995499d2f75b",
                 "shasum": ""
             },
             "require": {
                 "flarum/core": "^1.0.0",
-                "php": "^8.1"
+                "php": "^8.3"
             },
             "require-dev": {
+                "flarum/testing": "^1.0.0",
                 "phpstan/extension-installer": "^1.4",
                 "phpstan/phpstan": "^2.0",
                 "phpstan/phpstan-deprecation-rules": "^2.0",
                 "phpstan/phpstan-phpunit": "^2.0",
-                "phpunit/phpunit": "^10.5",
-                "squizlabs/php_codesniffer": "^3.6"
+                "phpunit/phpunit": "^9.6",
+                "squizlabs/php_codesniffer": "^4.0"
             },
             "type": "flarum-extension",
             "extra": {
+                "flarum-cli": {
+                    "modules": {
+                        "js": true,
+                        "css": true,
+                        "admin": false,
+                        "forum": true,
+                        "gitConf": true,
+                        "styleci": true,
+                        "jsCommon": false,
+                        "prettier": true,
+                        "typescript": true,
+                        "bundlewatch": false,
+                        "editorConfig": true,
+                        "githubActions": true,
+                        "backendTesting": true
+                    }
+                },
                 "flarum-extension": {
                     "icon": {
                         "name": "fas fa-pencil-alt",
@@ -326,8 +344,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "ArchLinux\\Theme\\": "src/",
-                    "ArchLinux\\Theme\\Test\\": "tests/"
+                    "ArchLinux\\Theme\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -337,9 +354,9 @@
             "description": "Arch Linux Theme for Flarum",
             "support": {
                 "issues": "https://github.com/archlinux-de/flarum-theme-archlinux/issues",
-                "source": "https://github.com/archlinux-de/flarum-theme-archlinux/tree/1.2.1"
+                "source": "https://github.com/archlinux-de/flarum-theme-archlinux/tree/1.3.0"
             },
-            "time": "2024-12-01T10:01:39+00:00"
+            "time": "2026-09-05T07:46:51+00:00"
         },
         {
             "name": "axy/backtrace",
