@@ -18,7 +18,7 @@
         "archlinux-de/flarum-redirect-fluxbb": "^1.5.0",
         "archlinux-de/flarum-redirect-ll": "^1.3.0",
         "archlinux-de/flarum-theme-archlinux": "^1.3.0",
-        "flarum-lang/german": "^1.25.31",
+        "flarum-lang/german": "^1.25.32",
         "flarum/bbcode": "^1.8.0",
         "flarum/core": "^1.8.20",
         "flarum/flags": "^1.8.2",
@@ -47,6 +47,11 @@
         "allow-plugins": {
             "phpstan/extension-installer": true,
             "malukenho/mcbumpface": true
+        },
+        "policy": {
+            "advisories": {
+                "block": false
+            }
         }
     },
     "autoload": {
