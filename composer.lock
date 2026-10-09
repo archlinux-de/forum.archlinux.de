@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d2d8b01d69cdbdc44422adb8a96d6d8e",
+    "content-hash": "3df162f56dc9a8f45354f37d29936fe9",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1359,16 +1359,16 @@
         },
         {
             "name": "enshrined/svg-sanitize",
-            "version": "0.22.0",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/darylldoyle/svg-sanitizer.git",
-                "reference": "0afa95ea74be155a7bcd6c6fb60c276c39984500"
+                "reference": "f3300fcd1bbf67d205b52217c75d0f7d6a8c47ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/0afa95ea74be155a7bcd6c6fb60c276c39984500",
-                "reference": "0afa95ea74be155a7bcd6c6fb60c276c39984500",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/f3300fcd1bbf67d205b52217c75d0f7d6a8c47ff",
+                "reference": "f3300fcd1bbf67d205b52217c75d0f7d6a8c47ff",
                 "shasum": ""
             },
             "require": {
@@ -1398,9 +1398,9 @@
             "description": "An SVG sanitizer for PHP",
             "support": {
                 "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
-                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.22.0"
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/1.0.0"
             },
-            "time": "2025-08-12T10:13:48+00:00"
+            "time": "2026-09-01T09:35:47+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -3375,20 +3375,20 @@
         },
         {
             "name": "fof/upload",
-            "version": "1.9.0",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/upload.git",
-                "reference": "499e8d8f22f0b78d45b878f7b65a567309cd560e"
+                "reference": "2e0b5ebc223854c98dab1a0fd374654d47737207"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/upload/zipball/499e8d8f22f0b78d45b878f7b65a567309cd560e",
-                "reference": "499e8d8f22f0b78d45b878f7b65a567309cd560e",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/upload/zipball/2e0b5ebc223854c98dab1a0fd374654d47737207",
+                "reference": "2e0b5ebc223854c98dab1a0fd374654d47737207",
                 "shasum": ""
             },
             "require": {
-                "enshrined/svg-sanitize": "^0",
+                "enshrined/svg-sanitize": "^1.0",
                 "ext-json": "*",
                 "flarum/core": "^1.8.3",
                 "guzzlehttp/guzzle": "^6.0 || ^7.0",
@@ -3470,7 +3470,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-04-30T14:00:38+00:00"
+            "time": "2026-10-09T06:53:07+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
@@ -9776,11 +9776,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b1f9890d9af53a25c58129e78f0aadd31f90d7f4",
-                "reference": "b1f9890d9af53a25c58129e78f0aadd31f90d7f4",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/6155239b488e95d26d1ebd95c6b4bb294d7f09db",
+                "reference": "6155239b488e95d26d1ebd95c6b4bb294d7f09db",
                 "shasum": ""
             },
             "require": {
@@ -9836,7 +9836,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-06T06:15:36+00:00"
+            "time": "2026-10-08T21:09:11+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
