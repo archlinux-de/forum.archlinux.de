@@ -12,10 +12,10 @@ use Illuminate\Database\Eloquent\Builder;
 
 class PurgeSuspendedUsers extends Command
 {
-    private const int SUSPENDED_YEARS = 3;
+    private const int INACTIVE_YEARS = 3;
 
     protected $signature = 'app:purge-suspended-users';
-    protected $description = 'Delete users who have been suspended for more than 3 years.';
+    protected $description = 'Delete currently suspended users inactive for more than 3 years, excluding staff.';
 
     public function handle(Dispatcher $events): void
     {
@@ -27,7 +27,7 @@ class PurgeSuspendedUsers extends Command
             )
             ->firstOrFail();
 
-        $cutoff = Carbon::now()->subYears(self::SUSPENDED_YEARS);
+        $cutoff = Carbon::now()->subYears(self::INACTIVE_YEARS);
 
         User::query()
             ->where('suspended_until', '>', Carbon::now())
