@@ -93,6 +93,7 @@ cypress-open *args:
 	DISPLAY=:${PORT} DISPLAY_SOCKET=/tmp/.X11-unix/X${PORT%%:*} {{COMPOSE}} -f docker/cypress-open.yml run --rm --no-deps cypress-open --project tests/e2e --e2e {{args}}
 
 test:
+	{{PHP-RUN}} vendor/bin/phpunit -c tests/phpunit.unit.xml
 	{{PHP-RUN}} composer validate
 	{{PHP-RUN}} vendor/bin/phpcs
 	{{PHP-RUN}} php -dmemory_limit=-1 vendor/bin/phpstan analyse

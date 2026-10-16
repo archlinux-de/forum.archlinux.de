@@ -1,6 +1,6 @@
 describe('Feed', () => {
   it('is accessible', () => {
-    const userName = 'tester' + Math.random().toString().replace('.', '')
+    const userName = 'tester' + Cypress._.sampleSize('abcdefghijklmnopqrstuvwxyz', 16).join('')
     const postTitle = 'Hello World!'
     const postMessage = 'What`s up?'
 
@@ -9,7 +9,7 @@ describe('Feed', () => {
     cy.get('button.IndexPage-newDiscussion').click()
     cy.get('.item-discussionTitle input').type(postTitle)
     cy.get('textarea.TextEditor-editor').type(postMessage)
-    cy.get('a.DiscussionComposer-changeTags').click()
+    cy.get('.DiscussionComposer-changeTags').click()
     cy.get('.SelectTagListItem-name').click()
     cy.get('button[type=submit]').click()
     cy.get('.item-submit button').click()
