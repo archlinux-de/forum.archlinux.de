@@ -10,7 +10,6 @@
 use App\Console\EnableExtensions;
 use App\Console\PurgeAnonymizedUsers;
 use App\Console\PurgeInactiveUsers;
-use App\Console\PurgeOrphanedAvatars;
 use App\Console\PruneHiddenContent;
 use App\Console\PurgeSuspendedUsers;
 use App\Middleware\ContentSecurityPolicy;
@@ -32,11 +31,6 @@ return [
     (new Extend\Console())
         ->command(PurgeInactiveUsers::class)
         ->schedule(PurgeInactiveUsers::class, function (Event $event): void {
-            $event->daily();
-        }),
-    (new Extend\Console())
-        ->command(PurgeOrphanedAvatars::class)
-        ->schedule(PurgeOrphanedAvatars::class, function (Event $event): void {
             $event->daily();
         }),
     (new Extend\Console())
