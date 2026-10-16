@@ -15,7 +15,7 @@ module.exports = {
           const confirmationLinks = fs.readdirSync(logDirectory)
             .filter(file => /^flarum-.*\.log$/.test(file))
             .sort()
-            .flatMap(file => fs.readFileSync(path.join(logDirectory, file), 'utf8').match(/\/confirm\/[^/\s"']+/g) || [])
+            .flatMap(file => fs.readFileSync(path.join(logDirectory, file), 'utf8').match(/\/confirm\/[^/\s"'<>]+/g) || [])
 
           if (confirmationLinks.length === 0) {
             throw new Error('No email confirmation link found in Flarum logs')
