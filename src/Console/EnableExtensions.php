@@ -5,6 +5,7 @@ namespace App\Console;
 use Flarum\Console\AbstractCommand;
 use Flarum\Extension\Extension;
 use Flarum\Extension\ExtensionManager;
+use RuntimeException;
 
 class EnableExtensions extends AbstractCommand
 {
@@ -20,13 +21,15 @@ class EnableExtensions extends AbstractCommand
             ->setDescription('Enable all installed extensions');
     }
 
-    protected function fire(): void
+    protected function fire(): int
     {
         foreach ($this->getResolvedExtensions() as $validExtension) {
             assert($validExtension instanceof Extension);
             $this->output->writeln('Enabling extension ' . $validExtension->name);
             $this->extensionManager->enable($validExtension->getId());
         }
+
+        return self::SUCCESS;
     }
 
     /**
@@ -34,26 +37,18 @@ class EnableExtensions extends AbstractCommand
      */
     private function getResolvedExtensions(): iterable
     {
-        $resolvedExtensions = $this->extensionManager->resolveExtensionOrder([...$this->getDisabledExtensions()]);
+        $resolvedExtensions = $this->extensionManager->resolveExtensionOrder(
+            $this->extensionManager->getExtensions()->all()
+        );
         assert(is_array($resolvedExtensions['valid']));
-        assert(empty($resolvedExtensions['missingDependencies']));
-        assert(empty($resolvedExtensions['circularDependencies']));
+        if ($resolvedExtensions['missingDependencies'] || $resolvedExtensions['circularDependencies']) {
+            throw new RuntimeException('Installed extensions have missing or circular dependencies.');
+        }
 
         foreach ($resolvedExtensions['valid'] as $validExtension) {
             assert($validExtension instanceof Extension);
-            yield $validExtension;
-        }
-    }
-
-    /**
-     * @return iterable<Extension>
-     */
-    private function getDisabledExtensions(): iterable
-    {
-        foreach ($this->extensionManager->getExtensions() as $extension) {
-            assert($extension instanceof Extension);
-            if (!$this->extensionManager->isEnabled($extension->getId())) {
-                yield $extension;
+            if (!$this->extensionManager->isEnabled($validExtension->getId())) {
+                yield $validExtension;
             }
         }
     }

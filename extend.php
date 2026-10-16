@@ -16,6 +16,7 @@ use App\Console\PurgeSuspendedUsers;
 use App\Middleware\ContentSecurityPolicy;
 use App\Middleware\NoCacheHeader;
 use App\ServiceProvider\ErrorLogProvider;
+use App\ServiceProvider\LocalEmojiProvider;
 use App\ServiceProvider\SessionServiceProvider;
 use Flarum\Extend;
 use Flarum\Gdpr\Console\DailySchedule;
@@ -29,36 +30,32 @@ return [
         ->command(PurgeAnonymizedUsers::class)
         ->schedule(PurgeAnonymizedUsers::class, DailySchedule::class),
     (new Extend\Console())
-        ->command(EnableExtensions::class)
         ->command(PurgeInactiveUsers::class)
-        ->schedule(PurgeInactiveUsers::class, fn (Event $event) => $event->daily()),
+        ->schedule(PurgeInactiveUsers::class, function (Event $event): void {
+            $event->daily();
+        }),
     (new Extend\Console())
         ->command(PurgeOrphanedAvatars::class)
-        ->schedule(PurgeOrphanedAvatars::class, fn (Event $event) => $event->daily()),
+        ->schedule(PurgeOrphanedAvatars::class, function (Event $event): void {
+            $event->daily();
+        }),
     (new Extend\Console())
         ->command(PruneHiddenContent::class)
-        ->schedule(PruneHiddenContent::class, fn (Event $event) => $event->daily()),
+        ->schedule(PruneHiddenContent::class, function (Event $event): void {
+            $event->daily();
+        }),
     (new Extend\Console())
         ->command(PurgeSuspendedUsers::class)
-        ->schedule(PurgeSuspendedUsers::class, fn (Event $event) => $event->daily()),
+        ->schedule(PurgeSuspendedUsers::class, function (Event $event): void {
+            $event->daily();
+        }),
     (new Extend\ServiceProvider())->register(ErrorLogProvider::class),
+    (new Extend\ServiceProvider())->register(LocalEmojiProvider::class),
     (new Extend\ServiceProvider())->register(SessionServiceProvider::class),
     (new Extend\Middleware('forum'))->add(ContentSecurityPolicy::class),
     (new Extend\Middleware('forum'))->add(NoCacheHeader::class),
     (new Extend\Formatter())
         ->configure(function (Configurator $config) {
-            // Emoticons used to be provided by flarum/emoji
-            // https://github.com/flarum/emoji/blob/master/extend.php#L20-L28
-            $config->Emoticons->add(':)', '🙂');
-            $config->Emoticons->add(':D', '😃');
-            $config->Emoticons->add(':P', '😛');
-            $config->Emoticons->add(':(', '🙁');
-            $config->Emoticons->add(':|', '😐');
-            $config->Emoticons->add(';)', '😉');
-            $config->Emoticons->add(':\'(', '😢');
-            $config->Emoticons->add(':O', '😮');
-            $config->Emoticons->add('>:(', '😡');
-
             // Disable highlight.js
             // https://github.com/s9e/TextFormatter/blob/master/src/Plugins/BBCodes/Configurator/repository.xml#L50-L73
             /** @var Tag $codeTag */
