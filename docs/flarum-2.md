@@ -1,7 +1,7 @@
 # Flarum 2 integration
 
-This branch integrates Flarum 2.0.1 with the Arch Linux DE extensions on
-`dev-main`. Several Friends of Flarum extensions currently use beta/RC releases;
+This branch integrates Flarum 2.0.2 with the Arch Linux DE extensions on
+`dev-main`. Several Friends of Flarum extensions currently use beta releases;
 Composer prefers stable releases when available. `fof/nightmode` is removed:
 Flarum 2 provides native color scheme selection. Check the Appearance settings
 and user preferences when testing an existing database.
@@ -22,7 +22,7 @@ isolate upgrade errors.
 
 ## Production readiness and release status
 
-As reviewed on **16 October 2026**, keep production on Flarum 1.8 for now and
+As reviewed on **22 October 2026**, keep production on Flarum 1.8 for now and
 retain this branch for integration testing. Prefer migrating once every
 extension we use has a stable compatible release. Reassess in November 2026,
 leaving time to resolve remaining blockers before Flarum 1.8 reaches end of life.
@@ -32,22 +32,22 @@ releases available at the time of review:
 
 | Extension | Compatible release | Release date | Status |
 | --- | --- | --- | --- |
-| [Anti Spam](https://packagist.org/packages/fof/anti-spam) | 2.0.0-rc.6 | 5 October 2026 | Release candidate |
+| [Anti Spam](https://packagist.org/packages/fof/anti-spam) | 2.0.0 | 18 October 2026 | Stable |
 | [Formatting](https://packagist.org/packages/fof/formatting) | 2.0.0-beta.2 | 15 February 2026 | Beta |
 | [Merge Discussions](https://packagist.org/packages/fof/merge-discussions) | 2.0.0-beta.4 | 8 July 2026 | Beta |
 | [Sitemap](https://packagist.org/packages/fof/sitemap) | 3.0.0-beta.6 | 27 April 2026 | Beta |
-| [Split](https://packagist.org/packages/fof/split) | 2.0.0-beta.4 | 8 July 2026 | Beta |
-| [Upload](https://packagist.org/packages/fof/upload) | 2.0.1 | 9 October 2026 | Stable |
+| [Split](https://packagist.org/packages/fof/split) | 2.0.0 | 17 October 2026 | Stable |
+| [Upload](https://packagist.org/packages/fof/upload) | 2.0.2 | 19 October 2026 | Stable |
 
-No published stable-release dates were found for the five prerelease extensions.
-Recent activity and release-candidate labels do not establish an ETA. Recheck
-release tags and the open work when reassessing readiness:
+No published stable-release dates were found for the three remaining prerelease
+extensions. Recent activity does not establish an ETA. Recheck release tags and
+the open work when reassessing readiness:
 
 - Sitemap has an open [large-forum memory-exhaustion fix port](https://github.com/FriendsOfFlarum/sitemap/issues/78)
   from 1.x. Validate sitemap generation against our production dataset.
 - Merge Discussions has pending [broader tests and bug fixes](https://github.com/FriendsOfFlarum/merge-discussions/pull/95).
-- Split has pending fixes for [posts by deleted users](https://github.com/FriendsOfFlarum/split/pull/73)
-  and [read/unread state](https://github.com/FriendsOfFlarum/split/pull/76).
+- Split’s [stable 2.0.0 release](https://github.com/FriendsOfFlarum/split/releases/tag/2.0.0)
+  includes fixes for posts by deleted users and read/unread state.
 
 The [official support policy](https://github.com/flarum/flarum/security) gives
 Flarum 1.8 critical security and critical bug fixes only until **31 December
@@ -191,14 +191,15 @@ enable. Hidden post pruning uses the internal API client in place of the removed
 
 ## Validation
 
-A fresh Flarum 2.0.1 installation passes `just test` (four PHPUnit tests, Composer
+A fresh Flarum 2.0.2 installation passes `just test` (four PHPUnit tests, Composer
 validation, coding standards and static analysis) and all eight Cypress tests:
 registration, posting with locally served emoji, feed, both legacy redirects,
 branding, native dark mode persistence and the private messages page. The
 fresh-install check also verifies the development PHP image meets the installer
 requirements. Composer reported no security advisories.
 
-The production backup rehearsal is recorded below. Authenticated moderation,
+The production backup rehearsal below used 2.0.1 and has not been repeated
+with the 22 October dependency update. Authenticated moderation,
 uploads and production-specific operational settings still need validation
 before deployment.
 
