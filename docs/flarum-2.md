@@ -1,7 +1,7 @@
 # Flarum 2 integration
 
 This branch integrates Flarum 2.0.2 with the Arch Linux DE extensions on
-`dev-main`. Several Friends of Flarum extensions currently use beta releases;
+`dev-main`. FoF Merge Discussions still uses a beta release;
 Composer prefers stable releases when available. `fof/nightmode` is removed:
 Flarum 2 provides native color scheme selection. Check the Appearance settings
 and user preferences when testing an existing database.
@@ -22,7 +22,7 @@ isolate upgrade errors.
 
 ## Production readiness and release status
 
-As reviewed on **22 October 2026**, keep production on Flarum 1.8 for now and
+As reviewed on **30 October 2026**, keep production on Flarum 1.8 for now and
 retain this branch for integration testing. Prefer migrating once every
 extension we use has a stable compatible release. Reassess in November 2026,
 leaving time to resolve remaining blockers before Flarum 1.8 reaches end of life.
@@ -32,18 +32,23 @@ releases available at the time of review:
 
 | Extension | Compatible release | Release date | Status |
 | --- | --- | --- | --- |
-| [Anti Spam](https://packagist.org/packages/fof/anti-spam) | 2.0.0 | 18 October 2026 | Stable |
-| [Formatting](https://packagist.org/packages/fof/formatting) | 2.0.0-beta.2 | 15 February 2026 | Beta |
+| [Anti Spam](https://packagist.org/packages/fof/anti-spam) | 2.0.1 | 23 October 2026 | Stable |
+| [Formatting](https://packagist.org/packages/fof/formatting) | 2.0.0 | 23 October 2026 | Stable |
 | [Merge Discussions](https://packagist.org/packages/fof/merge-discussions) | 2.0.0-beta.4 | 8 July 2026 | Beta |
-| [Sitemap](https://packagist.org/packages/fof/sitemap) | 3.0.0-beta.6 | 27 April 2026 | Beta |
-| [Split](https://packagist.org/packages/fof/split) | 2.0.0 | 17 October 2026 | Stable |
-| [Upload](https://packagist.org/packages/fof/upload) | 2.0.2 | 19 October 2026 | Stable |
+| [Sitemap](https://packagist.org/packages/fof/sitemap) | 3.0.0 | 23 October 2026 | Stable |
+| [Split](https://packagist.org/packages/fof/split) | 2.0.1 | 23 October 2026 | Stable |
+| [Upload](https://packagist.org/packages/fof/upload) | 2.0.3 | 23 October 2026 | Stable |
 
-No published stable-release dates were found for the three remaining prerelease
-extensions. Recent activity does not establish an ETA. Recheck release tags and
-the open work when reassessing readiness:
+Merge Discussions is the only remaining FoF prerelease. On 25 October,
+[GreXXL reported](https://discuss.flarum.org/d/19460/196) that it has been used on
+the Flarum community forum without issues since its first beta and simply lacks
+a stable tag. This is a maintainer report, not a release date or a replacement
+for testing our own configuration. No stable-release ETA has been published.
+Our six `archlinux-de/*` extensions also remain on `dev-main`.
 
-- Sitemap has an open [large-forum memory-exhaustion fix port](https://github.com/FriendsOfFlarum/sitemap/issues/78)
+Recheck release tags and the open work when reassessing readiness:
+
+- Sitemap is now stable, but still has an open [large-forum memory-exhaustion fix port](https://github.com/FriendsOfFlarum/sitemap/issues/78)
   from 1.x. Validate sitemap generation against our production dataset.
 - Merge Discussions has pending [broader tests and bug fixes](https://github.com/FriendsOfFlarum/merge-discussions/pull/95).
 - Split’s [stable 2.0.0 release](https://github.com/FriendsOfFlarum/split/releases/tag/2.0.0)
@@ -199,7 +204,7 @@ fresh-install check also verifies the development PHP image meets the installer
 requirements. Composer reported no security advisories.
 
 The production backup rehearsal below used 2.0.1 and has not been repeated
-with the 22 October dependency update. Authenticated moderation,
+with the 30 October dependency update. Authenticated moderation,
 uploads and production-specific operational settings still need validation
 before deployment.
 
