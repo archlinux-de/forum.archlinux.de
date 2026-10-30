@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "31769a58d00e53b4219d5a58a301f13c",
+    "content-hash": "82edabbee74401d3b71a976915aa4240",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -63,7 +63,8 @@
                 "issues": "https://github.com/archlinux-de/flarum-anti-spam/issues",
                 "source": "https://github.com/archlinux-de/flarum-anti-spam/tree/1.5.0"
             },
-            "time": "2026-06-14T10:16:19+00:00"
+            "time": "2026-06-14T10:16:19+00:00",
+            "published-time": "2026-06-14T10:19:50+00:00"
         },
         {
             "name": "archlinux-de/flarum-click-image",
@@ -120,7 +121,8 @@
                 "issues": "https://github.com/archlinux-de/flarum-click-image/issues",
                 "source": "https://github.com/archlinux-de/flarum-click-image/tree/1.1.2"
             },
-            "time": "2024-12-01T08:06:00+00:00"
+            "time": "2024-12-01T08:06:00+00:00",
+            "published-time": "2024-12-01T08:09:44+00:00"
         },
         {
             "name": "archlinux-de/flarum-discussion-feed",
@@ -175,7 +177,8 @@
                 "issues": "https://github.com/archlinux-de/flarum-discussion-feed/issues",
                 "source": "https://github.com/archlinux-de/flarum-discussion-feed/tree/1.0.2"
             },
-            "time": "2024-12-01T08:32:39+00:00"
+            "time": "2024-12-01T08:32:39+00:00",
+            "published-time": "2024-12-01T08:37:25+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-fluxbb",
@@ -230,7 +233,8 @@
                 "issues": "https://github.com/archlinux-de/flarum-redirect-fluxbb/issues",
                 "source": "https://github.com/archlinux-de/flarum-redirect-fluxbb/tree/1.5.0"
             },
-            "time": "2024-12-01T09:09:31+00:00"
+            "time": "2024-12-01T09:09:31+00:00",
+            "published-time": "2024-12-01T09:12:39+00:00"
         },
         {
             "name": "archlinux-de/flarum-redirect-ll",
@@ -285,7 +289,8 @@
                 "issues": "https://github.com/archlinux-de/flarum-redirect-ll/issues",
                 "source": "https://github.com/archlinux-de/flarum-redirect-ll/tree/1.3.0"
             },
-            "time": "2024-12-01T09:19:41+00:00"
+            "time": "2024-12-01T09:19:41+00:00",
+            "published-time": "2024-12-01T09:21:20+00:00"
         },
         {
             "name": "archlinux-de/flarum-theme-archlinux",
@@ -356,7 +361,8 @@
                 "issues": "https://github.com/archlinux-de/flarum-theme-archlinux/issues",
                 "source": "https://github.com/archlinux-de/flarum-theme-archlinux/tree/1.3.0"
             },
-            "time": "2026-09-05T07:46:51+00:00"
+            "time": "2026-09-05T07:46:51+00:00",
+            "published-time": "2026-09-05T08:09:12+00:00"
         },
         {
             "name": "axy/backtrace",
@@ -409,7 +415,8 @@
                 "issues": "https://github.com/axypro/backtrace/issues",
                 "source": "https://github.com/axypro/backtrace/tree/2.0.0"
             },
-            "time": "2019-02-02T18:01:31+00:00"
+            "time": "2019-02-02T18:01:31+00:00",
+            "published-time": "2019-02-02T18:03:12+00:00"
         },
         {
             "name": "brick/math",
@@ -469,7 +476,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-09-12T10:28:18+00:00"
+            "time": "2026-09-12T10:28:18+00:00",
+            "published-time": "2026-09-12T12:23:30+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -538,7 +546,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-09-06T14:10:59+00:00"
+            "time": "2026-09-06T14:10:59+00:00",
+            "published-time": "2026-09-06T14:14:11+00:00"
         },
         {
             "name": "components/font-awesome",
@@ -577,7 +586,8 @@
                 "issues": "https://github.com/components/font-awesome/issues",
                 "source": "https://github.com/components/font-awesome/tree/5.15.4"
             },
-            "time": "2021-08-15T10:31:24+00:00"
+            "time": "2021-08-15T10:31:24+00:00",
+            "published-time": "2021-08-15T10:32:04+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -652,7 +662,8 @@
                 "issues": "https://github.com/dflydev/dflydev-dot-access-data/issues",
                 "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.3"
             },
-            "time": "2024-07-08T12:26:09+00:00"
+            "time": "2024-07-08T12:26:09+00:00",
+            "published-time": "2024-07-08T12:27:13+00:00"
         },
         {
             "name": "dflydev/fig-cookies",
@@ -714,7 +725,8 @@
                 "issues": "https://github.com/dflydev/dflydev-fig-cookies/issues",
                 "source": "https://github.com/dflydev/dflydev-fig-cookies/tree/v3.2.0"
             },
-            "time": "2025-09-03T20:01:04+00:00"
+            "time": "2025-09-03T20:01:04+00:00",
+            "published-time": "2025-09-03T20:14:10+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -808,7 +820,8 @@
                 }
             ],
             "abandoned": true,
-            "time": "2022-05-20T20:07:39+00:00"
+            "time": "2022-05-20T20:07:39+00:00",
+            "published-time": "2022-05-20T20:14:47+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -917,7 +930,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-02T20:28:55+00:00"
+            "time": "2022-05-02T20:28:55+00:00",
+            "published-time": "2022-05-02T20:30:35+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -965,7 +979,8 @@
                 "issues": "https://github.com/doctrine/deprecations/issues",
                 "source": "https://github.com/doctrine/deprecations/tree/1.1.6"
             },
-            "time": "2026-02-07T07:09:04+00:00"
+            "time": "2026-02-07T07:09:04+00:00",
+            "published-time": "2026-02-07T07:10:09+00:00"
         },
         {
             "name": "doctrine/event-manager",
@@ -1057,7 +1072,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-12T20:51:15+00:00"
+            "time": "2022-10-12T20:51:15+00:00",
+            "published-time": "2022-10-12T21:53:20+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -1147,7 +1163,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-26T08:14:14+00:00"
+            "time": "2026-10-26T08:14:14+00:00",
+            "published-time": "2026-10-26T20:06:59+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -1223,7 +1240,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-28T11:07:21+00:00"
+            "time": "2022-02-28T11:07:21+00:00",
+            "published-time": "2022-02-28T11:10:44+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
@@ -1287,7 +1305,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-19T17:53:57+00:00"
+            "time": "2026-10-19T17:53:57+00:00",
+            "published-time": "2026-10-19T17:54:31+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -1355,7 +1374,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-29T14:50:06+00:00"
+            "time": "2020-12-29T14:50:06+00:00",
+            "published-time": "2020-12-29T15:07:03+00:00"
         },
         {
             "name": "enshrined/svg-sanitize",
@@ -1400,7 +1420,8 @@
                 "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
                 "source": "https://github.com/darylldoyle/svg-sanitizer/tree/1.1.1"
             },
-            "time": "2026-10-20T09:45:10+00:00"
+            "time": "2026-10-20T09:45:10+00:00",
+            "published-time": "2026-10-20T09:46:58+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -1456,7 +1477,8 @@
                 "issues": "https://github.com/php-fig/http-message-util/issues",
                 "source": "https://github.com/php-fig/http-message-util/tree/1.1.5"
             },
-            "time": "2020-11-24T22:02:12+00:00"
+            "time": "2020-11-24T22:02:12+00:00",
+            "published-time": "2020-11-24T22:02:59+00:00"
         },
         {
             "name": "filp/whoops",
@@ -1527,7 +1549,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-18T13:17:38+00:00"
+            "time": "2026-10-18T13:17:38+00:00",
+            "published-time": "2026-10-18T13:33:07+00:00"
         },
         {
             "name": "flarum-lang/german",
@@ -1588,7 +1611,8 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2026-10-15T13:43:48+00:00"
+            "time": "2026-10-15T13:43:48+00:00",
+            "published-time": "2026-10-15T13:43:58+00:00"
         },
         {
             "name": "flarum-lang/utils",
@@ -1635,7 +1659,8 @@
                 "issues": "https://github.com/flarum-lang/utils/issues",
                 "source": "https://github.com/flarum-lang/utils"
             },
-            "time": "2023-06-13T18:30:42+00:00"
+            "time": "2023-06-13T18:30:42+00:00",
+            "published-time": "2023-06-13T18:33:23+00:00"
         },
         {
             "name": "flarum/bbcode",
@@ -1711,7 +1736,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-05-20T15:08:42+00:00"
+            "time": "2023-05-20T15:08:42+00:00",
+            "published-time": "2023-05-20T17:15:38+00:00"
         },
         {
             "name": "flarum/core",
@@ -1857,7 +1883,8 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-10-23T14:48:56+00:00"
+            "time": "2026-10-23T14:48:56+00:00",
+            "published-time": "2026-10-23T14:51:26+00:00"
         },
         {
             "name": "flarum/flags",
@@ -1938,7 +1965,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2024-10-26T22:18:59+00:00"
+            "time": "2024-10-26T22:18:59+00:00",
+            "published-time": "2024-11-20T20:03:27+00:00"
         },
         {
             "name": "flarum/gdpr",
@@ -2043,7 +2071,8 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-03-08T10:32:23+00:00"
+            "time": "2026-03-08T10:32:23+00:00",
+            "published-time": "2026-03-08T12:04:26+00:00"
         },
         {
             "name": "flarum/lang-english",
@@ -2125,7 +2154,8 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-05-20T15:08:42+00:00"
+            "time": "2023-05-20T15:08:42+00:00",
+            "published-time": "2023-05-20T17:53:45+00:00"
         },
         {
             "name": "flarum/likes",
@@ -2204,7 +2234,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2024-10-02T11:13:26+00:00"
+            "time": "2024-10-02T11:13:26+00:00",
+            "published-time": "2024-10-08T07:10:51+00:00"
         },
         {
             "name": "flarum/lock",
@@ -2280,7 +2311,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2024-10-26T22:15:50+00:00"
+            "time": "2024-10-26T22:15:50+00:00",
+            "published-time": "2024-11-20T20:09:20+00:00"
         },
         {
             "name": "flarum/markdown",
@@ -2354,7 +2386,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2024-10-02T07:10:53+00:00"
+            "time": "2024-10-02T07:10:53+00:00",
+            "published-time": "2024-10-08T07:10:01+00:00"
         },
         {
             "name": "flarum/mentions",
@@ -2438,7 +2471,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-08-03T15:53:31+00:00"
+            "time": "2026-08-03T15:53:31+00:00",
+            "published-time": "2026-08-10T09:30:26+00:00"
         },
         {
             "name": "flarum/nicknames",
@@ -2518,7 +2552,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-03-06T17:04:27+00:00"
+            "time": "2026-03-06T17:04:27+00:00",
+            "published-time": "2026-03-09T08:07:47+00:00"
         },
         {
             "name": "flarum/sticky",
@@ -2598,7 +2633,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-07-29T19:50:15+00:00"
+            "time": "2026-07-29T19:50:15+00:00",
+            "published-time": "2026-08-10T09:31:04+00:00"
         },
         {
             "name": "flarum/subscriptions",
@@ -2681,7 +2717,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2024-10-02T07:10:53+00:00"
+            "time": "2024-10-02T07:10:53+00:00",
+            "published-time": "2024-10-08T07:05:58+00:00"
         },
         {
             "name": "flarum/suspend",
@@ -2760,7 +2797,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-03-06T17:41:07+00:00"
+            "time": "2026-03-06T17:41:07+00:00",
+            "published-time": "2026-03-09T08:10:12+00:00"
         },
         {
             "name": "flarum/tags",
@@ -2841,7 +2879,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-04-11T18:16:20+00:00"
+            "time": "2026-04-11T18:16:20+00:00",
+            "published-time": "2026-04-18T21:01:29+00:00"
         },
         {
             "name": "fof/anti-spam",
@@ -2944,7 +2983,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-07-13T13:48:31+00:00"
+            "time": "2026-07-13T13:48:31+00:00",
+            "published-time": "2026-07-13T13:51:42+00:00"
         },
         {
             "name": "fof/formatting",
@@ -3018,7 +3058,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2025-11-10T22:03:00+00:00"
+            "time": "2025-11-10T22:03:00+00:00",
+            "published-time": "2025-11-10T22:03:33+00:00"
         },
         {
             "name": "fof/merge-discussions",
@@ -3099,7 +3140,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2025-05-20T10:17:31+00:00"
+            "time": "2025-05-20T10:17:31+00:00",
+            "published-time": "2025-05-20T10:23:44+00:00"
         },
         {
             "name": "fof/nightmode",
@@ -3196,7 +3238,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2024-10-19T10:06:15+00:00"
+            "time": "2024-10-19T10:06:15+00:00",
+            "published-time": "2024-10-19T10:07:42+00:00"
         },
         {
             "name": "fof/sitemap",
@@ -3296,7 +3339,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-04-27T11:42:46+00:00"
+            "time": "2026-04-27T11:42:46+00:00",
+            "published-time": "2026-04-27T11:51:55+00:00"
         },
         {
             "name": "fof/split",
@@ -3371,7 +3415,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2023-11-12T10:15:32+00:00"
+            "time": "2023-11-12T10:15:32+00:00",
+            "published-time": "2023-11-12T10:16:10+00:00"
         },
         {
             "name": "fof/upload",
@@ -3470,7 +3515,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-10-09T06:53:07+00:00"
+            "time": "2026-10-09T06:53:07+00:00",
+            "published-time": "2026-10-09T06:54:57+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
@@ -3514,7 +3560,8 @@
                 "issues": "https://github.com/franzliedke/whoops-middleware/issues",
                 "source": "https://github.com/franzliedke/whoops-middleware/tree/2.0.0"
             },
-            "time": "2021-01-03T01:30:07+00:00"
+            "time": "2021-01-03T01:30:07+00:00",
+            "published-time": "2021-01-03T01:35:30+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -3642,7 +3689,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-25T21:35:21+00:00"
+            "time": "2026-10-25T21:35:21+00:00",
+            "published-time": "2026-10-25T21:37:23+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -3726,7 +3774,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-18T12:46:59+00:00"
+            "time": "2026-10-18T12:46:59+00:00",
+            "published-time": "2026-10-18T12:47:39+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -3845,7 +3894,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-17T23:49:46+00:00"
+            "time": "2026-10-17T23:49:46+00:00",
+            "published-time": "2026-10-17T23:51:00+00:00"
         },
         {
             "name": "illuminate/bus",
@@ -3898,7 +3948,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-03-07T15:02:42+00:00"
+            "time": "2022-03-07T15:02:42+00:00",
+            "published-time": "2022-12-08T15:29:30+00:00"
         },
         {
             "name": "illuminate/cache",
@@ -3958,7 +4009,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-07-22T14:58:32+00:00"
+            "time": "2022-07-22T14:58:32+00:00",
+            "published-time": "2022-12-08T15:29:34+00:00"
         },
         {
             "name": "illuminate/collections",
@@ -4012,7 +4064,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-06-23T15:29:49+00:00"
+            "time": "2022-06-23T15:29:49+00:00",
+            "published-time": "2022-12-08T15:29:32+00:00"
         },
         {
             "name": "illuminate/config",
@@ -4060,7 +4113,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-01-31T15:57:46+00:00"
+            "time": "2022-01-31T15:57:46+00:00",
+            "published-time": "2022-12-08T15:29:36+00:00"
         },
         {
             "name": "illuminate/console",
@@ -4120,7 +4174,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-04-21T22:14:18+00:00"
+            "time": "2022-04-21T22:14:18+00:00",
+            "published-time": "2022-12-08T15:29:36+00:00"
         },
         {
             "name": "illuminate/container",
@@ -4171,7 +4226,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-02-02T21:03:35+00:00"
+            "time": "2022-02-02T21:03:35+00:00",
+            "published-time": "2022-12-08T15:29:37+00:00"
         },
         {
             "name": "illuminate/contracts",
@@ -4219,7 +4275,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-01-13T14:47:47+00:00"
+            "time": "2022-01-13T14:47:47+00:00",
+            "published-time": "2022-12-08T15:29:38+00:00"
         },
         {
             "name": "illuminate/database",
@@ -4287,7 +4344,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-08-31T16:16:06+00:00"
+            "time": "2022-08-31T16:16:06+00:00",
+            "published-time": "2022-12-08T15:29:45+00:00"
         },
         {
             "name": "illuminate/events",
@@ -4342,7 +4400,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-09-15T14:32:50+00:00"
+            "time": "2021-09-15T14:32:50+00:00",
+            "published-time": "2022-12-08T15:29:45+00:00"
         },
         {
             "name": "illuminate/filesystem",
@@ -4404,7 +4463,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-01-15T15:00:40+00:00"
+            "time": "2022-01-15T15:00:40+00:00",
+            "published-time": "2022-12-08T15:29:48+00:00"
         },
         {
             "name": "illuminate/hashing",
@@ -4452,7 +4512,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-10-22T13:20:42+00:00"
+            "time": "2021-10-22T13:20:42+00:00",
+            "published-time": "2022-12-08T15:29:48+00:00"
         },
         {
             "name": "illuminate/macroable",
@@ -4498,7 +4559,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-11-16T13:57:03+00:00"
+            "time": "2021-11-16T13:57:03+00:00",
+            "published-time": "2022-12-08T15:29:51+00:00"
         },
         {
             "name": "illuminate/mail",
@@ -4559,7 +4621,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-01-05T15:17:19+00:00"
+            "time": "2022-01-05T15:17:19+00:00",
+            "published-time": "2022-12-08T15:29:53+00:00"
         },
         {
             "name": "illuminate/pipeline",
@@ -4607,7 +4670,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-03-26T18:39:16+00:00"
+            "time": "2021-03-26T18:39:16+00:00",
+            "published-time": "2022-12-08T15:29:57+00:00"
         },
         {
             "name": "illuminate/queue",
@@ -4673,7 +4737,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-07-21T19:36:12+00:00"
+            "time": "2022-07-21T19:36:12+00:00",
+            "published-time": "2022-12-08T15:29:59+00:00"
         },
         {
             "name": "illuminate/session",
@@ -4729,7 +4794,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-01-13T18:28:06+00:00"
+            "time": "2022-01-13T18:28:06+00:00",
+            "published-time": "2022-12-08T15:30:04+00:00"
         },
         {
             "name": "illuminate/support",
@@ -4797,7 +4863,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-09-21T21:30:03+00:00"
+            "time": "2022-09-21T21:30:03+00:00",
+            "published-time": "2022-12-08T15:30:07+00:00"
         },
         {
             "name": "illuminate/translation",
@@ -4849,7 +4916,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-05-02T13:55:33+00:00"
+            "time": "2022-05-02T13:55:33+00:00",
+            "published-time": "2022-12-08T15:30:10+00:00"
         },
         {
             "name": "illuminate/validation",
@@ -4909,7 +4977,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-05-30T13:21:10+00:00"
+            "time": "2022-05-30T13:21:10+00:00",
+            "published-time": "2022-12-08T15:30:11+00:00"
         },
         {
             "name": "illuminate/view",
@@ -4963,7 +5032,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-04-14T13:47:10+00:00"
+            "time": "2022-04-14T13:47:10+00:00",
+            "published-time": "2022-12-08T15:30:13+00:00"
         },
         {
             "name": "intervention/image",
@@ -5047,7 +5117,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-05-21T17:30:32+00:00"
+            "time": "2022-05-21T17:30:32+00:00",
+            "published-time": "2022-05-21T17:44:46+00:00"
         },
         {
             "name": "jaybizzle/crawler-detect",
@@ -5099,7 +5170,8 @@
                 "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
                 "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.4.2"
             },
-            "time": "2026-10-20T18:03:06+00:00"
+            "time": "2026-10-20T18:03:06+00:00",
+            "published-time": "2026-10-20T18:04:09+00:00"
         },
         {
             "name": "jenssegers/agent",
@@ -5182,7 +5254,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-13T08:05:20+00:00"
+            "time": "2020-06-13T08:05:20+00:00",
+            "published-time": "2020-06-13T08:07:18+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -5271,7 +5344,8 @@
                     "type": "custom"
                 }
             ],
-            "time": "2026-10-08T08:19:47+00:00"
+            "time": "2026-10-08T08:19:47+00:00",
+            "published-time": "2026-10-08T08:23:07+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -5332,7 +5406,8 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2025-10-14T18:31:13+00:00"
+            "time": "2025-10-14T18:31:13+00:00",
+            "published-time": "2025-10-14T19:13:23+00:00"
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
@@ -5399,7 +5474,8 @@
                     "type": "custom"
                 }
             ],
-            "time": "2026-09-21T10:14:52+00:00"
+            "time": "2026-09-21T10:14:52+00:00",
+            "published-time": "2026-09-21T10:15:58+00:00"
         },
         {
             "name": "laminas/laminas-stratigility",
@@ -5477,7 +5553,8 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2026-05-03T18:04:42+00:00"
+            "time": "2026-05-03T18:04:42+00:00",
+            "published-time": "2026-05-03T18:05:55+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -5538,7 +5615,8 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2024-11-14T18:34:49+00:00"
+            "time": "2024-11-14T18:34:49+00:00",
+            "published-time": "2024-11-19T20:48:07+00:00"
         },
         {
             "name": "league/commonmark",
@@ -5645,7 +5723,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-17T19:59:50+00:00"
+            "time": "2026-10-17T19:59:50+00:00",
+            "published-time": "2026-10-17T20:02:34+00:00"
         },
         {
             "name": "league/config",
@@ -5727,7 +5806,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-11T20:36:23+00:00"
+            "time": "2022-12-11T20:36:23+00:00",
+            "published-time": "2022-12-11T20:36:45+00:00"
         },
         {
             "name": "league/flysystem",
@@ -5821,7 +5901,8 @@
                     "type": "other"
                 }
             ],
-            "time": "2022-10-04T09:16:37+00:00"
+            "time": "2022-10-04T09:16:37+00:00",
+            "published-time": "2022-10-04T09:17:17+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -5877,7 +5958,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-07-09T11:49:27+00:00"
+            "time": "2026-07-09T11:49:27+00:00",
+            "published-time": "2026-07-09T11:50:09+00:00"
         },
         {
             "name": "matthiasmullie/minify",
@@ -5947,7 +6029,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-25T09:56:19+00:00"
+            "time": "2025-06-25T09:56:19+00:00",
+            "published-time": "2025-06-25T13:14:12+00:00"
         },
         {
             "name": "matthiasmullie/path-converter",
@@ -6000,7 +6083,8 @@
                 "issues": "https://github.com/matthiasmullie/path-converter/issues",
                 "source": "https://github.com/matthiasmullie/path-converter/tree/1.1.3"
             },
-            "time": "2019-02-05T23:41:09+00:00"
+            "time": "2019-02-05T23:41:09+00:00",
+            "published-time": "2020-01-23T22:48:53+00:00"
         },
         {
             "name": "maxmind-db/reader",
@@ -6065,7 +6149,8 @@
                 "issues": "https://github.com/maxmind/MaxMind-DB-Reader-php/issues",
                 "source": "https://github.com/maxmind/MaxMind-DB-Reader-php/tree/v1.14.0"
             },
-            "time": "2026-09-10T22:02:38+00:00"
+            "time": "2026-09-10T22:02:38+00:00",
+            "published-time": "2026-09-10T22:02:45+00:00"
         },
         {
             "name": "middlewares/base-path",
@@ -6117,7 +6202,8 @@
                 "issues": "https://github.com/middlewares/base-path/issues",
                 "source": "https://github.com/middlewares/base-path/tree/v2.2.0"
             },
-            "time": "2025-03-23T10:15:15+00:00"
+            "time": "2025-03-23T10:15:15+00:00",
+            "published-time": "2025-03-23T10:16:12+00:00"
         },
         {
             "name": "middlewares/base-path-router",
@@ -6170,7 +6256,8 @@
                 "issues": "https://github.com/middlewares/base-path-router/issues",
                 "source": "https://github.com/middlewares/base-path-router/tree/v2.1.0"
             },
-            "time": "2025-03-22T13:12:28+00:00"
+            "time": "2025-03-22T13:12:28+00:00",
+            "published-time": "2025-03-22T13:13:08+00:00"
         },
         {
             "name": "middlewares/request-handler",
@@ -6227,7 +6314,8 @@
                 "issues": "https://github.com/middlewares/request-handler/issues",
                 "source": "https://github.com/middlewares/request-handler/tree/v2.1.0"
             },
-            "time": "2025-03-23T18:04:48+00:00"
+            "time": "2025-03-23T18:04:48+00:00",
+            "published-time": "2025-03-23T18:05:40+00:00"
         },
         {
             "name": "middlewares/utils",
@@ -6289,7 +6377,8 @@
                 "issues": "https://github.com/middlewares/utils/issues",
                 "source": "https://github.com/middlewares/utils/tree/v3.3.0"
             },
-            "time": "2021-07-04T17:56:23+00:00"
+            "time": "2021-07-04T17:56:23+00:00",
+            "published-time": "2021-07-04T17:57:40+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -6351,7 +6440,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-14T12:32:34+00:00"
+            "time": "2026-04-14T12:32:34+00:00",
+            "published-time": "2026-04-14T12:32:46+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -6437,7 +6527,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-09T08:53:42+00:00"
+            "time": "2022-06-09T08:53:42+00:00",
+            "published-time": "2022-06-09T08:53:55+00:00"
         },
         {
             "name": "nelexa/zip",
@@ -6510,7 +6601,8 @@
                 "issues": "https://github.com/Ne-Lexa/php-zip/issues",
                 "source": "https://github.com/Ne-Lexa/php-zip/tree/4.0.2"
             },
-            "time": "2022-06-17T11:17:46+00:00"
+            "time": "2022-06-17T11:17:46+00:00",
+            "published-time": "2022-06-17T11:18:00+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -6617,7 +6709,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-01-08T20:10:23+00:00"
+            "time": "2025-01-08T20:10:23+00:00",
+            "published-time": "2025-02-11T16:58:02+00:00"
         },
         {
             "name": "nette/schema",
@@ -6684,7 +6777,8 @@
                 "issues": "https://github.com/nette/schema/issues",
                 "source": "https://github.com/nette/schema/tree/v1.4.0"
             },
-            "time": "2026-10-22T02:12:50+00:00"
+            "time": "2026-10-22T02:12:50+00:00",
+            "published-time": "2026-10-22T02:14:45+00:00"
         },
         {
             "name": "nette/utils",
@@ -6775,7 +6869,8 @@
                 "issues": "https://github.com/nette/utils/issues",
                 "source": "https://github.com/nette/utils/tree/v4.1.6"
             },
-            "time": "2026-10-20T17:07:56+00:00"
+            "time": "2026-10-20T17:07:56+00:00",
+            "published-time": "2026-10-20T17:48:30+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -6822,7 +6917,8 @@
                 "issues": "https://github.com/nikic/FastRoute/issues",
                 "source": "https://github.com/nikic/FastRoute/tree/master"
             },
-            "time": "2015-06-18T19:15:47+00:00"
+            "time": "2015-06-18T19:15:47+00:00",
+            "published-time": "2015-06-24T15:10:47+00:00"
         },
         {
             "name": "opis/closure",
@@ -6887,7 +6983,8 @@
                 "issues": "https://github.com/opis/closure/issues",
                 "source": "https://github.com/opis/closure/tree/3.7.0"
             },
-            "time": "2025-07-08T20:30:08+00:00"
+            "time": "2025-07-08T20:30:08+00:00",
+            "published-time": "2025-07-08T20:38:33+00:00"
         },
         {
             "name": "psr/clock",
@@ -6935,7 +7032,8 @@
                 "issues": "https://github.com/php-fig/clock/issues",
                 "source": "https://github.com/php-fig/clock/tree/1.0.0"
             },
-            "time": "2022-11-25T14:36:26+00:00"
+            "time": "2022-11-25T14:36:26+00:00",
+            "published-time": "2022-11-25T14:59:22+00:00"
         },
         {
             "name": "psr/container",
@@ -6983,7 +7081,8 @@
                 "issues": "https://github.com/php-fig/container/issues",
                 "source": "https://github.com/php-fig/container/tree/1.1.2"
             },
-            "time": "2021-11-05T16:50:12+00:00"
+            "time": "2021-11-05T16:50:12+00:00",
+            "published-time": "2021-11-05T16:53:52+00:00"
         },
         {
             "name": "psr/event-dispatcher",
@@ -7033,7 +7132,8 @@
                 "issues": "https://github.com/php-fig/event-dispatcher/issues",
                 "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
             },
-            "time": "2019-01-08T18:20:26+00:00"
+            "time": "2019-01-08T18:20:26+00:00",
+            "published-time": "2019-03-25T15:31:44+00:00"
         },
         {
             "name": "psr/http-client",
@@ -7085,7 +7185,8 @@
             "support": {
                 "source": "https://github.com/php-fig/http-client"
             },
-            "time": "2023-09-23T14:17:50+00:00"
+            "time": "2023-09-23T14:17:50+00:00",
+            "published-time": "2023-09-23T14:18:12+00:00"
         },
         {
             "name": "psr/http-factory",
@@ -7140,7 +7241,8 @@
             "support": {
                 "source": "https://github.com/php-fig/http-factory"
             },
-            "time": "2024-04-15T12:06:14+00:00"
+            "time": "2024-04-15T12:06:14+00:00",
+            "published-time": "2024-05-10T07:32:19+00:00"
         },
         {
             "name": "psr/http-message",
@@ -7193,7 +7295,8 @@
             "support": {
                 "source": "https://github.com/php-fig/http-message/tree/1.1"
             },
-            "time": "2023-04-04T09:50:52+00:00"
+            "time": "2023-04-04T09:50:52+00:00",
+            "published-time": "2023-04-04T09:52:19+00:00"
         },
         {
             "name": "psr/http-server-handler",
@@ -7249,7 +7352,8 @@
             "support": {
                 "source": "https://github.com/php-fig/http-server-handler/tree/1.0.2"
             },
-            "time": "2023-04-10T20:06:20+00:00"
+            "time": "2023-04-10T20:06:20+00:00",
+            "published-time": "2023-04-10T20:07:30+00:00"
         },
         {
             "name": "psr/http-server-middleware",
@@ -7306,7 +7410,8 @@
                 "issues": "https://github.com/php-fig/http-server-middleware/issues",
                 "source": "https://github.com/php-fig/http-server-middleware/tree/1.0.2"
             },
-            "time": "2023-04-11T06:14:47+00:00"
+            "time": "2023-04-11T06:14:47+00:00",
+            "published-time": "2023-04-11T06:15:22+00:00"
         },
         {
             "name": "psr/log",
@@ -7356,7 +7461,8 @@
             "support": {
                 "source": "https://github.com/php-fig/log/tree/1.1.4"
             },
-            "time": "2021-05-03T11:20:27+00:00"
+            "time": "2021-05-03T11:20:27+00:00",
+            "published-time": "2021-05-03T11:22:56+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -7407,7 +7513,8 @@
             "support": {
                 "source": "https://github.com/php-fig/simple-cache/tree/master"
             },
-            "time": "2017-10-23T01:57:42+00:00"
+            "time": "2017-10-23T01:57:42+00:00",
+            "published-time": "2018-03-05T09:41:11+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -7451,7 +7558,8 @@
                 "issues": "https://github.com/ralouphie/getallheaders/issues",
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
-            "time": "2019-03-08T08:55:37+00:00"
+            "time": "2019-03-08T08:55:37+00:00",
+            "published-time": "2019-03-08T09:01:32+00:00"
         },
         {
             "name": "ramsey/collection",
@@ -7527,7 +7635,8 @@
                 "issues": "https://github.com/ramsey/collection/issues",
                 "source": "https://github.com/ramsey/collection/tree/2.1.1"
             },
-            "time": "2025-03-22T05:38:12+00:00"
+            "time": "2025-03-22T05:38:12+00:00",
+            "published-time": "2025-03-22T05:39:22+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -7605,7 +7714,8 @@
                 "issues": "https://github.com/ramsey/uuid/issues",
                 "source": "https://github.com/ramsey/uuid/tree/4.9.4"
             },
-            "time": "2026-09-16T11:39:30+00:00"
+            "time": "2026-09-16T11:39:30+00:00",
+            "published-time": "2026-09-16T11:41:15+00:00"
         },
         {
             "name": "s9e/regexp-builder",
@@ -7647,7 +7757,8 @@
                 "issues": "https://github.com/s9e/RegexpBuilder/issues",
                 "source": "https://github.com/s9e/RegexpBuilder/tree/1.4.6"
             },
-            "time": "2022-03-05T16:22:35+00:00"
+            "time": "2022-03-05T16:22:35+00:00",
+            "published-time": "2022-03-05T16:24:20+00:00"
         },
         {
             "name": "s9e/sweetdom",
@@ -7691,7 +7802,8 @@
                 "issues": "https://github.com/s9e/SweetDOM/issues",
                 "source": "https://github.com/s9e/SweetDOM/tree/2.1.2"
             },
-            "time": "2023-10-07T13:06:42+00:00"
+            "time": "2023-10-07T13:06:42+00:00",
+            "published-time": "2023-10-08T17:15:20+00:00"
         },
         {
             "name": "s9e/text-formatter",
@@ -7765,7 +7877,8 @@
                 "issues": "https://github.com/s9e/TextFormatter/issues",
                 "source": "https://github.com/s9e/TextFormatter/tree/2.14.3"
             },
-            "time": "2023-11-11T15:27:53+00:00"
+            "time": "2023-11-11T15:27:53+00:00",
+            "published-time": "2023-11-11T15:28:05+00:00"
         },
         {
             "name": "softcreatr/php-mime-detector",
@@ -7828,7 +7941,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-09-01T17:19:47+00:00"
+            "time": "2024-09-01T17:19:47+00:00",
+            "published-time": "2024-09-01T17:21:57+00:00"
         },
         {
             "name": "staudenmeir/eloquent-eager-limit",
@@ -7878,7 +7992,8 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-11-22T18:13:55+00:00"
+            "time": "2020-11-22T18:13:55+00:00",
+            "published-time": "2020-11-22T18:40:39+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7954,7 +8069,8 @@
                 }
             ],
             "abandoned": "symfony/mailer",
-            "time": "2021-10-18T15:26:12+00:00"
+            "time": "2021-10-18T15:26:12+00:00",
+            "published-time": "2021-10-18T15:26:28+00:00"
         },
         {
             "name": "sycho/codecs-base64vlq",
@@ -8010,7 +8126,8 @@
             "support": {
                 "source": "https://github.com/SychO9/codecs-base64vlq/tree/2.0.0"
             },
-            "time": "2022-04-09T13:12:22+00:00"
+            "time": "2022-04-09T13:12:22+00:00",
+            "published-time": "2022-04-09T13:16:11+00:00"
         },
         {
             "name": "sycho/errors",
@@ -8065,7 +8182,8 @@
             "support": {
                 "source": "https://github.com/SychO9/errors/tree/3.0.0"
             },
-            "time": "2022-04-09T13:10:47+00:00"
+            "time": "2022-04-09T13:10:47+00:00",
+            "published-time": "2022-04-09T13:15:40+00:00"
         },
         {
             "name": "sycho/json-api",
@@ -8119,7 +8237,8 @@
             "support": {
                 "source": "https://github.com/SychO9/json-api-php/tree/v0.5.2"
             },
-            "time": "2023-04-16T10:46:37+00:00"
+            "time": "2023-04-16T10:46:37+00:00",
+            "published-time": "2023-04-16T10:56:50+00:00"
         },
         {
             "name": "sycho/sourcemap",
@@ -8178,7 +8297,8 @@
             "support": {
                 "source": "https://github.com/SychO9/sourcemap/tree/2.0.0"
             },
-            "time": "2022-04-09T13:13:12+00:00"
+            "time": "2022-04-09T13:13:12+00:00",
+            "published-time": "2022-04-09T13:17:12+00:00"
         },
         {
             "name": "symfony/config",
@@ -8257,7 +8377,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-10-30T07:58:02+00:00"
+            "time": "2024-10-30T07:58:02+00:00",
+            "published-time": "2024-11-06T09:31:28+00:00"
         },
         {
             "name": "symfony/console",
@@ -8360,7 +8481,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-28T09:02:56+00:00"
+            "time": "2026-10-28T09:02:56+00:00",
+            "published-time": "2026-10-28T18:14:06+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -8429,7 +8551,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-18T14:56:39+00:00"
+            "time": "2026-10-18T14:56:39+00:00",
+            "published-time": "2026-10-28T18:24:46+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -8500,7 +8623,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-05T06:23:12+00:00"
+            "time": "2026-06-05T06:23:12+00:00",
+            "published-time": "2026-06-27T21:46:34+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -8585,7 +8709,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:11:13+00:00"
+            "time": "2024-09-25T14:11:13+00:00",
+            "published-time": "2024-10-27T12:57:37+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -8665,7 +8790,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-05T06:23:12+00:00"
+            "time": "2026-06-05T06:23:12+00:00",
+            "published-time": "2026-06-27T21:46:35+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -8735,7 +8861,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-06T17:30:58+00:00"
+            "time": "2026-10-06T17:30:58+00:00",
+            "published-time": "2026-10-14T06:43:23+00:00"
         },
         {
             "name": "symfony/finder",
@@ -8798,7 +8925,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-28T13:32:08+00:00"
+            "time": "2024-09-28T13:32:08+00:00",
+            "published-time": "2024-10-27T12:57:19+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -8878,7 +9006,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-09-30T11:07:08+00:00"
+            "time": "2026-09-30T11:07:08+00:00",
+            "published-time": "2026-10-15T06:52:24+00:00"
         },
         {
             "name": "symfony/mime",
@@ -8967,7 +9096,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-28T17:48:24+00:00"
+            "time": "2026-10-28T17:48:24+00:00",
+            "published-time": "2026-10-28T18:14:12+00:00"
         },
         {
             "name": "symfony/process",
@@ -9033,7 +9163,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-09-01T06:19:14+00:00"
+            "time": "2026-09-01T06:19:14+00:00",
+            "published-time": "2026-10-15T06:52:18+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -9120,7 +9251,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-07-27T15:39:01+00:00"
+            "time": "2026-07-27T15:39:01+00:00",
+            "published-time": "2026-08-30T19:56:37+00:00"
         },
         {
             "name": "symfony/string",
@@ -9209,7 +9341,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-23T15:23:41+00:00"
+            "time": "2026-10-23T15:23:41+00:00",
+            "published-time": "2026-10-28T18:17:03+00:00"
         },
         {
             "name": "symfony/translation",
@@ -9306,7 +9439,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:11:13+00:00"
+            "time": "2024-09-25T14:11:13+00:00",
+            "published-time": "2024-10-27T12:58:39+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -9384,7 +9518,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:11:13+00:00"
+            "time": "2024-09-25T14:11:13+00:00",
+            "published-time": "2024-11-27T12:25:28+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -9463,7 +9598,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-08-30T06:09:20+00:00"
+            "time": "2026-08-30T06:09:20+00:00",
+            "published-time": "2026-10-15T06:52:16+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -9518,7 +9654,8 @@
                 "issues": "https://github.com/tijsverkoyen/CssToInlineStyles/issues",
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/v2.4.0"
             },
-            "time": "2025-12-02T11:56:42+00:00"
+            "time": "2025-12-02T11:56:42+00:00",
+            "published-time": "2025-12-11T21:29:16+00:00"
         },
         {
             "name": "voku/portable-ascii",
@@ -9592,7 +9729,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-24T18:55:24+00:00"
+            "time": "2022-01-24T18:55:24+00:00",
+            "published-time": "2022-01-24T18:57:57+00:00"
         },
         {
             "name": "wikimedia/less.php",
@@ -9667,7 +9805,8 @@
                 "issues": "https://github.com/wikimedia/less.php/issues",
                 "source": "https://github.com/wikimedia/less.php/tree/v3.2.1"
             },
-            "time": "2023-02-03T06:43:41+00:00"
+            "time": "2023-02-03T06:43:41+00:00",
+            "published-time": "2023-02-09T00:00:44+00:00"
         }
     ],
     "packages-dev": [
@@ -9728,7 +9867,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-27T19:23:58+00:00"
+            "time": "2023-02-27T19:23:58+00:00",
+            "published-time": "2023-02-27T19:25:51+00:00"
         },
         {
             "name": "phpstan/extension-installer",
@@ -9776,7 +9916,8 @@
                 "issues": "https://github.com/phpstan/extension-installer/issues",
                 "source": "https://github.com/phpstan/extension-installer/tree/1.4.3"
             },
-            "time": "2024-09-04T20:21:43+00:00"
+            "time": "2024-09-04T20:21:43+00:00",
+            "published-time": "2024-09-04T20:22:27+00:00"
         },
         {
             "name": "phpstan/phpstan",
@@ -9840,7 +9981,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-28T22:38:53+00:00"
+            "time": "2026-10-28T22:38:53+00:00",
+            "published-time": "2026-10-28T22:39:06+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -9891,7 +10033,8 @@
                 "issues": "https://github.com/phpstan/phpstan-deprecation-rules/issues",
                 "source": "https://github.com/phpstan/phpstan-deprecation-rules/tree/2.0.5"
             },
-            "time": "2026-07-22T06:50:43+00:00"
+            "time": "2026-07-22T06:50:43+00:00",
+            "published-time": "2026-07-27T15:18:00+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -9975,7 +10118,8 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2026-08-06T02:45:27+00:00"
+            "time": "2026-08-06T02:45:27+00:00",
+            "published-time": "2026-08-06T02:57:35+00:00"
         }
     ],
     "aliases": [],
@@ -9995,5 +10139,5 @@
         "ext-mbstring": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.11.0"
 }
