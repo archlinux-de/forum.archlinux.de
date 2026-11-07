@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6fe0b4480a5ed24d02574d6dad70b43",
+    "content-hash": "53c6e8a3ff6b692e3997b59c6d06c888",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -2391,16 +2391,16 @@
         },
         {
             "name": "flarum/mentions",
-            "version": "v1.8.6",
+            "version": "v1.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/mentions.git",
-                "reference": "adc4cbd0e52f3490e98b610fdac2135df583adff"
+                "reference": "b525234bc64183c4463a624eac79e15432beb734"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/mentions/zipball/adc4cbd0e52f3490e98b610fdac2135df583adff",
-                "reference": "adc4cbd0e52f3490e98b610fdac2135df583adff",
+                "url": "https://api.github.com/repos/flarum/mentions/zipball/b525234bc64183c4463a624eac79e15432beb734",
+                "reference": "b525234bc64183c4463a624eac79e15432beb734",
                 "shasum": ""
             },
             "require": {
@@ -2471,8 +2471,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-08-03T15:53:31+00:00",
-            "published-time": "2026-08-10T09:30:26+00:00"
+            "time": "2026-11-06T19:41:03+00:00",
+            "published-time": "2026-11-06T19:45:55+00:00"
         },
         {
             "name": "flarum/nicknames",
@@ -2884,16 +2884,16 @@
         },
         {
             "name": "fof/anti-spam",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfFlarum/anti-spam.git",
-                "reference": "dd907168465dbda6e28b8d62e0dd189de5bf763e"
+                "reference": "bc9fc03c1747293ea0400289cb8590983219a4ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfFlarum/anti-spam/zipball/dd907168465dbda6e28b8d62e0dd189de5bf763e",
-                "reference": "dd907168465dbda6e28b8d62e0dd189de5bf763e",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/anti-spam/zipball/bc9fc03c1747293ea0400289cb8590983219a4ad",
+                "reference": "bc9fc03c1747293ea0400289cb8590983219a4ad",
                 "shasum": ""
             },
             "require": {
@@ -2983,8 +2983,8 @@
                     "type": "website"
                 }
             ],
-            "time": "2026-07-13T13:48:31+00:00",
-            "published-time": "2026-07-13T13:51:42+00:00"
+            "time": "2026-11-06T11:57:15+00:00",
+            "published-time": "2026-11-06T12:02:21+00:00"
         },
         {
             "name": "fof/formatting",
