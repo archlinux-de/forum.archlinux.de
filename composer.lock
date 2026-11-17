@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0ca94a7d98f33605acce50d766b58da",
+    "content-hash": "b777000d37a692a4bf0114069111afae",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1554,16 +1554,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "1.25.37",
+            "version": "1.25.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "9d8ebed7f64c75fe3e09322f9c35a5c6efa05792"
+                "reference": "2db8e860ec4c9ba3f1e99b17d12f4729c109ed9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/9d8ebed7f64c75fe3e09322f9c35a5c6efa05792",
-                "reference": "9d8ebed7f64c75fe3e09322f9c35a5c6efa05792",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/2db8e860ec4c9ba3f1e99b17d12f4729c109ed9e",
+                "reference": "2db8e860ec4c9ba3f1e99b17d12f4729c109ed9e",
                 "shasum": ""
             },
             "require": {
@@ -1611,8 +1611,8 @@
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2026-11-09T18:08:56+00:00",
-            "published-time": "2026-11-09T18:09:42+00:00"
+            "time": "2026-11-16T19:33:47+00:00",
+            "published-time": "2026-11-16T19:34:16+00:00"
         },
         {
             "name": "flarum-lang/utils",
@@ -3565,22 +3565,22 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.16.1",
+            "version": "7.16.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "81755d989b3007ca7f88a069857553cd08e7dc2e"
+                "reference": "22e3847536750e5a7b89d4f880f28aaf7b72e287"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/81755d989b3007ca7f88a069857553cd08e7dc2e",
-                "reference": "81755d989b3007ca7f88a069857553cd08e7dc2e",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/22e3847536750e5a7b89d4f880f28aaf7b72e287",
+                "reference": "22e3847536750e5a7b89d4f880f28aaf7b72e287",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "guzzlehttp/promises": "^2.6",
-                "guzzlehttp/psr7": "^2.13.2",
+                "guzzlehttp/psr7": "^2.13.3",
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
                 "symfony/deprecation-contracts": "^2.5 || ^3.0",
@@ -3673,7 +3673,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.16.1"
+                "source": "https://github.com/guzzle/guzzle/tree/7.16.2"
             },
             "funding": [
                 {
@@ -3689,8 +3689,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-25T21:35:21+00:00",
-            "published-time": "2026-10-25T21:37:23+00:00"
+            "time": "2026-11-17T03:22:11+00:00",
+            "published-time": "2026-11-17T03:22:52+00:00"
         },
         {
             "name": "guzzlehttp/promises",
