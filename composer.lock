@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b777000d37a692a4bf0114069111afae",
+    "content-hash": "e5a4f97760799920d4e4414bcb808599",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -3694,16 +3694,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "3d88c829bd5f13d13847b39067dbf09a60af2154"
+                "reference": "a1b6aceb39165acd5c421239e6abfa1b83dbe224"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/3d88c829bd5f13d13847b39067dbf09a60af2154",
-                "reference": "3d88c829bd5f13d13847b39067dbf09a60af2154",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a1b6aceb39165acd5c421239e6abfa1b83dbe224",
+                "reference": "a1b6aceb39165acd5c421239e6abfa1b83dbe224",
                 "shasum": ""
             },
             "require": {
@@ -3758,7 +3758,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/2.6.0"
+                "source": "https://github.com/guzzle/promises/tree/2.6.1"
             },
             "funding": [
                 {
@@ -3774,21 +3774,21 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-18T12:46:59+00:00",
-            "published-time": "2026-10-18T12:47:39+00:00"
+            "time": "2026-11-20T00:03:12+00:00",
+            "published-time": "2026-11-20T00:04:27+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.13.4",
+            "version": "2.13.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "ad5e3f872690e1151e1171de2963150fc45ea1e3"
+                "reference": "5aa00c5418afbe3f435910af0e98cb03d659c49d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/ad5e3f872690e1151e1171de2963150fc45ea1e3",
-                "reference": "ad5e3f872690e1151e1171de2963150fc45ea1e3",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/5aa00c5418afbe3f435910af0e98cb03d659c49d",
+                "reference": "5aa00c5418afbe3f435910af0e98cb03d659c49d",
                 "shasum": ""
             },
             "require": {
@@ -3878,7 +3878,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.13.4"
+                "source": "https://github.com/guzzle/psr7/tree/2.13.5"
             },
             "funding": [
                 {
@@ -3894,8 +3894,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-17T16:15:51+00:00",
-            "published-time": "2026-11-17T16:16:24+00:00"
+            "time": "2026-11-19T20:34:53+00:00",
+            "published-time": "2026-11-19T20:36:04+00:00"
         },
         {
             "name": "illuminate/bus",
@@ -9927,11 +9927,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.3.6",
+            "version": "2.3.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/00cedebb76cc82c1592414fa4f616cefdccda16f",
-                "reference": "00cedebb76cc82c1592414fa4f616cefdccda16f",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/90c91c2498849ab8cc4e873864bbf1cb2bf6ea12",
+                "reference": "90c91c2498849ab8cc4e873864bbf1cb2bf6ea12",
                 "shasum": ""
             },
             "require": {
@@ -9987,8 +9987,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-11-15T19:58:26+00:00",
-            "published-time": "2026-11-15T19:58:39+00:00"
+            "time": "2026-11-19T10:31:11+00:00",
+            "published-time": "2026-11-19T10:31:27+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
