@@ -41,7 +41,7 @@ import-db-dump file name='flarum': start
 	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb --skip-ssl drop -f {{name}} || true
 	{{MARIADB-RUN}} mariadb-admin -uroot -hmariadb --skip-ssl create {{name}}
 	zcat {{file}} | {{MARIADB-RUN}} mariadb -uroot -hmariadb --skip-ssl {{name}}
-	echo "UPDATE settings SET value = 'log' WHERE settings.key = 'mail_driver';" | {{MARIADB-RUN}} mariadb -uroot -hmariadb --skip-ssl {{name}}
+	{{PHP-DB-RUN}} php docker/set-import-mail-driver.php {{quote(name)}}
 	{{PHP-DB-RUN}} php flarum app:enable-extensions
 	{{PHP-DB-RUN}} php flarum migrate
 	{{PHP-DB-RUN}} php flarum assets:publish
