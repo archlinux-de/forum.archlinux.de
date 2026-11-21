@@ -3,14 +3,13 @@
 namespace App\Console;
 
 use Carbon\Carbon;
+use Flarum\Api\Client;
 use Flarum\Discussion\Discussion;
 use Flarum\Discussion\Event\Deleting;
 use Flarum\Group\Group;
-use Flarum\Post\Command\DeletePost;
 use Flarum\Post\Post;
 use Flarum\User\User;
 use Illuminate\Console\Command;
-use Illuminate\Contracts\Bus\Dispatcher as Bus;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Database\Eloquent\Builder;
 
@@ -21,7 +20,7 @@ class PruneHiddenContent extends Command
     protected $signature = 'app:prune-hidden';
     protected $description = 'Permanently delete hidden content older than 30 days.';
 
-    public function handle(Dispatcher $events, Bus $bus): void
+    public function handle(Dispatcher $events, Client $api): void
     {
         /** @var User $actor */
         $actor = User::query()
@@ -36,7 +35,8 @@ class PruneHiddenContent extends Command
         Discussion::query()
             ->whereNotNull('hidden_at')
             ->where('hidden_at', '<', $threshold)
-            ->eachById(function (Discussion $discussion) use ($events, $actor) {
+            ->eachById(function ($discussion) use ($events, $actor) {
+                assert($discussion instanceof Discussion);
                 $events->dispatch(new Deleting($discussion, $actor, []));
                 $discussion->delete();
             });
@@ -44,6 +44,10 @@ class PruneHiddenContent extends Command
         Post::query()
             ->whereNotNull('hidden_at')
             ->where('hidden_at', '<', $threshold)
-            ->eachById(fn (Post $post) => $bus->dispatch(new DeletePost($post->id, $actor, [])));
+            ->eachById(function ($post) use ($api, $actor) {
+                assert($post instanceof Post);
+                assert(is_int($post->id));
+                $api->withActor($actor)->withoutErrorHandling()->delete('/posts/' . $post->id);
+            });
     }
 }
