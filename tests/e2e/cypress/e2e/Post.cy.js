@@ -1,5 +1,5 @@
 describe('Post', () => {
-  it('posts message', () => {
+  it('posts a message and previews a formatted reply', () => {
     const userName = 'tester' + Cypress._.sampleSize('abcdefghijklmnopqrstuvwxyz', 16).join('')
     const postTitle = 'Hello World!'
     const postMessage = 'What`s up?'
@@ -22,5 +22,9 @@ describe('Post', () => {
       expect(images[0].naturalWidth).to.be.greaterThan(0)
       expect(new URL(images[0].src).origin).to.eq(new URL(Cypress.config().baseUrl).origin)
     })
+
+    cy.get('.ReplyPlaceholder').click()
+    cy.get('textarea.TextEditor-editor').type('**Reply preview**')
+    cy.get('.Post.editing .Post-body strong').should('have.text', 'Reply preview')
   })
 })
