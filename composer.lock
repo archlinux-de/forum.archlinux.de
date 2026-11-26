@@ -6495,16 +6495,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.10.8",
+            "version": "2.10.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "681e662a40c805c567f52d603b64d55282ea356c"
+                "reference": "ab5ff8c80fd69abaeb4d57d7711d389248f219e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/681e662a40c805c567f52d603b64d55282ea356c",
-                "reference": "681e662a40c805c567f52d603b64d55282ea356c",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/ab5ff8c80fd69abaeb4d57d7711d389248f219e4",
+                "reference": "ab5ff8c80fd69abaeb4d57d7711d389248f219e4",
                 "shasum": ""
             },
             "require": {
@@ -6598,8 +6598,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-24T15:44:47+00:00",
-            "published-time": "2026-11-24T15:45:01+00:00"
+            "time": "2026-11-25T20:08:31+00:00",
+            "published-time": "2026-11-25T20:11:11+00:00"
         },
         {
             "name": "league/config",
@@ -8052,16 +8052,16 @@
         },
         {
             "name": "nyholm/psr7",
-            "version": "1.8.2",
+            "version": "1.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nyholm/psr7.git",
-                "reference": "a71f2b11690f4b24d099d6b16690a90ae14fc6f3"
+                "reference": "26c1581611614447a5ff753a450390a23f3e323e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nyholm/psr7/zipball/a71f2b11690f4b24d099d6b16690a90ae14fc6f3",
-                "reference": "a71f2b11690f4b24d099d6b16690a90ae14fc6f3",
+                "url": "https://api.github.com/repos/Nyholm/psr7/zipball/26c1581611614447a5ff753a450390a23f3e323e",
+                "reference": "26c1581611614447a5ff753a450390a23f3e323e",
                 "shasum": ""
             },
             "require": {
@@ -8114,7 +8114,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Nyholm/psr7/issues",
-                "source": "https://github.com/Nyholm/psr7/tree/1.8.2"
+                "source": "https://github.com/Nyholm/psr7/tree/1.8.3"
             },
             "funding": [
                 {
@@ -8126,8 +8126,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-09-09T07:06:30+00:00",
-            "published-time": "2024-09-09T07:07:05+00:00"
+            "time": "2026-11-26T08:19:16+00:00",
+            "published-time": "2026-11-26T08:20:50+00:00"
         },
         {
             "name": "psr/cache",
