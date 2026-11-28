@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf8ef7f8bec09571e45f6506eb09e43b",
+    "content-hash": "a3c27f32543435b46f6f784f6aee6e9a",
     "packages": [
         {
             "name": "archlinux-de/flarum-anti-spam",
@@ -1792,16 +1792,16 @@
         },
         {
             "name": "flarum-lang/german",
-            "version": "2.0.35",
+            "version": "2.0.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "e110d9b60a5fa08b83e123a0e483eff6efc2bd17"
+                "reference": "47ec5265f9afc27cf2230394926eba9d2d4560b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/e110d9b60a5fa08b83e123a0e483eff6efc2bd17",
-                "reference": "e110d9b60a5fa08b83e123a0e483eff6efc2bd17",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/47ec5265f9afc27cf2230394926eba9d2d4560b1",
+                "reference": "47ec5265f9afc27cf2230394926eba9d2d4560b1",
                 "shasum": ""
             },
             "require": {
@@ -1810,9 +1810,6 @@
             },
             "type": "flarum-extension",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                },
                 "flarum-locale": {
                     "code": "de",
                     "title": "Deutsch"
@@ -1834,23 +1831,28 @@
             ],
             "authors": [
                 {
-                    "name": "Fabian Prieto Wunderlich",
-                    "email": "prieto@wunderlich.pw",
-                    "role": "Translator"
+                    "name": "Kakifrucht",
+                    "homepage": "https://github.com/Kakifrucht",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "claudiush",
+                    "homepage": "https://github.com/claudiush",
+                    "role": "Maintainer"
                 }
             ],
-            "description": "German language pack for Flarum.",
-            "homepage": "https://github.com/flarum-lang",
+            "description": "German Language Pack for Flarum",
+            "homepage": "https://github.com/flarum-lang/german",
             "keywords": [
-                "locale"
+                "flarum-locale"
             ],
             "support": {
                 "forum": "https://discuss.flarum.org/d/2648",
                 "issues": "https://github.com/flarum-lang/german/issues",
                 "source": "https://github.com/flarum-lang/german"
             },
-            "time": "2026-11-24T22:53:16+00:00",
-            "published-time": "2026-11-24T22:54:05+00:00"
+            "time": "2026-11-28T06:28:27+00:00",
+            "published-time": "2026-11-28T06:29:43+00:00"
         },
         {
             "name": "flarum-lang/utils",
@@ -9799,16 +9801,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v8.1.12",
+            "version": "v8.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "a8f7a3cf9d3140902eaee85baf1f8e98666d336a"
+                "reference": "5215ed1c40d7f5532dc109f53f0defd3478ac6ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/a8f7a3cf9d3140902eaee85baf1f8e98666d336a",
-                "reference": "a8f7a3cf9d3140902eaee85baf1f8e98666d336a",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/5215ed1c40d7f5532dc109f53f0defd3478ac6ea",
+                "reference": "5215ed1c40d7f5532dc109f53f0defd3478ac6ea",
                 "shasum": ""
             },
             "require": {
@@ -9846,7 +9848,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v8.1.12"
+                "source": "https://github.com/symfony/filesystem/tree/v8.1.13"
             },
             "funding": [
                 {
@@ -9866,21 +9868,21 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-24T15:59:55+00:00",
-            "published-time": "2026-11-25T09:29:32+00:00"
+            "time": "2026-11-27T13:27:33+00:00",
+            "published-time": "2026-11-27T14:50:03+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v8.1.12",
+            "version": "v8.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "7022913b72c56ac5123922726aa94f2f98b726ad"
+                "reference": "5dc8602a3ad3430a97efb70f9d7e9f0aec1410dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/7022913b72c56ac5123922726aa94f2f98b726ad",
-                "reference": "7022913b72c56ac5123922726aa94f2f98b726ad",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/5dc8602a3ad3430a97efb70f9d7e9f0aec1410dc",
+                "reference": "5dc8602a3ad3430a97efb70f9d7e9f0aec1410dc",
                 "shasum": ""
             },
             "require": {
@@ -9915,7 +9917,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/finder/tree/v8.1.12"
+                "source": "https://github.com/symfony/finder/tree/v8.1.13"
             },
             "funding": [
                 {
@@ -9935,21 +9937,21 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-24T15:06:41+00:00",
-            "published-time": "2026-11-25T09:29:36+00:00"
+            "time": "2026-11-27T14:07:58+00:00",
+            "published-time": "2026-11-27T14:50:47+00:00"
         },
         {
             "name": "symfony/http-client",
-            "version": "v7.4.24",
+            "version": "v7.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "2d1df0389f6b38188b965168a937932974b2ce81"
+                "reference": "fe047cdc68aee54b315b2f142ab4c0e9c705cefc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/2d1df0389f6b38188b965168a937932974b2ce81",
-                "reference": "2d1df0389f6b38188b965168a937932974b2ce81",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/fe047cdc68aee54b315b2f142ab4c0e9c705cefc",
+                "reference": "fe047cdc68aee54b315b2f142ab4c0e9c705cefc",
                 "shasum": ""
             },
             "require": {
@@ -10018,7 +10020,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v7.4.24"
+                "source": "https://github.com/symfony/http-client/tree/v7.4.25"
             },
             "funding": [
                 {
@@ -10038,8 +10040,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-25T07:24:11+00:00",
-            "published-time": "2026-11-25T09:25:54+00:00"
+            "time": "2026-11-27T13:02:26+00:00",
+            "published-time": "2026-11-27T14:42:41+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -10126,16 +10128,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v7.4.24",
+            "version": "v7.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "3b6540d9640f5f717c0bac5192748925e81f4533"
+                "reference": "1ebfef402856383ce114ff009d4fc961bf290743"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/3b6540d9640f5f717c0bac5192748925e81f4533",
-                "reference": "3b6540d9640f5f717c0bac5192748925e81f4533",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/1ebfef402856383ce114ff009d4fc961bf290743",
+                "reference": "1ebfef402856383ce114ff009d4fc961bf290743",
                 "shasum": ""
             },
             "require": {
@@ -10184,7 +10186,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v7.4.24"
+                "source": "https://github.com/symfony/http-foundation/tree/v7.4.25"
             },
             "funding": [
                 {
@@ -10204,8 +10206,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-24T18:01:43+00:00",
-            "published-time": "2026-11-25T09:24:49+00:00"
+            "time": "2026-11-27T13:27:53+00:00",
+            "published-time": "2026-11-27T14:42:01+00:00"
         },
         {
             "name": "symfony/mailer",
@@ -10290,16 +10292,16 @@
         },
         {
             "name": "symfony/mailgun-mailer",
-            "version": "v7.4.24",
+            "version": "v7.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mailgun-mailer.git",
-                "reference": "183227728d0f100d64e4348f828643fd2ee212d4"
+                "reference": "d00d44e8f546a6071bfebdcc6ba7150f5692fa23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mailgun-mailer/zipball/183227728d0f100d64e4348f828643fd2ee212d4",
-                "reference": "183227728d0f100d64e4348f828643fd2ee212d4",
+                "url": "https://api.github.com/repos/symfony/mailgun-mailer/zipball/d00d44e8f546a6071bfebdcc6ba7150f5692fa23",
+                "reference": "d00d44e8f546a6071bfebdcc6ba7150f5692fa23",
                 "shasum": ""
             },
             "require": {
@@ -10339,7 +10341,7 @@
             "description": "Symfony Mailgun Mailer Bridge",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/mailgun-mailer/tree/v7.4.24"
+                "source": "https://github.com/symfony/mailgun-mailer/tree/v7.4.25"
             },
             "funding": [
                 {
@@ -10359,8 +10361,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-10T08:15:43+00:00",
-            "published-time": "2026-11-25T09:24:01+00:00"
+            "time": "2026-11-27T13:25:45+00:00",
+            "published-time": "2026-11-27T14:42:58+00:00"
         },
         {
             "name": "symfony/mime",
@@ -10848,16 +10850,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v7.4.24",
+            "version": "v7.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "71cd5014e85d05d46796ce60dc4aed9104122b89"
+                "reference": "93c0ef02c1548d3b9498e8c4cc92f77106ca5d46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/71cd5014e85d05d46796ce60dc4aed9104122b89",
-                "reference": "71cd5014e85d05d46796ce60dc4aed9104122b89",
+                "url": "https://api.github.com/repos/symfony/string/zipball/93c0ef02c1548d3b9498e8c4cc92f77106ca5d46",
+                "reference": "93c0ef02c1548d3b9498e8c4cc92f77106ca5d46",
                 "shasum": ""
             },
             "require": {
@@ -10915,7 +10917,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v7.4.24"
+                "source": "https://github.com/symfony/string/tree/v7.4.25"
             },
             "funding": [
                 {
@@ -10935,8 +10937,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-24T15:24:17+00:00",
-            "published-time": "2026-11-25T09:24:05+00:00"
+            "time": "2026-11-25T18:09:18+00:00",
+            "published-time": "2026-11-27T14:42:23+00:00"
         },
         {
             "name": "symfony/translation",
@@ -11208,16 +11210,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v7.4.24",
+            "version": "v7.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "f97f59f67644c715788d1bde4d81186e48ee1dbf"
+                "reference": "539dd469c25466d7225d6cadac1795201c9cf454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/f97f59f67644c715788d1bde4d81186e48ee1dbf",
-                "reference": "f97f59f67644c715788d1bde4d81186e48ee1dbf",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/539dd469c25466d7225d6cadac1795201c9cf454",
+                "reference": "539dd469c25466d7225d6cadac1795201c9cf454",
                 "shasum": ""
             },
             "require": {
@@ -11260,7 +11262,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v7.4.24"
+                "source": "https://github.com/symfony/yaml/tree/v7.4.25"
             },
             "funding": [
                 {
@@ -11280,8 +11282,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-16T12:32:16+00:00",
-            "published-time": "2026-11-25T09:24:23+00:00"
+            "time": "2026-11-27T13:07:44+00:00",
+            "published-time": "2026-11-27T14:41:42+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
